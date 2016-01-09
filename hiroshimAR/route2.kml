@@ -1,0 +1,2232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>photooverlays</name>
+	<open>1</open>
+	<Style id="highlight">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://mapping.jp/hiroshima/rect.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>88ffffff</color>
+			<scale>0.8</scale>
+		</LabelStyle>
+		<BalloonStyle>
+			<text><![CDATA[<div class="balloon">
+			<p class="photograph_name">$[name]</p>
+			$[description]
+			</div>]]></text>
+			<textColor>aaffffff</textColor>
+			<bgColor>ff222222</bgColor>
+		</BalloonStyle>
+	</Style>
+	<StyleMap id="style">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#highlight0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="normal">
+		<IconStyle>
+			<color>77ffffff</color>
+			<scale>0.8</scale>
+			<Icon>
+				<href>http://mapping.jp/hiroshima/rectangle_trance.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>88ffffff</color>
+			<scale>0.5</scale>
+		</LabelStyle>
+		<BalloonStyle>
+			<text><![CDATA[<div class="balloon">
+			<p class="photograph_name">$[name]</p>
+			$[description]
+			</div>]]></text>
+			<textColor>aaffffff</textColor>
+			<bgColor>ff222222</bgColor>
+		</BalloonStyle>
+	</Style>
+	<Style id="highlight0">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://mapping.jp/hiroshima/rect.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>88ffffff</color>
+			<scale>0.8</scale>
+		</LabelStyle>
+		<BalloonStyle>
+			<text><![CDATA[<div class="balloon">
+			<p class="photograph_name">$[name]</p>
+			$[description]
+			</div>]]></text>
+			<textColor>aaffffff</textColor>
+			<bgColor>ff222222</bgColor>
+		</BalloonStyle>
+	</Style>
+	<StyleMap id="style0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#normal0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="normal0">
+		<IconStyle>
+			<color>77ffffff</color>
+			<scale>0.8</scale>
+			<Icon>
+				<href>http://mapping.jp/hiroshima/rectangle_trance.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>88ffffff</color>
+			<scale>0.5</scale>
+		</LabelStyle>
+		<BalloonStyle>
+			<text><![CDATA[<div class="balloon">
+			<p class="photograph_name">$[name]</p>
+			$[description]
+			</div>]]></text>
+			<textColor>aaffffff</textColor>
+			<bgColor>ff222222</bgColor>
+		</BalloonStyle>
+	</Style>
+	<Folder>
+		<name>photooverlays</name>
+		<open>1</open>
+		<Placemark>
+			<name>広島県産業奨励館</name>
+			<description><![CDATA[<p class="photographer">川本俊雄 / Toshio Kawamoto</p><p class="photograph_text">
+広島県産業奨励館。左後方は、紙屋町銀行街、右端後方の建物は、大手町の広島瓦斯本社</p>
+
+
+
+				<p class="image"><img width="100%" class="photograph" src="http://mapping.jp/hiroshima/photo1945/SAAD05.jpg"></p>]]></description>
+			<styleUrl>#style0</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				<coordinates>132.4526094925425,34.39631524263277,6.098869395009733</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>広島県産業奨励館</name>
+			<description><![CDATA[<p class="photographer">川本俊雄 / Toshio Kawamoto</p>
+			<p class="photograph_text">南西から広島県産業奨励館を望む</p>
+
+
+
+				<p class="image"><img width="100%" class="photograph" src="http://mapping.jp/hiroshima/photo1945/SAAD22.jpg"></p>]]></description>
+			<styleUrl>#style0</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				<coordinates>132.4528070833012,34.39449246858093,8.148507510139085</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>爆心地・島病院北面</name>
+			<description><![CDATA[<p class="photographer">林重男 / Shigeo Hayashi</p>
+			<p class="photograph_text">島病院北から南に向って。爆心直下のレンガ造り2階建ての病院は基礎と玄関の丸柱、円窓を残して全壊。約75名の患者、看護婦など病院関係者は建物とともに全滅した｡中央玄関残骸の奥に似島。</p>
+
+
+
+				<p class="image"><img width="100%" class="photograph" src="http://mapping.jp/hiroshima/photo1945/A777.jpg"></p>]]></description>
+			<styleUrl>#style0</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				<coordinates>132.454861967686,34.39500016199574,1.556360728513478</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>相生橋から広島県商工経済会に向って</name>
+			<description><![CDATA[<p class="photographer">林重男 / Shigeo Hayashi</p><p class="photograph_text">相生橋中央部付近から東に向って。
+写真中央部の歩道と雨水枡は水面に反射した爆風により盛り上がった。
+左から被爆後いち早く建った被災者のバラック住宅、広島県商工経済会。</p>
+
+
+
+				<p class="image"><img width="100%" class="photograph" src="http://mapping.jp/hiroshima/photo1945/A797.jpg"></p>]]></description>
+			<styleUrl>#style0</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				<coordinates>132.4533208524532,34.39640779288332,3.246039485512295</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>相生橋から広島県商工経済会に向って</name>
+			<description><![CDATA[<p class="photographer">林重男 / Shigeo Hayashi</p><p class="photograph_text">相生橋中央部付近から東に向って。
+写真中央部の歩道と雨水枡は水面に反射した爆風により盛り上がった。
+左から被爆後いち早く建った被災者のバラック住宅、広島県商工経済会。</p>
+
+
+
+				<p class="image"><img width="100%" class="photograph" src="http://mapping.jp/hiroshima/photo1945/A798.jpg"></p>]]></description>
+			<styleUrl>#style0</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				<coordinates>132.452840418711,34.39645352036835,4.849999995316783</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>相生橋から広島県産業奨励館に向って</name>
+			<description><![CDATA[<p class="photographer">林重男 / Shigeo Hayashi</p><p class="photograph_text">相生橋中央部付近から南南東に向って。
+手前は相生橋。左から広島県産業奨励館、日本銀行広島支店、広島瓦斯本社、元安橋、中国配電本社、燃料会館、広島市役所。相生橋の欄干は爆風の影響でほとんどが破壊した。被災者や近郊からの救援の人々の姿にも落着きが感じられる。</p>
+
+
+
+				<p class="image"><img width="100%" class="photograph" src="http://mapping.jp/hiroshima/photo1945/A807.jpg"></p>]]></description>
+			<styleUrl>#style0</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				<coordinates>132.451862002897,34.3967204490334,3.081232607518651</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>相生橋西詰</name>
+			<description><![CDATA[<p class="photographer">林重男 / Shigeo Hayashi</p><p class="photograph_text">
+相生橋西詰南側親柱付近から東に向って。
+左から日本赤十字社広島支部、相生橋西詰め南側親柱、広島県産業奨励館。
+市内電車用コンクリート製角電柱に｢中島熊吉氏方・横山直蔵外一同｣と書かれた被災者の伝言メモ。
+相生橋西詰め付近は爆風の影響で軌道敷にズレを生じ、応急復旧工事が行われた。親柱のたもとには、軌道敷石や、斜路のレールなどが仮置きされている。
+手前レール脇に白く残る被災者の遺骨。</p>
+
+
+
+				<p class="image"><img width="100%" class="photograph" src="http://mapping.jp/hiroshima/photo1945/A813.jpg"></p>]]></description>
+			<styleUrl>#style0</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				<coordinates>132.4514286983714,34.39693262103949,2.179999995799623</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>相生橋北側歩道東に向って</name>
+			<description><![CDATA[<p class="photographer">林重男 / Shigeo Hayashi</p><p class="photograph_text">相生橋北側歩道東に向って
+相生橋北歩道西よりから東に向って。
+左から広島県商工経済会、相生橋、日本赤十字社広島支部。相生橋奥に福屋百貨店。
+爆心付近に架かる相生橋は爆風の影響で最大1.4mの隙間ができ、水面から反射した爆風は歩道の一部を山形に持ち上げた。</p>
+
+
+
+				<p class="image"><img width="100%" class="photograph" src="http://mapping.jp/hiroshima/photo1945/A815.jpg"></p>]]></description>
+			<styleUrl>#style0</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				<coordinates>132.4527813191099,34.39658738712381,0.3271617751647292</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>広島県産業奨励館南から</name>
+			<description><![CDATA[<p class="photographer">林重男 / Shigeo Hayashi</p><p class="photograph_text">広島県産業奨励館南から
+南（元安川東側道路）から北北西に向って。南から玄関部分を見る。
+奥に相生橋、日本赤十字広島支部。爆風は南翼の2階以上のレンガ壁を西側に吹き飛ばし、川岸道路を埋めつくした。玄関部分の屋上西側のパラペットは10月10日の阿久根台風で落下した。</p>
+
+
+
+				<p class="image"><img width="100%" class="photograph" src="http://mapping.jp/hiroshima/photo1945/A843.jpg"></p>]]></description>
+			<styleUrl>#style0</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				<coordinates>132.4533968230835,34.39514691008183,2.617973109545374</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>細工町清病院から広島県商工経済会に向って</name>
+			<description><![CDATA[<p class="photographer">林重男 / Shigeo Hayashi</p><p class="photograph_text">
+細工町清病院南側道路から北西に向って。
+左から西向寺墓地、広島県商工経済会、広島護国神社本殿付近、広島城跡外堀跡。
+手前壁面に「清ハナ健在無事・・・」の伝言あり、この付近細工町、奥が猿楽町など。</p>
+
+
+
+				<p class="image"><img width="100%" class="photograph" src="http://mapping.jp/hiroshima/photo1945/A847.jpg"></p>]]></description>
+			<styleUrl>#style0</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				<coordinates>132.4533109745193,34.39620072330684,0.9100000004861232</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>広島県産業奨励館東面</name>
+			<description><![CDATA[<p class="photographer">林重男 / Shigeo Hayashi</p><p class="photograph_text">広島県産業奨励館東面
+東南東側から。</p>
+
+
+
+				<p class="image"><img width="100%" class="photograph" src="http://mapping.jp/hiroshima/photo1945/A850.jpg"></p>]]></description>
+			<styleUrl>#style0</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				<coordinates>132.4540081018388,34.39538447578061,0.4599999968260133</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>相生橋</name>
+			<description><![CDATA[<p class="photographer">米軍 / US Army</p><p class="photograph_text">被爆後の相生橋、原爆投下の目標となった。目標よりわずかに南東にそれたものの破壊ははなはだしい。</p>
+
+
+
+				<p class="image"><img width="100%" class="photograph" src="http://mapping.jp/hiroshima/photo1945/HB101C.jpg"></p>]]></description>
+			<styleUrl>#style0</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				<coordinates>132.4519748691362,34.39694012369684,3.708807549599805</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>広島市役所</name>
+			<description><![CDATA[<p class="photographer">米軍 / US Army</p><p class="photograph_text">被爆後の広島市役所、猛火により外部だけを残して全焼した。爆心地から南約1020m</p>
+
+
+
+				<p class="image"><img width="100%" class="photograph" src="http://mapping.jp/hiroshima/photo1945/HB102B.jpg"></p>]]></description>
+			<styleUrl>#style0</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				<coordinates>132.4529955766124,34.38541535560134,5.274105357540395</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>日本赤十字社広島支部</name>
+			<description><![CDATA[<p class="photographer">米軍 / US Army</p><p class="photograph_text">日本赤十字社広島支部(被爆後）</p>
+
+
+
+				<p class="image"><img width="100%" class="photograph" src="http://mapping.jp/hiroshima/photo1945/HB115B.jpg"></p>]]></description>
+			<styleUrl>#style0</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				<coordinates>132.4522034072579,34.3958488776493,3.620000005337754</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>本通り筋</name>
+			<description><![CDATA[<p class="photographer">米軍 / US Army</p><p class="photograph_text">
+本通り筋の廃虚（革屋町から東方を望む）。被爆後2か月、秋の夕景。破壊された建物は右から帝国銀行広島支店、安田銀行広島支店、大林組広島支店、中国新聞社、福屋など。</p>
+
+
+
+				<p class="image"><img width="100%" class="photograph" src="http://mapping.jp/hiroshima/photo1945/HB117B.jpg"></p>]]></description>
+			<styleUrl>#style0</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				<coordinates>132.4571768310584,34.39352372577382,1.321880573387474</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>広島県産業奨励館</name>
+			<description><![CDATA[<p class="photographer">米軍 / US Army</p><p class="photograph_text">爆心直下で廃虚と化した広島県産業奨励館。被爆前日が、開館してちょうど満30年目の記念日であった。原爆によって名称は「原爆ドーム」と変わり、ヒロシマのシンボルとなった。</p>
+
+
+
+				<p class="image"><img width="100%" class="photograph" src="http://mapping.jp/hiroshima/photo1945/HB118B.jpg"></p>]]></description>
+			<styleUrl>#style0</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				<coordinates>132.4527090734279,34.39499541279718,4.399132950634173</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>日本赤十字社広島支部</name>
+			<description><![CDATA[<p class="photographer">米軍 / US Army</p><p class="photograph_text">広島県商工経済会屋上から見た日本赤十字社広島支部（爆心地から西北210m）。相生橋東詰めのたもとにあった。この建物は、直上からの爆圧で鉄筋コンクリートの屋根が陥没し、9月の台風の時に降った雨水がたまっている。</p>
+
+
+
+				<p class="image"><img width="100%" class="photograph" src="http://mapping.jp/hiroshima/photo1945/HB402.jpg"></p>]]></description>
+			<styleUrl>#style0</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				<coordinates>132.4540585827573,34.39648245876091,46.08082575567932</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>日本赤十字社広島支部</name>
+			<description><![CDATA[<p class="photographer">米軍 / US Army</p><p class="photograph_text">広島県商工経済会屋上から見た日本赤十字社広島支部。（爆心地から西北210m）相生橋東詰めのたもとにあった。真上から爆風を受けへこんだ屋根には九月の台風の時に降った雨水がたまっている。</p>
+
+
+
+				<p class="image"><img width="100%" class="photograph" src="http://mapping.jp/hiroshima/photo1945/HB402C.jpg"></p>]]></description>
+			<styleUrl>#style0</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				<coordinates>132.4534982075684,34.39624987782718,13.5333440944604</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>広島県産業奨励館と爆心地付近</name>
+			<description><![CDATA[<p class="photographer">米軍 / US Army</p><p class="photograph_text">広島県商工経済会の屋上から見た広島県産業奨励館と爆心地付近。建物は一瞬にして大破し、天井から火を吹いて全焼した。爆風がほとんど真上から到達したため、建物の壁の一部は倒壊を免れ、ドームの鉄枠とともに象徴的な姿をさらした。</p>
+
+
+
+				<p class="image"><img width="100%" class="photograph" src="http://mapping.jp/hiroshima/photo1945/HB405.jpg"></p>]]></description>
+			<styleUrl>#style0</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				<coordinates>132.4536361585894,34.39633188781329,26.8206135413474</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>広島県商工経済会の屋上から見た広島県産業奨励館</name>
+			<description><![CDATA[<p class="photographer">米軍 / US Army</p><p class="photograph_text">広島県商工経済会の屋上から見た広島県産業奨励館。</p>
+
+
+
+				<p class="image"><img width="100%" class="photograph" src="http://mapping.jp/hiroshima/photo1945/HB405C.jpg"></p>]]></description>
+			<styleUrl>#style0</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				<coordinates>132.4535499320911,34.39632653601247,25.13240029459431</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>爆心地から南西を望む</name>
+			<description><![CDATA[<p class="photographer">米軍 / US Army</p><p class="photograph_text">爆心地から南西を望む。元安橋、燃料会館、中島本町（現在平和記念公園）を望む廃虚。</p>
+
+
+
+				<p class="image"><img width="100%" class="photograph" src="http://mapping.jp/hiroshima/photo1945/HG107.jpg"></p>]]></description>
+			<styleUrl>#style0</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				<coordinates>132.4549367686903,34.39431805892719,0.7300000027646733</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>爆心地から西方を望む</name>
+			<description><![CDATA[<p class="photographer">米軍 / US Army</p><p class="photograph_text">爆心地から西方を望む。広島郵便局の廃虚から中島本町方面を望む。右辺上部は本川国民学校。</p>
+
+
+
+				<p class="image"><img width="100%" class="photograph" src="http://mapping.jp/hiroshima/photo1945/HG108.jpg"></p>]]></description>
+			<styleUrl>#style0</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				<coordinates>132.4552215659292,34.39448081766822,0.7900000044837868</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>爆心地から北西を望む</name>
+			<description><![CDATA[<p class="photographer">米軍 / US Army</p><p class="photograph_text">爆心地から西北を望む。中央に広島県産業奨励館が見え、左に本川国民学校、右端に広島県商工経済会が見える。</p>
+
+
+
+				<p class="image"><img width="100%" class="photograph" src="http://mapping.jp/hiroshima/photo1945/HG109.jpg"></p>]]></description>
+			<styleUrl>#style0</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				<coordinates>132.4554602481618,34.39423412102584,2.414765831363938</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>広島県商工経済会屋上から北東を望む</name>
+			<description><![CDATA[<p class="photographer">米軍 / US Army</p><p class="photograph_text">広島県商工経済会屋上から市の東北部を望む。手前の道路は広島護国神社の参道。道の向こう側は、広島第一陸軍病院跡。中央よりやや上に横の並ぶ石垣は、広島城跡で、大本営跡、中国軍管区司令部をはじめとする軍の施設が置かれていた。</p>
+
+
+
+				<p class="image"><img width="100%" class="photograph" src="http://mapping.jp/hiroshima/photo1945/HG110.jpg"></p>]]></description>
+			<styleUrl>#style0</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				<coordinates>132.4535445120163,34.39653777336489,6.910000002243537</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>広島県商工経済会屋上から東北を望む</name>
+			<description><![CDATA[<p class="photographer">米軍 / US Army</p><p class="photograph_text">広島県商工経済会屋上から市の東北を望む。目前の道は広島護国神社参道。道の向こう側は、広島第一陸軍病院跡。中央よりやや上に横に並ぶ石垣は、広島城跡で、大本営跡、中国軍管区司令部をはじめとする軍の施設が置かれていた。</p>
+
+
+
+				<p class="image"><img width="100%" class="photograph" src="http://mapping.jp/hiroshima/photo1945/HG110C.jpg"></p>]]></description>
+			<styleUrl>#style0</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				<coordinates>132.4535576242984,34.39654571949063,6.604236161315802</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>広島県商工経済会屋上から北方を望む</name>
+			<description><![CDATA[<p class="photographer">米軍 / US Army</p><p class="photograph_text">広島県商工経済会屋上から市の北方を望む。手前が崩壊した広島護国神社跡。その向こうに中国軍管区輜重兵補充隊、中国軍管区砲兵補充隊などがあった。</p>
+
+
+
+				<p class="image"><img width="100%" class="photograph" src="http://mapping.jp/hiroshima/photo1945/HG111.jpg"></p>]]></description>
+			<styleUrl>#style0</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				<coordinates>132.4535425566435,34.39647927794078,9.451362987703947</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>広島県商工経済会屋上から北方を望む</name>
+			<description><![CDATA[<p class="photographer">米軍 / US Army</p><p class="photograph_text">広島県商工経済会屋上から基町一帯を経て北方を望む。手前が崩壊した広島護国神社跡。その向こうに中国軍管区輜重兵補充隊、中国軍管区砲兵補充隊などがあった。</p>
+
+
+
+				<p class="image"><img width="100%" class="photograph" src="http://mapping.jp/hiroshima/photo1945/HG111C.jpg"></p>]]></description>
+			<styleUrl>#style0</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				<coordinates>132.4536693656479,34.39649946875542,8.710000000308531</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>島病院から東方の銀行街を見る</name>
+			<description><![CDATA[<p class="photographer">米軍 / US Army</p><p class="photograph_text">爆心地の島病院跡から東方の銀行街を見る。左が芸備銀行本店。中央は住友銀行広島支店、右手前は農林中央金庫広島支所、左端は千代田生命広島支社。この大手町、紙屋町、革屋町、袋町付近は銀行街だった。</p>
+
+
+
+				<p class="image"><img width="100%" class="photograph" src="http://mapping.jp/hiroshima/photo1945/HG114C.jpg"></p>]]></description>
+			<styleUrl>#style0</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				<coordinates>132.4548255869838,34.39479173248892,7.819627540779947</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>広島県商工経済会屋上から南西部を見る</name>
+			<description><![CDATA[<p class="photographer">米軍 / US Army</p><p class="photograph_text">本川から南西部一帯、広島県商工経済会屋上から南西部を見る。手前が慈仙寺鼻、本川橋は落ち川向こうの土橋付近から観音町一帯にかけて一面焼け野原となった。</p>
+
+
+
+				<p class="image"><img width="100%" class="photograph" src="http://mapping.jp/hiroshima/photo1945/HG117C.jpg"></p>]]></description>
+			<styleUrl>#style0</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				<coordinates>132.4540162133394,34.39687673392434,34.86762357553438</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>爆心直下から広島県産業奨励館を望む</name>
+			<description><![CDATA[<p class="photographer">米軍 / US Army</p><p class="photograph_text">爆心直下、爆心地島病院から北西部の広島県産業奨励館を望む。目の前のレンガのがれきは、広島郵便局本局跡、ドームとの間に西蓮寺の墓石、中央左寄り遠方に本川国民学校が見える。</p>
+
+
+
+				<p class="image"><img width="100%" class="photograph" src="http://mapping.jp/hiroshima/photo1945/HG120C.jpg"></p>]]></description>
+			<styleUrl>#style0</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				<coordinates>132.4547493028845,34.39450923591819,2.502528368564589</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>相生橋西方からの航空写真</name>
+			<description><![CDATA[<p class="photographer">米軍 / US Army</p><p class="photograph_text">相生橋、芸備銀行、住友銀行、左下に相生橋と慈仙寺鼻付近。元安川を隔てて広島県産業奨励館が見える。廃虚の中に建物が点々と残る。相生橋西方中島本町（平和記念公園）上空から東方向の焼け跡を望む。写真中央が爆心地にあたる。</p>
+
+
+
+				<p class="image"><img width="100%" class="photograph" src="http://mapping.jp/hiroshima/photo1945/HG124C.jpg"></p>]]></description>
+			<styleUrl>#style0</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				<coordinates>132.446042592729,34.39551526007546,462.4493185107634</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>相生橋の航空写真</name>
+			<description><![CDATA[<p class="photographer">米軍 / US Army</p><p class="photograph_text">上空から見た本川沿い、市北部上空から見た爆心地付近。中央が相生橋、その向こうが現在の平和記念公園。</p>
+
+
+
+				<p class="image"><img width="100%" class="photograph" src="http://mapping.jp/hiroshima/photo1945/HG125C.jpg"></p>]]></description>
+			<styleUrl>#style0</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				<coordinates>132.4501504580467,34.41006369228255,401.3926003833544</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>相生橋西北部の航空写真</name>
+			<description><![CDATA[<p class="photographer">米軍 / US Army</p><p class="photograph_text">相生橋西北部の航空写真、爆心地上空から相生橋を見る。橋を中心に広島県産業奨励館、広島県商工経済会、本川国民学校が残っている。倒壊した市街地。中央のT字型の橋が投下目標になった相生橋。</p>
+
+
+
+				<p class="image"><img width="100%" class="photograph" src="http://mapping.jp/hiroshima/photo1945/HG126C.jpg"></p>]]></description>
+			<styleUrl>#style0</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				<coordinates>132.4568598808255,34.39390326401576,312.0895085573789</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>広島城（原爆投下前）</name>
+			<description><![CDATA[<p class="photographer">浜本重美 / Shigemi Hamamoto</p><p class="photograph_text">広島城（原爆投下前）</p>
+
+
+
+				<p class="image"><img width="100%" class="photograph" src="http://mapping.jp/hiroshima/photo1945/K-PC00006.jpg"></p>]]></description>
+			<styleUrl>#style0</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				<coordinates>132.4579250882436,34.40272073137233,0.2936750988350269</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>広島駅（原爆投下前）</name>
+			<description><![CDATA[<p class="photographer">浜本重美 / Shigemi Hamamoto</p><p class="photograph_text">広島駅（原爆投下前）</p>
+
+
+
+				<p class="image"><img width="100%" class="photograph" src="http://mapping.jp/hiroshima/photo1945/K-PC00007.jpg"></p>]]></description>
+			<styleUrl>#style0</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				<coordinates>132.4746946957845,34.39618639840897,12.76651555032639</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>広島市役所（原爆投下前）</name>
+			<description><![CDATA[<p class="photographer">浜本重美 / Shigemi Hamamoto</p><p class="photograph_text">広島市役所（原爆投下前）</p>
+
+
+
+				<p class="image"><img width="100%" class="photograph" src="http://mapping.jp/hiroshima/photo1945/K-PC00014.jpg"></p>]]></description>
+			<styleUrl>#style0</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				<coordinates>132.4535939749467,34.38548682448487,4.00338763801663</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>紙屋町電車交差点（原爆投下前）</name>
+			<description><![CDATA[<p class="photographer">清水光久 / Teruhisa Shimizu</p><p class="photograph_text">紙屋町電車交差点（原爆投下前）</p>
+
+
+
+				<p class="image"><img width="100%" class="photograph" src="http://mapping.jp/hiroshima/photo1945/K-PC00029.jpg"></p>]]></description>
+			<styleUrl>#style0</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				<coordinates>132.4574342752154,34.39522707300721,1.006565031263863</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>相生橋（原爆投下前）</name>
+			<description><![CDATA[<p class="photographer">長谷部堅陸 / Kenrou Hasebe</p><p class="photograph_text">相生橋（原爆投下前）</p>
+
+
+
+				<p class="image"><img width="100%" class="photograph" src="http://mapping.jp/hiroshima/photo1945/K-PC00032.jpg"></p>]]></description>
+			<styleUrl>#style0</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				<coordinates>132.4517666623559,34.3967368359726,0.9330183581659037</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>相生橋から原爆ドームに向って</name>
+			<description><![CDATA[<p class="photographer">尾木　正己 / Masami Oki / 広島原爆被災撮影者の会</p><p class="photograph_text">相生橋中央部から西に1/3の地点で、北側歩道付近から南東に向って。画面右側、相生橋西側と中島地区へ繋がる中央の橋の欄干は、爆風で吹き飛ばされ、市内電車の電柱も倒れ込んでいる。右手前から倒れ込みながらも残った相生橋左岸側の欄干、その後に熱線と爆風その後の火災でコンクリートの躯体のみでかろうじて建っている日本赤十字社広島支部。その南側にあった同支部木造建物は全焼全壊した。写真中央部には、世界遺産にも登録された原爆ドーム。右奥の川は元安川、架かる橋は1992年(平成4)年被爆した親柱や欄干の一部を再使用して架けかえられた元安橋。この時期広島県産業奨励館の左側には黄金山まで遮るものもなく望めた。</p>
+
+
+
+				<p class="image"><img width="100%" class="photograph" src="http://mapping.jp/hiroshima/photo1945/SA007-2.jpg"></p>]]></description>
+			<styleUrl>#style0</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				<coordinates>132.452492841859,34.39656535804592,4.079572069526479</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>相生橋から原爆ドーム</name>
+			<description><![CDATA[<p class="photographer">尾木　正己 / Masami Oki /広島原爆被災撮影者の会</p><p class="photograph_text">相生橋東詰（左岸側）から南南東に向って。左手前に日本赤十字社広島支部の残骸が見え、その右建物の基礎だけになった所は全焼全壊した同支部の木造建物跡。中央部には広島県産業奨励館、その右奥の建物群は袋町電車道りの明治生命広島支店、広島富国館など。右端元安川の奥は広島市役所など、その手前の橋は元安橋。元安川の花崗岩の石垣は火災で黒く焼けた跡が残り、潮の干いた河原には瓦礫の散乱した様子が見られる。</p>
+
+
+
+				<p class="image"><img width="100%" class="photograph" src="http://mapping.jp/hiroshima/photo1945/SA008-1.jpg"></p>]]></description>
+			<styleUrl>#style0</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				<coordinates>132.453013024008,34.39620112937696,4.17221786874747</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>広島県産業奨励館</name>
+			<description><![CDATA[<p class="photographer">尾木　正己 / Masami Oki / 広島原爆被災撮影者の会</p><p class="photograph_text">北（日本赤十字社広島支部東側）から南に向って。川に面したユニークなこの建物は1915(大正4)年チェコ人の建築家ヤン・レツルによって設計され広島名所の1つとなりシンボルとして親しまれた。被爆時爆心直下のこの建物はほとんど真上からの爆風で倒壊は免れたものの、一瞬にして大破、熱線は木質の天井で発火し全焼した。爆心地近くのこの建物は直後から多くの人の目に触れ写真に撮られ絵に描かれ、何度かの危機的状況をのりこえ、1967(昭和42)年全国募金によって第1回目の保存工事が行なわれ、その後2度の保存工事により破壊から守られている。1995(平成7)年念国史跡に指定され、その後世界遺産にも登録された。</p>
+
+
+
+				<p class="image"><img width="100%" class="photograph" src="http://mapping.jp/hiroshima/photo1945/SA014-2.jpg"></p>]]></description>
+			<styleUrl>#style0</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				<coordinates>132.453358767382,34.39596627905137,1.115533521806683</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>相生橋</name>
+			<description><![CDATA[<p class="photographer">川原四儀 / Yotsugi Kawahara</p><p class="photograph_text">元安川左岸下流側橋詰めから西に向って。爆心地に近いにもかかわらず相生橋下流側の欄干は、外に傾いたが落下はしなかった。上部の建物は本川国民学校。</p>
+
+
+
+				<p class="image"><img width="100%" class="photograph" src="http://mapping.jp/hiroshima/photo1945/SA027-1.jpg"></p>]]></description>
+			<styleUrl>#style0</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				<coordinates>132.4530363339266,34.39618197944068,0.0865479031922855</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>広島駅</name>
+			<description><![CDATA[<p class="photographer">川本俊雄 / Toshio Kawamoto / 広島原爆被災撮影者の会</p><p class="photograph_text">南から北北東に向って。爆風で張り出した待合室は倒壊。本体の屋根は押し下げられ変形破損した。その後により駅舎は全焼、多数の死傷者を出したが、翌7日には宇品線、8日には広島・横川間、9日に山陽本線、芸備線が開通、10日には駅事務所がバラックに急造され、救護隊の入市や被災者の脱出の助けになった。</p>
+
+
+
+				<p class="image"><img width="100%" class="photograph" src="http://mapping.jp/hiroshima/photo1945/SA033-1.jpg"></p>]]></description>
+			<styleUrl>#style0</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				<coordinates>132.4740044416364,34.39519052862664,13.78796188148143</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>広島県商工経済会屋上から紙屋町、八丁堀を望む</name>
+			<description><![CDATA[<p class="photographer">川本俊雄 / Toshio Kawamoto /広島原爆被災撮影者の会</p><p class="photograph_text">爆心地付近の広島県商工経済会屋上から紙屋町、八丁堀方向の東方に望む。左に広島護国神社鳥居が見える。中央の建物は芸備銀行本店と住友銀行広島支店、その手前の建物は千代田生命広島支社。</p>
+
+
+
+				<p class="image"><img width="100%" class="photograph" src="http://mapping.jp/hiroshima/photo1945/SA051-1.jpg"></p>]]></description>
+			<styleUrl>#style0</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				<coordinates>132.4536537724331,34.39657340623942,7.803183951298832</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>爆風で倒れた御幸橋の欄干、千田町側から</name>
+			<description><![CDATA[<p class="photographer">川本俊雄 / Toshio Kawamoto / 広島原爆被災撮影者の会</p><p class="photograph_text">爆心地から南南東2270mの御幸橋、爆風で倒れた上流側の欄干。下流側の欄干は川中に転落。橋の西詰千田町側から皆実町方向に見る。</p>
+
+
+
+				<p class="image"><img width="100%" class="photograph" src="http://mapping.jp/hiroshima/photo1945/SA065-2.jpg"></p>]]></description>
+			<styleUrl>#style0</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				<coordinates>132.4602187724388,34.37515564273318,1.782788700365937</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>元安橋、広島県産業奨励館から南西の方向</name>
+			<description><![CDATA[<p class="photographer">川本俊雄 / Toshio Kawamoto / 広島原爆被災撮影者の会</p><p class="photograph_text">爆心地からもっとも近い元安橋、中島町と大手町を結んで元安川に架る。ほとんど真上から爆風をうけ、爆風は橋上にぶつかり両側の欄干を川中へ吹きとばし、親欄干の笠石（登呂）が左右にずれる。</p>
+
+
+
+				<p class="image"><img width="100%" class="photograph" src="http://mapping.jp/hiroshima/photo1945/SA067-1.jpg"></p>]]></description>
+			<styleUrl>#style0</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				<coordinates>132.4537723094541,34.39489479275309,1.455780689802553</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>元安橋、橋の中央から東南の方向</name>
+			<description><![CDATA[<p class="photographer">川本俊雄 / Toshio Kawamoto / 広島原爆被災撮影者の会</p><p class="photograph_text">爆風によって橋の欄干の笠石（登呂）がずれる。笠石右の建物は広島銀行集会所と広島富国館。</p>
+
+
+
+				<p class="image"><img width="100%" class="photograph" src="http://mapping.jp/hiroshima/photo1945/SA067-2.jpg"></p>]]></description>
+			<styleUrl>#style0</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				<coordinates>132.4536072154591,34.39406324656226,1.972492211239027</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>元安橋、細工町から西北の方向</name>
+			<description><![CDATA[<p class="photographer">川本俊雄 / Toshio Kawamoto / 広島原爆被災撮影者の会</p><p class="photograph_text">左端の建物は燃料会館。</p>
+
+
+
+				<p class="image"><img width="100%" class="photograph" src="http://mapping.jp/hiroshima/photo1945/SA068-2.jpg"></p>]]></description>
+			<styleUrl>#style0</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				<coordinates>132.4541356665317,34.39410524961809,1.380145377952939</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>紙屋町付近、午後3時頃</name>
+			<description><![CDATA[<p class="photographer">岸田貢宜 / Mitsugi Kishida / 岸田哲平 / Teppei Kishida</p><p class="photograph_text">軍隊や周辺町村から救護隊が広島市内に入った。遠方からは岡山、山口、島根、鳥取、兵庫、大阪、県内の警察官90人、警防団員2,700人、大竹海兵団からも救護隊が派遣された。後方の建物は芸備銀行本店と住友銀行広島支店。</p>
+
+
+
+				<p class="image"><img width="100%" class="photograph" src="http://mapping.jp/hiroshima/photo1945/SA076-2.jpg"></p>]]></description>
+			<styleUrl>#style0</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				<coordinates>132.4573696815119,34.39546583073204,0.9497913956972448</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>相生橋東詰広島電鉄櫓下変電所、右建物は広島県商工経済会</name>
+			<description><![CDATA[<p class="photographer">岸本吉太 / Yoshita Kishimoto</p><p class="photograph_text">相生橋東詰広島電鉄櫓下変電所、右建物は広島県商工経済会。中国配電KKの記録用として監督の指示で撮影す。</p>
+
+
+
+				<p class="image"><img width="100%" class="photograph" src="http://mapping.jp/hiroshima/photo1945/SA079-1.jpg"></p>]]></description>
+			<styleUrl>#style0</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				<coordinates>132.4537952701887,34.39634194123,2.42850892602055</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>広島郵便局焼け跡。爆心地付近より北方を望む</name>
+			<description><![CDATA[<p class="photographer">岸本　吉太 / Yoshita Kishimoto / 広島原爆被災撮影者の会</p><p class="photograph_text">爆心地付近より北方を望む。爆発点直下なるため鉄柱折損せず。中国配電KKの記録用として監督の指示により撮影す。</p>
+
+
+
+				<p class="image"><img width="100%" class="photograph" src="http://mapping.jp/hiroshima/photo1945/SA083-2.jpg"></p>]]></description>
+			<styleUrl>#style0</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				<coordinates>132.4547191235985,34.39409495052114,0.07999999867894327</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>元安橋</name>
+			<description><![CDATA[<p class="photographer">岸本吉太 / Yoshita Kishimoto / 広島原爆被災撮影者の会</p><p class="photograph_text">爆心地付近の元安橋、爆心方向のため橋の笠石が横にずれている。中国配電KKの記録用として監督の指示により撮影す。爆心地からもっとも近い地点で爆風が垂直のため橋の笠石が左右にずれる。左の建物は燃料会館、中央は日本簡易火災保険広島支店。</p>
+
+
+
+				<p class="image"><img width="100%" class="photograph" src="http://mapping.jp/hiroshima/photo1945/SA093-1.jpg"></p>]]></description>
+			<styleUrl>#style0</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				<coordinates>132.4538666127229,34.39413140430722,0.5470199239543682</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>相生橋北側から東南方向を見る</name>
+			<description><![CDATA[<p class="photographer">岸本吉太 / Yoshita Kishimoto / 広島原爆被災撮影者の会<br / >相生橋北側から見る。復興始まる。中国配電KKの記録用として監督の指示により撮影す。左の建物は広島県商工経済会、右は日本赤十字社広島支部倉庫。</p>
+
+
+
+				<p class="image"><img width="100%" class="photograph" src="http://mapping.jp/hiroshima/photo1945/SA094-1.jpg"></p>]]></description>
+			<styleUrl>#style0</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				<coordinates>132.4518422542532,34.3968737748233,0.0910276822661953</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>広島県商工経済会付近から相生橋、本川国民学校を写す</name>
+			<description><![CDATA[<p class="photographer">北勲 / Isao Kita / 広島原爆被災撮影者の会</p><p class="photograph_text">広島県商工経済会付近から相生橋、本川国民学校を写す。</p>
+
+
+
+				<p class="image"><img width="100%" class="photograph" src="http://mapping.jp/hiroshima/photo1945/SA097-2.jpg"></p>]]></description>
+			<styleUrl>#style0</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				<coordinates>132.4537646520879,34.39672977438782,4.917734089891885</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>元安橋より広島県産業奨励館と相生橋</name>
+			<description><![CDATA[<p class="photographer">空博行 / Hiroyuki Sora / 広島原爆被災撮影者の会</p>
+			<p class="photograph_text">爆心地にもっとも近い元安橋から広島県産業奨励館と相生橋。中央の建物は日本赤十字社広島支部。</p>
+
+
+
+				<p class="image"><img width="100%" class="photograph" src="http://mapping.jp/hiroshima/photo1945/SA112-2.jpg"></p>]]></description>
+			<styleUrl>#style0</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				<coordinates>132.4533982143098,34.39404253073597,2.55310548081654</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>中島町元安橋の西側から本川橋方面</name>
+			<description><![CDATA[<p class="photographer">空博行 / Hiroyuki Sora / 広島原爆被災撮影者の会</p><p class="photograph_text">爆心地にもっとも近い元安橋から本川方面を望む。（現在平和記念公園の原爆の子の像あたりから）。中央の細い塔状のものは藤井商事の正面玄関で、その後の建物は日本簡易火災保険広島支店。その右の崩壊建物は本川対岸の芸備銀行本川支店。</p>
+
+
+
+				<p class="image"><img width="100%" class="photograph" src="http://mapping.jp/hiroshima/photo1945/SA116-2.jpg"></p>]]></description>
+			<styleUrl>#style0</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				<coordinates>132.4533012793723,34.39403374677693,0.4299999980635912</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>広島県産業奨励館</name>
+			<description><![CDATA[<p class="photographer">林寿麿 / Kazuma Hayashi / 広島原爆被災撮影者の会</p><p class="photograph_text">広島県産業奨励館、南西から北東に撮影。午後3時頃。</p>
+
+
+
+				<p class="image"><img width="100%" class="photograph" src="http://mapping.jp/hiroshima/photo1945/SA123-1.jpg"></p>]]></description>
+			<styleUrl>#style0</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				<coordinates>132.4528079009031,34.39490932424203,2.57062837042611</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>相生橋西詰から南東に向って広島県産業奨励館を望む</name>
+			<description><![CDATA[<p class="photographer">森本太一 / Taichi Morimoto / 広島原爆被災撮影者の会</p><p class="photograph_text">相生橋西詰から南東に向って広島県産業奨励館を望む。</p>
+
+
+
+				<p class="image"><img width="100%" class="photograph" src="http://mapping.jp/hiroshima/photo1945/SA145-2.jpg"></p>]]></description>
+			<styleUrl>#style0</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				<coordinates>132.4518497542057,34.39680055166006,0.9401805292426961</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>広島城跡（被爆後）</name>
+			<description><![CDATA[<p class="photographer">川本俊雄 / Toshio Kawamoto / 広島原爆被災撮影者の会</p><p class="photograph_text">爆心地から約910mの広島城跡。大本営跡から北西に望む。</p>
+
+
+
+				<p class="image"><img width="100%" class="photograph" src="http://mapping.jp/hiroshima/photo1945/hiroshima_jo_B.jpg"></p>]]></description>
+			<styleUrl>#style0</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				<coordinates>132.4594506174393,34.40246648007552,4.797416666319051</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>中島地区（被爆前）</name>
+			<description><![CDATA[<p class="photographer">野口巖 / Iwao Noguchi</p><p class="photograph_text">被爆前の中島地区の航空写真。</p>
+
+
+
+				<p class="image"><img width="100%" class="photograph" src="http://mapping.jp/hiroshima/photo1945/nakajima_A.jpg"></p>]]></description>
+			<styleUrl>#style0</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				<coordinates>132.4485090015893,34.39310162675987,209.6799999972503</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>中島地区（被爆後）</name>
+			<description><![CDATA[<p class="photographer">米軍 / US Army</p><p class="photograph_text">被爆後の中島地区。</p>
+
+
+
+				<p class="image"><img width="100%" class="photograph" src="http://mapping.jp/hiroshima/photo1945/nakajima_B.jpg"></p>]]></description>
+			<styleUrl>#style0</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				<coordinates>132.4379391251657,34.39914877102765,735.6153666770407</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>八丁堀</name>
+			<description><![CDATA[<p class="photographer">川本祥雄 / Kawamoto Yoshio</p><p class="photograph_text">八丁堀、福屋新館（右側）、福屋旧舘（左側）、後方に中国新聞社が見える。</p>
+
+
+
+				<p class="image"><img width="100%" class="photograph" src="http://mapping.jp/hiroshima/photo1945/SAAD26ToshioKawamoto.jpg"></p>]]></description>
+			<styleUrl>#style0</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				<coordinates>132.4614779266973,34.39424679355079,4.586464867692452</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>中国新聞社新館屋上から西に向って</name>
+			<description><![CDATA[<p class="photographer">林重男 / Shigeo Hayashi</p><p class="photograph_text">中央に福屋百貨店、福屋旧館。焼跡手前左から胡町、鉄砲町。上左から日本生命広島支店、安田生命広島支店、三和銀行広島支店、燃料会館、三井物産広島出張所、住友銀行広島支店、芸備銀行本店、本川国民学校、広島県商工経済会、広島城跡外堀跡、市水道部基町作業所、広島護国神社、西練兵場。右下に全壊した広島電鉄市内電車（421型or430型）。</p>
+
+
+
+				<p class="image"><img width="100%" class="photograph" src="http://mapping.jp/hiroshima/photo1945/A720.jpg"></p>]]></description>
+			<styleUrl>#style0</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				<coordinates>132.464675433249,34.39319261193793,29.30271938186928</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>中国新聞社新館屋上から西北西に向って</name>
+			<description><![CDATA[<p class="photographer">林重男 / Shigeo Hayashi</p><p class="photograph_text">中央に歌舞伎座。左から福屋旧館、西練兵場、広島階行社。左下隅に全壊した広島電鉄市内電車（421型or431型）。焼け跡手前から鉄砲町、八丁堀、基町。手前の道が現在の広島電鉄白島線の通り。福屋旧館の向う左右に広島城外堀。</p>
+
+
+
+				<p class="image"><img width="100%" class="photograph" src="http://mapping.jp/hiroshima/photo1945/A732.jpg"></p>]]></description>
+			<styleUrl>#style0</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				<coordinates>132.4645103195384,34.39303519103925,22.00847839212611</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>原爆ドーム前に着いた調査団</name>
+			<description><![CDATA[<p class="photographer">林重男 / Shigeo Hayashi</p><p class="photograph_text">広島護国神社大鳥居前から南西に向って。
+宿舎の海田日本製鋼所からトラックで入市初日佐々木忠義、相原秀雄ら約10名の広島・長崎学術調査団。ドーム前を紙屋町方面に右側運行中の（413型）広島電鉄市内電車。この付近（左官町⇔八丁堀）の電車軌道の復旧は1945(昭和20)年9月7日。</p>
+
+
+
+				<p class="image"><img width="100%" class="photograph" src="http://mapping.jp/hiroshima/photo1945/A746.jpg"></p>]]></description>
+			<styleUrl>#style0</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				<coordinates>132.4547479288676,34.39616886815401,1.416679989575939</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>原爆ドーム前に着いた調査団</name>
+			<description><![CDATA[<p class="photographer">林重男 / Shigeo Hayashi</p><p class="photograph_text">広島護国神社大鳥居前から南西に向って。
+宿舎の海田日本精工所からトラックで入市初日佐々木忠義、相原秀雄ら約10名の広島・長崎学術調査団。このあと、10数m北の広島護国神社大鳥居前でミーティングの後、各班（物理学、生物、医学、など）に別れ調査に入った。ドーム前を紙屋町方面に右側運行中（413型）の広島電鉄市内電車は1945(昭和20)年9月7日（左官町⇔八丁堀）復旧。</p>
+
+
+
+				<p class="image"><img width="100%" class="photograph" src="http://mapping.jp/hiroshima/photo1945/A747.jpg"></p>]]></description>
+			<styleUrl>#style0</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				<coordinates>132.4548232660175,34.39612329969829,0.8200000016679341</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>猿楽町から広島城跡外堀を東に向って</name>
+			<description><![CDATA[<p class="photographer">林重男 / Shigeo Hayashi</p><p class="photograph_text">猿楽町広島県産業奨励館東から広島電鉄市内電車軌道を東に向って。
+中央に広島電鉄市内電車軌道。左から広島城跡外堀一番平櫓跡、中国軍管区司令官官舎、広島城跡外堀跡、福屋旧館、福屋百貨店。
+被爆1ヶ月もしないうちから大八車やトラックに家財を満載して入市する被災者や背負えるだけ背負った近郊からの救護の人々が続いた。</p>
+
+
+
+				<p class="image"><img width="100%" class="photograph" src="http://mapping.jp/hiroshima/photo1945/A780.jpg"></p>]]></description>
+			<styleUrl>#style0</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				<coordinates>132.4540077745474,34.39608162324354,1.619562324237397</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>相生橋北側歩道西に向って</name>
+			<description><![CDATA[<p class="photographer">林重男 / Shigeo Hayashi</p><p class="photograph_text">手前の雨水枡は、水面に反射した爆風により歩道から飛び出した。
+北側車道と歩道の間は爆風の影響で最大1．4mもズレを生じた。
+広島電鉄市内電車は、相生橋西詰め軌道復旧工事も終え、市内電車の運行がみうけられる。</p>
+
+
+
+				<p class="image"><img width="100%" class="photograph" src="http://mapping.jp/hiroshima/photo1945/A816.jpg"></p>]]></description>
+			<styleUrl>#style0</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				<coordinates>132.4524251454635,34.39668436128375,0.3083104962314806</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>被爆した広島市役所</name>
+			<description><![CDATA[<p class="photographer">米軍 / US Army</p><p class="photograph_text">被爆した広島市役所、猛火により外郭だけを残して全焼した。爆心地から南約1020m</p>
+
+
+
+				<p class="image"><img width="100%" class="photograph" src="http://mapping.jp/hiroshima/photo1945/HB102.jpg"></p>]]></description>
+			<styleUrl>#style0</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				<coordinates>132.4539080312971,34.38488403140106,3.263973772791391</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>中国新聞社本館</name>
+			<description><![CDATA[<p class="photographer">米軍 / US Army</p><p class="photograph_text">中国新聞社本館（被爆後）</p>
+
+
+
+				<p class="image"><img width="100%" class="photograph" src="http://mapping.jp/hiroshima/photo1945/HB110b.jpg"></p>]]></description>
+			<styleUrl>#style0</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				<coordinates>132.4639545864202,34.39374856963212,3.033104093779178</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>被爆前の広島市全景（航空写真）</name>
+			<description><![CDATA[<p class="photographer">米軍 / US Army</p><p class="photograph_text">被爆前の広島市全景（航空写真）</p>
+
+
+
+				<p class="image"><img width="100%" class="photograph" src="http://mapping.jp/hiroshima/photo1945/HB132A.jpg"></p>]]></description>
+			<styleUrl>#style0</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				<coordinates>132.4379373572374,34.38882816666148,3987.617414509245</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>被爆後の広島市全景（航空写真）</name>
+			<description><![CDATA[<p class="photographer">米軍 / US Army</p><p class="photograph_text">被爆後の広島市全景（航空写真）、焼土となった市街からまだ余じんがくすぶっている。</p>
+
+
+
+				<p class="image"><img width="100%" class="photograph" src="http://mapping.jp/hiroshima/photo1945/HB132B.jpg"></p>]]></description>
+			<styleUrl>#style0</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				<coordinates>132.4322886540545,34.38100381428303,7972.91689698425</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>広島市役所</name>
+			<description><![CDATA[<p class="photographer">米軍 / US Army</p><p class="photograph_text">無残な姿となった広島市役所（爆心地から約1020m）。窓から吹き出した炎が壁面に黒っぽい跡を残している。</p>
+
+
+
+				<p class="image"><img width="100%" class="photograph" src="http://mapping.jp/hiroshima/photo1945/HB201.jpg"></p>]]></description>
+			<styleUrl>#style0</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				<coordinates>132.4547591738318,34.38633982771687,0.708453287595843</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>万代橋欄干の影</name>
+			<description><![CDATA[<p class="photographer">米軍 / US Army</p><p class="photograph_text">万代橋欄干の影、橋床上に熱線を浴びた際、欄干の影の部分だけが焼けないで白く残った（爆心地から南約約890m）。</p>
+
+
+
+				<p class="image"><img width="100%" class="photograph" src="http://mapping.jp/hiroshima/photo1945/HE101.jpg"></p>]]></description>
+			<styleUrl>#style0</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				<coordinates>132.4505650926128,34.38743422874168,4.206765660600662</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>本通り筋を望む</name>
+			<description><![CDATA[<p class="photographer">米軍 / US Army</p><p class="photograph_text">三和銀行広島支店から東方（本通り筋）を見る、市の繁華街本通り筋は見る影もない。左右によぎる電車道との交差点角に、安田生命広島支店の焼け跡（爆心地から約250m）中央に大林組広島支店、帝国銀行広島支店の建物が残っている。</p>
+
+
+
+				<p class="image"><img width="100%" class="photograph" src="http://mapping.jp/hiroshima/photo1945/HG115.jpg"></p>]]></description>
+			<styleUrl>#style0</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				<coordinates>132.4564858099615,34.3936921212815,8.124653414198676</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>山口町付近の建物の屋上から南を望む</name>
+			<description><![CDATA[<p class="photographer">米軍 / US Army</p><p class="photograph_text">山口町付近の建物屋上から南を展望すると、目をさえぎるものは何もなく、広島瓦斯広島工場のガスホルダー、向宇品、そして広島湾に浮かぶ似島（広島市から海上4000m）が見えた。</p>
+
+
+
+				<p class="image"><img width="100%" class="photograph" src="http://mapping.jp/hiroshima/photo1945/HG116.jpg"></p>]]></description>
+			<styleUrl>#style0</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				<coordinates>132.4669015551208,34.39490313879845,8.960000002883644</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>爆心地から北方を望む</name>
+			<description><![CDATA[<p class="photographer">米軍 / US Army</p><p class="photograph_text">島病院から広島護国神社方向、手前は爆心地島病院の廃虚。左は広島県商工経済会、右手に広島護国神社参道の鳥居が見える。爆心地から北方を望む。</p>
+
+
+
+				<p class="image"><img width="100%" class="photograph" src="http://mapping.jp/hiroshima/photo1945/HG119.jpg"></p>]]></description>
+			<styleUrl>#style0</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				<coordinates>132.4548314212582,34.39477132035864,0.9694261244029828</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>袋町付近から爆心地を望む</name>
+			<description><![CDATA[<p class="photographer">米軍 / US Army</p><p class="photograph_text">袋町付近の広島富国館屋上から爆心を望む、爆心地付近の広島銀行集会所（爆心地から約200m）が左手前に写っている。この付近では最も堅固な建物だったが、窓ワクは吹き飛んだ。中央は日本生命広島支店、右は三和銀行広島支店、上部左から本川国民学校、日本赤十字社広島支部、広島県商工経済会、このビルの上部遠方に広島県産業奨励館が見える。</p>
+
+
+
+				<p class="image"><img width="100%" class="photograph" src="http://mapping.jp/hiroshima/photo1945/HG121.jpg"></p>]]></description>
+			<styleUrl>#style0</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				<coordinates>132.4570331439467,34.39231337654812,22.40267634639762</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>爆心地付近の廃虚、広島瓦斯本社</name>
+			<description><![CDATA[<p class="photographer">米軍 / US Army</p><p class="photograph_text">爆心地付近、広島瓦斯本社方面、大手町二丁目の焼け跡から西方を見る。建物は広島瓦斯本社。爆心地南南東約210m。</p>
+
+
+
+				<p class="image"><img width="100%" class="photograph" src="http://mapping.jp/hiroshima/photo1945/HG122-a.jpg"></p>]]></description>
+			<styleUrl>#style0</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				<coordinates>132.4563301348581,34.39262528891931,0.6230804699040563</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>爆心地付近の廃虚、広島瓦斯本社</name>
+			<description><![CDATA[<p class="photographer">米軍 / US Army</p><p class="photograph_text">爆心地付近の廃虚。左の崩れた建物が広島瓦斯本社（爆心地から約210m）右手に広島県産業奨励館が見える。1945(昭20)年9月、焼け残った藤野新社長宅を本社に復旧に努め、翌1946(昭和21)年4月に市内の残存需要家235戸にガス供給を再開した。広島瓦斯が1948(昭和23)年に紙屋町にいち早く建設した本社屋は、被爆後初の本格的建築で、「ガスビル」と呼ばれて市民に親しまれた。</p>
+
+
+
+				<p class="image"><img width="100%" class="photograph" src="http://mapping.jp/hiroshima/photo1945/HG122-b.jpg"></p>]]></description>
+			<styleUrl>#style0</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				<coordinates>132.4559695345941,34.39224722852035,1.968092285204267</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>広島文理科大学付近</name>
+			<description><![CDATA[<p class="photographer">米軍 / US Army</p><p class="photograph_text">広島文理科大学付近におけるうずまき旋風による被害（爆心地から約1420m）。</p>
+
+
+
+				<p class="image"><img width="100%" class="photograph" src="http://mapping.jp/hiroshima/photo1945/HG123.jpg"></p>]]></description>
+			<styleUrl>#style0</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				<coordinates>132.4561655884466,34.38059874862689,2.828290089594997</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>市中心部の航空写真</name>
+			<description><![CDATA[<p class="photographer">米軍 / US Army</p><p class="photograph_text">上空より市中心部を望む。白く写る道がかつての町なみの所在を示すだけで、コンクリートの建物以外残っているものはなにもない。川は手前から元安川、本川、天満川、福島川で、左手広島湾に注ぐ。</p>
+
+
+
+				<p class="image"><img width="100%" class="photograph" src="http://mapping.jp/hiroshima/photo1945/HG127.jpg"></p>]]></description>
+			<styleUrl>#style0</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				<coordinates>132.4756648828516,34.39926153264647,564.0376313257225</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>広島城跡と市中心部の航空写真</name>
+			<description><![CDATA[<p class="photographer">米軍 / US Army</p><p class="photograph_text">広島城跡と市中心部、中国軍管区司令部、広島城（爆心地より北東約980m）を上空から望む。上方に広島県商工経済会が見える。</p>
+
+
+
+				<p class="image"><img width="100%" class="photograph" src="http://mapping.jp/hiroshima/photo1945/HG128.jpg"></p>]]></description>
+			<styleUrl>#style0</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				<coordinates>132.4650952272729,34.40552391223651,390.0286987249159</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>市南東部の航空写真、皆実町の上空から京橋川方面を望む</name>
+			<description><![CDATA[<p class="photographer">米軍 / US Army</p><p class="photograph_text">市南東部の航空写真、皆実町上空から京橋川方面を望む。右上方の広島瓦斯広島工場のガスホルダーから川沿いに焼け跡が広がる。</p>
+
+
+
+				<p class="image"><img width="100%" class="photograph" src="http://mapping.jp/hiroshima/photo1945/HG129.jpg"></p>]]></description>
+			<styleUrl>#style0</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				<coordinates>132.4723130055963,34.37110409085614,341.3802719411017</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>北西部の航空写真、南観音町の市立第二国民学校付近</name>
+			<description><![CDATA[<p class="photographer">米軍 / US Army</p><p class="photograph_text">北西部の航空写真、南観音町の市立第二国民学校とその付近の状況（爆心地から南方約2500m）。</p>
+
+
+
+				<p class="image"><img width="100%" class="photograph" src="http://mapping.jp/hiroshima/photo1945/HG130.jpg"></p>]]></description>
+			<styleUrl>#style0</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				<coordinates>132.4273834064188,34.38485344043467,295.6643727411513</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>米軍機より撮影したきのこ雲</name>
+			<description><![CDATA[<p class="photographer">米軍 / US Army</p><p class="photograph_text">米軍機より撮影した巨大なきのこ雲、1945(昭和20)年8月6日。人類史上最初の原子爆弾が広島市に投下された。約80km離れた瀬戸内海上空からの撮影</p>
+
+
+
+				<p class="image"><img width="100%" class="photograph" src="http://mapping.jp/hiroshima/photo1945/HG273.jpg"></p>]]></description>
+			<styleUrl>#style0</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				<coordinates>132.724544453276,33.90850290727599,9526.245345646012</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>中国新聞社屋上から東南方向を望む</name>
+			<description><![CDATA[<p class="photographer">中田左都男 / Satsuo Nakata</p><p class="photograph_text">中国新聞社屋上から東南方向、平塚・比治山方面を望む。廃虚に立っているのは、斜屋町久保田本店の煙突。</p>
+
+
+
+				<p class="image"><img width="100%" class="photograph" src="http://mapping.jp/hiroshima/photo1945/HH150.jpg"></p>]]></description>
+			<styleUrl>#style0</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				<coordinates>132.4641340794355,34.393194685506,28.58048459510079</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>八丁堀付近の電車通りで被爆し、全焼した路面電車（400形）</name>
+			<description><![CDATA[<p class="photographer">中田左都男 / Satsuo Nakata</p><p class="photograph_text">八丁堀付近の電車通りで被爆し、全焼した路面電車（400形）</p>
+
+
+
+				<p class="image"><img width="100%" class="photograph" src="http://mapping.jp/hiroshima/photo1945/HH153.jpg"></p>]]></description>
+			<styleUrl>#style0</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				<coordinates>132.4638534385002,34.39519445342052,1.104282016320179</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>中国新聞社屋上から東方向を望む</name>
+			<description><![CDATA[<p class="photographer">中田左都男 / Satsuo Nakata</p><p class="photograph_text">中国新聞社屋上から東方向、稲荷町方面を望む。正面右の白い建物が広島東警察署で、手前左の空き地が幟町国民学校、正面向こうに稲荷町電車専用橋が見える。右下の建物は日本勧業銀行広島支店。</p>
+
+
+
+				<p class="image"><img width="100%" class="photograph" src="http://mapping.jp/hiroshima/photo1945/HH162.jpg"></p>]]></description>
+			<styleUrl>#style0</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				<coordinates>132.4641302458411,34.3931303980002,22.64135711450748</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>中国新聞社屋上から東南東方向を望む</name>
+			<description><![CDATA[<p class="photographer">中田左都男 / Satsuo Nakata</p><p class="photograph_text">中国新聞社屋上から東南東方向、比治山方面を望む。手前は日本勧業銀行広島支店。</p>
+
+
+
+				<p class="image"><img width="100%" class="photograph" src="http://mapping.jp/hiroshima/photo1945/HH165.jpg"></p>]]></description>
+			<styleUrl>#style0</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				<coordinates>132.4641668951935,34.39314273356822,28.37085622288251</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>中国新聞社から北方の上流川通りを望む</name>
+			<description><![CDATA[<p class="photographer">中田左都男 / Satsuo Nakata</p><p class="photograph_text">中国新聞社屋上から北方の上流川通りを望む。</p>
+
+
+
+				<p class="image"><img width="100%" class="photograph" src="http://mapping.jp/hiroshima/photo1945/HH166.jpg"></p>]]></description>
+			<styleUrl>#style0</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				<coordinates>132.4644460351975,34.39322309926062,26.24560716599321</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>きのこ雲</name>
+			<description><![CDATA[<p class="photographer">木村権一 / Gonichi Kimura</p><p class="photograph_text">陸軍船舶司令部写真班に所属していた木村権一氏が､船舶練習部構内で被爆したときに撮影したきのこ雲の写真の1枚目｡ほぼ真ん中が爆心地方面｡写っている建物は練習部構内の建物｡</p>
+
+
+
+				<p class="image"><img width="100%" class="photograph" src="http://mapping.jp/hiroshima/photo1945/K-KG001.jpg"></p>]]></description>
+			<styleUrl>#style0</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				<coordinates>132.4715562050202,34.35809663907406,0.7095516625189072</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>きのこ雲</name>
+			<description><![CDATA[<p class="photographer">木村権一 / Gonichi Kimura</p><p class="photograph_text">陸軍船舶司令部写真班に所属していた木村権一氏が､船舶練習部構内で被爆したときに撮影したきのこ雲の写真の2枚目｡構内の旧工場建物の際から見上げて撮影したため軒裏の一部が見えている｡</p>
+
+
+
+				<p class="image"><img width="100%" class="photograph" src="http://mapping.jp/hiroshima/photo1945/K-KG002.jpg"></p>]]></description>
+			<styleUrl>#style0</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				<coordinates>132.4714577076422,34.35813127506204,0.5874156821632522</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>福屋百貨店</name>
+			<description><![CDATA[<p class="photographer">林重男 / Shigeo Hayashi</p><p class="photograph_text">鉄砲町から広電電車通りを西に向って。
+左から福屋百貨店、広島電鉄市内電車軌道、奥に広島県商工経済会、福屋旧館、全壊の広電市内電車（421or430型）、電車軌道をそれて放置された。</p>
+
+
+
+				<p class="image"><img width="100%" class="photograph" src="http://mapping.jp/hiroshima/photo1945/RA155.jpg"></p>]]></description>
+			<styleUrl>#style0</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				<coordinates>132.4639331953761,34.39357205252948,2.320000002919911</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>市水道部基町庁舎作業場と西練兵場</name>
+			<description><![CDATA[<p class="photographer">林重男 / Shigeo Hayashi</p><p class="photograph_text">商工組合中央金庫広島支所屋上（4階）から北西に向って。
+左下広島電鉄市内電車軌道付近を運行中の木炭バス。左中央部には全壊した広島電鉄市内電車が放置。電車軌道右の石垣は広島城外堀跡、左から中国憲兵隊司令部、市水道部基町庁舎作業場、西練兵場、偕行社。</p>
+
+
+
+				<p class="image"><img width="100%" class="photograph" src="http://mapping.jp/hiroshima/photo1945/RA156.jpg"></p>]]></description>
+			<styleUrl>#style0</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				<coordinates>132.462570483759,34.39390784740911,15.3923806729394</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>市水道部基町庁舎作業場</name>
+			<description><![CDATA[<p class="photographer">林重男 / Shigeo Hayashi</p><p class="photograph_text">立町東北角から北西に向って。
+市水道部基町庁舎作業場は、爆心方向からの強い爆風のため鉄骨がはげしくかしぎ全焼全壊した。基町庁舎作業場左端石垣は広島城外堀跡。手前は火災のため全焼した広島電鉄市内電車、路線確保のため車輌は脇へよけられた。</p>
+
+
+
+				<p class="image"><img width="100%" class="photograph" src="http://mapping.jp/hiroshima/photo1945/RA159.jpg"></p>]]></description>
+			<styleUrl>#style0</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				<coordinates>132.4623076946567,34.39402524500899,0.390000000445043</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>きのこ雲</name>
+			<description><![CDATA[<p class="photographer">尾木正己 / Masami Oki / 広島原爆被災撮影者の会</p><p class="photograph_text">炸裂40分後のきのこ雲</p>
+
+
+
+				<p class="image"><img width="100%" class="photograph" src="http://mapping.jp/hiroshima/photo1945/SA004-2MasamiOki.jpg"></p>]]></description>
+			<styleUrl>#style0</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				<coordinates>132.5301976699895,34.24825722624237,0.07936466124421084</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>鷹匠町から爆心地に向って</name>
+			<description><![CDATA[<p class="photographer">尾木　正己 / Masami Oki / 広島原爆被災撮影者の会</p>
+<p class="photograph_text">鷹匠町香川自転車店付近から東南東（爆心）に向って。全焼全壊した家屋の跡に消息を知らせる伝言の板が建ててある。写真手前右側多くの自転車の残骸が残され自転車店の跡と思われる。写真左から広島商工経済会、その奥福屋百貨店、芸備銀行本店、千代田生命広島支社など、中央に広島県産業奨励館、右端窓が打ち破られた建物は本川国民学校。</p>
+
+
+
+				<p class="image"><img width="100%" class="photograph" src="http://mapping.jp/hiroshima/photo1945/SA005-2MasamiOki.jpg"></p>]]></description>
+			<styleUrl>#style0</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				<coordinates>132.4496787463883,34.39646685116666,0.4896985695562636</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>空鞆町から爆心地に向って</name>
+			<description><![CDATA[<p class="photographer">尾木正己 / Masami Oki / 広島原爆被災撮影者の会</p>
+<p class="photograph_text">空鞆神社付近から南東に向って。町工場や木造住宅の密集した爆心に近いこの地域は、熱線と爆風、その後の火災で全焼全壊した。左手前焼けた松の木らしい残骸付近が空鞆神社前。その奥左から千代田生命広島支店など、その右広島県商工経済会、農林中央金庫広島支所など。その右、広島県産業奨励館、本川国民学校。</p>
+
+
+
+				<p class="image"><img width="100%" class="photograph" src="http://mapping.jp/hiroshima/photo1945/SA006-1MasamiOki.jpg"></p>]]></description>
+			<styleUrl>#style0</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				<coordinates>132.4487156708522,34.40030572406035,0.209505398969101</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>広島瓦斯本社</name>
+			<description><![CDATA[<p class="photographer">尾木正己 / Masami Oki / 広島原爆被災撮影者の会</p>
+<p class="photograph_text">北東側の大手町筋から。爆心方向の壁、天井は爆風で崩壊し、全焼した。</p>
+
+
+
+				<p class="image"><img width="100%" class="photograph" src="http://mapping.jp/hiroshima/photo1945/SA010-1MasamiOki.jpg"></p>]]></description>
+			<styleUrl>#style0</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				<coordinates>132.4572794084762,34.39316875990179,0.5299999990095571</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>日本貯蓄銀行広島支店</name>
+			<description><![CDATA[<p class="photographer">尾木正己 / Masami Oki / 広島原爆被災撮影者の会</p>
+<p class="photograph_text">広島県農業会広島支所東側玄関付近から南（日本貯蓄銀行広島支店）に向って。被爆により広島県農業会は、大手町通りに面した円柱が特徴的な玄関部分と、事務所部分崩落して分解した。この写真はその玄関部分から南に向って撮影したものである。中央に見えるかつて2階建てだった日本貯蓄銀行広島支店は、爆風で1階部分だけ残して崩壊し、金庫室だけが形をとどめ、8月16日からの日本銀行内仮店舗での営業に役立った。</p>
+
+
+
+				<p class="image"><img width="100%" class="photograph" src="http://mapping.jp/hiroshima/photo1945/SA011-1MasamiOki.jpg"></p>]]></description>
+			<styleUrl>#style0</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				<coordinates>132.4551878845577,34.39200277011562,0.1945112830680733</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>下村時計店</name>
+			<description><![CDATA[<p class="photographer">尾木正己 / Masami Oki / 広島原爆被災撮影者の会</p>
+<p class="photograph_text">本通り西から東（キリンビヤホール）に向って。1928(昭和3)年大きな時計台を組み込んだ鉄筋2階建ての建物は本通りのランドマークだった。コンクリートの両壁が構造材の役をなし、重い時計台を直接支えていたこの建物は、被爆時爆風でもろくも崩れ、アーチ窓の2階部分と時計台を残して座屈し、南東側へ倒れ込んだ。</p>
+
+
+
+				<p class="image"><img width="100%" class="photograph" src="http://mapping.jp/hiroshima/photo1945/SA012-2MasamiOki.jpg"></p>]]></description>
+			<styleUrl>#style0</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				<coordinates>132.461084441524,34.3925210326256,0.5469949771668129</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>全焼全壊した広島電鉄市内電車</name>
+			<description><![CDATA[<p class="photographer">川原四儀 / Yotsugi Kawahara / 広島原爆被災撮影者の会</p>
+<p class="photograph_text">紙屋町交差点北側の外堀の上から南東（平田屋町の大林組広島支店など）に向って。手前斜の部分は外堀の堤防跡、その向こう全焼全壊した広島電鉄の電車は被爆時には本線電車軌道上で左側が脱線した状態で被爆、全焼全壊した。翌日から少しづつ移され、8月11日にはほぼこの写真の位置まで寄せられてあった。この電車には生存者がいた。身長の低かった人で、満員の乗客の中で人の陰になっており助かったという。（共同通信の唐島さんらしい）電車軌道の向こうの全焼全壊地域は、手前から紙屋町、研屋町、立町、播磨屋町、平田屋町など。上部左の山は比治山、その手前左からキリンビヤホール、大林組広島支店、安田銀行広島支店など。手前右端黒い先の尖った棒杭状の物は焼けて折れた電柱の残骸で、先端部は柱基に折れている。</p>
+
+
+
+				<p class="image"><img width="100%" class="photograph" src="http://mapping.jp/hiroshima/photo1945/SA020-1.jpg"></p>]]></description>
+			<styleUrl>#style0</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				<coordinates>132.4574400477985,34.39549725294278,3.767695435980386</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>広島第一陸軍病院正門付近</name>
+			<description><![CDATA[<p class="photographer">川原四儀 / Yotsugi Kawahara / 広島原爆被災撮影者の会</p>
+<p class="photograph_text">広島第一陸軍病院第一分院北西隅から北に向って。木造の全病棟は、爆風と熱線で瞬時に壊滅。それぞれの建物の基礎だけが残った。明治初期広島鎮台病院と呼び、太田川畔の小姓町に移って広島衛戍病院と呼称。1937(昭和12)年に広島陸軍病院と改称。被爆時院長は元吉慶四郎少将。</p>
+
+
+
+				<p class="image"><img width="100%" class="photograph" src="http://mapping.jp/hiroshima/photo1945/SA021-2.jpg"></p>]]></description>
+			<styleUrl>#style0</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				<coordinates>132.4551645486173,34.39864789750425,0.2074926159124149</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>壊滅した八丁堀電車通り付近</name>
+			<description><![CDATA[<p class="photographer">川原四儀 / Yotsugi Kawahara / 広島原爆被災撮影者の会</p>
+<p class="photograph_text">上流川町中国新聞社新館屋上から北西（八丁堀福屋旧館）方向に向って。写真手前焼け跡は東洋座、その上電車通りの影は福屋百貨店のもの。中央部には全焼全壊した広島電鉄市内電車（430型）の残骸、その上は木造で跡形もなくなった歌舞伎座の焼け跡と、その前（電車通り側）は建物疎開の跡。被爆前このあたりに仁丹の巨大な広告塔があった。道路上には救護隊や罹災者の消息を尋ねる人達が見える。</p>
+
+
+
+				<p class="image"><img width="100%" class="photograph" src="http://mapping.jp/hiroshima/photo1945/SA023-2.jpg"></p>]]></description>
+			<styleUrl>#style0</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				<coordinates>132.4644109633059,34.3932992840724,18.24621535606548</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>紙屋町交差点南東側から本通り方面</name>
+			<description><![CDATA[<p class="photographer">川原四儀 / Yotsugi Kawahara / 広島原爆被災撮影者の会</p>
+<p class="photograph_text">1913(大正2)年11月紙屋町交差点南東角にいち早く建ったレンガ造りの重厚でお洒落な建物は、東側のレンガ壁の一部を残して崩れ落ちた。手前壁と瓦礫が大同生命広島支店、奥左からキリンビヤホール、大林組広島支店、安田銀行広島支店。</p>
+
+
+
+				<p class="image"><img width="100%" class="photograph" src="http://mapping.jp/hiroshima/photo1945/SA025-2.jpg"></p>]]></description>
+			<styleUrl>#style0</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				<coordinates>132.457802265914,34.39496757540798,1.21105282563299</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>広島流川教会</name>
+			<description><![CDATA[<p class="photographer">川原四儀 / Yotsugi Kawahara / 広島原爆被災撮影者の会</p>
+<p class="photograph_text">中国新聞社新館屋上から北北東に向って。1927(昭和2)年12月日本メソヂスト広島中央教会として竣工した会堂は、ゴシック様式で広島の教会としては初の鉄筋コンクリート造で設計は生涯伝道師を全うしたウィリアム･M･ヴォーリズであった。都市のランドマークにもなった教会も、谷本清牧師を除く4人が倒壊した建物の下敷になったが辛うじて脱出一命をとりとめた。廃墟となった会堂を使って、翌1946(昭和21)年には聖日礼拝を始め、世界的大反響を呼び原水爆禁止運動の火つけ役ともなったジョン・ハーシーのルポルタージュ「ヒロシマ」に谷本牧師は登場、牧師は2度の渡米でノーモアヒロシマとともに教会再建の募金活動も展開し、1952(昭和27)年会堂復旧をはたした。</p>
+
+
+
+				<p class="image"><img width="100%" class="photograph" src="http://mapping.jp/hiroshima/photo1945/SA026-1.jpg"></p>]]></description>
+			<styleUrl>#style0</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				<coordinates>132.4643938293881,34.39300917474667,28.91304706178193</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>広島逓信局</name>
+			<description><![CDATA[<p class="photographer">川本俊雄 / Toshio Kawamoto</p>
+<p class="photograph_text">北東から南西に向って。南翼（写真左側）は全ての階が全焼し北翼は4階を焼失した。8月7日には焼け残った北翼に戦災対策本部が置かれ、郵便、電信電話の復旧の指揮が行なわれ、南翼は焼け出された職員の応急住宅に当てられた。写真左手前の建物は、広島逓信病院病棟棟近くの官舎で被爆し、負傷した蜂谷道彦院長はこの病棟で多くの被爆者の救護活動の指揮を取った。この病棟は1995(平成7)年中国郵政局により保存され一部は資料展示室として公開されている。</p>
+
+
+
+				<p class="image"><img width="100%" class="photograph" src="http://mapping.jp/hiroshima/photo1945/SA030-1ToshioKawamoto.jpg"></p>]]></description>
+			<styleUrl>#style0</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				<coordinates>132.4624795139214,34.40677575354886,10.88000000186913</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>中国新聞社本館・新館</name>
+			<description><![CDATA[<p class="photographer">川本俊雄 / Toshio Kawamoto / 広島原爆被災撮影者の会</p>
+<p class="photograph_text">北西（八丁堀歌舞伎座東側付近）から東南東に向って。写真手前の中国新聞社新館の大窓は全部破れ内部は焼けつくした。爆心地側からは新館の影になった本館も、外観の損傷は新館程ではなかったが、内部は全焼した。新聞の発行も被爆後の2日間はやむなく休刊したが、島根新聞、九州や大阪の朝日・毎日の協力で代行印刷し、1945(昭和20)年8月31日からは温品疎開工場で自力印刷し復旧を果した。新館4階部分の窓には板を打ちつけ業務再開がうかがえる。NARA所蔵の1945(昭和20)年10月頃撮影と思われる243-H-149によると、2階の一部と3・4階の全部が窓に板を打ちつけこの写真よりもう少し復帰した社員が多くなった様子がうかがえる。画面左端は日本勧業銀行広島支店、右下の電車は全壊した広島電鉄市内電車、430型の残骸、手前焼け跡は右から八丁堀、鉄砲町、上流川町。</p>
+
+
+
+				<p class="image"><img width="100%" class="photograph" src="http://mapping.jp/hiroshima/photo1945/SA032-2ToshioKawamoto.jpg"></p>]]></description>
+			<styleUrl>#style0</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				<coordinates>132.4638487507652,34.3940293708498,2.512316983420519</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>下村時計店（東西）</name>
+			<description><![CDATA[<p class="photographer">川本俊雄 / Toshio Kawamoto / 広島原爆被災撮影者の会</p>
+<p class="photograph_text">建物の東面を南側から。大きな時計台を乗せた鉄筋コンクリート造り2階建てのハイカラな建物は小さいながらも遠くからもよく見えランドマークにもなった。爆風によって1階は完全に押しつぶされ、アーチ窓の2階と時計台の残骸が残った。この写真は爆心地の反対側の壁を南北に見たものであるが、爆心地側からの爆風は、反対側の壁を押し出し、斧で切ったように壁を切り裂いた。</p>
+
+
+
+				<p class="image"><img width="100%" class="photograph" src="http://mapping.jp/hiroshima/photo1945/SA037-1ToshioKawamoto.jpg"></p>]]></description>
+			<styleUrl>#style0</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				<coordinates>132.461171996185,34.39213296739103,0.7092179809793</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>下村時計店（正面）</name>
+			<description><![CDATA[<p class="photographer">川本俊雄 / Toshio Kawamoto / 広島原爆被災撮影者の会</p>
+<p class="photograph_text">北から南に向って。大きな時計台を乗せた鉄筋コンクリート造り2階建てのハイカラな建物は小さいながらも遠くからもよく見えランドマークにもなった。爆風によって1階は完全に押しつぶされアーチ窓の2階と時計台の残骸が残った。写真右爆心地側からの爆風は、かろうじて残った建物全体を左側に傾かせた。</p>
+
+
+
+				<p class="image"><img width="100%" class="photograph" src="http://mapping.jp/hiroshima/photo1945/SA037-2ToshioKawamoto.jpg"></p>]]></description>
+			<styleUrl>#style0</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				<coordinates>132.4612771059789,34.39247324033292,0.1391558670789922</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>広島県商工経済会</name>
+			<description><![CDATA[<p class="photographer">川本俊雄 / Toshio Kawamoto / 広島原爆被災撮影者の会</p>
+<p class="photograph_text">北北西（本川右岸）から爆心地（南南東）に向って。この付近では当然のことながら非木造の建物がかろうじて倒壊を免れたものの可燃性のものは全て焼けつくした。中央左よりの窓ガラスも窓枠も全て吹き飛んだ広島県商工経済会の前、本川左岸の土手に2棟のバラックが建ち被爆者の定住への一歩が始まっている。写真左から白い鳥居は広島護国神社の大鳥居（広島城東側入口に移築されてある）その奥に住友銀行広島支店、千代田生命広島支社、広島県商工経済会、広島県産業奨励館、相生橋、手前の川は本川。</p>
+
+
+
+				<p class="image"><img width="100%" class="photograph" src="http://mapping.jp/hiroshima/photo1945/SA039-2ToshioKawamoto.jpg"></p>]]></description>
+			<styleUrl>#style0</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				<coordinates>132.4516869865907,34.39902494234559,5.13000000103999</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>八丁堀電車通り</name>
+			<description><![CDATA[<p class="photographer">川本俊雄 / Toshio Kawamoto / 広島原爆被災撮影者の会</p>
+<p class="photograph_text">紙屋町交差点北東側から広島電鉄市内電車通りを東に向って。左端少し見える電車は、十日市方面進行中紙屋町交差点東側で被爆し全壊、直後に軌道からはずされ外堀付近まで移動した111型電車の残骸。その奥、爆風で屋根をはぎ取り、1階に入っていた東消防署の消防自動車もふくめ内部は全焼した福屋旧館。電車通りを隔て手前から、改修を重ねながら1983(昭和58)年まで使われた商工組合中央金庫広島支所、その奥直後救護所にもなった福屋百貨店、少し見える中国新聞社、日本勧業銀行広島支店。電車軌道の脇を歩く人達の中に手を引かれた子供の姿も見え、少し落ち着いた時期か。</p>
+
+
+
+				<p class="image"><img width="100%" class="photograph" src="http://mapping.jp/hiroshima/photo1945/SA040-2ToshioKawamoto.jpg"></p>]]></description>
+			<styleUrl>#style0</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				<coordinates>132.4604121920531,34.39451628419728,1.809759037018832</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>広島文理科大学本館</name>
+			<description><![CDATA[<p class="photographer">川本俊雄 / Toshio Kawamoto / 広島原爆被災撮影者の会</p>
+<p class="photograph_text">西南西から東北東に向って。1945(昭和20)年6月本館の3階と2階の一部は本土決戦に備え全国8ヵ所に設置された地方行政機構の一つ中国地方総監府（総監・前広島県知事・大塚惟精）に接収された。構内の木造建物は全て焼失し、本館など、非木造建物が点々と残った本館も内部は全焼し、被爆した負傷者が手探りで脱出した際、壁面タイルに血痕を残した。1958(昭和33)年、切り取って衝立状に加工保存された。正面の大時計は8時15分を示して止まっていたが、1965(昭和40)年頃修理不能で取り替えられた。被爆当時そのままの研究室が一室、そのまま放置されてある。</p>
+
+
+
+				<p class="image"><img width="100%" class="photograph" src="http://mapping.jp/hiroshima/photo1945/SA041-1ToshioKawamoto.jpg"></p>]]></description>
+			<styleUrl>#style0</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				<coordinates>132.4572648671381,34.38197489728876,2.109999999990606</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>八丁堀、福屋新館、福屋旧舘</name>
+			<description><![CDATA[<p class="photographer">川本俊雄 / Toshio Kawamoto / 広島原爆被災撮影者の会</p>
+<p class="photograph_text">
+爆心地から東約800m。広島の中心街八丁堀。胡町から西方に向って相生橋方面を望む。遠方の建物は広島県商工経済会。</p>
+
+
+
+				<p class="image"><img width="100%" class="photograph" src="http://mapping.jp/hiroshima/photo1945/SA042-2ToshioKawamoto.jpg"></p>]]></description>
+			<styleUrl>#style0</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				<coordinates>132.4644178824098,34.39343650459441,2.272591855271896</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>広島中央放送局</name>
+			<description><![CDATA[<p class="photographer">川本俊雄 / Toshio Kawamoto / 広島原爆被災撮影者の会</p>
+<p class="photograph_text">爆心地から約1000mの上流川町にあった広島中央放送局。南西から北東に望む。後方は牛田山方向。</p>
+
+
+
+				<p class="image"><img width="100%" class="photograph" src="http://mapping.jp/hiroshima/photo1945/SA043-1ToshioKawamoto.jpg"></p>]]></description>
+			<styleUrl>#style0</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				<coordinates>132.465008743754,34.39528385625369,1.60999999523328</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>大本営跡</name>
+			<description><![CDATA[<p class="photographer">川本俊雄 / Toshio Kawamoto / 広島原爆被災撮影者の会</p>
+<p class="photograph_text">爆心地から約910mの大本営跡。後方の山は牛田山。南から北東に望む。</p>
+
+
+
+				<p class="image"><img width="100%" class="photograph" src="http://mapping.jp/hiroshima/photo1945/SA043-2ToshioKawamoto.jpg"></p>]]></description>
+			<styleUrl>#style0</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				<coordinates>132.4593550708308,34.40001308525202,1.323894064341526</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>国泰寺から北方に日本銀行広島支店南側面を望む</name>
+			<description><![CDATA[<p class="photographer">川本俊雄 / Toshio Kawamoto / 広島原爆被災撮影者の会</p>
+<p class="photograph_text">爆心地から約600mの国泰寺から、日本銀行広島支店南側を見る。右横の建物は袋町国民学校。</p>
+
+
+
+				<p class="image"><img width="100%" class="photograph" src="http://mapping.jp/hiroshima/photo1945/SA049-1ToshioKawamoto.jpg"></p>]]></description>
+			<styleUrl>#style0</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				<coordinates>132.4565789645192,34.39037968194717,4.790000000110585</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>国泰寺のクスノキ</name>
+			<description><![CDATA[<p class="photographer">川本俊雄 / Toshio Kawamoto / 広島原爆被災撮影者の会</p>
+<p class="photograph_text">樹齢300年。その根は3町にひろがる。爆風で根っ子から倒れる。</p>
+
+
+
+				<p class="image"><img width="100%" class="photograph" src="http://mapping.jp/hiroshima/photo1945/SA053-2ToshioKawamoto.jpg"></p>]]></description>
+			<styleUrl>#style0</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				<coordinates>132.4564679680653,34.39122439071829,0.6727657103080121</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>国泰寺のクスノキ</name>
+			<description><![CDATA[<p class="photographer">川本俊雄 / Toshio Kawamoto / 広島原爆被災撮影者の会</p>
+<p class="photograph_text">国泰寺のクスノキ、後方の白い建物は日本銀行広島支店。右後方は袋町国民学校、南西から北東に見る。</p>
+
+
+
+				<p class="image"><img width="100%" class="photograph" src="http://mapping.jp/hiroshima/photo1945/SA054-1ToshioKawamoto.jpg"></p>]]></description>
+			<styleUrl>#style0</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				<coordinates>132.4562161455988,34.39095245709644,2.552224217816854</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>下中町、広島県立第一高等女学校跡</name>
+			<description><![CDATA[<p class="photographer">川本俊雄 / Toshio Kawamoto / 広島原爆被災撮影者の会</p>
+<p class="photograph_text">爆心地から約600mの下中町県立広島第一高等女学校跡。南東から北西に望み、後方の建物は日本銀行広島支店、広島富国館。</p>
+
+
+
+				<p class="image"><img width="100%" class="photograph" src="http://mapping.jp/hiroshima/photo1945/SA058-2ToshioKawamoto.jpg"></p>]]></description>
+			<styleUrl>#style0</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				<coordinates>132.4596778730384,34.38812863747528,4.057206362631081</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>紙屋町付近を南（宇品線）から北方に望む</name>
+			<description><![CDATA[<p class="photographer">川本俊雄 / Toshio Kawamoto / 広島原爆被災撮影者の会</p>
+<p class="photograph_text">紙屋町方面。爆心地に近い紙屋町付近を南（宇品線）から北方に望む。電車は片側通行。</p>
+
+
+
+				<p class="image"><img width="100%" class="photograph" src="http://mapping.jp/hiroshima/photo1945/SA059-2ToshioKawamoto.jpg"></p>]]></description>
+			<styleUrl>#style0</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				<coordinates>132.4572447956732,34.39406972263963,1.230000000079161</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>日本銀行広島支店</name>
+			<description><![CDATA[<p class="photographer">川本俊雄 / Toshio Kawamoto / 広島原爆被災撮影者の会</p>
+<p class="photograph_text">鉄骨、鉄筋コンクリート造りで石積の日本銀行広島支店。猛火につつまれ内部は灰燼となったが、外郭はびくともせず、当時の建物として現在使用されている。市内に数ヶ所あるその1つである。南西から北東に望み中国新聞社が左に見える。</p>
+
+
+
+				<p class="image"><img width="100%" class="photograph" src="http://mapping.jp/hiroshima/photo1945/SA060-2ToshioKawamoto.jpg"></p>]]></description>
+			<styleUrl>#style0</styleUrl>
+      <image>http://mapping.jp/hiroshima/materials/photo/shunko_takenaga2.png</image>
+      <infoColor>BLUE</infoColor>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				<coordinates>132.4557684545511,34.39150788467534,3.343990876860426</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>日本銀行広島支店</name>
+			<description><![CDATA[<p class="photographer">川本俊雄 / Toshio Kawamoto / 広島原爆被災撮影者の会</p>
+<p class="photograph_text">大手町五丁目から北東の方向。</p>
+
+
+
+				<p class="image"><img width="100%" class="photograph" src="http://mapping.jp/hiroshima/photo1945/SA061-1ToshioKawamoto.jpg"></p>]]></description>
+			<styleUrl>#style0</styleUrl>
+      <image>http://mapping.jp/hiroshima/materials/photo/shunko_takenaga2.png</image>
+      <infoColor>GREEN</infoColor>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				<coordinates>132.4545580422687,34.3912953878806,13.18791604321677</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>広島東警察署屋上から稲荷町土手</name>
+			<description><![CDATA[<p class="photographer">川本俊雄 / Toshio Kawamoto / 広島原爆被災撮影者の会</p>
+<p class="photograph_text">爆心地から約1350mにある稲荷町電車専用橋。爆風と火災の熱傷で電車線路は飴のようにひんまがった。</p>
+
+
+
+				<p class="image"><img width="100%" class="photograph" src="http://mapping.jp/hiroshima/photo1945/SA066-1ToshioKawamoto.jpg"></p>]]></description>
+			<styleUrl>#style0</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				<coordinates>132.4662314084253,34.393295274111,16.3300000078558</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>大手町側から万代橋</name>
+			<description><![CDATA[<p class="photographer">川本俊雄 / Toshio Kawamoto / 広島原爆被災撮影者の会</p>
+<p class="photograph_text">爆心地から南南西890mの元安川に架る万代橋、熱線でアスファルトが焦げ、上流側の路面に欄干の部分だけが熱線をさけて白い影を残す。</p>
+
+
+
+				<p class="image"><img width="100%" class="photograph" src="http://mapping.jp/hiroshima/photo1945/SA066-2ToshioKawamoto.jpg"></p>]]></description>
+			<styleUrl>#style0</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				<coordinates>132.4508928502701,34.38736288652213,4.967098326576878</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>福屋新館から北東～南東を望む</name>
+			<description><![CDATA[<p class="photographer">岸田貢宜 / Mitsugi Kishida / 岸田哲平</p>
+<p class="photograph_text">爆心地から約710mの福屋新館から北東～南東を望む。
+左端は広島中央放送局、その右は広島流川教会、中央は中国新聞社、右端はキリンビヤホール。</p>
+
+
+
+				<p class="image"><img width="100%" class="photograph" src="http://mapping.jp/hiroshima/photo1945/SA069-1.jpg"></p>]]></description>
+			<styleUrl>#style0</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				<coordinates>132.4625571682043,34.39385850418782,36.06936911989531</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>土橋付近から西北方向を望む。舟入支線の鉄柱連続倒壊の状況</name>
+			<description><![CDATA[<p class="photographer">岸本吉太 / Yoshita Kishimoto / 広島原爆被災撮影者の会</p>
+<p class="photograph_text">土橋付近から西北方向を望む。舟入支線の鉄柱連続倒壊の状況。中国配電KKの記録用として監督の指示により撮影す。爆心地から約700mの土橋付近から西北方、横川方面を望み、中央の建物は光道国民学校。</p>
+
+
+
+				<p class="image"><img width="100%" class="photograph" src="http://mapping.jp/hiroshima/photo1945/SA082-1.jpg"></p>]]></description>
+			<styleUrl>#style0</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				<coordinates>132.4465858864847,34.3941668693457,2.058249499288552</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>中国配電本店屋上より西南方の大手町変電所方面を望む</name>
+			<description><![CDATA[<p class="photographer">岸本吉太 / Yoshita Kishimoto / 広島原爆被災撮影者の会</a>
+<p class="photograph_text">中国配電本店屋上より西南方の中国配電大手町変電所方面を望む。中国配電KKの記録用として監督の指示により撮影す。</p>
+
+
+
+				<p class="image"><img width="100%" class="photograph" src="http://mapping.jp/hiroshima/photo1945/SA084-2.jpg"></p>]]></description>
+			<styleUrl>#style0</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				<coordinates>132.4561673574212,34.38883640172038,20.11766199361159</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>中国配電本店屋上より、爆心地付近、西北方面を望む</name>
+			<description><![CDATA[<p class="photographer">岸本吉太 / Yoshita Kishimoto / 広島原爆被災撮影者の会</p>
+<p class="photograph_text">中国配電本店屋上より、爆心地付近、西北方面を望む。中国配電KKの記録用として監督の指示により撮影す。左の建物から本川国民学校、燃料会館、手前は日本貯蓄銀行広島支店、広島県農業会広島支所、広島県産業奨励館、広島県商工経済会、広島瓦斯本社、広島銀行集会所、三和銀行。
+</p>
+
+
+
+				<p class="image"><img width="100%" class="photograph" src="http://mapping.jp/hiroshima/photo1945/SA085-1.jpg"></p>]]></description>
+			<styleUrl>#style0</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				<coordinates>132.4560731611609,34.38880554346524,19.47716667115604</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>中国配電本店屋上より南方宇品方面を望む</name>
+			<description><![CDATA[<p class="photographer">岸本吉太 / Yoshita Kishimoto / 広島原爆被災撮影者の会</p>
+<p class="photograph_text">中国配電本店屋上より南方宇品方面を望む。中国配電KKの記録用として監督の指示により撮影す。爆心地から南々東約680mの中国配電本店屋上から、広島市役所、広島赤十字病院を望む左後方は広島文理科大学</p>
+
+
+
+				<p class="image"><img width="100%" class="photograph" src="http://mapping.jp/hiroshima/photo1945/SA085-2.jpg"></p>]]></description>
+			<styleUrl>#style0</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				<coordinates>132.4560763360728,34.3889378407041,19.89526179238397</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>中国配電本店屋上より東北広島駅方向を望む</name>
+			<description><![CDATA[<p class="photographer">岸本吉太 / Yoshita Kishimoto / 広島原爆被災撮影者の会</p>
+<p class="photograph_text">中国配電本店屋上より東北広島駅方向を望む。爆心地から南々東約680mの中国配電本店。中国配電の記録用として監督の指示により撮影す。中央は県立広島第一高等女学校焼け跡</p>
+
+
+
+				<p class="image"><img width="100%" class="photograph" src="http://mapping.jp/hiroshima/photo1945/SA086-1.jpg"></p>]]></description>
+			<styleUrl>#style0</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				<coordinates>132.4561172438925,34.38881842221588,21.15000000110754</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>きのこ雲</name>
+			<description><![CDATA[<p class="photographer">木村権一 / Gonichi Kimura</p>
+<p class="photograph_text">陸軍船舶練習部本部三階屋上西端から撮影。木村氏が練習部構内で被爆したときに撮影したきのこ雲写真の3枚目｡
+あまりにも巨大な雲煙で、その1部分しかファインダーには入らなかった。上部の白色の半円周は、いわゆるキノコ型の傘の部分にあたる。</p>
+
+
+
+				<p class="image"><img width="100%" class="photograph" src="http://mapping.jp/hiroshima/photo1945/SA099-2(Original).jpg"></p>]]></description>
+			<styleUrl>#style0</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				<coordinates>132.4716404946472,34.35780236333631,7.425608387693934</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>平野町より竹屋国民学校付近</name>
+			<description><![CDATA[<p class="photographer">空博行 / Hiroyuki Sora / 広島原爆被災撮影者の会</p>
+<p class="photograph_text">爆心地から約1280mの竹屋国民学校付近。南東から北西に望む。</p>
+
+
+
+				<p class="image"><img width="100%" class="photograph" src="http://mapping.jp/hiroshima/photo1945/SA113-2.jpg"></p>]]></description>
+			<styleUrl>#style0</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				<coordinates>132.4657258492882,34.38448743275212,1.870000007335535</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>銀山町より八丁堀を望む</name>
+			<description><![CDATA[<p class="photographer">空博行 / Hiroyuki Sora / 広島原爆被災撮影者の会</p>
+<p class="photograph_text">東方から西方に望み、爆心地から1100m、左日本勧業銀行広島支店、中央中国新聞社、右福屋新館、左端は新築の家屋。</p>
+
+
+
+				<p class="image"><img width="100%" class="photograph" src="http://mapping.jp/hiroshima/photo1945/SA116-1.jpg"></p>]]></description>
+			<styleUrl>#style0</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				<coordinates>132.466411686053,34.39314938382633,2.313134064249751</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>下中町の県立広島第一高等女学校を北西に望む</name>
+			<description><![CDATA[<p class="photographer">空博行 / Hiroyuki Sora / 広島原爆被災撮影者の会</p>
+<p class="photograph_text">爆心地から約600mの下中町、県立広島第一高等女学校。南東から北西に望み、右端の建物は袋町の広島富国館。</p>
+
+
+
+				<p class="image"><img width="100%" class="photograph" src="http://mapping.jp/hiroshima/photo1945/SA117-2.jpg"></p>]]></description>
+			<styleUrl>#style0</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				<coordinates>132.4585830703593,34.38849287238827,3.15572796151062</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>下中町の県立広島第一高等女学校</name>
+			<description><![CDATA[<p class="photographer">空博行 / Hiroyuki Sora / 広島原爆被災撮影者の会</p>
+<p class="photograph_text">当時下中町の県立広島第一高等女学校。爆心地から約600mの下中町。県立広島第一高等女学校の跡。右端の建物は袋町の広島富国館。南東から北西に望む。</p>
+
+
+
+				<p class="image"><img width="100%" class="photograph" src="http://mapping.jp/hiroshima/photo1945/SA120-2.jpg"></p>]]></description>
+			<styleUrl>#style0</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				<coordinates>132.4586020706485,34.38847527068764,2.943134874234393</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>きのこ雲</name>
+			<description><![CDATA[<p class="photographer">深田敏夫 / Toshio Fukada / 広島原爆被災撮影者の会</p>
+<p class="photograph_text">霞町から爆心地上空に。爆心地から約2600mの広島陸軍兵器補給廠へ中学4年で卒業して引続き動員でいた。比治山の上空にオレンジ色の煙があがった。「なにかあった」少しして2階にかけのぼり、窓からのぞき、北西方向4枚続けて撮影する。（レンガの建物当時二号館）</p>
+
+
+
+				<p class="image"><img width="100%" class="photograph" src="http://mapping.jp/hiroshima/photo1945/SA127-2.jpg"></p>]]></description>
+			<styleUrl>#style0</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				<coordinates>132.4782628545397,34.38098861709204,3.026842503002574</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>きのこ雲</name>
+			<description><![CDATA[<p class="photographer">深田敏夫 / Toshio Fukada / 広島原爆被災撮影者の会</p>
+<p class="photograph_text">霞町から爆心地上空に。爆心地から約2600mの広島陸軍兵器補給廠へ中学4年で卒業して引続き動員でいた。比治山の上空にオレンジ色の煙があがった。「なにかあった」少しして2階にかけのぼり、窓からのぞき、北西方向4枚続けて撮影する。（レンガの建物当時二号館）</p>
+
+
+
+				<p class="image"><img width="100%" class="photograph" src="http://mapping.jp/hiroshima/photo1945/SA128-1.jpg"></p>]]></description>
+			<styleUrl>#style0</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				<coordinates>132.4782664902412,34.38098657128433,3.027065767905452</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>きのこ雲</name>
+			<description><![CDATA[<p class="photographer">深田敏夫 / Toshio Fukada / 広島原爆被災撮影者の会</p>
+<p class="photograph_text">霞町から爆心地上空に。爆心地から約2600mの広島陸軍兵器補給廠へ中学4年で卒業して引続き動員でいた。比治山の上空にオレンジ色の煙があがった。「なにかあった」少しして2階にかけのぼり、窓からのぞき、北西方向4枚続けて撮影する。（レンガの建物当時二号館）</p>
+
+
+
+				<p class="image"><img width="100%" class="photograph" src="http://mapping.jp/hiroshima/photo1945/SA128-2.jpg"></p>]]></description>
+			<styleUrl>#style0</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				<coordinates>132.4782538141018,34.3809936216991,2.790403926116245</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>きのこ雲</name>
+			<description><![CDATA[<p class="photographer">深田敏夫 / Toshio Fukada / 広島原爆被災撮影者の会</p>
+<p class="photograph_text">霞町から爆心地上空に。爆心地から約2600mの広島陸軍兵器補給廠へ中学4年で卒業して引続き動員でいた。比治山の上空にオレンジ色の煙があがった。「なにかあった」少しして2階にかけのぼり、窓からのぞき、北西方向4枚続けて撮影する。（レンガの建物当時二号館）</p>
+
+
+
+				<p class="image"><img width="100%" class="photograph" src="http://mapping.jp/hiroshima/photo1945/SA129-1.jpg"></p>]]></description>
+			<styleUrl>#style0</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				<coordinates>132.4782724967975,34.38098520365278,2.914216778806032</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>きのこ雲</name>
+			<description><![CDATA[<p class="photographer">松重三男 / Mitsuo Matsushige / 広島原爆被災撮影者の会</p>
+<p class="photograph_text">爆心地から約7000mの安佐郡古市町神田橋。</p>
+
+
+
+				<p class="image"><img width="100%" class="photograph" src="http://mapping.jp/hiroshima/photo1945/SA130-2.jpg"></p>]]></description>
+			<styleUrl>#style0</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				<coordinates>132.4762147892072,34.45669495817199,1.116921400395191</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>きのこ雲</name>
+			<description><![CDATA[<p class="photographer">松重三男 / Mitsuo Matsushige / 広島原爆被災撮影者の会</p>
+<p class="photograph_text">爆心地から約7000mの安佐郡古市町神田橋。</p>
+
+
+
+				<p class="image"><img width="100%" class="photograph" src="http://mapping.jp/hiroshima/photo1945/SA131-1.jpg"></p>]]></description>
+			<styleUrl>#style0</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				<coordinates>132.4762160529015,34.45669880503649,1.094795794082255</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>千田町三丁目、広島電鉄本社前</name>
+			<description><![CDATA[<p class="photographer">川本俊雄 / Toshio Kawamoto</p>
+<p class="photograph_text">千田町三丁目、広島電鉄本社前</p>
+
+
+
+				<p class="image"><img width="100%" class="photograph" src="http://mapping.jp/hiroshima/photo1945/SAAD19ToshioKawamoto.jpg"></p>]]></description>
+			<styleUrl>#style0</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				<coordinates>132.457479420121,34.37841965155521,8.291960198341943</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>八丁堀、中国新聞社</name>
+			<description><![CDATA[<p class="photographer">川本俊雄 / Toshio Kawamoto</p>
+<p class="photograph_text">八丁堀、中国新聞社</p>
+
+
+
+				<p class="image"><img width="100%" class="photograph" src="http://mapping.jp/hiroshima/photo1945/SAAD25ToshioKawamoto.jpg"></p>]]></description>
+			<styleUrl>#style0</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				<coordinates>132.4647357663852,34.39376422110122,2.43000000240461</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

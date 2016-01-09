@@ -1,0 +1,15 @@
+//
+// Prefix header for all source files of the 'KMLViewer' target in the 'KMLViewer' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+    #import <UIKit/UIKit.h>
+#endif
+
+//const CGFloat GNkiPhone5Height = 568.0f;
+
+UIKIT_STATIC_INLINE BOOL Is568h() {
+//    return [UIScreen mainScreen].bounds.size.height == GNkiPhone5Height;
+    return [UIScreen mainScreen].bounds.size.height == 568.0f;;
+}

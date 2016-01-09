@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>shogen_video</name>
+	<open>1</open>
+	<Style id="sh_shigeru_imanaka">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>88ffffff</color>
+			<scale>0.8</scale>
+		</LabelStyle>
+		<BalloonStyle>
+			<text><![CDATA[<div class="video">
+			<p class="name">$[name]</p>
+			<div class="video_body">
+			$[youtube]
+			</div>
+			<p class="heiwa">インタビュー：広島女学院高校有志</p>
+			" frameborder="0" allowfullscreen></iframe>
+					</div>]]></text>
+			<textColor>aaaaaaaa</textColor>
+			<bgColor>00000000</bgColor>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+		<LineStyle>
+			<color>b2ffcfd3</color>
+		</LineStyle>
+	</Style>
+	<Style id="sn_shigeru_imanaka">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>88ffffff</color>
+			<scale>0.5</scale>
+		</LabelStyle>
+		<BalloonStyle>
+			<text><![CDATA[<div class="video">
+			<p class="name">$[name]</p>
+			<div class="video_body">
+			$[youtube]
+			</div>
+			<p class="heiwa">インタビュー：広島女学院高校有志</p>
+			" frameborder="0" allowfullscreen></iframe>
+					</div>]]></text>
+			<textColor>aaaaaaaa</textColor>
+			<bgColor>00000000</bgColor>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+		<LineStyle>
+			<color>b2ffcfd3</color>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_shigeru_imanaka">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_shigeru_imanaka</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_shigeru_imanaka</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark>
+		<name>今中茂</name>
+		<open>1</open>
+		<styleUrl>#msn_shigeru_imanaka</styleUrl>
+		<description><![CDATA[<div class="movie"><iframe width="100%" height="480px" src="http://www.youtube.com/embed/PrmSl6sLYMY" frameborder="0" allowfullscreen></iframe>
+					</div>]]></description>
+		<Point>
+			<extrude>1</extrude>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>132.7433703310156,34.43077595232101,300.0000000000001</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>宗藤尚三</name>
+		<open>1</open>
+		<styleUrl>#msn_shigeru_imanaka</styleUrl>
+		<description><![CDATA[<div class="movie"><iframe width="100%" height="480px" src="http://www.youtube.com/embed/JhLr2x4TxYM" frameborder="0" allowfullscreen></iframe>
+					</div>]]></description>
+		<Point>
+			<extrude>1</extrude>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>132.4527830232817,34.38223266823096,300.0000000000001</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>野村文子</name>
+		<open>1</open>
+		<styleUrl>#msn_shigeru_imanaka</styleUrl>
+		<description><![CDATA[<div class="movie"><iframe width="100%" height="480px" src="http://www.youtube.com/embed/hui1ndxLH5g" frameborder="0" allowfullscreen></iframe>
+					</div>]]></description>
+		<Point>
+			<extrude>1</extrude>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>132.4642776907331,34.44176107900284,300.0000000000001</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>森匡世</name>
+		<open>1</open>
+		<styleUrl>#msn_shigeru_imanaka</styleUrl>
+		<description><![CDATA[<div class="movie"><iframe width="100%" height="480px" src="http://www.youtube.com/embed/EM0jnE7Zywg" frameborder="0" allowfullscreen></iframe>
+					</div>]]></description>
+		<Point>
+			<extrude>1</extrude>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>132.3861562534908,34.38432293855733,300.0000000000001</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>赤木直美</name>
+		<open>1</open>
+		<styleUrl>#msn_shigeru_imanaka</styleUrl>
+		<description><![CDATA[<div class="movie"><iframe width="100%" height="480px" src="http://www.youtube.com/embed/h-l0V6baaSI" frameborder="0" allowfullscreen></iframe>
+					</div>]]></description>
+		<Point>
+			<extrude>1</extrude>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>132.277029443474,34.72547614651035,300.0000000000001</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>河野敦子</name>
+		<open>1</open>
+		<styleUrl>#msn_shigeru_imanaka</styleUrl>
+		<description><![CDATA[<div class="movie"><iframe width="100%" height="480px" src="http://www.youtube.com/embed/KYg2t8xxTNc" frameborder="0" allowfullscreen></iframe>
+					</div>]]></description>
+		<Point>
+			<extrude>1</extrude>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>132.441076641632,34.39526370835944,300.0000000000001</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>田部恂子</name>
+		<open>1</open>
+		<styleUrl>#msn_shigeru_imanaka</styleUrl>
+		<description><![CDATA[<div class="movie"><iframe width="100%" height="480px" src="http://www.youtube.com/embed/hHrwThEkfT8" frameborder="0" allowfullscreen></iframe>
+					</div>]]></description>
+		<Point>
+			<extrude>1</extrude>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>132.4670606345226,34.39818069404144,300.0000000000001</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>佐藤法行</name>
+		<open>1</open>
+		<styleUrl>#msn_shigeru_imanaka</styleUrl>
+		<description><![CDATA[<div class="movie"><iframe width="100%" height="480px" src="http://www.youtube.com/embed/qnpH251_ZEo" frameborder="0" allowfullscreen></iframe>
+					</div>]]></description>
+		<Point>
+			<extrude>1</extrude>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>132.4756895445201,34.39667059494891,300.0000000000001</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>山崎寛治</name>
+		<open>1</open>
+		<styleUrl>#msn_shigeru_imanaka</styleUrl>
+		<description><![CDATA[<div class="movie"><iframe width="100%" height="480px" src="http://www.youtube.com/embed/L5QU4M36sbA" frameborder="0" allowfullscreen></iframe>
+					</div>]]></description>
+		<Point>
+			<extrude>1</extrude>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>132.4352633908096,34.39062503139901,300.0000000000001</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>豊永恵三郎</name>
+		<open>1</open>
+		<styleUrl>#msn_shigeru_imanaka</styleUrl>
+		<description><![CDATA[<div class="movie"><iframe width="100%" height="480px" src="http://www.youtube.com/embed/WEIADrgN45Q" frameborder="0" allowfullscreen></iframe>
+					</div>]]></description>
+		<Point>
+			<extrude>1</extrude>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>132.5149662625701,34.34016795712239,300.0000000000001</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>小方澄子</name>
+		<open>1</open>
+		<styleUrl>#msn_shigeru_imanaka</styleUrl>
+		<description><![CDATA[<div class="movie"><iframe width="100%" height="480px" src="http://www.youtube.com/embed/-YW1atWGBdY" frameborder="0" allowfullscreen></iframe>
+					</div>]]></description>
+		<Point>
+			<extrude>1</extrude>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>132.4463212013416,34.39757593552802,300.0000000000001</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>居森清子・公照</name>
+		<open>1</open>
+		<styleUrl>#msn_shigeru_imanaka</styleUrl>
+		<description><![CDATA[<div class="movie"><iframe width="100%" height="480px" src="http://www.youtube.com/embed/Iqz6ODgSEe0" frameborder="0" allowfullscreen></iframe>
+					</div>]]></description>
+		<Point>
+			<extrude>1</extrude>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>132.45044,34.395333,300.0000000000001</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>M.S</name>
+		<open>1</open>
+		<styleUrl>#msn_shigeru_imanaka</styleUrl>
+		<description><![CDATA[<div class="movie"><iframe width="100%" height="480px" src="http://www.youtube.com/embed/wz3WlS-sfzc" frameborder="0" allowfullscreen></iframe>
+					</div>]]></description>
+		<Point>
+			<extrude>1</extrude>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>132.4706192887992,34.39407975251359,300.0000000000001</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>冨士本君一</name>
+		<open>1</open>
+		<styleUrl>#msn_shigeru_imanaka</styleUrl>
+		<description><![CDATA[<div class="movie"><iframe width="100%" height="480px" src="http://www.youtube.com/embed/5gn7b-CY4Ck" frameborder="0" allowfullscreen></iframe>
+					</div>]]></description>
+		<Point>
+			<extrude>1</extrude>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>132.431538055558,34.31124123235665,300.0000000000001</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>柳川良子</name>
+		<open>1</open>
+		<styleUrl>#msn_shigeru_imanaka</styleUrl>
+		<description><![CDATA[<div class="movie"><iframe width="100%" height="480px" src="http://www.youtube.com/embed/Rfg6wbflzMI" frameborder="0" allowfullscreen></iframe>
+					</div>]]></description>
+		<Point>
+			<extrude>1</extrude>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>132.4593744111642,34.37986941519944,300.0000000000001</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>矢川光則</name>
+		<open>1</open>
+		<styleUrl>#msn_shigeru_imanaka</styleUrl>
+		<description><![CDATA[<div class="movie"><iframe width="100%" height="480px" src="http://www.youtube.com/embed/VJuNsjrl_wc" frameborder="0" allowfullscreen></iframe>
+					</div>]]></description>
+		<Point>
+			<extrude>1</extrude>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>132.453955323276,34.38574491969848,300.0000000000001</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>野村久子</name>
+		<open>1</open>
+		<styleUrl>#msn_shigeru_imanaka</styleUrl>
+		<description><![CDATA[<div class="movie"><iframe width="100%" height="480px" src="http://www.youtube.com/embed/yACaXD4OJL0" frameborder="0" allowfullscreen></iframe>
+					</div>]]></description>
+		<Point>
+			<extrude>1</extrude>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>132.4462988170772,34.39448163764627,300.0000000000001</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>鶴田マリ</name>
+		<open>1</open>
+		<styleUrl>#msn_shigeru_imanaka</styleUrl>
+		<description><![CDATA[<div class="movie"><iframe width="100%" height="480px" src="http://www.youtube.com/embed/2wk0_qJQTKs" frameborder="0" allowfullscreen></iframe>
+					</div>]]></description>
+		<Point>
+			<extrude>1</extrude>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>132.4505765766334,34.40968125478294,300.0000000000001</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>上野照子</name>
+		<open>1</open>
+		<styleUrl>#msn_shigeru_imanaka</styleUrl>
+		<description><![CDATA[<div class="movie"><iframe width="100%" height="480px" src="http://www.youtube.com/embed/YmK9fvqivBA" frameborder="0" allowfullscreen></iframe>
+					</div>]]></description>
+		<Point>
+			<extrude>1</extrude>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>132.4536248747025,34.38060096763701,300.0000000000001</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>細川浩史</name>
+		<open>1</open>
+		<styleUrl>#msn_shigeru_imanaka</styleUrl>
+		<description><![CDATA[<div class="movie"><iframe width="100%" height="480px" src="http://www.youtube.com/embed/jPZbtFt_4YY" frameborder="0" allowfullscreen></iframe>
+					</div>]]></description>
+		<Point>
+			<extrude>1</extrude>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>132.4635040864411,34.40431171157358,300.0000000000001</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>沼田鈴子</name>
+		<open>1</open>
+		<styleUrl>#msn_shigeru_imanaka</styleUrl>
+		<description><![CDATA[<div class="movie"><iframe width="100%" height="480px" src="http://www.youtube.com/embed/Zljp0IYrfpk" frameborder="0" allowfullscreen></iframe>
+					</div>]]></description>
+		<Point>
+			<extrude>1</extrude>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>132.4642583658935,34.4041887925523,300.0000000000001</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>坪井直</name>
+		<open>1</open>
+		<styleUrl>#msn_shigeru_imanaka</styleUrl>
+		<description><![CDATA[<div class="movie"><iframe width="100%" height="480px" src="http://www.youtube.com/embed/Ovx5TNfCR0o" frameborder="0" allowfullscreen></iframe>
+					</div>]]></description>
+		<Point>
+			<extrude>1</extrude>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>132.4604077505679,34.38648976096801,300.0000000000001</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>

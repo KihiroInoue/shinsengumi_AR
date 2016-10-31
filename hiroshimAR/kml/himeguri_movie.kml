@@ -2,7 +2,6 @@
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
 <Document>
 	<name>平和公園碑巡り.kml</name>
-	<open>1</open>
 	<StyleMap id="msn_tsuru">
 		<Pair>
 			<key>normal</key>
@@ -13,12 +12,12 @@
 			<styleUrl>#sh_tsuru</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="sn_tsuru">
+	<Style id="sh_tsuru">
 		<IconStyle>
 			<color>ffddfffd</color>
-			<scale>1.5</scale>
+			<scale>0.72</scale>
 			<Icon>
-				<href>http://hiroshima.mapping.jp/img/tsuru.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/himeguri_movie/1.png</href>
 			</Icon>
 			<hotSpot x="0.5" y="-0.3" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
@@ -26,20 +25,16 @@
 			<color>87ffffff</color>
 			<scale>0.7</scale>
 		</LabelStyle>
-		<BalloonStyle>
-			<textColor>aaaaaaaa</textColor>
-			<bgColor>00000000</bgColor>
-		</BalloonStyle>
 		<LineStyle>
 			<color>b2ffc5ca</color>
 		</LineStyle>
 	</Style>
-	<Style id="sh_tsuru">
+	<Style id="sn_tsuru">
 		<IconStyle>
 			<color>ffddfffd</color>
-			<scale>1.8</scale>
+			<scale>0.7</scale>
 			<Icon>
-				<href>http://hiroshima.mapping.jp/img/tsuru.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/himeguri_movie/1.png</href>
 			</Icon>
 			<hotSpot x="0.5" y="-0.3" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
@@ -47,10 +42,6 @@
 			<color>87ffffff</color>
 			<scale>0.7</scale>
 		</LabelStyle>
-		<BalloonStyle>
-			<textColor>aaaaaaaa</textColor>
-			<bgColor>00000000</bgColor>
-		</BalloonStyle>
 		<LineStyle>
 			<color>b2ffc5ca</color>
 		</LineStyle>
@@ -60,9 +51,8 @@
 		<open>1</open>
 		<Placemark>
 			<name>被爆した墓石</name>
-			<description><![CDATA[<div class="movie">
-					<iframe width="100%" height="270" src="http://www.youtube.com/embed/e7gMtGabwBQ" frameborder="0" allowfullscreen></iframe>
-					</div>]]></description>
+			<description><![CDATA[<html><head><link href="http://hiroshima.archiving.jp/css/android.css" rel="stylesheet" type="text/css"></head><body><div class="video"><p class="image"><iframe width="100%" height="320px" src="http://www.youtube.com/embed/e7gMtGabwBQ
+					" frameborder="0" allowfullscreen></iframe></div><div class="reference"><p class="reference">広島女学院高等学校有志「平和公園碑巡り」より</p></div></body></html>]]></description>
 			<LookAt>
 				<longitude>132.4521094227584</longitude>
 				<latitude>34.39372880931461</latitude>
@@ -82,9 +72,8 @@
 		<Placemark>
 			<name>島病院</name>
 			<open>1</open>
-			<description><![CDATA[<div class="movie">
-					<iframe width="100%" height="270" src="http://www.youtube.com/embed/0yNIsJLVDLo" frameborder="0" allowfullscreen></iframe>
-					</div>]]></description>
+			<description><![CDATA[<html><head><link href="http://hiroshima.archiving.jp/css/android.css" rel="stylesheet" type="text/css"></head><body><div class="video"><p class="image"><iframe width="100%" height="320px" src="http://www.youtube.com/embed/0yNIsJLVDLo
+					" frameborder="0" allowfullscreen></iframe></div><div class="reference"><p class="reference">広島女学院高等学校有志「平和公園碑巡り」より</p></div></body></html>]]></description>
 			<LookAt>
 				<longitude>132.4548088144255</longitude>
 				<latitude>34.39470521338417</latitude>
@@ -104,9 +93,8 @@
 		<Placemark>
 			<name>韓国人原爆犠牲者慰霊碑</name>
 			<open>1</open>
-			<description><![CDATA[<div class="movie">
-<iframe width="100%" height="270" src="http://www.youtube.com/embed/gMTGJ6gA1hg" frameborder="0" allowfullscreen></iframe>
-					</div>]]></description>
+			<description><![CDATA[<html><head><link href="http://hiroshima.archiving.jp/css/android.css" rel="stylesheet" type="text/css"></head><body><div class="video"><p class="image"><iframe width="100%" height="320px" src="http://www.youtube.com/embed/gMTGJ6gA1hg
+					" frameborder="0" allowfullscreen></iframe></div><div class="reference"><p class="reference">広島女学院高等学校有志「平和公園碑巡り」より</p></div></body></html>]]></description>
 			<LookAt>
 				<longitude>132.4521875465961</longitude>
 				<latitude>34.39412430930958</latitude>
@@ -126,9 +114,8 @@
 		<Placemark>
 			<name>広島市立高女原爆慰霊碑</name>
 			<open>1</open>
-			<description><![CDATA[<div class="movie">
-					<iframe width="100%" height="270" src="http://www.youtube.com/embed/wdVIqynszcw" frameborder="0" allowfullscreen></iframe>
-					</div>]]></description>
+			<description><![CDATA[<html><head><link href="http://hiroshima.archiving.jp/css/android.css" rel="stylesheet" type="text/css"></head><body><div class="video"><p class="image"><iframe width="100%" height="320px" src="http://www.youtube.com/embed/wdVIqynszcw
+					" frameborder="0" allowfullscreen></iframe></div><div class="reference"><p class="reference">広島女学院高等学校有志「平和公園碑巡り」より</p></div></body></html>]]></description>
 			<LookAt>
 				<longitude>132.4532754549915</longitude>
 				<latitude>34.39042022983069</latitude>
@@ -148,9 +135,8 @@
 		<Placemark>
 			<name>広島平和記念資料館</name>
 			<open>1</open>
-			<description><![CDATA[<div class="movie">
-					<iframe width="100%" height="270" src="http://www.youtube.com/embed/OYYVtiavAhY" frameborder="0" allowfullscreen></iframe>
-					</div>]]></description>
+			<description><![CDATA[<html><head><link href="http://hiroshima.archiving.jp/css/android.css" rel="stylesheet" type="text/css"></head><body><div class="video"><p class="image"><iframe width="100%" height="320px" src="http://www.youtube.com/embed/OYYVtiavAhY
+					" frameborder="0" allowfullscreen></iframe></div><div class="reference"><p class="reference">広島女学院高等学校有志「平和公園碑巡り」より</p></div></body></html>]]></description>
 			<LookAt>
 				<longitude>132.4533858826993</longitude>
 				<latitude>34.39085782378042</latitude>
@@ -170,9 +156,8 @@
 		<Placemark>
 			<name>レストハウス</name>
 			<open>1</open>
-			<description><![CDATA[<div class="movie">
-					<iframe width="100%" height="270" src="http://www.youtube.com/embed/mknZBwe-zZ0" frameborder="0" allowfullscreen></iframe>
-					</div>]]></description>
+			<description><![CDATA[<html><head><link href="http://hiroshima.archiving.jp/css/android.css" rel="stylesheet" type="text/css"></head><body><div class="video"><p class="image"><iframe width="100%" height="320px" src="http://www.youtube.com/embed/mknZBwe-zZ0
+					" frameborder="0" allowfullscreen></iframe></div><div class="reference"><p class="reference">広島女学院高等学校有志「平和公園碑巡り」より</p></div></body></html>]]></description>
 			<LookAt>
 				<longitude>132.4534795410722</longitude>
 				<latitude>34.39339144031475</latitude>
@@ -192,9 +177,8 @@
 		<Placemark>
 			<name>原爆ドーム</name>
 			<open>1</open>
-			<description><![CDATA[<div class="movie">
-					<iframe width="100%" height="270" src="http://www.youtube.com/embed/bTzMX65ZUTY" frameborder="0" allowfullscreen></iframe>
-					</div>]]></description>
+			<description><![CDATA[<html><head><link href="http://hiroshima.archiving.jp/css/android.css" rel="stylesheet" type="text/css"></head><body><div class="video"><p class="image"><iframe width="100%" height="320px" src="http://www.youtube.com/embed/bTzMX65ZUTY
+					" frameborder="0" allowfullscreen></iframe></div><div class="reference"><p class="reference">広島女学院高等学校有志「平和公園碑巡り」より</p></div></body></html>]]></description>
 			<LookAt>
 				<longitude>132.4538981061606</longitude>
 				<latitude>34.39523386362066</latitude>
@@ -214,9 +198,8 @@
 		<Placemark>
 			<name>相生橋</name>
 			<open>1</open>
-			<description><![CDATA[<div class="movie">					
-					<iframe width="100%" height="270" src="http://www.youtube.com/embed/d5brksguYm0" frameborder="0" allowfullscreen></iframe>
-					</div>]]></description>
+			<description><![CDATA[<html><head><link href="http://hiroshima.archiving.jp/css/android.css" rel="stylesheet" type="text/css"></head><body><div class="video"><p class="image"><iframe width="100%" height="320px" src="http://www.youtube.com/embed/d5brksguYm0
+					" frameborder="0" allowfullscreen></iframe></div><div class="reference"><p class="reference">広島女学院高等学校有志「平和公園碑巡り」より</p></div></body></html>]]></description>
 			<LookAt>
 				<longitude>132.4536119968427</longitude>
 				<latitude>34.39535862264609</latitude>
@@ -236,9 +219,8 @@
 		<Placemark>
 			<name>原爆供養塔</name>
 			<open>1</open>
-			<description><![CDATA[<div class="movie">
-					<iframe width="100%" height="270" src="http://www.youtube.com/embed/kBGP9lF-2g4" frameborder="0" allowfullscreen></iframe>
-					</div>]]></description>
+			<description><![CDATA[<html><head><link href="http://hiroshima.archiving.jp/css/android.css" rel="stylesheet" type="text/css"></head><body><div class="video"><p class="image"><iframe width="100%" height="320px" src="http://www.youtube.com/embed/kBGP9lF-2g4
+					" frameborder="0" allowfullscreen></iframe></div><div class="reference"><p class="reference">広島女学院高等学校有志「平和公園碑巡り」より</p></div></body></html>]]></description>
 			<LookAt>
 				<longitude>132.4537024392251</longitude>
 				<latitude>34.39529215186278</latitude>
@@ -258,9 +240,8 @@
 		<Placemark>
 			<name>原爆死没者慰霊碑</name>
 			<open>1</open>
-			<description><![CDATA[<div class="movie">
-					<iframe width="100%" height="270" src="http://www.youtube.com/embed/JgTqTSbXa3c" frameborder="0" allowfullscreen></iframe>
-					</div>]]></description>
+			<description><![CDATA[<html><head><link href="http://hiroshima.archiving.jp/css/android.css" rel="stylesheet" type="text/css"></head><body><div class="video"><p class="image"><iframe width="100%" height="320px" src="http://www.youtube.com/embed/JgTqTSbXa3c
+					" frameborder="0" allowfullscreen></iframe></div><div class="reference"><p class="reference">広島女学院高等学校有志「平和公園碑巡り」より</p></div></body></html>]]></description>
 			<LookAt>
 				<longitude>132.4529643977828</longitude>
 				<latitude>34.39324574795825</latitude>
@@ -280,9 +261,8 @@
 		<Placemark>
 			<name>峠三吉詩碑</name>
 			<open>1</open>
-			<description><![CDATA[<div class="movie">
-					<iframe width="100%" height="270" src="http://www.youtube.com/embed/VQE_23xOe0I" frameborder="0" allowfullscreen></iframe>
-					</div>]]></description>
+			<description><![CDATA[<html><head><link href="http://hiroshima.archiving.jp/css/android.css" rel="stylesheet" type="text/css"></head><body><div class="video"><p class="image"><iframe width="100%" height="320px" src="http://www.youtube.com/embed/VQE_23xOe0I
+					" frameborder="0" allowfullscreen></iframe></div><div class="reference"><p class="reference">広島女学院高等学校有志「平和公園碑巡り」より</p></div></body></html>]]></description>
 			<LookAt>
 				<longitude>132.4534243869555</longitude>
 				<latitude>34.39227738862627</latitude>
@@ -302,9 +282,8 @@
 		<Placemark>
 			<name>原爆の子の像</name>
 			<open>1</open>
-			<description><![CDATA[<div class="movie">
-					<iframe width="100%" height="270" src="http://www.youtube.com/embed/JuFU2G7xsM8" frameborder="0" allowfullscreen></iframe>
-					</div>]]></description>
+			<description><![CDATA[<html><head><link href="http://hiroshima.archiving.jp/css/android.css" rel="stylesheet" type="text/css"></head><body><div class="video"><p class="image"><iframe width="100%" height="320px" src="http://www.youtube.com/embed/JuFU2G7xsM8
+					" frameborder="0" allowfullscreen></iframe></div><div class="reference"><p class="reference">広島女学院高等学校有志「平和公園碑巡り」より</p></div></body></html>]]></description>
 			<Camera>
 				<longitude>132.4526975031572</longitude>
 				<latitude>34.39373515448102</latitude>

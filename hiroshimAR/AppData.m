@@ -199,38 +199,34 @@ NSComparisonResult DistanceSortClosestFirst(Article *a1, Article *a2, void *igno
     //      カスタム画像のピンを使う場合、imageEnabledをYESに（pinColorは指定しなくて良い）
     
     [self loadFromInformation:mode
-                      kmlName:@"articles"
+                      kmlName:@"heiwa_wo_inoru"
                      pinColor:MKPinAnnotationColorGreen
                  imageEnabled:YES];
     [self loadFromInformation:mode
-                      kmlName:@"athlete"
+                      kmlName:@"hibaku60"
                      pinColor:MKPinAnnotationColorGreen
                  imageEnabled:YES];
     [self loadFromInformation:mode
-                      kmlName:@"construction"
+                      kmlName:@"himeguri_movie"
                      pinColor:MKPinAnnotationColorGreen
                  imageEnabled:YES];
     [self loadFromInformation:mode
-                      kmlName:@"fire"
+                      kmlName:@"kioku_wo_uketsugu"
                      pinColor:MKPinAnnotationColorGreen
                  imageEnabled:YES];
     [self loadFromInformation:mode
-                      kmlName:@"kokuritsu"
+                      kmlName:@"photographs"
                      pinColor:MKPinAnnotationColorGreen
                  imageEnabled:YES];
     [self loadFromInformation:mode
-                      kmlName:@"marathon"
+                      kmlName:@"video_shogen"
                      pinColor:MKPinAnnotationColorGreen
                  imageEnabled:YES];
     [self loadFromInformation:mode
-                      kmlName:@"street"
+                      kmlName:@"genshiun"
                      pinColor:MKPinAnnotationColorGreen
                  imageEnabled:YES];
-    [self loadFromInformation:mode
-                      kmlName:@"yoyogi"
-                     pinColor:MKPinAnnotationColorGreen
-                 imageEnabled:YES];
-    
+
     self.articles = [[NSMutableArray alloc] init];
     
     for ( KMLPlacemarkAnnotation* annotation in self.kmlPlacemarkPoints) {

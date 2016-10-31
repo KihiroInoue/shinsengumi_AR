@@ -24,8 +24,10 @@
     if (self = [super init]){
         self.webView = [[UIWebView alloc]initWithFrame:CGRectZero];
         self.webView.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
-        
         self.webView.scalesPageToFit = YES;
+        //WebView透明化（未実装）
+        //self.webView.opaque = NO;
+        //self.webView.backgroundColor = [UIColor colorWithWhite:1.0f alpha:0.0f];
         self.view = self.webView;
     }
     return self;
@@ -34,15 +36,16 @@
 /*
  If you need to do additional setup after loading the view, override viewDidLoad. */
 - (void)viewDidLoad {
-	
     [super viewDidLoad];
 }
 
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
     TR_NAVIGATION_CONTROLLER_SEUP_BACKBUTTON(self, @"Back");
+    self.navigationController.navigationBar.tintColor = [UIColor whiteColor];
+    self.navigationController.navigationBar.barTintColor = [UIColor blackColor];
+    self.navigationController.navigationBar.titleTextAttributes = @{NSForegroundColorAttributeName: [UIColor colorWithWhite:1.0f alpha:0.5f]};
 }
-
 
 - (void)viewWillDisappear:(BOOL)animated {
     [super viewWillDisappear:animated];
@@ -78,9 +81,9 @@
 
 -(void)loadInformation
 {
-    self.title = @"information";
-    NSString *path = [[NSBundle mainBundle] pathForResource:@"information" ofType:@"html"];
-    [self.webView loadRequest:[NSURLRequest requestWithURL:[NSURL fileURLWithPath:path]]];        
+    self.title = @"東京五輪アーカイブ1964-2020";
+    NSURLRequest *request = [NSURLRequest requestWithURL:[NSURL URLWithString:@"http://hiroshima.mapping.jp/"]];
+    [self.webView loadRequest:request];
 }
 
 - (void)viewDidUnload {

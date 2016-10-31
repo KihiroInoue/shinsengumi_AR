@@ -13,5 +13,10 @@
 - (id)initWithAnnotation:(id<MKAnnotation>)annotation
          reuseIdentifier:(NSString *)reuseIdentifier
                imageName:(UIImage *)image;
+@end
 
+@interface ViewController : UIViewController <MKMapViewDelegate> {
+    IBOutlet MKMapView *mapView;
+}
+@property (nonatomic, retain) MKTileOverlay *tile_overlay;
 @end

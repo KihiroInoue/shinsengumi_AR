@@ -45,7 +45,7 @@
       UIImage *image = [[UIImage alloc] initWithData:data];
       faceImage = [[UIImageView alloc] initWithImage:image];
       faceImage.frame = CGRectMake(1, 1, 48, 48);
-      faceImage.layer.cornerRadius = 24;
+      faceImage.layer.cornerRadius = 0;
       faceImage.clipsToBounds = YES;
       [self addSubview:faceImage];
       self.center = CGPointMake(111, 25);

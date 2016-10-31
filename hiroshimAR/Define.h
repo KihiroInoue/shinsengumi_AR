@@ -9,41 +9,36 @@
 #define LOG(...) 
 #endif
 
+// Config
 
-// デフォルト位置
-#define GROUND_ZERO_LATITUDE 34.391544
-#define GROUND_ZERO_LONGITUDE 132.453115
+// デフォルト位置のカメラパラメータ
+//#define GROUND_ZERO_LATITUDE        35.678086
+//#define GROUND_ZERO_LONGITUDE       139.714935
+#define GROUND_ZERO_LATITUDE        35.258595
+#define GROUND_ZERO_LONGITUDE       136.0850225
+#define GROUND_ZERO_CAMERA_PITCH    0          // カメラ傾斜
+#define GROUND_ZERO_CAMERA_ALTITUDE 6000000       // カメラ高度
 
-#define GROUND_ZERO_SPAN 0.030
-#define CURRENT_LOCATION_SPAN 0.005
-
-#define SENDAI_AIRPORT_LATITUDE 34.391544
-#define SENDAI_AIRPORT_LONGITUDE 132.453115
+// 現在地のカメラパラメータ
+#define CURRENT_LOCATION_CAMERA_PITCH 70
+#define CURRENT_LOCATION_CAMERA_ALTITUDE 1000
 
 // AR
-#define Y_DISP_HEIGHT			426		// カメラビューの高さ
-#define Y_DISP_UPPER			400		// コールアウトの上限Y位置
-#define	ACCY_AT_HANDLING		0.40	// 手持位置でのY加速度
-#define	ACCY_AT_HOLIZONTAL		0.05	// 水平位置でのY加速度
-#define VIEWPORT_WIDTH_RADIANS	.7392	// ビューポートの幅（ラジアン）
-#define VIEWPORT_HEIGHT_RADIANS .5// ビューポートの高さ（ラジアン）
-#define NEAR_BY_DISTANCE        300    // 現在位置とAR対象物の距離で表示する距離の範囲(m)
+#define Y_DISP_HEIGHT               426         // カメラビューの高さ
+#define Y_DISP_UPPER                400         // コールアウトの上限Y位置
+#define	ACCY_AT_HANDLING            0.40        // 手持位置でのY加速度
+#define	ACCY_AT_HOLIZONTAL          0.05        // 水平位置でのY加速度
+#define VIEWPORT_WIDTH_RADIANS      .7392       // ビューポートの幅（ラジアン）
+#define VIEWPORT_HEIGHT_RADIANS     .5          // ビューポートの高さ（ラジアン）
+#define kARViewToolbarHight         55.0f       // ツールバー高さ
+#define kARViewHeight               400.0f      // ARビューの高さ
+#define NEAR_BY_DISTANCE            20000000       // 現在位置とAR対象物の距離で表示する距離の範囲(m)
+#define AR_MARKER_MAXIMUM_NUMBER    13          // ARマーカの最大数
+#define InfoTagEstimateHeight       20.0f       // デフォルトのマーカ間隔
+#define MARKER_INTERVAL             1.2         // マーカ間隔の調整用パラメータ（乗数）
+#define AR_REFRESH_TIMER            0.1f        // マーカ描画リフレッシュ間隔
 
 // 加速度
-#define kFilteringFactor		0.1		// 加速度検知の感度係数
-
-
-//#define kOAuthConsumerKey        @"PsDOntvouPekRMdmwsWZQQ"         //REPLACE With Twitter App OAuth Key  
-//#define kOAuthConsumerSecret    @"IOGxDp2nnsNcEDaf0OnZQdUh2jKUdydcnu6n7aoCA"     //REPLACE With Twitter App OAuth Secret 
-
-
-//#define kOAuthConsumerKey        @"q8ziHp4SymC35XGJwggoyQ"         //REPLACE With Twitter App OAuth Key  
-//#define kOAuthConsumerSecret    @"SUvTN67TGqky26pbKAs0YuEYE22q6SY9MDctP27P44"     //REPLACE With Twitter App OAuth Secret 
-//#define kTwitPicAPIKey @"6116dc88b3640a531d930f8bfec4cb24"
-
-
-#define kOAuthConsumerKey        @"8kzvVkVgx7g4lE890Zw"         //REPLACE With Twitter App OAuth Key  
-#define kOAuthConsumerSecret    @"6MXLUhnJV6k948ZPu3IAWXWh5URPLa66mO3wuNYM44"     //REPLACE With Twitter App OAuth Secret 
-#define kTwitPicAPIKey @"6116dc88b3640a531d930f8bfec4cb24"
+#define kFilteringFactor            0.05		// 加速度検知の感度係数
 
 

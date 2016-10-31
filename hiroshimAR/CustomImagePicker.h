@@ -16,12 +16,6 @@
 #import "KMLParser.h"
 #import "KMLViewerViewController.h"
 
-// マーカ配置
-
-#define kARViewToolbarHight 55.0f
-#define kARViewHeight 400.0f
-#define kARViewInfoTagEstimateHeight 20.0f
-
 @class KMLViewerViewController;
 @interface CustomImagePicker : UIImagePickerController {
 	AppData		*appData;

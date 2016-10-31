@@ -40,7 +40,7 @@ static void strToCoords(NSString *str, CLLocationCoordinate2D **coordsOut, NSUIn
         NSScanner *scanner = [[NSScanner alloc] initWithString:tuple];
         [scanner setCharactersToBeSkipped:[NSCharacterSet characterSetWithCharactersInString:@","]];
         BOOL success = [scanner scanDouble:&lon];
-        if (success) 
+        if (success)
             success = [scanner scanDouble:&lat];
         if (success) {
             CLLocationCoordinate2D c = CLLocationCoordinate2DMake(lat, lon);
@@ -68,9 +68,9 @@ static void strToCoords(NSString *str, CLLocationCoordinate2D **coordsOut, NSUIn
 {
     self = [super init];
     if (self) {
-       _styles = [[NSMutableDictionary alloc] init];
-       _placemarks = [[NSMutableArray alloc] init];
-      _styleMaps = [[NSMutableDictionary alloc] init];
+        _styles = [[NSMutableDictionary alloc] init];
+        _placemarks = [[NSMutableArray alloc] init];
+        _styleMaps = [[NSMutableDictionary alloc] init];
     }
     return self;
 }
@@ -119,7 +119,7 @@ static void strToCoords(NSString *str, CLLocationCoordinate2D **coordsOut, NSUIn
         if (overlay)
             [overlays addObject:overlay];
     }
-  return overlays;
+    return overlays;
 }
 
 // Return the list of KMLPlacemarks from the object graph that are simply
@@ -199,23 +199,23 @@ static void strToCoords(NSString *str, CLLocationCoordinate2D **coordsOut, NSUIn
             _style = [[KMLStyle alloc] initWithIdentifier:ident];
         }
     } else if (ELTYPE(StyleMap)) {
-      if (ident != nil) {
-        _styleMap = [[KMLStyleMap alloc] initWithIdentifier:ident];
-      }
+        if (ident != nil) {
+            _styleMap = [[KMLStyleMap alloc] initWithIdentifier:ident];
+        }
     } else if (ELTYPE(key)) {
-      if (_styleMap) {
-        [_styleMap beginKey];
-      }
+        if (_styleMap) {
+            [_styleMap beginKey];
+        }
     } else if (ELTYPE(IconStyle)) {
-      [style beginIconStyle];
+        [style beginIconStyle];
     } else if (ELTYPE(scale)) {
-      [style beginIconScale];
+        [style beginIconScale];
     } else if (ELTYPE(StyleUrl)) {
-      if (_styleMap) {
-        [_styleMap beginStyleID];
-      } else {
-        [_placemark beginStyleUrl];
-      }
+        if (_styleMap) {
+            [_styleMap beginStyleID];
+        } else {
+            [_placemark beginStyleUrl];
+        }
     } else if (ELTYPE(PolyStyle)) {
         [style beginPolyStyle];
     } else if (ELTYPE(LineStyle)) {
@@ -229,9 +229,9 @@ static void strToCoords(NSString *str, CLLocationCoordinate2D **coordsOut, NSUIn
     } else if (ELTYPE(outline)) {
         [style beginOutline];
     } else if (ELTYPE(Icon)) {
-      [style beginIconSelected];
+        [style beginIconSelected];
     } else if (ELTYPE(href)) {
-      [style beginIconUrl];
+        [style beginIconUrl];
     }
     // Placemark and sub-elements
     else if (ELTYPE(Placemark)) {
@@ -241,20 +241,20 @@ static void strToCoords(NSString *str, CLLocationCoordinate2D **coordsOut, NSUIn
     } else if (ELTYPE(Description)) {
         [_placemark beginDescription];
     }
-//    else if (ELTYPE(styleUrl)) {
-//        [_placemark beginStyleUrl];
-//    }
+    //    else if (ELTYPE(styleUrl)) {
+    //        [_placemark beginStyleUrl];
+    //    }
     else if (ELTYPE(Polygon) || ELTYPE(Point) || ELTYPE(LineString)) {
         [_placemark beginGeometryOfType:elementName withIdentifier:ident];
     } else if (ELTYPE(image)) {
-      [_placemark beginImage];
+        [_placemark beginImage];
     } else if (ELTYPE(infoColor)) {
-      [_placemark beginColor];
+        [_placemark beginColor];
     }
     // Geometry sub-elements
     else if (ELTYPE(coordinates)) {
         [_placemark.geometry beginCoordinates];
-    } 
+    }
     // Polygon sub-elements
     else if (ELTYPE(outerBoundaryIs)) {
         [_placemark.polygon beginOuterBoundary];
@@ -282,24 +282,24 @@ static void strToCoords(NSString *str, CLLocationCoordinate2D **coordsOut, NSUIn
             _style = nil;
         }
     } else if (ELTYPE(StyleMap)){
-      if (_styleMap && _styleMap.styleID != nil) {
-        [_styleMaps setObject:_styleMap.styleID forKey:_styleMap.identifier];
-        _styleMap = nil;
-      }
+        if (_styleMap && _styleMap.styleID != nil) {
+            [_styleMaps setObject:_styleMap.styleID forKey:_styleMap.identifier];
+            _styleMap = nil;
+        }
     } else if (ELTYPE(key)) {
-      if (_styleMap) {
-        [_styleMap endKey];
-      }
+        if (_styleMap) {
+            [_styleMap endKey];
+        }
     } else if (ELTYPE(IconStyle)) {
-      [style endIconStyle];
+        [style endIconStyle];
     } else if (ELTYPE(scale)) {
-      [style endIconScale];
+        [style endIconScale];
     } else if (ELTYPE(StyleUrl)) {
-      if (_styleMap) {
-        [_styleMap endStyleID];
-      } else {
-        [_placemark endStyleUrl];
-      }
+        if (_styleMap) {
+            [_styleMap endStyleID];
+        } else {
+            [_placemark endStyleUrl];
+        }
     } else if (ELTYPE(PolyStyle)) {
         [style endPolyStyle];
     } else if (ELTYPE(LineStyle)) {
@@ -313,9 +313,9 @@ static void strToCoords(NSString *str, CLLocationCoordinate2D **coordsOut, NSUIn
     } else if (ELTYPE(outline)) {
         [style endOutline];
     } else if (ELTYPE(Icon)) {
-      [style endIconSelected];
+        [style endIconSelected];
     } else if (ELTYPE(href)) {
-      [style endIconUrl];
+        [style endIconUrl];
     }
     // Placemark and sub-elements
     else if (ELTYPE(Placemark)) {
@@ -328,19 +328,19 @@ static void strToCoords(NSString *str, CLLocationCoordinate2D **coordsOut, NSUIn
     } else if (ELTYPE(Description)) {
         [_placemark endDescription];
     }
-//    else if (ELTYPE(styleUrl)) {
-//        [_placemark endStyleUrl];
-//    }
+    //    else if (ELTYPE(styleUrl)) {
+    //        [_placemark endStyleUrl];
+    //    }
     else if (ELTYPE(Polygon) || ELTYPE(Point) || ELTYPE(LineString)) {
         [_placemark endGeometry];
     } else if (ELTYPE(image)) {
-      [_placemark endImage];
+        [_placemark endImage];
     } else if (ELTYPE(infoColor)) {
-      [_placemark endColor];
-    // Geometry sub-elements
+        [_placemark endColor];
+        // Geometry sub-elements
     } else if (ELTYPE(coordinates)) {
         [_placemark.geometry endCoordinates];
-    } 
+    }
     // Polygon sub-elements
     else if (ELTYPE(outerBoundaryIs)) {
         [_placemark.polygon endOuterBoundary];
@@ -354,17 +354,17 @@ static void strToCoords(NSString *str, CLLocationCoordinate2D **coordsOut, NSUIn
 
 - (void)parser:(NSXMLParser *)parser foundCharacters:(NSString *)string
 {
-  KMLElement *element;
-  if (_placemark) {
-    element = (KMLElement *)_placemark;
-  } else if (_style) {
-    element = (KMLElement *)_style;
-  } else if (_styleMap) {
-    element = (KMLElement *)_styleMap;
-  } else {
-    return;
-  }
-  [element addString:string];
+    KMLElement *element;
+    if (_placemark) {
+        element = (KMLElement *)_placemark;
+    } else if (_style) {
+        element = (KMLElement *)_style;
+    } else if (_styleMap) {
+        element = (KMLElement *)_styleMap;
+    } else {
+        return;
+    }
+    [element addString:string];
 }
 
 @end
@@ -414,7 +414,7 @@ static void strToCoords(NSString *str, CLLocationCoordinate2D **coordsOut, NSUIn
 
 - (BOOL)canAddString {
     return flags.inColor || flags.inWidth || flags.inFill || flags.inOutline ||
-           flags.inIconUrl || flags.inIconScale;
+    flags.inIconUrl || flags.inIconScale;
 }
 
 - (void)beginLineStyle {
@@ -476,43 +476,43 @@ static void strToCoords(NSString *str, CLLocationCoordinate2D **coordsOut, NSUIn
 }
 
 - (void)beginIconSelected {
-  flags.inIconSelected = YES;
+    flags.inIconSelected = YES;
 }
 
 - (void)endIconSelected {
-  flags.inIconSelected = NO;
+    flags.inIconSelected = NO;
 }
 
 - (void)beginIconUrl {
-  if (flags.inIconSelected) {
-    flags.inIconUrl = YES;
-  }
+    if (flags.inIconSelected) {
+        flags.inIconUrl = YES;
+    }
 }
 
 - (void)endIconUrl {
-  flags.inIconUrl = NO;
-  iconUrl = [accum copy];
-  [self clearString];
+    flags.inIconUrl = NO;
+    iconUrl = [accum copy];
+    [self clearString];
 }
 
 - (void)beginIconStyle {
-  flags.inIconStyle = YES;
+    flags.inIconStyle = YES;
 }
 
 - (void)endIconStyle {
-  flags.inIconStyle = NO;
+    flags.inIconStyle = NO;
 }
 
 - (void)beginIconScale {
-  flags.inIconScale = YES;
+    flags.inIconScale = YES;
 }
 
 - (void)endIconScale {
-  flags.inIconScale = NO;
-  if (flags.inIconStyle) {
-    iconScale = [accum floatValue];
-    [self clearString];
-  }
+    flags.inIconScale = NO;
+    if (flags.inIconStyle) {
+        iconScale = [accum floatValue];
+        [self clearString];
+    }
 }
 
 - (void)applyToOverlayPathView:(MKOverlayPathRenderer *)view {
@@ -528,34 +528,34 @@ static void strToCoords(NSString *str, CLLocationCoordinate2D **coordsOut, NSUIn
 @synthesize styleID;
 
 - (BOOL)canAddString {
-  return flags.inKey || flags.inStyleID;
+    return flags.inKey || flags.inStyleID;
 }
 
 - (void)beginKey {
-  flags.inKey = YES;
+    flags.inKey = YES;
 }
 
 - (void)endKey {
-  // 現在"normal"のみに対応しています
-  if ([accum isEqual:@"normal"]) {
-    flags.inStyleIDNormal = YES;
-  }
-  flags.inKey = NO;
-  [self clearString];
+    // 現在"normal"のみに対応しています
+    if ([accum isEqual:@"normal"]) {
+        flags.inStyleIDNormal = YES;
+    }
+    flags.inKey = NO;
+    [self clearString];
 }
 
 - (void)beginStyleID {
-  flags.inStyleID = YES;
+    flags.inStyleID = YES;
 }
 
 - (void)endStyleID {
-  flags.inStyleID = NO;
-  if (flags.inStyleIDNormal) {
-    flags.inStyleIDNormal = NO;
-    NSString *str = [accum stringByReplacingOccurrencesOfString:@"#" withString:@""];
-    styleID = [str copy];
-    [self clearString];
-  }
+    flags.inStyleID = NO;
+    if (flags.inStyleIDNormal) {
+        flags.inStyleIDNormal = NO;
+        NSString *str = [accum stringByReplacingOccurrencesOfString:@"#" withString:@""];
+        styleID = [str copy];
+        [self clearString];
+    }
 }
 
 @end
@@ -792,23 +792,23 @@ static void strToCoords(NSString *str, CLLocationCoordinate2D **coordsOut, NSUIn
 }
 
 - (void)beginImage {
-  flags.inImage = YES;
+    flags.inImage = YES;
 }
 
 - (void)endImage {
-  flags.inImage = NO;
-  image = [accum copy];
-  [self clearString];
+    flags.inImage = NO;
+    image = [accum copy];
+    [self clearString];
 }
 
 - (void)beginColor {
-  flags.inColor = YES;
+    flags.inColor = YES;
 }
 
 - (void)endColor {
-  flags.inColor = NO;
-  color = [UIColor colorWithKMLString:accum];
-  [self clearString];
+    flags.inColor = NO;
+    color = [UIColor colorWithKMLString:accum];
+    [self clearString];
 }
 
 - (void)beginStyleWithIdentifier:(NSString *)ident
@@ -901,7 +901,7 @@ static void strToCoords(NSString *str, CLLocationCoordinate2D **coordsOut, NSUIn
             MKPinAnnotationView *pin =
             [[MKPinAnnotationView alloc] initWithAnnotation:annotation reuseIdentifier:nil];
             pin.canShowCallout = YES;
-            pin.animatesDrop = YES;
+            pin.animatesDrop = NO;
             annotationView = pin;
         }
     }
@@ -922,7 +922,7 @@ static void strToCoords(NSString *str, CLLocationCoordinate2D **coordsOut, NSUIn
     CGFloat green = ((color & 0x00ff0000) >> 16) / 255.0f;
     CGFloat blue = ((color & 0x0000ff00) >> 8) / 255.0f;
     CGFloat alpha = (color & 0x000000ff) / 255.0f;
-
+    
     return [UIColor colorWithRed:red green:green blue:blue alpha:alpha];
 }
 

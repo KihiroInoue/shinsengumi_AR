@@ -12,13 +12,13 @@
 @class KMLStyleMap;
 
 @interface KMLParser : NSObject <NSXMLParserDelegate> {
-  NSMutableDictionary *_styles;
-  NSMutableArray *_placemarks;
-  NSMutableDictionary *_styleMaps;
+    NSMutableDictionary *_styles;
+    NSMutableArray *_placemarks;
+    NSMutableDictionary *_styleMaps;
     
-  KMLPlacemark *_placemark;
-  KMLStyle *_style;
-  KMLStyleMap *_styleMap;
+    KMLPlacemark *_placemark;
+    KMLStyle *_style;
+    KMLStyleMap *_styleMap;
 }
 
 + (KMLParser *)parseKMLAtURL:(NSURL *)url;
@@ -59,32 +59,32 @@
 // Represents a KML <Style> element.  <Style> elements may either be specified
 // at the top level of the KML document with identifiers or they may be
 // specified anonymously within a Geometry element.
-@interface KMLStyle : KMLElement {    
-  UIColor *strokeColor;
-  CGFloat strokeWidth;
-  UIColor *fillColor;
-  
-  BOOL fill;
-  BOOL stroke;
-
-  NSString *iconUrl;
-  BOOL iconSelected;
-
-  struct { 
-    int inLineStyle:1;
-    int inPolyStyle:1;
-      
-    int inColor:1;
-    int inWidth:1;
-    int inFill:1;
-    int inOutline:1;
+@interface KMLStyle : KMLElement {
+    UIColor *strokeColor;
+    CGFloat strokeWidth;
+    UIColor *fillColor;
     
-    int inIconUrl:1;
-    int inIconSelected:1;
+    BOOL fill;
+    BOOL stroke;
     
-    int inIconStyle:1;
-    int inIconScale:1;
-  } flags;
+    NSString *iconUrl;
+    BOOL iconSelected;
+    
+    struct {
+        int inLineStyle:1;
+        int inPolyStyle:1;
+        
+        int inColor:1;
+        int inWidth:1;
+        int inFill:1;
+        int inOutline:1;
+        
+        int inIconUrl:1;
+        int inIconSelected:1;
+        
+        int inIconStyle:1;
+        int inIconScale:1;
+    } flags;
 }
 
 - (void)beginLineStyle;
@@ -125,14 +125,14 @@
 @end
 
 @interface KMLStyleMap : KMLElement {
-  NSString *key;
-  NSString *styleID;
-  
-  struct {
-    int inKey:1;
-    int inStyleID:1;
-    int inStyleIDNormal:1;
-  } flags;
+    NSString *key;
+    NSString *styleID;
+    
+    struct {
+        int inKey:1;
+        int inStyleID:1;
+        int inStyleIDNormal:1;
+    } flags;
 }
 
 @property (nonatomic, retain) NSString *key;
@@ -217,21 +217,21 @@
     NSString *styleUrl;
     NSString *image;
     UIColor *color;
-  
+    
     MKShape *mkShape;
     
     MKAnnotationView *annotationView;
-  // Deprecated: MKOverlayPathView, MKOverlayView
+    // Deprecated: MKOverlayPathView, MKOverlayView
     MKOverlayPathRenderer *overlayView;
     
     struct {
-      int inName:1;
-      int inDescription:1;
-      int inStyle:1;
-      int inGeometry:1;
-      int inStyleUrl:1;
-      int inImage:1;
-      int inColor:1;
+        int inName:1;
+        int inDescription:1;
+        int inStyle:1;
+        int inGeometry:1;
+        int inStyleUrl:1;
+        int inImage:1;
+        int inColor:1;
     } flags;
 }
 
@@ -257,7 +257,7 @@
 - (void)endColor;
 
 // Corresponds to the title property on MKAnnotation
-@property (nonatomic, readonly) NSString *name; 
+@property (nonatomic, readonly) NSString *name;
 // Corresponds to the subtitle property on MKAnnotation
 @property (nonatomic, readonly) NSString *placemarkDescription;
 

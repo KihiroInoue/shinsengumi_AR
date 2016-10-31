@@ -39,90 +39,74 @@
 -(void)loadARViewController:(BOOL)animated {
     // カメラ機能の有無をチェック
     if ([UIImagePickerController isSourceTypeAvailable:UIImagePickerControllerSourceTypeCamera]) {
-// ここから
         
-    [self updateMap:CURRENT_LOCATION];
-
-// ここまでをコメントアウトする（仮想ロケーションを使うとき）
+        [self updateMap:CURRENT_LOCATION];
         
-// ここから
-        
-//        UIAlertView *alert =
-//        [[UIAlertView alloc] initWithTitle:@"Current Location"
-//                                   message:@"Switch to 'VRthquake Mode?'"
-//                                 delegate:self
-//                         cancelButtonTitle:@"Yes"
-//                         otherButtonTitles:@"No", nil];
-//       [alert show];
-//       [self updateMap:CURRENT_LOCATION_VIRTUAL_COORDINATE];
-        
- //ここまでをコメントアウトする（通常モードにするとき）
-      
         LOG(@"KMLViewerViewController - ARViewController");
         if(self.appData.picker==nil) {
             self.appData.picker = [[CustomImagePicker alloc] init];
-          //	appData.picker.delegate = self;
-            LOG(@"KMLViewerViewController - alloc CustomeImagePicker"); 
+            //	appData.picker.delegate = self;
+            LOG(@"KMLViewerViewController - alloc CustomeImagePicker");
         } else if (self.appData.picker != nil) {
             LOG(@"appData.picker != nil");
         }
-      self.appData.picker.sourceType = UIImagePickerControllerSourceTypeCamera;
-      self.appData.picker.showsCameraControls = NO;
-      self.appData.picker.cameraOverlayView.userInteractionEnabled = NO;
-      self.appData.picker.appData = self.appData;
-      self.appData.picker.view.frame = CGRectMake(0,
-                                                  [[UIScreen mainScreen] bounds].size.height,
-                                                  self.appData.picker.view.frame.size.width,
-                                                  self.appData.picker.view.frame.size.height);
-      
-      self.appData.picker.parent = self;
-
-      [UIView animateWithDuration:0.3f animations:^{
+        self.appData.picker.sourceType = UIImagePickerControllerSourceTypeCamera;
+        self.appData.picker.showsCameraControls = NO;
+        self.appData.picker.cameraOverlayView.userInteractionEnabled = NO;
+        self.appData.picker.appData = self.appData;
         self.appData.picker.view.frame = CGRectMake(0,
-                                                    0,
+                                                    [[UIScreen mainScreen] bounds].size.height,
                                                     self.appData.picker.view.frame.size.width,
                                                     self.appData.picker.view.frame.size.height);
-      }];
-
-      [self.view addSubview:self.appData.picker.view];
-      
-    // カメラが使えない機種
+        
+        self.appData.picker.parent = self;
+        
+        [UIView animateWithDuration:0.3f animations:^{
+            self.appData.picker.view.frame = CGRectMake(0,
+                                                        0,
+                                                        self.appData.picker.view.frame.size.width,
+                                                        self.appData.picker.view.frame.size.height);
+        }];
+        
+        [self.view addSubview:self.appData.picker.view];
+        
+        // カメラが使えない機種
     } else {
-      if ([[UIDevice currentDevice].systemVersion intValue] >= 8.0) {
-        UIAlertController *alertContorller =
-        [UIAlertController alertControllerWithTitle:@"ARモードを利用できません"
-                                            message:@"カメラが見つかりませんでした"
-                                     preferredStyle:UIAlertControllerStyleAlert];
-        [alertContorller addAction:[UIAlertAction actionWithTitle:@"OK"
-                                                            style:UIAlertActionStyleDefault
-                                                          handler:nil]];
-        [self presentViewController:alertContorller animated:YES completion:nil];
-      } else {
-        UIAlertView *alert = [[UIAlertView alloc]
-                              initWithTitle:@"ARモードを利用できません"
-                              message:@"カメラが見つかりませんでした"
-                              delegate:nil
-                              cancelButtonTitle:@"OK"
-                              otherButtonTitles:nil];
-        [alert show];
-      }
+        if ([[UIDevice currentDevice].systemVersion intValue] >= 8.0) {
+            UIAlertController *alertContorller =
+            [UIAlertController alertControllerWithTitle:@"ARモードを利用できません"
+                                                message:@"カメラが見つかりませんでした"
+                                         preferredStyle:UIAlertControllerStyleAlert];
+            [alertContorller addAction:[UIAlertAction actionWithTitle:@"OK"
+                                                                style:UIAlertActionStyleDefault
+                                                              handler:nil]];
+            [self presentViewController:alertContorller animated:YES completion:nil];
+        } else {
+            UIAlertView *alert = [[UIAlertView alloc]
+                                  initWithTitle:@"ARモードを利用できません"
+                                  message:@"カメラが見つかりませんでした"
+                                  delegate:nil
+                                  cancelButtonTitle:@"OK"
+                                  otherButtonTitles:nil];
+            [alert show];
+        }
     }
 }
 
 - (void)removeCameraViewWithAnimate {
-
-  [UIView beginAnimations:nil context:nil];
-
-  [UIView animateWithDuration:0.3f animations:^{
-    self.appData.picker.view.frame = CGRectMake(0,
-                                                [[UIScreen mainScreen] bounds].size.height,
-                                                self.appData.picker.view.frame.size.width,
-                                                self.appData.picker.view.frame.size.height);
-  }];
-  //To animate, wait for 0.2f
-  [self performSelector:@selector(removeCameraView)
-             withObject:nil afterDelay:0.3f];
-
+    
+    [UIView beginAnimations:nil context:nil];
+    
+    [UIView animateWithDuration:0.3f animations:^{
+        self.appData.picker.view.frame = CGRectMake(0,
+                                                    [[UIScreen mainScreen] bounds].size.height,
+                                                    self.appData.picker.view.frame.size.width,
+                                                    self.appData.picker.view.frame.size.height);
+    }];
+    //To animate, wait for 0.2f
+    [self performSelector:@selector(removeCameraView)
+               withObject:nil afterDelay:0.3f];
+    
 }
 
 - (void)removeCameraView {
@@ -153,74 +137,74 @@
 }
 
 -(void)twitterViewController:(id)sender {
-  if (self.accountStore == nil) {
-    self.accountStore = [ACAccountStore new];
-  }
-  ACAccountType *accountType =
-  [self.accountStore accountTypeWithAccountTypeIdentifier:ACAccountTypeIdentifierTwitter];
-  
-  [self.accountStore requestAccessToAccountsWithType:accountType
-                                             options:nil
-                                          completion:^(BOOL granted, NSError *error) {
-        if (!granted) {
-          [self showAlertControllerWithTwitterAccounts:@"認証失敗"
-                                           withMessage:@"Twitterの設定が有効になっていません。設定のTwitterから本アプリの設定を許可に変更してください。"];
-          return;
-        }
-        NSArray *twitterAccounts = [self.accountStore accountsWithAccountType:accountType];
-        if (!([twitterAccounts count] > 0)) {
-          [self showAlertControllerWithTwitterAccounts:@"認証失敗"
-                                           withMessage:@"Twitterのアカウントが登録されていません。設定のTwitterからアカウントを登録してください。"];
-          return;
-        }
-        
-        self.account = [twitterAccounts lastObject];
-  }];
-  
-  if ([SLComposeViewController isAvailableForServiceType:SLServiceTypeTwitter]) {
-    NSString *serviceType = SLServiceTypeTwitter;
-    SLComposeViewController *composeCtl =
-    [SLComposeViewController composeViewControllerForServiceType:serviceType];
-    [composeCtl setInitialText:@" #hiroshima0806"];
-    [composeCtl setCompletionHandler:^(SLComposeViewControllerResult result) {
-      if (result == SLComposeViewControllerResultDone) {
-
-      } else if (result == SLComposeViewControllerResultCancelled) {
-
-      }
-    }];
-    [self presentViewController:composeCtl animated:YES completion:nil];
-  }
-
-  
+    if (self.accountStore == nil) {
+        self.accountStore = [ACAccountStore new];
+    }
+    ACAccountType *accountType =
+    [self.accountStore accountTypeWithAccountTypeIdentifier:ACAccountTypeIdentifierTwitter];
+    
+    [self.accountStore requestAccessToAccountsWithType:accountType
+                                               options:nil
+                                            completion:^(BOOL granted, NSError *error) {
+                                                if (!granted) {
+                                                    [self showAlertControllerWithTwitterAccounts:@"認証失敗"
+                                                                                     withMessage:@"Twitterの設定が有効になっていません。設定のTwitterから本アプリの設定を許可に変更してください。"];
+                                                    return;
+                                                }
+                                                NSArray *twitterAccounts = [self.accountStore accountsWithAccountType:accountType];
+                                                if (!([twitterAccounts count] > 0)) {
+                                                    [self showAlertControllerWithTwitterAccounts:@"認証失敗"
+                                                                                     withMessage:@"Twitterのアカウントが登録されていません。設定のTwitterからアカウントを登録してください。"];
+                                                    return;
+                                                }
+                                                
+                                                self.account = [twitterAccounts lastObject];
+                                            }];
+    
+    if ([SLComposeViewController isAvailableForServiceType:SLServiceTypeTwitter]) {
+        NSString *serviceType = SLServiceTypeTwitter;
+        SLComposeViewController *composeCtl =
+        [SLComposeViewController composeViewControllerForServiceType:serviceType];
+        [composeCtl setInitialText:@" #tokyo1964"];
+        [composeCtl setCompletionHandler:^(SLComposeViewControllerResult result) {
+            if (result == SLComposeViewControllerResultDone) {
+                
+            } else if (result == SLComposeViewControllerResultCancelled) {
+                
+            }
+        }];
+        [self presentViewController:composeCtl animated:YES completion:nil];
+    }
+    
+    
 }
 
 - (void)showAlertControllerWithTwitterAccounts:(NSString *)title
                                    withMessage:(NSString *)message {
-  if ([[UIDevice currentDevice].systemVersion intValue] >= 8.0) {
-    UIAlertController *alertContorller =
-    [UIAlertController alertControllerWithTitle:title
-                                        message:message
-                                 preferredStyle:UIAlertControllerStyleAlert];
-    [alertContorller addAction:[UIAlertAction actionWithTitle:@"OK"
-                                                        style:UIAlertActionStyleDefault
-                                                      handler:nil]];
-    [self presentViewController:alertContorller animated:YES completion:nil];
-  } else {
-    UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:title
-                                                        message:message
-                                                       delegate:nil
-                                              cancelButtonTitle:@"cancel"
-                                              otherButtonTitles:nil];
-   [alertView performSelectorOnMainThread:@selector(show) withObject:nil waitUntilDone:YES];
-  }
+    if ([[UIDevice currentDevice].systemVersion intValue] >= 8.0) {
+        UIAlertController *alertContorller =
+        [UIAlertController alertControllerWithTitle:title
+                                            message:message
+                                     preferredStyle:UIAlertControllerStyleAlert];
+        [alertContorller addAction:[UIAlertAction actionWithTitle:@"OK"
+                                                            style:UIAlertActionStyleDefault
+                                                          handler:nil]];
+        [self presentViewController:alertContorller animated:YES completion:nil];
+    } else {
+        UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:title
+                                                            message:message
+                                                           delegate:nil
+                                                  cancelButtonTitle:@"cancel"
+                                                  otherButtonTitles:nil];
+        [alertView performSelectorOnMainThread:@selector(show) withObject:nil waitUntilDone:YES];
+    }
 }
 
 
 -(void)informationViewController:(id)sender {
     WebViewController* webViewController = [[WebViewController alloc]init];
     [self.navigationController pushViewController: webViewController animated:YES];
-    [webViewController loadInformation];    
+    [webViewController loadInformation];
 }
 
 - (void)viewWillAppear:(BOOL)animated
@@ -233,103 +217,101 @@
 
 -(void)updateMap:(ARInformationMode)arInformationMode
 {
-    
     self.appData.arInformationMode = arInformationMode;
-
-    switch ( arInformationMode) {
-        case GROUND_ZERO:
-            self.mapView.region = MKCoordinateRegionMake(CLLocationCoordinate2DMake(GROUND_ZERO_LATITUDE, GROUND_ZERO_LONGITUDE), MKCoordinateSpanMake(GROUND_ZERO_SPAN, GROUND_ZERO_SPAN));
-            
-//            self.mapView.region = MKCoordinateRegionMake(self.appData.currentCoordinate, MKCoordinateSpanMake(GROUND_ZERO_SPAN, GROUND_ZERO_SPAN));
-            
-            break;
-
-        case CURRENT_LOCATION_VIRTUAL_COORDINATE:
-        case CURRENT_LOCATION:
-            self.mapView.region = MKCoordinateRegionMake(self.appData.currentCoordinate, MKCoordinateSpanMake(CURRENT_LOCATION_SPAN, CURRENT_LOCATION_SPAN));
-            break;
+    MKMapCamera *newCamera = [[self.mapView camera] copy];
+    if (arInformationMode == GROUND_ZERO) {
+        self.mapView.showsUserLocation = NO;
+        [newCamera setCenterCoordinate:self.appData.groundZeroCoordinate];
+        [newCamera setPitch:GROUND_ZERO_CAMERA_PITCH];
+        [newCamera setHeading:0];
+        [newCamera setAltitude:GROUND_ZERO_CAMERA_ALTITUDE];
+        [self.mapView setCamera:newCamera animated:YES];
+        self.mapView.showsUserLocation = YES;
+    } else if (arInformationMode == CURRENT_LOCATION){
+        self.mapView.showsUserLocation = NO;
+        [newCamera setCenterCoordinate:self.appData.currentCoordinate];
+        [newCamera setPitch:CURRENT_LOCATION_CAMERA_PITCH];
+        [newCamera setHeading:self.appData.heading];
+        [newCamera setAltitude:CURRENT_LOCATION_CAMERA_ALTITUDE];
+        [self.mapView setCamera:newCamera animated:YES];
+        [self.mapView setUserTrackingMode:MKUserTrackingModeFollowWithHeading animated:YES];
+        self.mapView.showsUserLocation = YES;
     }
     
     NSMutableArray *existingpoints = [NSMutableArray arrayWithArray:self.mapView.annotations];
-     for(id<MKAnnotation> annotation in existingpoints) {
-         if(annotation == self.mapView.userLocation) {
-             [existingpoints removeObject:annotation];
-         }
-     }
-     [self.mapView removeAnnotations:existingpoints];
+    for(id<MKAnnotation> annotation in existingpoints) {
+        if(annotation == self.mapView.userLocation) {
+            [existingpoints removeObject:annotation];
+        }
+    }
+    [self.mapView removeAnnotations:existingpoints];
     [self.mapView removeOverlays:self.mapView.overlays];
     
     // アノテーションをマップに配置
     NSArray *annotations = [self.appData kmlPlacemarkPoints];
     [self.mapView addAnnotations:annotations];
-    
-    // ピンをふらせる
-    MKMapRect flyTo = MKMapRectNull;
-    
-    for (id <MKAnnotation> annotation in annotations) {
-        MKMapPoint annotationPoint = MKMapPointForCoordinate(annotation.coordinate);
-        MKMapRect pointRect = MKMapRectMake(annotationPoint.x, annotationPoint.y, 0, 0);
-        
-        if (MKMapRectIsNull(flyTo)) {
-            flyTo = pointRect;
-        } else {
-            flyTo = MKMapRectUnion(flyTo, pointRect);
-        }
-    }
-    
-    // 全部のピンが見えるようにマップのズーム比率を変える.
-    //map.visibleMapRect = flyTo;
-    double groundZeroScale = arInformationMode == GROUND_ZERO ? 1.0 : 1.0;
-    double currenLocationScale = arInformationMode == GROUND_ZERO ? 1.0 : 1.0;
-    
-    [UIView animateWithDuration:0.5f // 1.5秒おきに
-                          delay:0.0f // 0.0秒後から
-                        options:UIViewAnimationOptionCurveEaseOut // 初めは速く終わりは遅くなるような変化
-     |UIViewAnimationOptionAllowUserInteraction // アニメーション中でもユーザによるViewの操作を可能にする
-                     animations:^{
-                         self.groundZeroButton.transform = CGAffineTransformMakeScale(groundZeroScale, groundZeroScale);
-                         self.currentLocationButton.transform = CGAffineTransformMakeScale(currenLocationScale, currenLocationScale);
-                     }
-                     completion:nil]; // アニメーションが終わっても何もしない
-    
 }
+
+//起動時の地図表示
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	self.appDelegate = (KMLViewerAppDelegate *)[[UIApplication sharedApplication] delegate];
-	self.appData = self.appDelegate.appData;
-  
-    self.mapView.mapType = MKMapTypeSatellite;
-  
+    
+    self.appDelegate = (KMLViewerAppDelegate *)[[UIApplication sharedApplication] delegate];
+    self.appData = self.appDelegate.appData;
+    self.mapView.mapType = MKMapTypeSatelliteFlyover;
+    [self.mapView setUserTrackingMode:MKUserTrackingModeNone animated:YES];
+    // アノテーションのiボタンの色変更
+    [[UIButton appearance] setTintColor:[UIColor colorWithRed:0 green:0 blue:0 alpha:1]];
     [self updateMap:self.appData.arInformationMode];
-    // なぜか2秒後あとに実行しないと一回更新しないかぎりARModeでTagがでないので
-    //[self performSelector:@selector(moveToGroundZero:) withObject:nil afterDelay:2.0];
-    //[self moveToGroundZero:nil];
 }
 
+// Maptype切り替え
+static int mapTypeCount = 0;
+- (IBAction) changeMapType:(id)sender {
+    if (mapTypeCount == 0){
+        self.mapView.mapType = MKMapTypeStandard;
+        mapTypeCount++;
+    } else if (mapTypeCount == 1){
+        //地理院タイルをオーバレイ
+        NSString *template = @"http://cyberjapandata.gsi.go.jp/xyz/ort_old10/{z}/{x}/{y}.png";
+        MKTileOverlay *tile_overlay = [[MKTileOverlay alloc] initWithURLTemplate:template];
+        tile_overlay.canReplaceMapContent = YES;
+        [self.mapView addOverlay:tile_overlay level:MKOverlayLevelAboveLabels];
+        mapTypeCount++;
+    } else {
+        self.mapView.mapType = MKMapTypeSatelliteFlyover;
+        //すべてのオーバレイを削除
+        for(id<MKOverlay> overlay in [_mapView overlays]) {
+            [_mapView removeOverlay:overlay];
+        }
+        mapTypeCount = 0;
+    }
+}
+
+-(MKTileOverlayRenderer *)mapView:(MKMapView*)mapView rendererForOverlay:(id<MKOverlay>)overlay {
+    MKTileOverlayRenderer *renderer = [[MKTileOverlayRenderer alloc] initWithOverlay:overlay];
+    renderer.alpha = 1.0;
+    return renderer;
+}
 
 #pragma mark MKMapViewDelegate
 
 // Webviewに移動
 - (IBAction)showDetails:(id)sender
 {
-    /*
-    * ピンをクリックして、詳細画面(WebView)に移動
-    */
-LOG(@"KMLViewerViewController - showDetalils");
-            
+    LOG(@"KMLViewerViewController - showDetalils");
 }
 
 
 -(IBAction)moveToGroundZero:(id)sender
 {
     [self updateMap:GROUND_ZERO];
-
+    
 }
 -(IBAction)moveToCurrentLocation:(id)sender
 {
-    
-  [self updateMap:CURRENT_LOCATION];
+    [self updateMap:CURRENT_LOCATION];
 }
 
 // アラートのボタンが押された時に呼ばれるデリゲート例文
@@ -343,67 +325,65 @@ clickedButtonAtIndex:(NSInteger)buttonIndex {
         case 1:
             [self updateMap:CURRENT_LOCATION];
             break;
-            
     }
-    
 }
 
 - (MKAnnotationView *)mapView:(MKMapView *)mapView
             viewForAnnotation:(id <MKAnnotation>)annotation {
-  if (annotation == mapView.userLocation) {
+    if (annotation == mapView.userLocation) {
+        return nil;
+    }
+    if ([annotation isKindOfClass:[KMLPlacemarkAnnotation class]] == NO) {
+        return nil;
+    }
+    
+    KMLPlacemarkAnnotation* kpa = (KMLPlacemarkAnnotation*)annotation;
+    
+    if (kpa.imageEnabled == NO) {
+        return [self pinAnnotationView:mapView
+                            Annotation:annotation
+                             Placemark:kpa
+                            Identifier:[NSString stringWithFormat:@"%lu", (unsigned long)kpa.pinColor]];
+    } else {
+        return [self annotationView:mapView
+                         Annotation:annotation
+                          Placemark:kpa
+                         Identifier:kpa.kmlPlacemark.name];
+    }
+    
     return nil;
-  }
-  if ([annotation isKindOfClass:[KMLPlacemarkAnnotation class]] == NO) {
-    return nil;
-  }
-
-  KMLPlacemarkAnnotation* kpa = (KMLPlacemarkAnnotation*)annotation;
-  
-  if (kpa.imageEnabled == NO) {
-    return [self pinAnnotationView:mapView
-                        Annotation:annotation
-                         Placemark:kpa
-                        Identifier:[NSString stringWithFormat:@"%lu", kpa.pinColor]];
-  } else {
-    return [self annotationView:mapView
-                     Annotation:annotation
-                      Placemark:kpa
-                     Identifier:kpa.kmlPlacemark.name];
-  }
-
-  return nil;
 }
 
 - (MKAnnotationView *)pinAnnotationView:(MKMapView *)mapView
                              Annotation:(id <MKAnnotation>)annotation
                               Placemark:(KMLPlacemarkAnnotation *)kpa
                              Identifier:(NSString *)kmlAnnotationIdentifier {
-      MKPinAnnotationView* customPinView =
-          (MKPinAnnotationView*)[mapView
-                                 dequeueReusableAnnotationViewWithIdentifier:kmlAnnotationIdentifier];
-  
-      if(customPinView == nil) {// ピンのカスタム
+    MKPinAnnotationView* customPinView =
+    (MKPinAnnotationView*)[mapView
+                           dequeueReusableAnnotationViewWithIdentifier:kmlAnnotationIdentifier];
+    
+    if(customPinView == nil) {// ピンのカスタム
         customPinView = [[MKPinAnnotationView alloc]
-                      initWithAnnotation:annotation
+                         initWithAnnotation:annotation
                          reuseIdentifier:kmlAnnotationIdentifier];
-  
+        
         customPinView.animatesDrop = NO;
         customPinView.canShowCallout = YES;
-  
+        
         UIButton* rightButton = [UIButton buttonWithType:UIButtonTypeDetailDisclosure];
         [rightButton addTarget:self
                         action:@selector(showDetails:)
               forControlEvents:UIControlEventTouchUpInside];
-  
+        
         customPinView.rightCalloutAccessoryView = rightButton;
-  
-      }
-      else {
+        
+    }
+    else {
         [customPinView setAnnotation:annotation];
-      }
-
-      customPinView.pinColor = kpa.pinColor;
-  return customPinView;
+    }
+    
+    customPinView.pinColor = kpa.pinColor;
+    return customPinView;
 }
 
 - (MKAnnotationView *)annotationView:(MKMapView *)mapView
@@ -411,17 +391,17 @@ clickedButtonAtIndex:(NSInteger)buttonIndex {
                            Placemark:(KMLPlacemarkAnnotation *)kpa
                           Identifier:(NSString *)kmlAnnotationIdentifier {
     KMLAnnotaionView *customPinView
-            = (KMLAnnotaionView *)[mapView dequeueReusableAnnotationViewWithIdentifier:kmlAnnotationIdentifier];
-
+    = (KMLAnnotaionView *)[mapView dequeueReusableAnnotationViewWithIdentifier:kmlAnnotationIdentifier];
+    
     if (kpa.kmlPlacemark.styleUrl != nil &&
-            [self.appData.imageMapPin.allKeys containsObject:kpa.kmlPlacemark.styleUrl]) {
-
+        [self.appData.imageMapPin.allKeys containsObject:kpa.kmlPlacemark.styleUrl]) {
+        
         NSString *url = [self.appData.imageMapPin objectForKey:kpa.kmlPlacemark.styleUrl];
         NSURL *urlConverted = [NSURL URLWithString:url];
-
+        
         if (customPinView == nil) {// ピンのカスタム
             customPinView = [[KMLAnnotaionView alloc] initWithAnnotation:annotation reuseIdentifier:kmlAnnotationIdentifier];
-
+            
             customPinView.canShowCallout = YES;
             UIButton* rightButton = [UIButton buttonWithType:UIButtonTypeDetailDisclosure];
             [rightButton addTarget:self
@@ -430,54 +410,48 @@ clickedButtonAtIndex:(NSInteger)buttonIndex {
             
             customPinView.rightCalloutAccessoryView = rightButton;
             UIImage *defaultImage = [UIImage imageNamed:@"mappin2"];
-
+            
             // 画像を非同期に読み込み、キャッシュする
             [customPinView sd_setImageWithURL:urlConverted
                              placeholderImage:nil
                                       options:0
                                     completed:^(UIImage *image, NSError *error, SDImageCacheType cacheType, NSURL *imageURL) {
-                    // 画像のリサイズ
+                                        // 画像のリサイズ
                                         
-                    NSNumber *num = [self.appData.scaleMapPin objectForKey:kpa.kmlPlacemark.styleUrl];
-                    if(image == nil) {
-                        image = defaultImage;
-                    }
-                    CGFloat scale = num.floatValue;
-                    CGSize size = CGSizeMake(image.size.width*scale, image.size.height*scale);
-                    UIGraphicsBeginImageContext(size);
-                    [image drawInRect:CGRectMake(0, 0, size.width, size.height)];
-                    image = UIGraphicsGetImageFromCurrentImageContext();
-                    UIGraphicsEndImageContext();
-
-                    // リサイズ後の画像と入れ替え
-                    customPinView.image = image;
-            }];
+                                        NSNumber *num = [self.appData.scaleMapPin objectForKey:kpa.kmlPlacemark.styleUrl];
+                                        if(image == nil) {
+                                            image = defaultImage;
+                                        }
+                                        CGFloat scale = num.floatValue;
+                                        CGSize size = CGSizeMake(image.size.width*scale, image.size.height*scale);
+                                        UIGraphicsBeginImageContext(size);
+                                        [image drawInRect:CGRectMake(0, 0, size.width, size.height)];
+                                        image = UIGraphicsGetImageFromCurrentImageContext();
+                                        UIGraphicsEndImageContext();
+                                        
+                                        // リサイズ後の画像と入れ替え
+                                        customPinView.image = image;
+                                    }];
             return customPinView;
         } else {
             [customPinView setAnnotation:annotation];
         }
-
+        
     } else {
         // デフォルトの画像を設定する
         UIImage *defaultImage = [UIImage imageNamed:@"mappin2"];
-
-        // URLで指定する場合は下記を使用
-        //    NSString *url = @"";
-        //    NSURL *urlConverted = [NSURL URLWithString:url];
-        //    NSData *data = [NSData dataWithContentsOfURL:urlConverted];
-        //    image = [[UIImage alloc] initWithData:data];
-
+        
         if (customPinView == nil) {// ピンのカスタム
             customPinView = [[KMLAnnotaionView alloc] initWithAnnotation:annotation
                                                          reuseIdentifier:kmlAnnotationIdentifier
                                                                imageName:defaultImage];
             customPinView.canShowCallout = YES;
-
+            
             UIButton* rightButton = [UIButton buttonWithType:UIButtonTypeDetailDisclosure];
             [rightButton addTarget:self
                             action:@selector(showDetails:)
                   forControlEvents:UIControlEventTouchUpInside];
-
+            
             customPinView.rightCalloutAccessoryView = rightButton;
         } else {
             [customPinView setAnnotation:annotation];
@@ -491,16 +465,15 @@ clickedButtonAtIndex:(NSInteger)buttonIndex {
 - (void)mapView:(MKMapView *)mapView
  annotationView:(MKAnnotationView *)view
 calloutAccessoryControlTapped:(UIControl *)control
-{    
-    LOG(@"KMLViewerViewController - mapView - annotationView");
+{
     UIButton* rightButton = [UIButton buttonWithType:UIButtonTypeDetailDisclosure];
     [rightButton addTarget:self
                     action:@selector(showDetails:)
           forControlEvents:UIControlEventTouchUpInside];
-        
+    
     // 画面定義：initWithNibNameは実際に存在するxibファイル名を入れる事！
     WebViewController *webViewController = [[WebViewController alloc] init];
-        
+    
     id <MKAnnotation> annotation = view.annotation;
     KMLPlacemarkAnnotation* kmlAnnotaion = (KMLPlacemarkAnnotation*)annotation;
     KMLPlacemark* kmlPlacemark = kmlAnnotaion.kmlPlacemark;

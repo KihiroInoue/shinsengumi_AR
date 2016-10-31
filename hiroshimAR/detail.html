@@ -1,58 +1,147 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />  
-        <title>%@</title>
-        <style>
-			img
-				{
-				max-width:100%;
-				height:auto;
-				}
-			h1
-				{
-                text-align:center;
-				font-size:0px;
-				font-weight:bold;
-				}
-				
-			.subject
-				{
-				font-size:18px;
-				text-align:center;
-				}
-				
-			.photographer
-				{
-				font-size:12px;
-				text-align:right;
-				}
-				
-			.photograph_text
-				{
-				font-size:16px;
-				text-indent:1em;
-				}
-				
-			.body
-				{
-				font-size:16px;
-				text-indent:1em;
-				}
-				
-			.image
-				{
-				text-align:center;
-				}
-				
-        </style>
-    </head>
-    
-    <body>
-        <h1>%@</h1>
-        <div>
-        %@
-        </div>
-    </body>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.5, user-scalable=yes" />
+	<title>%@</title>
+	<style>
+		html {
+		}
+		
+		body {
+			background-color: black;
+			margin: 0;
+			padding: 0;
+		}
+		
+		a {
+			color: #999999
+		}
+		
+		.photograph_window {
+			background-color: black;
+			color: #aaaaaa;
+			width: 100%;
+			height: 100%;
+			margin: 20px 0px 0px 0px;
+			padding: 0;
+		}
+		
+		h1 {
+			display: none;
+		}
+		
+		.photograph {
+			margin: 60px 0px 20px 0px;
+			padding: 0;
+		}
+		
+		.description_text {
+			font-size: 13px;
+			margin: 5px;
+			line-height: 1.5em;
+			text-align: justify;
+		}
+		
+		.image {
+			text-align: center;
+		}
+		
+		.id {
+			display: none;
+		}
+		
+		.day {
+			font-size: 11px;
+			text-align: right;
+			line-height: 6px;
+		}
+		
+		.place {
+			font-size: 11px;
+			text-align: right;
+			line-height: 6px;
+		}
+		
+		.article_window {
+			margin: 0;
+			padding: 0px 2px 0px 2px;
+			background-color: black;
+			color: #cccccc;
+		}
+		
+		.balloon_name {
+			font-size: 16px;
+			font-weight: bold;
+			text-align: justify;
+		}
+		
+		.article_date {
+			font-size: 10px;
+			text-align: right;
+		}
+		
+		.article_body {
+			font-size: 14px;
+			line-height: 1.7em;
+		}
+		
+		.photograph_text {
+			font-size: 10px;
+			line-height: 1.2em;
+		}
+		
+		.balloon_footer {
+			font-size: 12px;
+			text-align: center;
+		}
+		
+		hr {
+			border: 0;
+			height: 1px;
+			background-image: -webkit-linear-gradient(left, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
+		}
+		
+		#routeButton {
+			text-align: center;
+		}
+		
+		.route {
+			width: 42px;
+			height: 42px;
+			position: fixed;
+			top: 8px;
+			right: 8px;
+			opacity: 1.0;
+		}
+	</style>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+	<script>
+            function load(){
+                $('.route').animate(
+                    {'z-index': 1},
+                        {
+                            duration: 1000,
+                            step: function (num) {
+                                $(this).css({transform: 'rotate(' + (num * 360) + 'deg)'});
+                                $('.html').html(num);
+                            },
+                            complete: function () {
+                                $('#box1').css('z-index', 0);
+                        }
+                    }
+                );
+            }
+        </script>
+</head>
+
+<body onload="load()">
+
+	<h1>%@</h1>
+	<div>
+		%@
+	</div>
+</body>
+
 </html>

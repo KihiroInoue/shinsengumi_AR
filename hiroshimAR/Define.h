@@ -16,7 +16,7 @@
 //#define GROUND_ZERO_LONGITUDE       139.714935
 #define GROUND_ZERO_LATITUDE        34.39478216914307
 #define GROUND_ZERO_LONGITUDE       132.4547065677773
-#define GROUND_ZERO_CAMERA_PITCH    60          // カメラ傾斜
+#define GROUND_ZERO_CAMERA_PITCH    65          // カメラ傾斜
 #define GROUND_ZERO_CAMERA_ALTITUDE 5000       // カメラ高度
 
 // 現在地のカメラパラメータ

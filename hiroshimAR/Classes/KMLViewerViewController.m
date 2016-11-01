@@ -225,6 +225,7 @@
         [newCamera setPitch:GROUND_ZERO_CAMERA_PITCH];
         [newCamera setHeading:0];
         [newCamera setAltitude:GROUND_ZERO_CAMERA_ALTITUDE];
+        
         [self.mapView setCamera:newCamera animated:YES];
         self.mapView.showsUserLocation = YES;
     } else if (arInformationMode == CURRENT_LOCATION){
@@ -263,6 +264,17 @@
     [self.mapView setUserTrackingMode:MKUserTrackingModeNone animated:YES];
     // アノテーションのiボタンの色変更
     [[UIButton appearance] setTintColor:[UIColor colorWithRed:0 green:0 blue:0 alpha:1]];
+    // ズームインするまでのタイマー
+    [NSTimer scheduledTimerWithTimeInterval:1.0f
+                                     target:self
+                                   selector:@selector(zoom:)
+                                   userInfo:nil
+                                    repeats:NO
+     ];
+}
+
+// タイマーで発火するズームイン
+-(void)zoom:(NSTimer*)timer{
     [self updateMap:self.appData.arInformationMode];
 }
 

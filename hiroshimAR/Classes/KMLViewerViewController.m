@@ -165,7 +165,7 @@
         NSString *serviceType = SLServiceTypeTwitter;
         SLComposeViewController *composeCtl =
         [SLComposeViewController composeViewControllerForServiceType:serviceType];
-        [composeCtl setInitialText:@" #tokyo1964"];
+        [composeCtl setInitialText:@" #hiroshima0806"];
         [composeCtl setCompletionHandler:^(SLComposeViewControllerResult result) {
             if (result == SLComposeViewControllerResultDone) {
                 

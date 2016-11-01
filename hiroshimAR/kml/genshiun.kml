@@ -6,7 +6,7 @@
             <IconStyle>
                 <scale>2</scale>
                 <Icon>
-                    <href>http://hiroshima.archiving.jp/web3d/kml/icon/genshiun/1.png</href>
+                    <href>http://hiroshima.archiving.jp/data/icon/genshiun/1.png</href>
                 </Icon>
             </IconStyle>
         </Style>
@@ -24,7 +24,7 @@
             <IconStyle>
                 <scale>0.7</scale>
                 <Icon>
-                    <href>http://hiroshima.archiving.jp/web3d/kml/icon/genshiun/1.png</href>
+                    <href>http://hiroshima.archiving.jp/data/icon/genshiun/1.png</href>
                 </Icon>
             </IconStyle>
         </Style>

@@ -6,7 +6,7 @@
 		<IconStyle>
 			<scale>2</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/61.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/61.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -34,7 +34,7 @@
 		<IconStyle>
 			<scale>0.65</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/133.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/133.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -42,7 +42,7 @@
 		<IconStyle>
 			<scale>2</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/4.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/4.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -60,7 +60,7 @@
 		<IconStyle>
 			<scale>0.65</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/130.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/130.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -68,7 +68,7 @@
 		<IconStyle>
 			<scale>0.65</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/47.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/47.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -76,7 +76,7 @@
 		<IconStyle>
 			<scale>2</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/109.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/109.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -104,7 +104,7 @@
 		<IconStyle>
 			<scale>2</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/74.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/74.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -112,7 +112,7 @@
 		<IconStyle>
 			<scale>0.65</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/83.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/83.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -120,7 +120,7 @@
 		<IconStyle>
 			<scale>2</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/68.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/68.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -128,7 +128,7 @@
 		<IconStyle>
 			<scale>2</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/115.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/115.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -146,7 +146,7 @@
 		<IconStyle>
 			<scale>2</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/66.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/66.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -154,7 +154,7 @@
 		<IconStyle>
 			<scale>2</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/111.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/111.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -162,7 +162,7 @@
 		<IconStyle>
 			<scale>0.65</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/82.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/82.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -180,7 +180,7 @@
 		<IconStyle>
 			<scale>2</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/144.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/144.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -198,7 +198,7 @@
 		<IconStyle>
 			<scale>0.65</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/53.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/53.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -206,7 +206,7 @@
 		<IconStyle>
 			<scale>0.65</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/36.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/36.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -214,7 +214,7 @@
 		<IconStyle>
 			<scale>2</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/128.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/128.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -232,7 +232,7 @@
 		<IconStyle>
 			<scale>2</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/50.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/50.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -250,7 +250,7 @@
 		<IconStyle>
 			<scale>2</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/134.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/134.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -258,7 +258,7 @@
 		<IconStyle>
 			<scale>0.65</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/59.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/59.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -266,7 +266,7 @@
 		<IconStyle>
 			<scale>0.65</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/103.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/103.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -274,7 +274,7 @@
 		<IconStyle>
 			<scale>0.65</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/88.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/88.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -282,7 +282,7 @@
 		<IconStyle>
 			<scale>2</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/132.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/132.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -290,7 +290,7 @@
 		<IconStyle>
 			<scale>2</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/122.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/122.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -308,7 +308,7 @@
 		<IconStyle>
 			<scale>0.65</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/139.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/139.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -316,7 +316,7 @@
 		<IconStyle>
 			<scale>2</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/89.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/89.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -324,7 +324,7 @@
 		<IconStyle>
 			<scale>2</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/36.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/36.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -332,7 +332,7 @@
 		<IconStyle>
 			<scale>2</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/25.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/25.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -350,7 +350,7 @@
 		<IconStyle>
 			<scale>0.65</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/25.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/25.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -358,7 +358,7 @@
 		<IconStyle>
 			<scale>2</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/19.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/19.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -366,7 +366,7 @@
 		<IconStyle>
 			<scale>0.65</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/66.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/66.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -374,7 +374,7 @@
 		<IconStyle>
 			<scale>2</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/49.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/49.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -402,7 +402,7 @@
 		<IconStyle>
 			<scale>2</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/131.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/131.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -430,7 +430,7 @@
 		<IconStyle>
 			<scale>2</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/53.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/53.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -438,7 +438,7 @@
 		<IconStyle>
 			<scale>2</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/73.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/73.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -446,7 +446,7 @@
 		<IconStyle>
 			<scale>2</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/135.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/135.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -454,7 +454,7 @@
 		<IconStyle>
 			<scale>2</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/136.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/136.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -482,7 +482,7 @@
 		<IconStyle>
 			<scale>0.65</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/50.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/50.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -500,7 +500,7 @@
 		<IconStyle>
 			<scale>2</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/126.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/126.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -508,7 +508,7 @@
 		<IconStyle>
 			<scale>0.65</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/100.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/100.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -516,7 +516,7 @@
 		<IconStyle>
 			<scale>0.65</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/61.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/61.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -534,7 +534,7 @@
 		<IconStyle>
 			<scale>0.65</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/31.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/31.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -582,7 +582,7 @@
 		<IconStyle>
 			<scale>2</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/129.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/129.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -590,7 +590,7 @@
 		<IconStyle>
 			<scale>0.65</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/74.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/74.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -608,7 +608,7 @@
 		<IconStyle>
 			<scale>2</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/45.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/45.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -616,7 +616,7 @@
 		<IconStyle>
 			<scale>0.65</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/92.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/92.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -624,7 +624,7 @@
 		<IconStyle>
 			<scale>2</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/72.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/72.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -632,7 +632,7 @@
 		<IconStyle>
 			<scale>0.65</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/119.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/119.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -650,7 +650,7 @@
 		<IconStyle>
 			<scale>2</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/70.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/70.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -658,7 +658,7 @@
 		<IconStyle>
 			<scale>0.65</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/63.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/63.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -716,7 +716,7 @@
 		<IconStyle>
 			<scale>0.65</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/90.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/90.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -724,7 +724,7 @@
 		<IconStyle>
 			<scale>2</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/51.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/51.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -732,7 +732,7 @@
 		<IconStyle>
 			<scale>0.65</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/65.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/65.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -740,7 +740,7 @@
 		<IconStyle>
 			<scale>2</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/28.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/28.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -748,7 +748,7 @@
 		<IconStyle>
 			<scale>0.65</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/1.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/1.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -756,7 +756,7 @@
 		<IconStyle>
 			<scale>0.65</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/113.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/113.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -794,7 +794,7 @@
 		<IconStyle>
 			<scale>2</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/127.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/127.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -802,7 +802,7 @@
 		<IconStyle>
 			<scale>0.65</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/34.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/34.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -810,7 +810,7 @@
 		<IconStyle>
 			<scale>0.65</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/41.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/41.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -818,7 +818,7 @@
 		<IconStyle>
 			<scale>0.65</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/125.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/125.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -836,7 +836,7 @@
 		<IconStyle>
 			<scale>0.65</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/51.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/51.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -844,7 +844,7 @@
 		<IconStyle>
 			<scale>2</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/9.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/9.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -852,7 +852,7 @@
 		<IconStyle>
 			<scale>0.65</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/8.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/8.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -860,7 +860,7 @@
 		<IconStyle>
 			<scale>0.65</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/144.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/144.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -868,7 +868,7 @@
 		<IconStyle>
 			<scale>0.65</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/37.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/37.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -886,7 +886,7 @@
 		<IconStyle>
 			<scale>0.65</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/132.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/132.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -904,7 +904,7 @@
 		<IconStyle>
 			<scale>0.65</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/123.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/123.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -912,7 +912,7 @@
 		<IconStyle>
 			<scale>0.65</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/94.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/94.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -940,7 +940,7 @@
 		<IconStyle>
 			<scale>0.65</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/6.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/6.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -948,7 +948,7 @@
 		<IconStyle>
 			<scale>0.65</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/99.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/99.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -956,7 +956,7 @@
 		<IconStyle>
 			<scale>0.65</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/111.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/111.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -964,7 +964,7 @@
 		<IconStyle>
 			<scale>2</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/30.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/30.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -972,7 +972,7 @@
 		<IconStyle>
 			<scale>2</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/116.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/116.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -980,7 +980,7 @@
 		<IconStyle>
 			<scale>2</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/110.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/110.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -988,7 +988,7 @@
 		<IconStyle>
 			<scale>0.65</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/26.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/26.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -996,7 +996,7 @@
 		<IconStyle>
 			<scale>2</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/37.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/37.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -1004,7 +1004,7 @@
 		<IconStyle>
 			<scale>2</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/29.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/29.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -1012,7 +1012,7 @@
 		<IconStyle>
 			<scale>2</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/56.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/56.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -1020,7 +1020,7 @@
 		<IconStyle>
 			<scale>2</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/107.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/107.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -1038,7 +1038,7 @@
 		<IconStyle>
 			<scale>0.65</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/91.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/91.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -1046,7 +1046,7 @@
 		<IconStyle>
 			<scale>2</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/102.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/102.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -1054,7 +1054,7 @@
 		<IconStyle>
 			<scale>2</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/125.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/125.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -1072,7 +1072,7 @@
 		<IconStyle>
 			<scale>2</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/137.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/137.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -1080,7 +1080,7 @@
 		<IconStyle>
 			<scale>2</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/79.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/79.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -1088,7 +1088,7 @@
 		<IconStyle>
 			<scale>2</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/35.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/35.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -1096,7 +1096,7 @@
 		<IconStyle>
 			<scale>2</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/103.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/103.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -1104,7 +1104,7 @@
 		<IconStyle>
 			<scale>2</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/145.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/145.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -1122,7 +1122,7 @@
 		<IconStyle>
 			<scale>2</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/101.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/101.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -1130,7 +1130,7 @@
 		<IconStyle>
 			<scale>2</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/106.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/106.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -1148,7 +1148,7 @@
 		<IconStyle>
 			<scale>2</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/130.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/130.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -1156,7 +1156,7 @@
 		<IconStyle>
 			<scale>2</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/46.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/46.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -1164,7 +1164,7 @@
 		<IconStyle>
 			<scale>0.65</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/16.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/16.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -1172,7 +1172,7 @@
 		<IconStyle>
 			<scale>0.65</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/134.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/134.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -1190,7 +1190,7 @@
 		<IconStyle>
 			<scale>0.65</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/89.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/89.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -1198,7 +1198,7 @@
 		<IconStyle>
 			<scale>0.65</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/106.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/106.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -1206,7 +1206,7 @@
 		<IconStyle>
 			<scale>2</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/41.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/41.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -1224,7 +1224,7 @@
 		<IconStyle>
 			<scale>0.65</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/22.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/22.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -1232,7 +1232,7 @@
 		<IconStyle>
 			<scale>0.65</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/69.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/69.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -1240,7 +1240,7 @@
 		<IconStyle>
 			<scale>0.65</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/32.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/32.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -1248,7 +1248,7 @@
 		<IconStyle>
 			<scale>0.65</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/67.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/67.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -1256,7 +1256,7 @@
 		<IconStyle>
 			<scale>2</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/34.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/34.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -1264,7 +1264,7 @@
 		<IconStyle>
 			<scale>2</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/83.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/83.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -1282,7 +1282,7 @@
 		<IconStyle>
 			<scale>0.65</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/48.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/48.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -1290,7 +1290,7 @@
 		<IconStyle>
 			<scale>0.65</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/101.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/101.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -1298,7 +1298,7 @@
 		<IconStyle>
 			<scale>0.65</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/109.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/109.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -1306,7 +1306,7 @@
 		<IconStyle>
 			<scale>2</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/82.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/82.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -1314,7 +1314,7 @@
 		<IconStyle>
 			<scale>0.65</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/43.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/43.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -1332,7 +1332,7 @@
 		<IconStyle>
 			<scale>2</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/94.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/94.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -1340,7 +1340,7 @@
 		<IconStyle>
 			<scale>0.65</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/121.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/121.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -1348,7 +1348,7 @@
 		<IconStyle>
 			<scale>2</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/124.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/124.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -1356,7 +1356,7 @@
 		<IconStyle>
 			<scale>2</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/15.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/15.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -1364,7 +1364,7 @@
 		<IconStyle>
 			<scale>0.65</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/68.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/68.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -1392,7 +1392,7 @@
 		<IconStyle>
 			<scale>0.65</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/60.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/60.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -1400,7 +1400,7 @@
 		<IconStyle>
 			<scale>0.65</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/97.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/97.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -1408,7 +1408,7 @@
 		<IconStyle>
 			<scale>0.65</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/142.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/142.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -1416,7 +1416,7 @@
 		<IconStyle>
 			<scale>0.65</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/93.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/93.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -1424,7 +1424,7 @@
 		<IconStyle>
 			<scale>0.65</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/72.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/72.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -1432,7 +1432,7 @@
 		<IconStyle>
 			<scale>0.65</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/44.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/44.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -1450,7 +1450,7 @@
 		<IconStyle>
 			<scale>2</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/2.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/2.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -1458,7 +1458,7 @@
 		<IconStyle>
 			<scale>0.65</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/30.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/30.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -1466,7 +1466,7 @@
 		<IconStyle>
 			<scale>2</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/100.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/100.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -1474,7 +1474,7 @@
 		<IconStyle>
 			<scale>0.65</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/116.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/116.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -1482,7 +1482,7 @@
 		<IconStyle>
 			<scale>2</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/7.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/7.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -1490,7 +1490,7 @@
 		<IconStyle>
 			<scale>2</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/63.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/63.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -1498,7 +1498,7 @@
 		<IconStyle>
 			<scale>2</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/92.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/92.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -1516,7 +1516,7 @@
 		<IconStyle>
 			<scale>0.65</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/9.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/9.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -1534,7 +1534,7 @@
 		<IconStyle>
 			<scale>2</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/120.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/120.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -1542,7 +1542,7 @@
 		<IconStyle>
 			<scale>0.65</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/15.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/15.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -1580,7 +1580,7 @@
 		<IconStyle>
 			<scale>0.65</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/107.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/107.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -1608,7 +1608,7 @@
 		<IconStyle>
 			<scale>2</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/42.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/42.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -1646,7 +1646,7 @@
 		<IconStyle>
 			<scale>2</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/112.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/112.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -1654,7 +1654,7 @@
 		<IconStyle>
 			<scale>0.65</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/86.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/86.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -1662,7 +1662,7 @@
 		<IconStyle>
 			<scale>0.65</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/45.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/45.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -1680,7 +1680,7 @@
 		<IconStyle>
 			<scale>0.65</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/73.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/73.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -1688,7 +1688,7 @@
 		<IconStyle>
 			<scale>2</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/17.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/17.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -1696,7 +1696,7 @@
 		<IconStyle>
 			<scale>0.65</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/57.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/57.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -1704,7 +1704,7 @@
 		<IconStyle>
 			<scale>0.65</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/114.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/114.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -1712,7 +1712,7 @@
 		<IconStyle>
 			<scale>0.65</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/28.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/28.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -1730,7 +1730,7 @@
 		<IconStyle>
 			<scale>0.65</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/120.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/120.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -1738,7 +1738,7 @@
 		<IconStyle>
 			<scale>2</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/6.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/6.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -1746,7 +1746,7 @@
 		<IconStyle>
 			<scale>0.65</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/138.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/138.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -1784,7 +1784,7 @@
 		<IconStyle>
 			<scale>0.65</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/143.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/143.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -1812,7 +1812,7 @@
 		<IconStyle>
 			<scale>0.65</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/79.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/79.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -1820,7 +1820,7 @@
 		<IconStyle>
 			<scale>2</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/91.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/91.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -1828,7 +1828,7 @@
 		<IconStyle>
 			<scale>0.65</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/145.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/145.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -1876,7 +1876,7 @@
 		<IconStyle>
 			<scale>0.65</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/10.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/10.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -1894,7 +1894,7 @@
 		<IconStyle>
 			<scale>2</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/87.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/87.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -1932,7 +1932,7 @@
 		<IconStyle>
 			<scale>0.65</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/42.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/42.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -1960,7 +1960,7 @@
 		<IconStyle>
 			<scale>2</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/113.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/113.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -1978,7 +1978,7 @@
 		<IconStyle>
 			<scale>2</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/88.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/88.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -1996,7 +1996,7 @@
 		<IconStyle>
 			<scale>0.65</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/80.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/80.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -2014,7 +2014,7 @@
 		<IconStyle>
 			<scale>2</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/118.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/118.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -2022,7 +2022,7 @@
 		<IconStyle>
 			<scale>0.65</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/137.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/137.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -2040,7 +2040,7 @@
 		<IconStyle>
 			<scale>0.65</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/4.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/4.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -2048,7 +2048,7 @@
 		<IconStyle>
 			<scale>2</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/121.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/121.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -2066,7 +2066,7 @@
 		<IconStyle>
 			<scale>2</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/39.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/39.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -2074,7 +2074,7 @@
 		<IconStyle>
 			<scale>0.65</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/129.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/129.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -2082,7 +2082,7 @@
 		<IconStyle>
 			<scale>0.65</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/84.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/84.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -2100,7 +2100,7 @@
 		<IconStyle>
 			<scale>2</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/65.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/65.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -2108,7 +2108,7 @@
 		<IconStyle>
 			<scale>2</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/75.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/75.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -2116,7 +2116,7 @@
 		<IconStyle>
 			<scale>2</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/143.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/143.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -2124,7 +2124,7 @@
 		<IconStyle>
 			<scale>2</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/108.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/108.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -2132,7 +2132,7 @@
 		<IconStyle>
 			<scale>2</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/57.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/57.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -2140,7 +2140,7 @@
 		<IconStyle>
 			<scale>2</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/33.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/33.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -2148,7 +2148,7 @@
 		<IconStyle>
 			<scale>0.65</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/77.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/77.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -2156,7 +2156,7 @@
 		<IconStyle>
 			<scale>2</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/3.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/3.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -2164,7 +2164,7 @@
 		<IconStyle>
 			<scale>2</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/98.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/98.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -2212,7 +2212,7 @@
 		<IconStyle>
 			<scale>0.65</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/110.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/110.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -2230,7 +2230,7 @@
 		<IconStyle>
 			<scale>0.65</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/27.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/27.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -2268,7 +2268,7 @@
 		<IconStyle>
 			<scale>0.65</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/76.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/76.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -2286,7 +2286,7 @@
 		<IconStyle>
 			<scale>0.65</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/128.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/128.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -2294,7 +2294,7 @@
 		<IconStyle>
 			<scale>2</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/105.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/105.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -2302,7 +2302,7 @@
 		<IconStyle>
 			<scale>2</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/20.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/20.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -2310,7 +2310,7 @@
 		<IconStyle>
 			<scale>2</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/13.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/13.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -2318,7 +2318,7 @@
 		<IconStyle>
 			<scale>0.65</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/13.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/13.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -2356,7 +2356,7 @@
 		<IconStyle>
 			<scale>2</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/97.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/97.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -2364,7 +2364,7 @@
 		<IconStyle>
 			<scale>2</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/114.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/114.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -2372,7 +2372,7 @@
 		<IconStyle>
 			<scale>2</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/22.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/22.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -2390,7 +2390,7 @@
 		<IconStyle>
 			<scale>0.65</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/85.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/85.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -2398,7 +2398,7 @@
 		<IconStyle>
 			<scale>2</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/5.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/5.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -2406,7 +2406,7 @@
 		<IconStyle>
 			<scale>0.65</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/52.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/52.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -2414,7 +2414,7 @@
 		<IconStyle>
 			<scale>0.65</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/35.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/35.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -2442,7 +2442,7 @@
 		<IconStyle>
 			<scale>2</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/71.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/71.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -2450,7 +2450,7 @@
 		<IconStyle>
 			<scale>2</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/95.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/95.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -2468,7 +2468,7 @@
 		<IconStyle>
 			<scale>2</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/44.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/44.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -2476,7 +2476,7 @@
 		<IconStyle>
 			<scale>0.65</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/105.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/105.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -2484,7 +2484,7 @@
 		<IconStyle>
 			<scale>0.65</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/64.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/64.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -2492,7 +2492,7 @@
 		<IconStyle>
 			<scale>0.65</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/112.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/112.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -2500,7 +2500,7 @@
 		<IconStyle>
 			<scale>2</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/123.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/123.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -2508,7 +2508,7 @@
 		<IconStyle>
 			<scale>2</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/133.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/133.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -2516,7 +2516,7 @@
 		<IconStyle>
 			<scale>0.65</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/122.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/122.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -2524,7 +2524,7 @@
 		<IconStyle>
 			<scale>0.65</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/55.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/55.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -2532,7 +2532,7 @@
 		<IconStyle>
 			<scale>2</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/76.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/76.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -2540,7 +2540,7 @@
 		<IconStyle>
 			<scale>2</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/38.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/38.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -2548,7 +2548,7 @@
 		<IconStyle>
 			<scale>0.65</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/14.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/14.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -2556,7 +2556,7 @@
 		<IconStyle>
 			<scale>2</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/8.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/8.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -2564,7 +2564,7 @@
 		<IconStyle>
 			<scale>2</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/142.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/142.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -2592,7 +2592,7 @@
 		<IconStyle>
 			<scale>0.65</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/75.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/75.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -2600,7 +2600,7 @@
 		<IconStyle>
 			<scale>0.65</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/29.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/29.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -2618,7 +2618,7 @@
 		<IconStyle>
 			<scale>2</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/12.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/12.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -2626,7 +2626,7 @@
 		<IconStyle>
 			<scale>2</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/80.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/80.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -2634,7 +2634,7 @@
 		<IconStyle>
 			<scale>0.65</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/70.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/70.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -2662,7 +2662,7 @@
 		<IconStyle>
 			<scale>0.65</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/131.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/131.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -2670,7 +2670,7 @@
 		<IconStyle>
 			<scale>0.65</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/11.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/11.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -2688,7 +2688,7 @@
 		<IconStyle>
 			<scale>0.65</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/56.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/56.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -2696,7 +2696,7 @@
 		<IconStyle>
 			<scale>0.65</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/135.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/135.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -2704,7 +2704,7 @@
 		<IconStyle>
 			<scale>2</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/96.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/96.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -2712,7 +2712,7 @@
 		<IconStyle>
 			<scale>0.65</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/54.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/54.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -2720,7 +2720,7 @@
 		<IconStyle>
 			<scale>0.65</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/18.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/18.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -2728,7 +2728,7 @@
 		<IconStyle>
 			<scale>2</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/23.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/23.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -2736,7 +2736,7 @@
 		<IconStyle>
 			<scale>0.65</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/33.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/33.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -2774,7 +2774,7 @@
 		<IconStyle>
 			<scale>2</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/117.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/117.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -2782,7 +2782,7 @@
 		<IconStyle>
 			<scale>2</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/141.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/141.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -2790,7 +2790,7 @@
 		<IconStyle>
 			<scale>2</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/48.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/48.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -2798,7 +2798,7 @@
 		<IconStyle>
 			<scale>2</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/77.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/77.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -2816,7 +2816,7 @@
 		<IconStyle>
 			<scale>2</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/69.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/69.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -2824,7 +2824,7 @@
 		<IconStyle>
 			<scale>0.65</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/104.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/104.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -2832,7 +2832,7 @@
 		<IconStyle>
 			<scale>0.65</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/127.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/127.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -2860,7 +2860,7 @@
 		<IconStyle>
 			<scale>0.65</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/140.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/140.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -2868,7 +2868,7 @@
 		<IconStyle>
 			<scale>2</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/90.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/90.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -2876,7 +2876,7 @@
 		<IconStyle>
 			<scale>0.65</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/24.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/24.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -2884,7 +2884,7 @@
 		<IconStyle>
 			<scale>2</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/24.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/24.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -2892,7 +2892,7 @@
 		<IconStyle>
 			<scale>2</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/26.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/26.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -2900,7 +2900,7 @@
 		<IconStyle>
 			<scale>2</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/81.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/81.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -2918,7 +2918,7 @@
 		<IconStyle>
 			<scale>0.65</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/124.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/124.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -2926,7 +2926,7 @@
 		<IconStyle>
 			<scale>0.65</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/19.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/19.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -2934,7 +2934,7 @@
 		<IconStyle>
 			<scale>0.65</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/118.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/118.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -2942,7 +2942,7 @@
 		<IconStyle>
 			<scale>2</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/93.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/93.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -2950,7 +2950,7 @@
 		<IconStyle>
 			<scale>2</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/85.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/85.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -2958,7 +2958,7 @@
 		<IconStyle>
 			<scale>2</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/86.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/86.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -2966,7 +2966,7 @@
 		<IconStyle>
 			<scale>2</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/104.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/104.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -2994,7 +2994,7 @@
 		<IconStyle>
 			<scale>2</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/54.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/54.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -3002,7 +3002,7 @@
 		<IconStyle>
 			<scale>2</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/138.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/138.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -3020,7 +3020,7 @@
 		<IconStyle>
 			<scale>2</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/21.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/21.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -3038,7 +3038,7 @@
 		<IconStyle>
 			<scale>2</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/31.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/31.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -3046,7 +3046,7 @@
 		<IconStyle>
 			<scale>2</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/47.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/47.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -3054,7 +3054,7 @@
 		<IconStyle>
 			<scale>0.65</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/141.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/141.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -3062,7 +3062,7 @@
 		<IconStyle>
 			<scale>0.65</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/5.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/5.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -3080,7 +3080,7 @@
 		<IconStyle>
 			<scale>0.65</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/98.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/98.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -3088,7 +3088,7 @@
 		<IconStyle>
 			<scale>2</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/119.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/119.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -3096,7 +3096,7 @@
 		<IconStyle>
 			<scale>2</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/10.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/10.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -3114,7 +3114,7 @@
 		<IconStyle>
 			<scale>2</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/59.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/59.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -3132,7 +3132,7 @@
 		<IconStyle>
 			<scale>2</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/140.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/140.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -3140,7 +3140,7 @@
 		<IconStyle>
 			<scale>0.65</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/62.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/62.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -3168,7 +3168,7 @@
 		<IconStyle>
 			<scale>0.65</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/78.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/78.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -3176,7 +3176,7 @@
 		<IconStyle>
 			<scale>2</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/16.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/16.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -3184,7 +3184,7 @@
 		<IconStyle>
 			<scale>2</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/84.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/84.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -3202,7 +3202,7 @@
 		<IconStyle>
 			<scale>0.65</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/81.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/81.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -3220,7 +3220,7 @@
 		<IconStyle>
 			<scale>0.65</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/23.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/23.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -3228,7 +3228,7 @@
 		<IconStyle>
 			<scale>2</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/60.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/60.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -3236,7 +3236,7 @@
 		<IconStyle>
 			<scale>2</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/139.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/139.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -3244,7 +3244,7 @@
 		<IconStyle>
 			<scale>2</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/99.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/99.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -3252,7 +3252,7 @@
 		<IconStyle>
 			<scale>0.65</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/87.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/87.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -3260,7 +3260,7 @@
 		<IconStyle>
 			<scale>2</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/52.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/52.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -3268,7 +3268,7 @@
 		<IconStyle>
 			<scale>0.65</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/95.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/95.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -3276,7 +3276,7 @@
 		<IconStyle>
 			<scale>2</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/43.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/43.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -3284,7 +3284,7 @@
 		<IconStyle>
 			<scale>0.65</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/49.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/49.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -3292,7 +3292,7 @@
 		<IconStyle>
 			<scale>2</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/64.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/64.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -3300,7 +3300,7 @@
 		<IconStyle>
 			<scale>2</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/14.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/14.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -3308,7 +3308,7 @@
 		<IconStyle>
 			<scale>2</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/62.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/62.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -3336,7 +3336,7 @@
 		<IconStyle>
 			<scale>2</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/27.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/27.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -3344,7 +3344,7 @@
 		<IconStyle>
 			<scale>0.65</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/126.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/126.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -3352,7 +3352,7 @@
 		<IconStyle>
 			<scale>0.65</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/7.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/7.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -3360,7 +3360,7 @@
 		<IconStyle>
 			<scale>0.65</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/117.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/117.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -3378,7 +3378,7 @@
 		<IconStyle>
 			<scale>0.65</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/108.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/108.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -3396,7 +3396,7 @@
 		<IconStyle>
 			<scale>0.65</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/96.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/96.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -3414,7 +3414,7 @@
 		<IconStyle>
 			<scale>0.65</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/17.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/17.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -3422,7 +3422,7 @@
 		<IconStyle>
 			<scale>2</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/55.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/55.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -3430,7 +3430,7 @@
 		<IconStyle>
 			<scale>0.65</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/3.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/3.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -3448,7 +3448,7 @@
 		<IconStyle>
 			<scale>2</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/40.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/40.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -3476,7 +3476,7 @@
 		<IconStyle>
 			<scale>0.65</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/40.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/40.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -3484,7 +3484,7 @@
 		<IconStyle>
 			<scale>0.65</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/46.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/46.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -3492,7 +3492,7 @@
 		<IconStyle>
 			<scale>2</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/32.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/32.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -3500,7 +3500,7 @@
 		<IconStyle>
 			<scale>0.65</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/38.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/38.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -3518,7 +3518,7 @@
 		<IconStyle>
 			<scale>0.65</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/102.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/102.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -3526,7 +3526,7 @@
 		<IconStyle>
 			<scale>0.65</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/39.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/39.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -3594,7 +3594,7 @@
 		<IconStyle>
 			<scale>0.65</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/71.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/71.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -3622,7 +3622,7 @@
 		<IconStyle>
 			<scale>0.65</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/136.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/136.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -3630,7 +3630,7 @@
 		<IconStyle>
 			<scale>0.65</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/12.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/12.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -3638,7 +3638,7 @@
 		<IconStyle>
 			<scale>0.65</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/58.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/58.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -3646,7 +3646,7 @@
 		<IconStyle>
 			<scale>2</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/1.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/1.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -3674,7 +3674,7 @@
 		<IconStyle>
 			<scale>0.65</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/21.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/21.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -3682,7 +3682,7 @@
 		<IconStyle>
 			<scale>0.65</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/115.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/115.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -3690,7 +3690,7 @@
 		<IconStyle>
 			<scale>0.65</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/20.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/20.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -3698,7 +3698,7 @@
 		<IconStyle>
 			<scale>0.65</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/2.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/2.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -3716,7 +3716,7 @@
 		<IconStyle>
 			<scale>2</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/67.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/67.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -3724,7 +3724,7 @@
 		<IconStyle>
 			<scale>2</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/18.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/18.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -3732,7 +3732,7 @@
 		<IconStyle>
 			<scale>2</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/78.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/78.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -3750,7 +3750,7 @@
 		<IconStyle>
 			<scale>2</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/11.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/11.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -3758,7 +3758,7 @@
 		<IconStyle>
 			<scale>2</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/photographs/58.png</href>
+				<href>http://hiroshima.archiving.jp/data/icon/photographs/58.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>

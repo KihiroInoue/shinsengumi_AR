@@ -203,7 +203,7 @@ NSComparisonResult DistanceSortClosestFirst(Article *a1, Article *a2, void *igno
     NSString *currentLanguage = [languages objectAtIndex:0];
     
     // 日本語の場合は日本語KMLをロード
-    if ([currentLanguage hasPrefix:@"ja"]) {
+    if ([currentLanguage hasPrefix:@"jp"]) {
         [self loadFromInformation:mode
                           kmlName:@"heiwa_wo_inoru"
                          pinColor:MKPinAnnotationColorGreen
@@ -230,6 +230,14 @@ NSComparisonResult DistanceSortClosestFirst(Article *a1, Article *a2, void *igno
                      imageEnabled:YES];
         [self loadFromInformation:mode
                           kmlName:@"genshiun"
+                         pinColor:MKPinAnnotationColorGreen
+                     imageEnabled:YES];
+        [self loadFromInformation:mode
+                          kmlName:@"fujimoto"
+                         pinColor:MKPinAnnotationColorGreen
+                     imageEnabled:YES];
+        [self loadFromInformation:mode
+                          kmlName:@"keisho"
                          pinColor:MKPinAnnotationColorGreen
                      imageEnabled:YES];
     } else {
@@ -259,6 +267,10 @@ NSComparisonResult DistanceSortClosestFirst(Article *a1, Article *a2, void *igno
                       kmlName:@"video_shogen_en"
                      pinColor:MKPinAnnotationColorGreen
                  imageEnabled:YES];
+        [self loadFromInformation:mode
+                          kmlName:@"fujimoto_en"
+                         pinColor:MKPinAnnotationColorGreen
+                     imageEnabled:YES];
 /*
     [self loadFromInformation:mode
                       kmlName:@"genshiun"

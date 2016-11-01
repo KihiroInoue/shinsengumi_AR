@@ -33,9 +33,9 @@
 #define kARViewToolbarHight         55.0f       // ツールバー高さ
 #define kARViewHeight               400.0f      // ARビューの高さ
 #define NEAR_BY_DISTANCE            20000000       // 現在位置とAR対象物の距離で表示する距離の範囲(m)
-#define AR_MARKER_MAXIMUM_NUMBER    13          // ARマーカの最大数
+#define AR_MARKER_MAXIMUM_NUMBER    10          // ARマーカの最大数
 #define InfoTagEstimateHeight       20.0f       // デフォルトのマーカ間隔
-#define MARKER_INTERVAL             1.2         // マーカ間隔の調整用パラメータ（乗数）
+#define MARKER_INTERVAL             1.6         // マーカ間隔の調整用パラメータ（乗数）
 #define AR_REFRESH_TIMER            0.1f        // マーカ描画リフレッシュ間隔
 
 // 加速度

@@ -198,35 +198,75 @@ NSComparisonResult DistanceSortClosestFirst(Article *a1, Article *a2, void *igno
     // ピン：デフォルトのピンを使う場合、imageEnabledをNOに、pinColorでカラーを指定
     //      カスタム画像のピンを使う場合、imageEnabledをYESに（pinColorは指定しなくて良い）
     
+    // 言語判別
+    NSArray  *languages = [NSLocale preferredLanguages];
+    NSString *currentLanguage = [languages objectAtIndex:0];
+    
+    // 日本語の場合は日本語KMLをロード
+    if ([currentLanguage hasPrefix:@"ja"]) {
+        [self loadFromInformation:mode
+                          kmlName:@"heiwa_wo_inoru"
+                         pinColor:MKPinAnnotationColorGreen
+                     imageEnabled:YES];
+        [self loadFromInformation:mode
+                          kmlName:@"hibaku60"
+                         pinColor:MKPinAnnotationColorGreen
+                     imageEnabled:YES];
+        [self loadFromInformation:mode
+                          kmlName:@"himeguri_movie"
+                         pinColor:MKPinAnnotationColorGreen
+                     imageEnabled:YES];
+        [self loadFromInformation:mode
+                          kmlName:@"kioku_wo_uketsugu"
+                         pinColor:MKPinAnnotationColorGreen
+                     imageEnabled:YES];
+        [self loadFromInformation:mode
+                          kmlName:@"photographs"
+                         pinColor:MKPinAnnotationColorGreen
+                     imageEnabled:YES];
+        [self loadFromInformation:mode
+                          kmlName:@"video_shogen"
+                         pinColor:MKPinAnnotationColorGreen
+                     imageEnabled:YES];
+        [self loadFromInformation:mode
+                          kmlName:@"genshiun"
+                         pinColor:MKPinAnnotationColorGreen
+                     imageEnabled:YES];
+    } else {
+    
+    // 日本語以外の場合は英語KMLをロード
     [self loadFromInformation:mode
-                      kmlName:@"heiwa_wo_inoru"
+                      kmlName:@"heiwa_wo_inoru_en"
                      pinColor:MKPinAnnotationColorGreen
                  imageEnabled:YES];
     [self loadFromInformation:mode
-                      kmlName:@"hibaku60"
+                      kmlName:@"hibaku60_en"
                      pinColor:MKPinAnnotationColorGreen
                  imageEnabled:YES];
     [self loadFromInformation:mode
-                      kmlName:@"himeguri_movie"
+                      kmlName:@"himeguri_movie_en"
                      pinColor:MKPinAnnotationColorGreen
                  imageEnabled:YES];
     [self loadFromInformation:mode
-                      kmlName:@"kioku_wo_uketsugu"
+                      kmlName:@"kioku_wo_uketsugu_en"
                      pinColor:MKPinAnnotationColorGreen
                  imageEnabled:YES];
     [self loadFromInformation:mode
-                      kmlName:@"photographs"
+                      kmlName:@"photographs_en"
                      pinColor:MKPinAnnotationColorGreen
                  imageEnabled:YES];
     [self loadFromInformation:mode
-                      kmlName:@"video_shogen"
+                      kmlName:@"video_shogen_en"
                      pinColor:MKPinAnnotationColorGreen
                  imageEnabled:YES];
+/*
     [self loadFromInformation:mode
                       kmlName:@"genshiun"
                      pinColor:MKPinAnnotationColorGreen
                  imageEnabled:YES];
-
+*/
+    }
+    
     self.articles = [[NSMutableArray alloc] init];
     
     for ( KMLPlacemarkAnnotation* annotation in self.kmlPlacemarkPoints) {

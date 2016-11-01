@@ -225,7 +225,6 @@
         [newCamera setPitch:GROUND_ZERO_CAMERA_PITCH];
         [newCamera setHeading:0];
         [newCamera setAltitude:GROUND_ZERO_CAMERA_ALTITUDE];
-        
         [self.mapView setCamera:newCamera animated:YES];
         self.mapView.showsUserLocation = YES;
     } else if (arInformationMode == CURRENT_LOCATION){

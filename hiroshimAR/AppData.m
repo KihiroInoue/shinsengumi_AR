@@ -203,7 +203,7 @@ NSComparisonResult DistanceSortClosestFirst(Article *a1, Article *a2, void *igno
     NSString *currentLanguage = [languages objectAtIndex:0];
     
     // 日本語の場合は日本語KMLをロード
-    if ([currentLanguage hasPrefix:@"ja"]) {
+    if ([currentLanguage hasPrefix:@"jp"]) {
         [self loadFromInformation:mode
                           kmlName:@"heiwa_wo_inoru"
                          pinColor:MKPinAnnotationColorGreen

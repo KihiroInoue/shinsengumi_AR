@@ -2,101 +2,11 @@
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
 <Document>
 	<name>hibaku60_en</name>
-	<StyleMap id="style_hibaku6028">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#style_hibaku6028_normal</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#style_hibaku6028_highlight</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="style_hibaku6019_highlight">
+	<Style id="style_hibaku6022_highlight">
 		<IconStyle>
 			<scale>2</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/hibaku60/19.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<Style id="style_hibaku6013_highlight">
-		<IconStyle>
-			<scale>2</scale>
-			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/hibaku60/13.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<Style id="style_hibaku609_normal">
-		<IconStyle>
-			<scale>0.7</scale>
-			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/hibaku60/9.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<StyleMap id="style_hibaku6012">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#style_hibaku6012_normal</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#style_hibaku6012_highlight</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="style_hibaku6027_normal">
-		<IconStyle>
-			<scale>0.7</scale>
-			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/hibaku60/27.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<StyleMap id="style_hibaku605">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#style_hibaku605_normal</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#style_hibaku605_highlight</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="style_hibaku6019_normal">
-		<IconStyle>
-			<scale>0.7</scale>
-			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/hibaku60/19.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<StyleMap id="style_hibaku6018">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#style_hibaku6018_normal</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#style_hibaku6018_highlight</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="style_hibaku6010">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#style_hibaku6010_normal</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#style_hibaku6010_highlight</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="style_hibaku608_highlight">
-		<IconStyle>
-			<scale>2</scale>
-			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/hibaku60/8.png</href>
+				<href>http://hiroshima.archiving.jp/web3d/kml/icon/hibaku60/22.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -108,100 +18,6 @@
 			</Icon>
 		</IconStyle>
 	</Style>
-	<StyleMap id="style_hibaku6014">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#style_hibaku6014_normal</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#style_hibaku6014_highlight</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="style_hibaku608_normal">
-		<IconStyle>
-			<scale>0.7</scale>
-			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/hibaku60/8.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<Style id="style_hibaku6017_highlight">
-		<IconStyle>
-			<scale>2</scale>
-			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/hibaku60/17.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<Style id="style_hibaku604_normal">
-		<IconStyle>
-			<scale>0.7</scale>
-			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/hibaku60/4.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<Style id="style_hibaku6015_highlight">
-		<IconStyle>
-			<scale>2</scale>
-			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/hibaku60/15.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<StyleMap id="style_hibaku6027">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#style_hibaku6027_normal</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#style_hibaku6027_highlight</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="style_hibaku602">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#style_hibaku602_normal</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#style_hibaku602_highlight</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="style_hibaku6021_highlight">
-		<IconStyle>
-			<scale>2</scale>
-			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/hibaku60/21.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<Style id="style_hibaku6025_highlight">
-		<IconStyle>
-			<scale>2</scale>
-			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/hibaku60/25.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<Style id="style_hibaku6027_highlight">
-		<IconStyle>
-			<scale>2</scale>
-			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/hibaku60/27.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<Style id="style_hibaku6018_highlight">
-		<IconStyle>
-			<scale>2</scale>
-			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/hibaku60/18.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
 	<Style id="style_hibaku6017_normal">
 		<IconStyle>
 			<scale>0.7</scale>
@@ -210,97 +26,67 @@
 			</Icon>
 		</IconStyle>
 	</Style>
-	<Style id="style_hibaku601_highlight">
+	<Style id="style_hibaku6020_normal">
 		<IconStyle>
-			<scale>2</scale>
+			<scale>0.7</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/hibaku60/1.png</href>
+				<href>http://hiroshima.archiving.jp/web3d/kml/icon/hibaku60/20.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
-	<Style id="style_hibaku6011_highlight">
-		<IconStyle>
-			<scale>2</scale>
-			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/hibaku60/11.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<Style id="style_hibaku605_highlight">
-		<IconStyle>
-			<scale>2</scale>
-			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/hibaku60/5.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<Style id="style_hibaku607_highlight">
-		<IconStyle>
-			<scale>2</scale>
-			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/hibaku60/7.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<StyleMap id="style_hibaku6016">
+	<StyleMap id="style_hibaku6026">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#style_hibaku6016_normal</styleUrl>
+			<styleUrl>#style_hibaku6026_normal</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#style_hibaku6016_highlight</styleUrl>
+			<styleUrl>#style_hibaku6026_highlight</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="style_hibaku6029">
+	<StyleMap id="style_hibaku6021">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#style_hibaku6029_normal</styleUrl>
+			<styleUrl>#style_hibaku6021_normal</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#style_hibaku6029_highlight</styleUrl>
+			<styleUrl>#style_hibaku6021_highlight</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="style_hibaku604_highlight">
-		<IconStyle>
-			<scale>2</scale>
-			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/hibaku60/4.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<Style id="style_hibaku603_highlight">
-		<IconStyle>
-			<scale>2</scale>
-			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/hibaku60/3.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<Style id="style_hibaku609_highlight">
-		<IconStyle>
-			<scale>2</scale>
-			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/hibaku60/9.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<StyleMap id="style_hibaku608">
+	<StyleMap id="style_hibaku6017">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#style_hibaku608_normal</styleUrl>
+			<styleUrl>#style_hibaku6017_normal</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#style_hibaku608_highlight</styleUrl>
+			<styleUrl>#style_hibaku6017_highlight</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="style_hibaku6024_highlight">
+	<StyleMap id="style_hibaku6025">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style_hibaku6025_normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style_hibaku6025_highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="style_hibaku6024_normal">
 		<IconStyle>
-			<scale>2</scale>
+			<scale>0.7</scale>
 			<Icon>
 				<href>http://hiroshima.archiving.jp/web3d/kml/icon/hibaku60/24.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="style_hibaku6026_highlight">
+		<IconStyle>
+			<scale>2</scale>
+			<Icon>
+				<href>http://hiroshima.archiving.jp/web3d/kml/icon/hibaku60/26.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -314,125 +100,45 @@
 			<styleUrl>#style_hibaku6011_highlight</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="style_hibaku603_normal">
+	<Style id="style_hibaku603_highlight">
 		<IconStyle>
-			<scale>0.7</scale>
+			<scale>2</scale>
 			<Icon>
 				<href>http://hiroshima.archiving.jp/web3d/kml/icon/hibaku60/3.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
-	<Style id="style_hibaku6010_normal">
-		<IconStyle>
-			<scale>0.7</scale>
-			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/hibaku60/10.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<Style id="style_hibaku6028_normal">
-		<IconStyle>
-			<scale>0.7</scale>
-			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/hibaku60/28.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<Style id="style_hibaku6022_normal">
-		<IconStyle>
-			<scale>0.7</scale>
-			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/hibaku60/22.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<Style id="style_hibaku6011_normal">
-		<IconStyle>
-			<scale>0.7</scale>
-			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/hibaku60/11.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<StyleMap id="style_hibaku6022">
+	<StyleMap id="style_hibaku6014">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#style_hibaku6022_normal</styleUrl>
+			<styleUrl>#style_hibaku6014_normal</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#style_hibaku6022_highlight</styleUrl>
+			<styleUrl>#style_hibaku6014_highlight</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="style_hibaku6015_normal">
+	<Style id="style_hibaku6014_normal">
 		<IconStyle>
 			<scale>0.7</scale>
-			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/hibaku60/15.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<Style id="style_hibaku6028_highlight">
-		<IconStyle>
-			<scale>2</scale>
-			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/hibaku60/28.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<Style id="style_hibaku6023_normal">
-		<IconStyle>
-			<scale>0.7</scale>
-			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/hibaku60/23.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<Style id="style_hibaku6024_normal">
-		<IconStyle>
-			<scale>0.7</scale>
-			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/hibaku60/24.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<Style id="style_hibaku601_normal">
-		<IconStyle>
-			<scale>0.7</scale>
-			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/hibaku60/1.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<Style id="style_hibaku602_highlight">
-		<IconStyle>
-			<scale>2</scale>
-			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/hibaku60/2.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<Style id="style_hibaku6021_normal">
-		<IconStyle>
-			<scale>0.7</scale>
-			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/hibaku60/21.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<Style id="style_hibaku6014_highlight">
-		<IconStyle>
-			<scale>2</scale>
 			<Icon>
 				<href>http://hiroshima.archiving.jp/web3d/kml/icon/hibaku60/14.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
-	<Style id="style_hibaku6016_highlight">
+	<Style id="style_hibaku6012_normal">
 		<IconStyle>
-			<scale>2</scale>
+			<scale>0.7</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/hibaku60/16.png</href>
+				<href>http://hiroshima.archiving.jp/web3d/kml/icon/hibaku60/12.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="style_hibaku6015_normal">
+		<IconStyle>
+			<scale>0.7</scale>
+			<Icon>
+				<href>http://hiroshima.archiving.jp/web3d/kml/icon/hibaku60/15.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -444,111 +150,71 @@
 			</Icon>
 		</IconStyle>
 	</Style>
-	<Style id="style_hibaku6020_highlight">
+	<Style id="style_hibaku6019_normal">
 		<IconStyle>
-			<scale>2</scale>
+			<scale>0.7</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/hibaku60/20.png</href>
+				<href>http://hiroshima.archiving.jp/web3d/kml/icon/hibaku60/19.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
-	<StyleMap id="style_hibaku6021">
+	<Style id="style_hibaku6023_normal">
+		<IconStyle>
+			<scale>0.7</scale>
+			<Icon>
+				<href>http://hiroshima.archiving.jp/web3d/kml/icon/hibaku60/23.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<StyleMap id="style_hibaku6023">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#style_hibaku6021_normal</styleUrl>
+			<styleUrl>#style_hibaku6023_normal</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#style_hibaku6021_highlight</styleUrl>
+			<styleUrl>#style_hibaku6023_highlight</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="style_hibaku606_normal">
+	<Style id="style_hibaku609_normal">
 		<IconStyle>
 			<scale>0.7</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/hibaku60/6.png</href>
+				<href>http://hiroshima.archiving.jp/web3d/kml/icon/hibaku60/9.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
-	<Style id="style_hibaku6026_highlight">
+	<Style id="style_hibaku605_highlight">
 		<IconStyle>
 			<scale>2</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/hibaku60/26.png</href>
+				<href>http://hiroshima.archiving.jp/web3d/kml/icon/hibaku60/5.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
-	<Style id="style_hibaku6012_highlight">
+	<Style id="style_hibaku6025_highlight">
 		<IconStyle>
 			<scale>2</scale>
-			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/hibaku60/12.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<Style id="style_hibaku607_normal">
-		<IconStyle>
-			<scale>0.7</scale>
-			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/hibaku60/7.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<Style id="style_hibaku6014_normal">
-		<IconStyle>
-			<scale>0.7</scale>
-			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/hibaku60/14.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<Style id="style_hibaku6013_normal">
-		<IconStyle>
-			<scale>0.7</scale>
-			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/hibaku60/13.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<Style id="style_hibaku606_highlight">
-		<IconStyle>
-			<scale>2</scale>
-			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/hibaku60/6.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<StyleMap id="style_hibaku6025">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#style_hibaku6025_normal</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#style_hibaku6025_highlight</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="style_hibaku6025_normal">
-		<IconStyle>
-			<scale>0.7</scale>
 			<Icon>
 				<href>http://hiroshima.archiving.jp/web3d/kml/icon/hibaku60/25.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
-	<Style id="style_hibaku602_normal">
+	<StyleMap id="style_hibaku6013">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style_hibaku6013_normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style_hibaku6013_highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="style_hibaku6018_normal">
 		<IconStyle>
 			<scale>0.7</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/hibaku60/2.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<Style id="style_hibaku6022_highlight">
-		<IconStyle>
-			<scale>2</scale>
-			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/hibaku60/22.png</href>
+				<href>http://hiroshima.archiving.jp/web3d/kml/icon/hibaku60/18.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -562,11 +228,27 @@
 			<styleUrl>#style_hibaku601_highlight</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="style_hibaku6029_normal">
+	<Style id="style_hibaku608_normal">
 		<IconStyle>
 			<scale>0.7</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/hibaku60/29.png</href>
+				<href>http://hiroshima.archiving.jp/web3d/kml/icon/hibaku60/8.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="style_hibaku6021_normal">
+		<IconStyle>
+			<scale>0.7</scale>
+			<Icon>
+				<href>http://hiroshima.archiving.jp/web3d/kml/icon/hibaku60/21.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="style_hibaku605_normal">
+		<IconStyle>
+			<scale>0.7</scale>
+			<Icon>
+				<href>http://hiroshima.archiving.jp/web3d/kml/icon/hibaku60/5.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -580,84 +262,76 @@
 			<styleUrl>#style_hibaku603_highlight</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="style_hibaku6013">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#style_hibaku6013_normal</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#style_hibaku6013_highlight</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="style_hibaku606">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#style_hibaku606_normal</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#style_hibaku606_highlight</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="style_hibaku6019">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#style_hibaku6019_normal</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#style_hibaku6019_highlight</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="style_hibaku6020">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#style_hibaku6020_normal</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#style_hibaku6020_highlight</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="style_hibaku6026">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#style_hibaku6026_normal</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#style_hibaku6026_highlight</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="style_hibaku6018_normal">
+	<Style id="style_hibaku603_normal">
 		<IconStyle>
 			<scale>0.7</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/hibaku60/18.png</href>
+				<href>http://hiroshima.archiving.jp/web3d/kml/icon/hibaku60/3.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
-	<StyleMap id="style_hibaku6024">
+	<StyleMap id="style_hibaku6012">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#style_hibaku6024_normal</styleUrl>
+			<styleUrl>#style_hibaku6012_normal</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#style_hibaku6024_highlight</styleUrl>
+			<styleUrl>#style_hibaku6012_highlight</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="style_hibaku609">
+	<Style id="style_hibaku604_normal">
+		<IconStyle>
+			<scale>0.7</scale>
+			<Icon>
+				<href>http://hiroshima.archiving.jp/web3d/kml/icon/hibaku60/4.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="style_hibaku608_highlight">
+		<IconStyle>
+			<scale>2</scale>
+			<Icon>
+				<href>http://hiroshima.archiving.jp/web3d/kml/icon/hibaku60/8.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="style_hibaku602_normal">
+		<IconStyle>
+			<scale>0.7</scale>
+			<Icon>
+				<href>http://hiroshima.archiving.jp/web3d/kml/icon/hibaku60/2.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<StyleMap id="style_hibaku6028">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#style_hibaku609_normal</styleUrl>
+			<styleUrl>#style_hibaku6028_normal</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#style_hibaku609_highlight</styleUrl>
+			<styleUrl>#style_hibaku6028_highlight</styleUrl>
 		</Pair>
 	</StyleMap>
+	<StyleMap id="style_hibaku6010">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style_hibaku6010_normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style_hibaku6010_highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="style_hibaku6029_normal">
+		<IconStyle>
+			<scale>0.7</scale>
+			<Icon>
+				<href>http://hiroshima.archiving.jp/web3d/kml/icon/hibaku60/29.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
 	<Style id="style_hibaku6010_highlight">
 		<IconStyle>
 			<scale>2</scale>
@@ -666,65 +340,71 @@
 			</Icon>
 		</IconStyle>
 	</Style>
-	<Style id="style_hibaku6020_normal">
-		<IconStyle>
-			<scale>0.7</scale>
-			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/hibaku60/20.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<Style id="style_hibaku605_normal">
-		<IconStyle>
-			<scale>0.7</scale>
-			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/hibaku60/5.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<StyleMap id="style_hibaku604">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#style_hibaku604_normal</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#style_hibaku604_highlight</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="style_hibaku607">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#style_hibaku607_normal</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#style_hibaku607_highlight</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="style_hibaku6023">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#style_hibaku6023_normal</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#style_hibaku6023_highlight</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="style_hibaku6012_normal">
-		<IconStyle>
-			<scale>0.7</scale>
-			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/hibaku60/12.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
 	<Style id="style_hibaku6026_normal">
 		<IconStyle>
 			<scale>0.7</scale>
 			<Icon>
 				<href>http://hiroshima.archiving.jp/web3d/kml/icon/hibaku60/26.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="style_hibaku6016_highlight">
+		<IconStyle>
+			<scale>2</scale>
+			<Icon>
+				<href>http://hiroshima.archiving.jp/web3d/kml/icon/hibaku60/16.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="style_hibaku6028_normal">
+		<IconStyle>
+			<scale>0.7</scale>
+			<Icon>
+				<href>http://hiroshima.archiving.jp/web3d/kml/icon/hibaku60/28.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="style_hibaku6013_highlight">
+		<IconStyle>
+			<scale>2</scale>
+			<Icon>
+				<href>http://hiroshima.archiving.jp/web3d/kml/icon/hibaku60/13.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<StyleMap id="style_hibaku6018">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style_hibaku6018_normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style_hibaku6018_highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="style_hibaku6016">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style_hibaku6016_normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style_hibaku6016_highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="style_hibaku6018_highlight">
+		<IconStyle>
+			<scale>2</scale>
+			<Icon>
+				<href>http://hiroshima.archiving.jp/web3d/kml/icon/hibaku60/18.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="style_hibaku602_highlight">
+		<IconStyle>
+			<scale>2</scale>
+			<Icon>
+				<href>http://hiroshima.archiving.jp/web3d/kml/icon/hibaku60/2.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -738,16 +418,32 @@
 			<styleUrl>#style_hibaku6015_highlight</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="style_hibaku6017">
+	<Style id="style_hibaku6011_highlight">
+		<IconStyle>
+			<scale>2</scale>
+			<Icon>
+				<href>http://hiroshima.archiving.jp/web3d/kml/icon/hibaku60/11.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<StyleMap id="style_hibaku602">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#style_hibaku6017_normal</styleUrl>
+			<styleUrl>#style_hibaku602_normal</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#style_hibaku6017_highlight</styleUrl>
+			<styleUrl>#style_hibaku602_highlight</styleUrl>
 		</Pair>
 	</StyleMap>
+	<Style id="style_hibaku6024_highlight">
+		<IconStyle>
+			<scale>2</scale>
+			<Icon>
+				<href>http://hiroshima.archiving.jp/web3d/kml/icon/hibaku60/24.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
 	<Style id="style_hibaku6029_highlight">
 		<IconStyle>
 			<scale>2</scale>
@@ -756,15 +452,319 @@
 			</Icon>
 		</IconStyle>
 	</Style>
+	<Style id="style_hibaku6022_normal">
+		<IconStyle>
+			<scale>0.7</scale>
+			<Icon>
+				<href>http://hiroshima.archiving.jp/web3d/kml/icon/hibaku60/22.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<StyleMap id="style_hibaku6027">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style_hibaku6027_normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style_hibaku6027_highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="style_hibaku6021_highlight">
+		<IconStyle>
+			<scale>2</scale>
+			<Icon>
+				<href>http://hiroshima.archiving.jp/web3d/kml/icon/hibaku60/21.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="style_hibaku6027_normal">
+		<IconStyle>
+			<scale>0.7</scale>
+			<Icon>
+				<href>http://hiroshima.archiving.jp/web3d/kml/icon/hibaku60/27.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="style_hibaku606_highlight">
+		<IconStyle>
+			<scale>2</scale>
+			<Icon>
+				<href>http://hiroshima.archiving.jp/web3d/kml/icon/hibaku60/6.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="style_hibaku6017_highlight">
+		<IconStyle>
+			<scale>2</scale>
+			<Icon>
+				<href>http://hiroshima.archiving.jp/web3d/kml/icon/hibaku60/17.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<StyleMap id="style_hibaku6022">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style_hibaku6022_normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style_hibaku6022_highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="style_hibaku605">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style_hibaku605_normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style_hibaku605_highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="style_hibaku608">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style_hibaku608_normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style_hibaku608_highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="style_hibaku606_normal">
+		<IconStyle>
+			<scale>0.7</scale>
+			<Icon>
+				<href>http://hiroshima.archiving.jp/web3d/kml/icon/hibaku60/6.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="style_hibaku6010_normal">
+		<IconStyle>
+			<scale>0.7</scale>
+			<Icon>
+				<href>http://hiroshima.archiving.jp/web3d/kml/icon/hibaku60/10.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<StyleMap id="style_hibaku6020">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style_hibaku6020_normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style_hibaku6020_highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="style_hibaku607_highlight">
+		<IconStyle>
+			<scale>2</scale>
+			<Icon>
+				<href>http://hiroshima.archiving.jp/web3d/kml/icon/hibaku60/7.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="style_hibaku6012_highlight">
+		<IconStyle>
+			<scale>2</scale>
+			<Icon>
+				<href>http://hiroshima.archiving.jp/web3d/kml/icon/hibaku60/12.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="style_hibaku601_normal">
+		<IconStyle>
+			<scale>0.7</scale>
+			<Icon>
+				<href>http://hiroshima.archiving.jp/web3d/kml/icon/hibaku60/1.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<StyleMap id="style_hibaku6029">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style_hibaku6029_normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style_hibaku6029_highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="style_hibaku609_highlight">
+		<IconStyle>
+			<scale>2</scale>
+			<Icon>
+				<href>http://hiroshima.archiving.jp/web3d/kml/icon/hibaku60/9.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="style_hibaku6019_highlight">
+		<IconStyle>
+			<scale>2</scale>
+			<Icon>
+				<href>http://hiroshima.archiving.jp/web3d/kml/icon/hibaku60/19.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="style_hibaku6011_normal">
+		<IconStyle>
+			<scale>0.7</scale>
+			<Icon>
+				<href>http://hiroshima.archiving.jp/web3d/kml/icon/hibaku60/11.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="style_hibaku6027_highlight">
+		<IconStyle>
+			<scale>2</scale>
+			<Icon>
+				<href>http://hiroshima.archiving.jp/web3d/kml/icon/hibaku60/27.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="style_hibaku604_highlight">
+		<IconStyle>
+			<scale>2</scale>
+			<Icon>
+				<href>http://hiroshima.archiving.jp/web3d/kml/icon/hibaku60/4.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="style_hibaku6025_normal">
+		<IconStyle>
+			<scale>0.7</scale>
+			<Icon>
+				<href>http://hiroshima.archiving.jp/web3d/kml/icon/hibaku60/25.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="style_hibaku601_highlight">
+		<IconStyle>
+			<scale>2</scale>
+			<Icon>
+				<href>http://hiroshima.archiving.jp/web3d/kml/icon/hibaku60/1.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="style_hibaku6020_highlight">
+		<IconStyle>
+			<scale>2</scale>
+			<Icon>
+				<href>http://hiroshima.archiving.jp/web3d/kml/icon/hibaku60/20.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="style_hibaku6028_highlight">
+		<IconStyle>
+			<scale>2</scale>
+			<Icon>
+				<href>http://hiroshima.archiving.jp/web3d/kml/icon/hibaku60/28.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="style_hibaku6015_highlight">
+		<IconStyle>
+			<scale>2</scale>
+			<Icon>
+				<href>http://hiroshima.archiving.jp/web3d/kml/icon/hibaku60/15.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<StyleMap id="style_hibaku606">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style_hibaku606_normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style_hibaku606_highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="style_hibaku609">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style_hibaku609_normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style_hibaku609_highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="style_hibaku6024">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style_hibaku6024_normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style_hibaku6024_highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="style_hibaku607">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style_hibaku607_normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style_hibaku607_highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="style_hibaku6014_highlight">
+		<IconStyle>
+			<scale>2</scale>
+			<Icon>
+				<href>http://hiroshima.archiving.jp/web3d/kml/icon/hibaku60/14.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="style_hibaku6013_normal">
+		<IconStyle>
+			<scale>0.7</scale>
+			<Icon>
+				<href>http://hiroshima.archiving.jp/web3d/kml/icon/hibaku60/13.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<StyleMap id="style_hibaku604">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style_hibaku604_normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style_hibaku604_highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="style_hibaku6019">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style_hibaku6019_normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style_hibaku6019_highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="style_hibaku607_normal">
+		<IconStyle>
+			<scale>0.7</scale>
+			<Icon>
+				<href>http://hiroshima.archiving.jp/web3d/kml/icon/hibaku60/7.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
 	<Folder>
 		<name>被爆60年</name>
 		<open>1</open>
 		<Placemark id="hibaku601">
 			<name>Teruko Ohyama</name>
-			<description><![CDATA[<html><head><link href="http://hiroshima.archiving.jp/css/android.css" rel="stylesheet" type="text/css"></head><body><div class="balloon"><div class="shogen"><p class="subject">It would have been better if I was dead </p>
+			<description><![CDATA[<html><head><link href="http://hiroshima.archiving.jp/data/ios/style.css" rel="stylesheet" type="text/css"></head><body><div class="balloon"><div class="shogen"><p class="subject">It would have been better if I was dead </p>
 <p class="image"><img src="http://mapping.jp/hiroshima/materials/photo/teruko_oyama2.png"></p>
 <p class="body_en"> I was four years old when it happened. It was an unforgettable day for me. Most people do not have memories of when they are 4 years old, but I clearly remember  that day.</p><p class="body_en">
-I was on the second floor and my house collapsed at the time when I noticed a flash outside, and I was trapped  under the block wall not knowing what had happened. I was totally confused . I don’t know how much time passed , but a soldier who worked for my father came to rescue me. My father was an adjutant at No 16710 Marine  Radio regiment and had 7,000 men under him. I could hear the soldier saying something to me, but could not understand. I was hearing impaired because of the shock. When I finally struggled to crawl out of the block wall, the soldier broke into tears in relief. We started to walk towards my father’s regiment crying. On the way, the land was devastated and the river was colored  red with blood. A dying person grabbed my skirt and asked me for water. So I cried again. I also saw many people died while drinking water from  the river. </p><p class="body_en"> When the atomic bomb was dropped, my 13 year old  cousin was on a train, on her way to school. I went to look for her with my aunt. She  found a body in the charred train with her daughter’s name tag, holding on to a strap. When I called my cousin’s name and grabbed her, she collapsed and crumbled to the ground.</p><p class="body_en"> Although I was with a soldier from my father’s regiment, I was not able to meet with  my father. All he did was to put  me in a safe bomb shelter. I was not able to meet my father for a month. My father first had to take care of the 7,000 men working for him, before taking care of me . </p><p class="body_en"> Looking back, it would have been better if I died that day, since my life after was terrible . </p><p class="body_en"> Since  the atomic bomb was created to kill people, it would have been better if everyone who experienced the bomb died without any survivors.  It would have been much better than living in a world of suffering. I already had enough of it.</p><p class="body_en"> When I returned to the epicenter of the blast 2 or 3 days later, I found a mountain of dead bodies. My father’s regiment pulled out the dead bodies from  the river and stacked them . In order to receive the atomic bomb survivor’s certificate, I had to prove my home address. But I could not prove my address because my certificate of residence has been lost . I had to find a witness to prove that I  lived in the hypocenter area. It is true that my house in Deshio town was only 2.5 kilometer away from where the atomic bomb dropped. I was able to receive the survivor’s certificate by applying the military address, but my father could not receive it. How could this happen? My father died of leukemia 10 years after the atomic bomb. </p><p class="body_en"></p><p class="body_en"> I will never forgive a war breaking out. However, war is being repeated  in Iraq and around the world. Can’t people understand how sad war is  unless they have a painful experience? Can’t the younger generation understand the misery of  war even if they don’t have the  experience? I don’t want the world to repeat the mistake of going to war ever again. </p></div><div class="reference"><p class="reference">The Hachioji Hibakusha Association</p></div></div></body></html>]]></description>
+I was on the second floor and my house collapsed at the time when I noticed a flash outside, and I was trapped  under the block wall not knowing what had happened. I was totally confused . I don’t know how much time passed , but a soldier who worked for my father came to rescue me. My father was an adjutant at No 16710 Marine  Radio regiment and had 7,000 men under him. I could hear the soldier saying something to me, but could not understand. I was hearing impaired because of the shock. When I finally struggled to crawl out of the block wall, the soldier broke into tears in relief. We started to walk towards my father’s regiment crying. On the way, the land was devastated and the river was colored  red with blood. A dying person grabbed my skirt and asked me for water. So I cried again. I also saw many people died while drinking water from  the river. </p><p class="body_en"> When the atomic bomb was dropped, my 13 year old  cousin was on a train, on her way to school. I went to look for her with my aunt. She  found a body in the charred train with her daughter’s name tag, holding on to a strap. When I called my cousin’s name and grabbed her, she collapsed and crumbled to the ground.</p><p class="body_en"> Although I was with a soldier from my father’s regiment, I was not able to meet with  my father. All he did was to put  me in a safe bomb shelter. I was not able to meet my father for a month. My father first had to take care of the 7,000 men working for him, before taking care of me . </p><p class="body_en"> Looking back, it would have been better if I died that day, since my life after was terrible . </p><p class="body_en"> Since  the atomic bomb was created to kill people, it would have been better if everyone who experienced the bomb died without any survivors.  It would have been much better than living in a world of suffering. I already had enough of it.</p><p class="body_en"> When I returned to the epicenter of the blast 2 or 3 days later, I found a mountain of dead bodies. My father’s regiment pulled out the dead bodies from  the river and stacked them . In order to receive the atomic bomb survivor’s certificate, I had to prove my home address. But I could not prove my address because my certificate of residence has been lost . I had to find a witness to prove that I  lived in the hypocenter area. It is true that my house in Deshio town was only 2.5 kilometer away from where the atomic bomb dropped. I was able to receive the survivor’s certificate by applying the military address, but my father could not receive it. How could this happen? My father died of leukemia 10 years after the atomic bomb. </p><p class="body_en"></p><p class="body_en"> I will never forgive a war breaking out. However, war is being repeated  in Iraq and around the world. Can’t people understand how sad war is  unless they have a painful experience? Can’t the younger generation understand the misery of  war even if they don’t have the  experience? I don’t want the world to repeat the mistake of going to war ever again. </p></div><div class="reference"><p class="reference">The Hachioji Hibakusha Association</p></div></div><p id="routeButton"><a href="http://maps.apple.com/maps?saddr=&daddr=34.37467569873785,132.4778547593926&z=16"><img src="http://hiroshima.archiving.jp/data/ios/navi.png" class="route"></a></p></body></html>]]></description>
 			<styleUrl>#style_hibaku601</styleUrl>
 			<Point>
 				<extrude>1</extrude>
@@ -774,7 +774,7 @@ I was on the second floor and my house collapsed at the time when I noticed a fl
 		</Placemark>
 		<Placemark id="hibaku602">
 			<name>Junsuke Ishii</name>
-			<description><![CDATA[<html><head><link href="http://hiroshima.archiving.jp/css/android.css" rel="stylesheet" type="text/css"></head><body><div class="balloon"><div class="shogen"><p class="subject">The Great Tokyo Air Raid and Hiroshima</p>
+			<description><![CDATA[<html><head><link href="http://hiroshima.archiving.jp/data/ios/style.css" rel="stylesheet" type="text/css"></head><body><div class="balloon"><div class="shogen"><p class="subject">The Great Tokyo Air Raid and Hiroshima</p>
 <p class="image"><img src="http://mapping.jp/hiroshima/materials/photo/ishii_junsuke2.png"></p>
 <p class="body_en"> I had experienced the Great Tokyo Air Raid on March 10, 1945, and then was called for military service in the Hiroshima No. 16710 Marine Radio base supply regiment the following April, and I experienced the Hiroshima Atomic Bomb on August 6th. </p><p class="body_en">
 《B-29 low-level bombing made me realize our defeat in war》The Japanese Army suffered a crushing defeat in the Battle of the Philippine Sea. US troops established a bombing base in the Mariana Islands of Saipan, Guam and Tinian to prepare for bombing the Japanese-mainland. Our six-member family lived in Kitazawa, Setagaya Ward in Tokyo at the time. When we noticed a wisp of jet contrail in the clear blue sky, a silver object shined at the tip and approached towards us rapidly for bombing. </p><p class="body_en">
@@ -789,7 +789,7 @@ I was too badly injured to participate in the rescue operation. I was moved to t
 《After the war》Japanese citizens were finally freed from the military administration, and gained zest for living and creating our own future of our free will. The food situation was so severe that we had to cultivate the burnt ruins to grow our own food with hardly any days off. After graduating from school in 1945, thanks to my senior Mr. Tomoda, I got a job at a company called Anritsu Corporation. In 1951, when the Japanese economy prospered by special procurement demand from Korea, I made a job change to Shiba Electric. Then the rapid economic growth, what is called the “Miracle of the 20th Century” started to lose its momentum after the Tokyo Olympic games. The economy was damaged by the oil shock in 1973. Our company merged with Hitachi in 1975, and I reached mandatory retirement age in 1985. I appreciate support from my family, friends and colleagues which enabled me to work for 40 years to retirement age. </p><p class="body_en">
 《My second life》As the representative of the Hachioji Atomic Bomb Survivors Association, I had an opportunity to attend the Peace Memorial Service for Atomic-Bomb Victims held in 1988, with Mr. Furukawa, the representative of Tokyo bereaved family. We prayed sincerely and paid a floral tribute for the victims and vowed for peace. </p><p class="body_en">
 60 years have passed since the end of the war, and each generation keeps changing. We shall never forget that the biggest reason why Japanese have enjoyed the prosperity after the war is that it is always peaceful. We, Japanese, have the mission to abandon nuclear weapons and chemical weapons, as we are aware of the misery and cruelty of war. Furthermore we have to succeed lasting peace and appreciation for preciousness of life to the next generation.</p>
-</div><div class="reference"><p class="reference">The Hachioji Hibakusha Association</p></div></div></body></html>]]></description>
+</div><div class="reference"><p class="reference">The Hachioji Hibakusha Association</p></div></div><p id="routeButton"><a href="http://maps.apple.com/maps?saddr=&daddr=34.38063816671718,132.4664113693071&z=16"><img src="http://hiroshima.archiving.jp/data/ios/navi.png" class="route"></a></p></body></html>]]></description>
 			<styleUrl>#style_hibaku602</styleUrl>
 			<Point>
 				<extrude>1</extrude>
@@ -799,7 +799,7 @@ I was too badly injured to participate in the rescue operation. I was moved to t
 		</Placemark>
 		<Placemark id="hibaku603">
 			<name>Koji Ueda</name>
-			<description><![CDATA[<html><head><link href="http://hiroshima.archiving.jp/css/android.css" rel="stylesheet" type="text/css"></head><body><div class="balloon"><div class="shogen"><p class="subject">My thoughts as a younger age A-bomb survivor</p>
+			<description><![CDATA[<html><head><link href="http://hiroshima.archiving.jp/data/ios/style.css" rel="stylesheet" type="text/css"></head><body><div class="balloon"><div class="shogen"><p class="subject">My thoughts as a younger age A-bomb survivor</p>
 <p class="image"><img src="http://mapping.jp/hiroshima/materials/photo/ueda_kouji2.png"></p>
 <p class="body_en">
 Our family’s permanent address is at Motoyanagi Town in Hiroshima City, which is only 500 meters away from the hypocenter. It is now part of the Peace Memorial Park. Our family had a general merchandise wholesale store there. Since business was considered “peace industry”, my father was called up for military service, and our family had to close the wholesale store and move to Kabe town, which is about 15 kilometers north of Hiroshima.</p><p class="body_en">
@@ -815,7 +815,7 @@ Now, as an A-bomb survivor, I suggest we should create a world without nuclear w
 Please imagine what really happened to the A-bomb survivors through the devastating nuclear cloud. About the ball of flame that was expressed as “brighter than a thousand sun”. About the high pressure shock wave, profuse gamma beam, neutron radiation, and the fire blast of 3,000 to 4,000 degrees Celsius. The ongoing mental and physical pain, anxiety, anguish, and hardship of life of survivors. Who in the world could have gone through such a tragic experience but the A-bomb victims? However, the path they have chosen was not retaliation. “We shall never repeat the same mistake again.” “Humanity cannot coexist with nuclear weapons.” The path they have chosen is to abolish nuclear weapons. What an exalted spirit! </p><p class="body_en">
 To my regret, there are still many wars going on around the world. Can war bring us peace? We have learned from the World War 2 that we need to deny any violence in order to create world peace. That is why the United Nations was established. The Japanese Constitution was established on the extension line of the UN’s principle, and the famous Article 9 of the Japanese Constitution was written. If you read the minutes of the diet back then, you will find Prime Minister Yoshida and other ministers declared the Japanese Constitution be a “Constitution that Japan can be proud of”, and that “Japan shall be the country to take the initiative in aspiring peace.” </p><p class="body_en">
 I strongly believe that if the whole human family can share the heart of the A-bomb survivors and victims, the door to peace and nuclear weapon abolishment will open.
-</p></div><div class="reference"><p class="reference">The Hachioji Hibakusha Association</p></div></div></body></html>]]></description>
+</p></div><div class="reference"><p class="reference">The Hachioji Hibakusha Association</p></div></div><p id="routeButton"><a href="http://maps.apple.com/maps?saddr=&daddr=34.5116468663518,132.5111415917352&z=16"><img src="http://hiroshima.archiving.jp/data/ios/navi.png" class="route"></a></p></body></html>]]></description>
 			<styleUrl>#style_hibaku603</styleUrl>
 			<Point>
 				<extrude>1</extrude>
@@ -825,7 +825,7 @@ I strongly believe that if the whole human family can share the heart of the A-b
 		</Placemark>
 		<Placemark id="hibaku604">
 			<name>Mitsuko Goto</name>
-			<description><![CDATA[<html><head><link href="http://hiroshima.archiving.jp/css/android.css" rel="stylesheet" type="text/css"></head><body><div class="balloon"><div class="shogen"><p class="subject">Children burned to death</p>
+			<description><![CDATA[<html><head><link href="http://hiroshima.archiving.jp/data/ios/style.css" rel="stylesheet" type="text/css"></head><body><div class="balloon"><div class="shogen"><p class="subject">Children burned to death</p>
 <p class="image"><img src="http://mapping.jp/hiroshima/materials/photo/mitsuko_goto2.png"></p>
 <p class="body_en">
 I experienced the atomic bomb in the building of Hiroshima girl’s high school for teachers, which was 1.7 kilometers from the epicenter.</p><p class="body_en">
@@ -848,7 +848,7 @@ On February 28, 1999, the story about the children who burned to death was cover
 Since I experienced the pain of burns caused by the atomic bomb, my heart breaks whenever I think about the children who were burned to death by the 3,000 to 4,000 degree heat. This pain is beyond imagination but has left a long-lasting scar on my heart.</p><p class="body_en">
 It is said that around seven thousand two hundred students died of in the atomic bombing of Hiroshima. So many young lives were lost, their futures filled with so many possibilities were taken away.</p><p class="body_en">
 As a storyteller of the atomic bomb, I insist on “the importance of peace”, “the preciousness of life” and most importantly, “abolition of nuclear weapons”. Nuclear weapons are so brutal. They are made for massacre. Atomic bomb victims know how cruel nuclear weapons are. It is our earnest wish to abolish nuclear weapons from the Earth. All atomic bomb victims have the same wish. I am convinced that my mission is to convey this wish to the next generation.</p>
-</div><div class="reference"><p class="reference">The Hachioji Hibakusha Association</p></div></div></body></html>]]></description>
+</div><div class="reference"><p class="reference">The Hachioji Hibakusha Association</p></div></div><p id="routeButton"><a href="http://maps.apple.com/maps?saddr=&daddr=34.37841772936874,132.4560104866489&z=16"><img src="http://hiroshima.archiving.jp/data/ios/navi.png" class="route"></a></p></body></html>]]></description>
 			<styleUrl>#style_hibaku604</styleUrl>
 			<Point>
 				<extrude>1</extrude>
@@ -858,7 +858,7 @@ As a storyteller of the atomic bomb, I insist on “the importance of peace”, 
 		</Placemark>
 		<Placemark id="hibaku605">
 			<name>Kazuyuki Kumada</name>
-			<description><![CDATA[<html><head><link href="http://hiroshima.archiving.jp/css/android.css" rel="stylesheet" type="text/css"></head><body><div class="balloon"><div class="shogen"><p class="subject">An unwanted memory</p>
+			<description><![CDATA[<html><head><link href="http://hiroshima.archiving.jp/data/ios/style.css" rel="stylesheet" type="text/css"></head><body><div class="balloon"><div class="shogen"><p class="subject">An unwanted memory</p>
 <p class="image"><img src="http://mapping.jp/hiroshima/materials/photo/kazuyuki_kumada2.png"></p>
 <p class="body_en">
 My house was located in Koami-town Hiroshima City. I was 12 years old (6th grader in elementary school). Although most of my classmates were evacuated from the city, I was left in Hiroshima since I had to see a doctor regularly for my leg injury. I recall that the number of peers that were left in Hiroshima were small just enough to make one classroom. </p><p class="body_en">
@@ -870,7 +870,7 @@ My mother didn’t want to talk about her experience of the atomic bomb. I under
 At that time, my father was in China to study calligraphy. Later, I heard that he joined the army after the war broke and moved from place to place. After the war, he returned to Japan, but my mother did not share her atomic bomb experience with him.</p><p class="body_en">
 I think it is a common feeling for the A-bomb victims that they do not want to recall their bad memories of war. That is how cruel the atomic bomb is. The suffering and sorrow still exists, and will not be healed forever. </p><p class="body_en">
 But ironically, A-bomb victims are the only people that can hand on the horrible experience to the next generation.</p>
-</div><div class="reference"><p class="reference">The Hachioji Hibakusha Association</p></div></div></body></html>]]></description>
+</div><div class="reference"><p class="reference">The Hachioji Hibakusha Association</p></div></div><p id="routeButton"><a href="http://maps.apple.com/maps?saddr=&daddr=34.39687096531837,132.4280342532819&z=16"><img src="http://hiroshima.archiving.jp/data/ios/navi.png" class="route"></a></p></body></html>]]></description>
 			<styleUrl>#style_hibaku605</styleUrl>
 			<Point>
 				<extrude>1</extrude>
@@ -880,7 +880,7 @@ But ironically, A-bomb victims are the only people that can hand on the horrible
 		</Placemark>
 		<Placemark id="hibaku606">
 			<name>Kazuto Komoda</name>
-			<description><![CDATA[<html><head><link href="http://hiroshima.archiving.jp/css/android.css" rel="stylesheet" type="text/css"></head><body><div class="balloon"><div class="shogen">
+			<description><![CDATA[<html><head><link href="http://hiroshima.archiving.jp/data/ios/style.css" rel="stylesheet" type="text/css"></head><body><div class="balloon"><div class="shogen">
 <p class="subject">A hell on earth. August 6th</p>
 <p class="image"><img src="http://mapping.jp/hiroshima/materials/photo/tsutada2.png"></p>
 <p class="body_en">
@@ -913,7 +913,7 @@ The atomic bomb damned many people to hell in a brink of an eye, and changed the
 After I returned to my hometown Onomichi, I suffered from diarrhea and nausea for a while. I also suffered from severe fever and dizziness. Since I had heard many news about atomic bomb casualties, I was prepared to die anytime. </p><p class="body_en">
 After I recovered from the illness, I returned to school to study architectonics. Since the school building was broken, some of the teachers, staffs, and students who survived the atomic bomb worked together to gather some scrap wood to rebuild a classroom. Even though the classroom neither had ceiling nor flooring, I was able to graduate in 1947 together with 10 classmates. </p><p class="body_en">
 Looking back, I gave most of my vernal years to the city of Hiroshima which is my second hometown. I went through the atomic bomb, end of war, and the deprivation after the war, together with the city of Hiroshima. </p>
-</div><div class="reference"><p class="reference">The Hachioji Hibakusha Association</p></div></div></body></html>]]></description>
+</div><div class="reference"><p class="reference">The Hachioji Hibakusha Association</p></div></div><p id="routeButton"><a href="http://maps.apple.com/maps?saddr=&daddr=34.35989291957092,132.5332768492352&z=16"><img src="http://hiroshima.archiving.jp/data/ios/navi.png" class="route"></a></p></body></html>]]></description>
 			<styleUrl>#style_hibaku606</styleUrl>
 			<Point>
 				<extrude>1</extrude>
@@ -923,7 +923,7 @@ Looking back, I gave most of my vernal years to the city of Hiroshima which is m
 		</Placemark>
 		<Placemark id="hibaku607">
 			<name>Kakou Takada</name>
-			<description><![CDATA[<html><head><link href="http://hiroshima.archiving.jp/css/android.css" rel="stylesheet" type="text/css"></head><body><div class="balloon"><div class="shogen"><p class="subject">My A-bomb experience</p>
+			<description><![CDATA[<html><head><link href="http://hiroshima.archiving.jp/data/ios/style.css" rel="stylesheet" type="text/css"></head><body><div class="balloon"><div class="shogen"><p class="subject">My A-bomb experience</p>
 <p class="body_en">
 In those days, I lived in Kure-City Hiroshima Prefecture which was located about 26 kilometers southeast from Hiroshima City. Kure was a naval base and there were many battleships anchoring and factories creating weapons and battleships. Kure also had a military airport on the east side of the city. Therefore, Kure often became a target for aerial bombing. We had experienced B29 bombing frequently that most of the military base and battleships were destroyed. Moreover, 80% of the residence were destroyed by the fire bombs. The civilians spent many sleepless nights in fear of the aerial attack. Air superiority was totally in hand of the Americans.</p><p class="body_en">
 I was a student that time. The American Grumman battleplane even strafed to the commuting trains and school grounds.</p><p class="body_en">
@@ -946,7 +946,7 @@ It was a very tough work for me to obtain the A-bomb survivors health book that 
 I participate in the activities of the A-bomb victims because I don’t want my family, the Japanese citizen, furthermore all humankind to go through what I had experienced. Like I mentioned, I moved to the Kure area after the bomb, so I haven’t directly seen how the city of Hiroshima was like after the bomb. Therefore when I participate in exhibitions or occasion to talk about the a-bomb experience, I often quote other victim’s experience or some information that I got from books. But what I told today is all based on my own experience.</p><p class="body_en">
 There is nothing awful than war. There is no line between battle field and inland. Everyone gets harmed equally. Of course, the country which becomes the battlefield is more awful. I get scared just thinking about nuclear missiles passing above us. In order to maintain peace, true democracy is necessary for the civilians and politicians to make the right decision time to time. The Manchurian Incident erupted in 1927. Counting from then, I was involved in war more than ten years since I was in kindergarten. After all these years, I strongly feel the preciousness of peace.
 </p>
-</div><div class="reference"><p class="reference">The Hachioji Hibakusha Association</p></div></div></body></html>]]></description>
+</div><div class="reference"><p class="reference">The Hachioji Hibakusha Association</p></div></div><p id="routeButton"><a href="http://maps.apple.com/maps?saddr=&daddr=34.39640925324481,132.4747191679762&z=16"><img src="http://hiroshima.archiving.jp/data/ios/navi.png" class="route"></a></p></body></html>]]></description>
 			<styleUrl>#style_hibaku607</styleUrl>
 			<Point>
 				<extrude>1</extrude>
@@ -956,14 +956,14 @@ There is nothing awful than war. There is no line between battle field and inlan
 		</Placemark>
 		<Placemark id="hibaku608">
 			<name>Tadayoshi Onobayashi</name>
-			<description><![CDATA[<html><head><link href="http://hiroshima.archiving.jp/css/android.css" rel="stylesheet" type="text/css"></head><body><div class="balloon"><div class="shogen"><p class="subject">Atomic bomb brings bring about the destruction of mankind.</p>
+			<description><![CDATA[<html><head><link href="http://hiroshima.archiving.jp/data/ios/style.css" rel="stylesheet" type="text/css"></head><body><div class="balloon"><div class="shogen"><p class="subject">Atomic bomb brings bring about the destruction of mankind.</p>
 <p class="image"><img src="http://mapping.jp/hiroshima/materials/photo/onobayashi_tadayoshi2.png"></p>
 <p class="body_en">When the atomic bomb dropped, all of our family members were in our house at Funairi-Honmachi. Doors and shelves collapsed making a tremendous noise, and we all evacuated outside.  Our house was in flames soon after we got out. We decided to evacuate towards the seaside along the main street. On the way, we saw many injured and dead people, but I don’t remember it clearly. We slept outside for a few days. In the daytime, people started to clean up the rubble when the fire burned out. Dead bodies were put on the ground in a row along the main street. There was no light during the night and the city was silent. There were some moribund people lying in the row of the dead bodies even though they were still alive. I heard them say “Give me water.” or “Help me.” However, there was nothing I could do. I spent a few nights under those circumstances. I had enough water since it was bursting out of the underground pipes, but lack of food was severe. We caught wild chickens running around and boiled them by using an iron helmet as a pot. Then we moved to our father’s hometown (Kanda Village). Although many people were injured or burned, we helped each other to survive. Some of them suffered from maggots growing in a wound and crawling over their skin one after another. I helped them remove maggots but they died eventually. Those who could remove most of maggots survived with keloids. 
 Later I found out that all people in the neighboring houses died. They burned to death trapped under collapsed houses. </p><p class="body_en">
 When I was a child, I did not have any health problems. However, when I got older, the after effects of the A-bomb surely eroded my body. In fact, I once suffered from a lack of white blood cells. I also had a hard time when I got married because I was an A-bomb survivor. When I had a baby, I was very anxious because of the possibility of the health effects to my baby. As I had anticipated, my child had several health problems. I was shocked to hear that my best friend who was also an A-bomb survivor died of low white blood cell count last year.
 It is insane for humans to kill each other. It goes without saying that I am opposed to war, and I am opposed to using nuclear weapons, since it leaves ever-lasting negative effects on future generations. I’m sure that nuclear weapons will bring about the destruction of mankind.
 </p>
-</div><div class="reference"><p class="reference">The Hachioji Hibakusha Association</p></div></div></body></html>]]></description>
+</div><div class="reference"><p class="reference">The Hachioji Hibakusha Association</p></div></div><p id="routeButton"><a href="http://maps.apple.com/maps?saddr=&daddr=34.38565719645681,132.4429544458689&z=16"><img src="http://hiroshima.archiving.jp/data/ios/navi.png" class="route"></a></p></body></html>]]></description>
 			<styleUrl>#style_hibaku608</styleUrl>
 			<Point>
 				<extrude>1</extrude>
@@ -973,7 +973,7 @@ It is insane for humans to kill each other. It goes without saying that I am opp
 		</Placemark>
 		<Placemark id="hibaku609">
 			<name>Masako Tanimura</name>
-			<description><![CDATA[<html><head><link href="http://hiroshima.archiving.jp/css/android.css" rel="stylesheet" type="text/css"></head><body><div class="balloon"><div class="shogen"><p class="subject">No more wars</p>
+			<description><![CDATA[<html><head><link href="http://hiroshima.archiving.jp/data/ios/style.css" rel="stylesheet" type="text/css"></head><body><div class="balloon"><div class="shogen"><p class="subject">No more wars</p>
 <p class="image"><img src="http://mapping.jp/hiroshima/materials/photo/masako_tanimura2.png"></p>
 <p class="body_en">
 When “the devil’s weapon,” the atomic bomb was dropped on Hiroshima, I was on the second floor of the Gion Girls Senior High School.
@@ -1000,7 +1000,7 @@ When “the devil’s weapon,” the atomic bomb was dropped on Hiroshima, I was
 
 </p><p class="body_en">Now, as the second generation of atomic bomb victims, my four children, are contributing to society. That is proof of my victory over the tragedy of A-bomb radiation sickness.
 </p>
-</div><div class="reference"><p class="reference">The Hachioji Hibakusha Association</p></div></div></body></html>]]></description>
+</div><div class="reference"><p class="reference">The Hachioji Hibakusha Association</p></div></div><p id="routeButton"><a href="http://maps.apple.com/maps?saddr=&daddr=34.44156453194781,132.4645167390826&z=16"><img src="http://hiroshima.archiving.jp/data/ios/navi.png" class="route"></a></p></body></html>]]></description>
 			<styleUrl>#style_hibaku609</styleUrl>
 			<Point>
 				<extrude>1</extrude>
@@ -1010,7 +1010,7 @@ When “the devil’s weapon,” the atomic bomb was dropped on Hiroshima, I was
 		</Placemark>
 		<Placemark id="hibaku6010">
 			<name>Kiyoko Tange</name>
-			<description><![CDATA[<html><head><link href="http://hiroshima.archiving.jp/css/android.css" rel="stylesheet" type="text/css"></head><body><div class="balloon"><div class="shogen"><p class="subject">5 days after in Hiroshima</p><p class="body_en"></div>Early morning, 5 days after the bomb was dropped, my father absolutely opposed the idea for me to go to Hiroshima as it was extremely dangerous. However it was my mother’s adamant decision that her, myself and my younger sister head to Hiroshima. </p><p class="body_en">
+			<description><![CDATA[<html><head><link href="http://hiroshima.archiving.jp/data/ios/style.css" rel="stylesheet" type="text/css"></head><body><div class="balloon"><div class="shogen"><p class="subject">5 days after in Hiroshima</p><p class="body_en"></div>Early morning, 5 days after the bomb was dropped, my father absolutely opposed the idea for me to go to Hiroshima as it was extremely dangerous. However it was my mother’s adamant decision that her, myself and my younger sister head to Hiroshima. </p><p class="body_en">
 At that time, my family of five, my parents myself and my sisters lived in Kure City Hiro-cho just a little ways from Hiroshima. </p><p class="body_en">
 My father’s home was located in Hiroshima City limits, Fukushima-cho along with all my relatives lived in the area. Many have told us to avoid the Hiroshima City limits as everyone will die by breathing the poisonous gases. We were skeptical as we just wanted to see how it was like as we did not know what the current situation was. </p><p class="body_en">
 We finally boarded the train however midway, we thought that it was Umidashi Station but the train could not pass and we were told to disembark.  We all encouraged each other we moved forward. We were slowly welcomed by a strange scenery ahead, I doubted myself  that this was Hiroshima however hearing the screaming voices nearby all I can do was be speechless with the sudden change of
@@ -1026,7 +1026,7 @@ feels like it was yesterday I saw it in front of my eyes. </p><p class="body_en"
 When I saw the local naval shipyard attacked by aerial bombs and bloodied friends in the volunteer troops being carried in stretchers, my trembling could not stop. Memories of us hugging and crying together, a memory I can never forget. Back then I worked at the Hiro Naval Arsenal General Affairs Department, General Affairs section as a typist. I worked with 2 other female students from other schools (one was named Miyoko Kaneko, and I cannot remember the name of the second one) and we were always known as the “good friend trio” as we worked hard daily. Secretary Saito was one of the best bosses I ever had. I always thought the important people who were decorated with plenty of medals on their chest were scary. However, Lieutenant Colonel Kabayama, First Lieutenant Miao, Captain Hayashida, First Lieutenant Okita, Second Lieutenant Yamashita and Sergeant Okada were all kind people to me. </p><p class="body_en">
 Eventually, I settled in Kagoshima. When I returned to my hometown in Hiroshima to have surgery on my left middle finger for whitlow, the doctor angrily scolded me and said, “You’re an atomic bomb victim
 right? You should have told us earlier” because my bleeding did not stop. When I removed a tooth, again my bleeding did not stop and I cause an inconvenience to the doctor. </p><p class="body_en">
-They said that neither vegetation nor human life can be sustained around Hiroshima for 70 years after the atomic bomb was dropped. However, it’s an exciting thing where a miracle happened as Hiroshima’s reconstruction gained world attention. On the other hand, I question what happened on that summer day when I was 17 years old. Now, after a long time all I can do is eternally offer condolences from my heart for the large number of victims who perished and at the same time hope there will be peace around the world. </p></div><div class="reference"><p class="reference">The Hachioji Hibakusha Association</p></div></div></body></html>]]></description>
+They said that neither vegetation nor human life can be sustained around Hiroshima for 70 years after the atomic bomb was dropped. However, it’s an exciting thing where a miracle happened as Hiroshima’s reconstruction gained world attention. On the other hand, I question what happened on that summer day when I was 17 years old. Now, after a long time all I can do is eternally offer condolences from my heart for the large number of victims who perished and at the same time hope there will be peace around the world. </p></div><div class="reference"><p class="reference">The Hachioji Hibakusha Association</p></div></div><p id="routeButton"><a href="http://maps.apple.com/maps?saddr=&daddr=34.22007423666757,132.6380978131652&z=16"><img src="http://hiroshima.archiving.jp/data/ios/navi.png" class="route"></a></p></body></html>]]></description>
 			<styleUrl>#style_hibaku6010</styleUrl>
 			<Point>
 				<extrude>1</extrude>
@@ -1036,7 +1036,7 @@ They said that neither vegetation nor human life can be sustained around Hiroshi
 		</Placemark>
 		<Placemark id="hibaku6011">
 			<name>Tokuko Toyosaki</name>
-			<description><![CDATA[<html><head><link href="http://hiroshima.archiving.jp/css/android.css" rel="stylesheet" type="text/css"></head><body><div class="balloon"><div class="shogen"><p class="subject"> Leaving my 60s, one can never forget that day, that moment</p>
+			<description><![CDATA[<html><head><link href="http://hiroshima.archiving.jp/data/ios/style.css" rel="stylesheet" type="text/css"></head><body><div class="balloon"><div class="shogen"><p class="subject"> Leaving my 60s, one can never forget that day, that moment</p>
 <p class="image"><img src="http://mapping.jp/hiroshima/materials/photo/tokuko_toyosaki2.png"></p>
 <p class="body_en">Day of Hell</p><p class="body_en">August 6th, 1945, after my mother left for her work as a building evacuation employee, my grandfather and I just completed eating breakfast. As I felt a sign of relief after the air raid warnings ceased, then suddenly, it became pitch black right in front of my eyes. A very strong gust of wind blew me to the ground. Without thinking I screamed “mother” as loud as I can and at the same time my grandfather screamed “duck”!! </p><p class="body_en">
 For a second I thought a hell bomb dropped in front of our house. After a while I lifted my head and saw that there as noting but flat land around me in rubbles with a large cloud of dust and smoke. Finally, after it started to clear, the first thing that startled me was that the second floor of my house was about to fall over. The floor in the room next to me, gave out and the furniture that was in the room just sank to the floor. I could see the neighbors interior and both of our houses were exposed as it felt like a large earth quake hit the region. I realized I was bleeding from all over. I did not know where I was bleeding from however looking down on my left wrists, it looked as if it was inside of a pomegranate fruit cut in half and the outer layers looked like chicken throat freshly cut from its neck. I did not feel any pain at that time, I pulled out a cloth and wrapped it around hoping that the bleeding would stop. But the bleeding wouldn’t stop as the blood slowly started to drip to the ground. </p><p class="body_en">
@@ -1086,7 +1086,7 @@ I am sure that the change of environment had an effect where she always held som
 In life, old and young alike, my mother lived a life where she was saved by many people around her. She would always thank the people around her by repeating, “thank you, thank you,” everywhere she went. </p><p class="body_en">
 At the age of 90, she passed away. I believe her life was never wasted as she always felt that it was her life duty, life purpose to continue the storytelling club. She definitely had her own uniqueness along with her strong characteristic however I believe she did not the live the life as she wanted to. As there were the A-bomb victims who have already died and all the people who helped out at the association were still there, we the second generation A-bomb victims, feel that we are blessed to carry on this responsibility.  </p><p class="body_en">
 Taking on my mother’s role is something I am not good at. Of course the elimination of nuclear weapons is important however I feel that I need to continue fighting, taking over from our predecessors for the class action lawsuit against the government acknowledging the a-bomb sickness victims and events that deal with government reparations for the a-bomb victims.</p>
-</div><div class="reference"><p class="reference">The Hachioji Hibakusha Association</p></div></div></body></html>]]></description>
+</div><div class="reference"><p class="reference">The Hachioji Hibakusha Association</p></div></div><p id="routeButton"><a href="http://maps.apple.com/maps?saddr=&daddr=34.37486427081917,132.4656391271737&z=16"><img src="http://hiroshima.archiving.jp/data/ios/navi.png" class="route"></a></p></body></html>]]></description>
 			<styleUrl>#style_hibaku6011</styleUrl>
 			<Point>
 				<extrude>1</extrude>
@@ -1096,7 +1096,7 @@ Taking on my mother’s role is something I am not good at. Of course the elimin
 		</Placemark>
 		<Placemark id="hibaku6012">
 			<name>Yasuyuki Nakanishi</name>
-			<description><![CDATA[<html><head><link href="http://hiroshima.archiving.jp/css/android.css" rel="stylesheet" type="text/css"></head><body><div class="balloon"><div class="shogen"><p class="subject">Rest in peace, my mother and my brother</p>
+			<description><![CDATA[<html><head><link href="http://hiroshima.archiving.jp/data/ios/style.css" rel="stylesheet" type="text/css"></head><body><div class="balloon"><div class="shogen"><p class="subject">Rest in peace, my mother and my brother</p>
 <p class="image"><img src="http://mapping.jp/hiroshima/materials/photo/yasuyuki_nakanishi2.png"></p>
 <p class="body_en">
 My mother died at the age of thirty five, and my younger brother died at the age of thirteen.</p><p class="body_en">
@@ -1113,7 +1113,7 @@ Although my mother was heavily injured, I was in relief that I was able to meet 
 August 19th. I think it was around 10AM. My dearest mother passed away when I was taking a little catnap along with her. I didn’t have a feel of disappointment. I just stood dumbfounded in a stupor. </p><p class="body_en">
 I assumed that people around had called the nurse, three or four soldiers came into our room and took my mother to a small hill outside of the hospital. We gathered some woods to use for cremation and one soldier started to read a quick sutra for my mother. Two hours later, I picked up her bones all by myself and headed to Ujina, where my uncle lived.</p><p class="body_en">
 Rest in peace, mother and brother.</p>
-</div><div class="reference"><p class="reference">The Hachioji Hibakusha Association</p></div></div></body></html>]]></description>
+</div><div class="reference"><p class="reference">The Hachioji Hibakusha Association</p></div></div><p id="routeButton"><a href="http://maps.apple.com/maps?saddr=&daddr=34.29470162443336,132.341465899364&z=16"><img src="http://hiroshima.archiving.jp/data/ios/navi.png" class="route"></a></p></body></html>]]></description>
 			<styleUrl>#style_hibaku6012</styleUrl>
 			<Point>
 				<extrude>1</extrude>
@@ -1123,14 +1123,14 @@ Rest in peace, mother and brother.</p>
 		</Placemark>
 		<Placemark id="hibaku6013">
 			<name>Toshiaki Nagamachi</name>
-			<description><![CDATA[<html><head><link href="http://hiroshima.archiving.jp/css/android.css" rel="stylesheet" type="text/css"></head><body><div class="balloon"><div class="shogen"><p class="subject">The hell I saw that day</p>
+			<description><![CDATA[<html><head><link href="http://hiroshima.archiving.jp/data/ios/style.css" rel="stylesheet" type="text/css"></head><body><div class="balloon"><div class="shogen"><p class="subject">The hell I saw that day</p>
 <p class="image"><img src="http://mapping.jp/hiroshima/materials/photo/toshiaki_nagamachi2.png"></p>
 <p class="body_en">
 In August 1945, I was working at The Japan Steel Works as a mobilized student. Since August 6th was a day off, I returned to my home in Nukushina town which is located about five kilometers from the hypocenter. I was in a deep sleep. When I woke up by the bomb, shutter doors and paper doors were blown into pieces, ceiling were torn off, and the clay wall of my house broken and laying down on the floor. I was lucky that I was not injured.</p><p class="body_en">
 Since the shock of the bomb was so strong, I thought that the bomb must have dropped somewhere near. I got out of my house to check where the hypocenter was, but there was no sign of bombing around. When I looked at the sky, I saw three parachutes flowing from south to north. I was talking with my neighbors that “B29 planes must have crashed in the sky” “But the air-raid alarm had just been released”. We had no idea what has happened. Just then when we looked up at the sky of Hiroshima, we saw a gold cloud shaped like a doughnut, and a dark black smoke rising above. The doughnut shaped cloud disappeared shortly after, and became a mushroom shaped cloud.</p><p class="body_en">
 About an hour after the mushroom cloud, injured victims of the bomb started to appear. When I asked them “Which city was attacked by the bomb? ”, all of them answered differently. They all said that the bomb had dropped on their hometown. Since they could not imagine that this widespread damage was caused by only one single bomb, all of the victims thought that their town was the hypocenter. Since I suddenly got worried about my younger sister who went to school in Hiroshima this morning, I decided to go look for her. I think it was around 10 AM. I put my safety hood on and jumped onto my bicycle. </p><p class="body_en">
 Road to Hiroshima city was filled with injured people. The burn victims staggered along, holding their arms up in front, and their skin hanging like tattered cloth. They looked like a march of ghosts. </p><p class="body_en">
-</div><div class="reference"><p class="reference">The Hachioji Hibakusha Association</p></div></div></body></html>]]></description>
+</div><div class="reference"><p class="reference">The Hachioji Hibakusha Association</p></div></div><p id="routeButton"><a href="http://maps.apple.com/maps?saddr=&daddr=34.41528653125251,132.5105431737543&z=16"><img src="http://hiroshima.archiving.jp/data/ios/navi.png" class="route"></a></p></body></html>]]></description>
 			<styleUrl>#style_hibaku6013</styleUrl>
 			<Point>
 				<extrude>1</extrude>
@@ -1140,7 +1140,7 @@ Road to Hiroshima city was filled with injured people. The burn victims staggere
 		</Placemark>
 		<Placemark id="hibaku6014">
 			<name>Noriyuki Nanbu</name>
-			<description><![CDATA[<html><head><link href="http://hiroshima.archiving.jp/css/android.css" rel="stylesheet" type="text/css"></head><body><div class="balloon"><div class="shogen"><p class="subject">Lifelong pain and burden</p>
+			<description><![CDATA[<html><head><link href="http://hiroshima.archiving.jp/data/ios/style.css" rel="stylesheet" type="text/css"></head><body><div class="balloon"><div class="shogen"><p class="subject">Lifelong pain and burden</p>
 <p class="image"><img src="http://mapping.jp/hiroshima/materials/photo/noriyuki_nanbu2.png"></p>
 <p class="body_en">
 End of July 1945, I evacuated to my friend’s house in Funakoshi town Aki county which is about 7 kilometers east from Hiroshima.</p><p class="body_en">
@@ -1150,7 +1150,7 @@ Next morning, we headed to Hiroshima but turned back on the way due to blisterin
 The pain and burden as an atomic bomb victim will never disappear. I had suffered from glaucoma, cataract, spondylopathy, hernia and high blood pressure. I am sure that atomic bomb influence has something to do with it. </p><p class="body_en">
 We need to keep records of these cruel experiences in order to prevent atomic bomb to be used ever again.</p>
 
-</div></div></body></html>]]></description>
+</div></div><p id="routeButton"><a href="http://maps.apple.com/maps?saddr=&daddr=34.37544918824495,132.5214790210734&z=16"><img src="http://hiroshima.archiving.jp/data/ios/navi.png" class="route"></a></p></body></html>]]></description>
 			<styleUrl>#style_hibaku6014</styleUrl>
 			<Point>
 				<extrude>1</extrude>
@@ -1160,7 +1160,7 @@ We need to keep records of these cruel experiences in order to prevent atomic bo
 		</Placemark>
 		<Placemark id="hibaku6015">
 			<name>Seiichi Harada</name>
-			<description><![CDATA[<html><head><link href="http://hiroshima.archiving.jp/css/android.css" rel="stylesheet" type="text/css"></head><body><div class="balloon"><div class="shogen"><p class="subject">Nuclear weapons should never be used. </p>
+			<description><![CDATA[<html><head><link href="http://hiroshima.archiving.jp/data/ios/style.css" rel="stylesheet" type="text/css"></head><body><div class="balloon"><div class="shogen"><p class="subject">Nuclear weapons should never be used. </p>
 <p class="image"><img src="http://mapping.jp/hiroshima/materials/photo/seiichi_harada2.png"></p>
 <p class="body_en">
 On August 6th, I heard the blasting sound of the bombing around 8:15 in the morning. After a while, I heard a siren so I was looking out the window of the office located in the 2nd floor of the school. I thought I saw B-29 above. I am sure I heard the blast.</p><p class="body_en">
@@ -1170,7 +1170,7 @@ Later I also experienced my hair coming off. I returned to duty when my back bur
 On the night of August 6th, I was placed in a hospital in Mirorii. The doctor told me to eat pickled plums and drink lots of water until you have a diarrhea. The doctor knew the bomb had some negative effect to the human body, so he tried to clean up my stomach by drinking lots of water. My life was saved by him. I still appreciate him as my life saver. After I passed the age of seventy, I had cancer and few other illnesses. And now at the age of eighty three, I suffer from a heart disease.</p><p class="body_en">
 Nuclear weapons should never be used. </p><p class="body_en">
 Everyone should take it seriously.</p>
-</div><div class="reference"><p class="reference">The Hachioji Hibakusha Association</p></div></div></body></html>]]></description>
+</div><div class="reference"><p class="reference">The Hachioji Hibakusha Association</p></div></div><p id="routeButton"><a href="http://maps.apple.com/maps?saddr=&daddr=34.41239342536468,132.4511856998862&z=16"><img src="http://hiroshima.archiving.jp/data/ios/navi.png" class="route"></a></p></body></html>]]></description>
 			<styleUrl>#style_hibaku6015</styleUrl>
 			<Point>
 				<extrude>1</extrude>
@@ -1180,7 +1180,7 @@ Everyone should take it seriously.</p>
 		</Placemark>
 		<Placemark id="hibaku6016">
 			<name>Tsuyako Harada</name>
-			<description><![CDATA[<html><head><link href="http://hiroshima.archiving.jp/css/android.css" rel="stylesheet" type="text/css"></head><body><div class="balloon"><div class="shogen"><p class="subject">Nuclear weapons kill its victims for decades</p>
+			<description><![CDATA[<html><head><link href="http://hiroshima.archiving.jp/data/ios/style.css" rel="stylesheet" type="text/css"></head><body><div class="balloon"><div class="shogen"><p class="subject">Nuclear weapons kill its victims for decades</p>
 <p class="image"><img src="http://mapping.jp/hiroshima/materials/photo/tsuyako_harada2.png"></p>
 <p class="body_en">
 I was seventeen years old when I became a victim of the atomic bomb. I was at Sendamachi Hiroshima which is about two kilometers apart from the epicenter. I was student at a nursing school and lived in a Red Cross dormitory. That time I was suffering from dysentery and had just been discharged from the hospital. The dormitory collapsed by the blast of the bomb and I was trapped under the rubble. I lost consciousness. I don’t know how much time passed, but I heard my roommate calling my name “Ogawa san! Ogawa san!” She told me that she found my leg hanging out from the rubble. When she pulled me out with all her might, I had many scars and was nearly naked. 
@@ -1188,7 +1188,7 @@ Everything around was blown off by the blast. I saw many people with their hands
 After the atomic bomb, I didn’t have period for about a year and a half. I suffered from hair loss for about half a year. I also suffered from headache, backache and numbness in a limb. I was also diagnosed as lumber spine diastrophic curvature, and I am still under treatment. When I was in my thirties, I always suffered from a feeling of unwellness due to high blood pressure, but I was able to work as a nurse until the retirement age. Thinking about my classmates who died of the atomic bomb without fulfilling their ambition to be a nurse, I thought I had to fulfill my duty for them.</p><p class="body_en">
 After I got married, I was had one son and two daughters. When I gave birth to them, I prayed to god every day that my children will be born healthy. Fortunately, my children grew up healthy both physically and mentally.</p><p class="body_en">
 The hell on August 6th does not end that day. The cruelty of nuclear weapon is that it continues to kill people for decades. People do not have an understanding that the damage and pain still continues. Hiroshima and Nagasaki has the right and responsibility to call for nuclear abolition. I am anxious of our world’s future because the fear of nuclear weapon is becoming bigger and bigger. I hope that this world can live in peace without nuclear weapons.</p>
-</div><div class="reference"><p class="reference">The Hachioji Hibakusha Association</p></div></div></body></html>]]></description>
+</div><div class="reference"><p class="reference">The Hachioji Hibakusha Association</p></div></div><p id="routeButton"><a href="http://maps.apple.com/maps?saddr=&daddr=34.37993384404468,132.4533901624041&z=16"><img src="http://hiroshima.archiving.jp/data/ios/navi.png" class="route"></a></p></body></html>]]></description>
 			<styleUrl>#style_hibaku6016</styleUrl>
 			<Point>
 				<extrude>1</extrude>
@@ -1198,13 +1198,13 @@ The hell on August 6th does not end that day. The cruelty of nuclear weapon is t
 		</Placemark>
 		<Placemark id="hibaku6017">
 			<name>Zenjirou Hijikata</name>
-			<description><![CDATA[<html><head><link href="http://hiroshima.archiving.jp/css/android.css" rel="stylesheet" type="text/css"></head><body><div class="balloon"><div class="shogen"><p class="subject">Atomic bomb keeps killing victims for decades.</p>
+			<description><![CDATA[<html><head><link href="http://hiroshima.archiving.jp/data/ios/style.css" rel="stylesheet" type="text/css"></head><body><div class="balloon"><div class="shogen"><p class="subject">Atomic bomb keeps killing victims for decades.</p>
 <p class="image"><img src="http://mapping.jp/hiroshima/materials/photo/zenjirou_hijikata2.png"></p>
 <p class="body_en">
 When I was working for the army accounting school in Kanazawa, I heard that A-bomb had dropped to Hiroshima and Nagasaki, and that both cities were devastated with many casualties. I thought that our country was doomed. Since the military training in Kanazawa finished, I left there on the tenth and arrived in Hiroshima on the eleventh for practical training. Looking at the city of Hiroshima which was burnt to the ground by war, I keenly felt that Japan is heading towards extinction. I also felt that nuclear weapons should never be used again.</p><p class="body_en">
 I was able to receive the survivors health book in 1996. I still take health examination twice a year. Since I was diagnosed as diabetes one time, I regularly take blood sampling and urine sampling, and continue diet therapy as well. In addition, I practice jujutsu since junior high school to keep my health.</p><p class="body_en">
 The fear of nuclear weapon is getting bigger and bigger. As an A-bomb survivor, what we can do is to support other victims, promote friendship among survivors, and to appeal to the world for the abolition of nuclear weapons, praying for world peace. As an A-bomb victim who experienced the cruelty of A-bomb, we should keep praying that nuclear weapons will never be used again. But the average age of the A-bomb survivors has already surpassed seventy. I can feel that we are gradually losing our strength and energy. I strongly feel that I need to pass down my experience to the younger generation while my health is still good. That is why I started to tell my story to students from elementary to high school. All I wish is that all the A-bomb victims to stay healthy both mentally and physically, and that they live in peace. I hope that can contribute to abolition of nuclear weapons from the world.</p>
-</div><div class="reference"><p class="reference">The Hachioji Hibakusha Association</p></div></div></body></html>]]></description>
+</div><div class="reference"><p class="reference">The Hachioji Hibakusha Association</p></div></div><p id="routeButton"><a href="http://maps.apple.com/maps?saddr=&daddr=36.56138705683858,136.6562430251697&z=16"><img src="http://hiroshima.archiving.jp/data/ios/navi.png" class="route"></a></p></body></html>]]></description>
 			<styleUrl>#style_hibaku6017</styleUrl>
 			<Point>
 				<extrude>1</extrude>
@@ -1214,7 +1214,7 @@ The fear of nuclear weapon is getting bigger and bigger. As an A-bomb survivor, 
 		</Placemark>
 		<Placemark id="hibaku6018">
 			<name>Motoe Hirasawa</name>
-			<description><![CDATA[<html><head><link href="http://hiroshima.archiving.jp/css/android.css" rel="stylesheet" type="text/css"></head><body><div class="balloon"><div class="shogen"><p class="subject">A bomb survivors health book is a treasure from my parents.</p>
+			<description><![CDATA[<html><head><link href="http://hiroshima.archiving.jp/data/ios/style.css" rel="stylesheet" type="text/css"></head><body><div class="balloon"><div class="shogen"><p class="subject">A bomb survivors health book is a treasure from my parents.</p>
 <p class="image"><img src="http://mapping.jp/hiroshima/materials/photo/motoe_hirasawa2.png"></p>
 <p class="body_en">
 </p><p class="body_en">
@@ -1222,7 +1222,7 @@ Gion-Town, Asa-County, Hiroshima. On August 6th, 1945, my father was 32, mother 
 At school, I was discriminated as an atomic bomb victim. I didn’t want to write an absence report to go to the annual health diagnosis for a-bomb victims. I unwillingly went until when I was 7th grade, but after that, I stopped going to health checks. A-bomb victims have to face with heavy burden. My badge as an A-bomb victim always became an obstacle for me in major life events such as marriage and childbirth. But I am sure that my parents had more painful life.</p><p class="body_en">
 That mother started to take initiative to talk about her experience to children when she turned sixty five. I regret that I should have listened to her story more often. No, I might have heard. I was just closing my heart not to hear. I gnaw from regret that I didn’t listen to her story. My father died at the age of eighty one, which was fifty one years after the bomb. My mother died four years after my father’s death. She was eighty three.</p><p class="body_en">
 My parents gave me the A-bomb survivors health book and told me to keep it very importantly. I hesitated to use it when I was young, but now it has become something that I cannot live without. It is a treasure from my parents.</p>
-</div><div class="reference"><p class="reference">The Hachioji Hibakusha Association</p></div></div></body></html>]]></description>
+</div><div class="reference"><p class="reference">The Hachioji Hibakusha Association</p></div></div><p id="routeButton"><a href="http://maps.apple.com/maps?saddr=&daddr=34.43946136350082,132.4632908496516&z=16"><img src="http://hiroshima.archiving.jp/data/ios/navi.png" class="route"></a></p></body></html>]]></description>
 			<styleUrl>#style_hibaku6018</styleUrl>
 			<Point>
 				<extrude>1</extrude>
@@ -1232,7 +1232,7 @@ My parents gave me the A-bomb survivors health book and told me to keep it very 
 		</Placemark>
 		<Placemark id="hibaku6019">
 			<name>Tsukimi Fujita</name>
-			<description><![CDATA[<html><head><link href="http://hiroshima.archiving.jp/css/android.css" rel="stylesheet" type="text/css"></head><body><div class="balloon"><div class="shogen"><p class="subject">My mother who never came back</p>
+			<description><![CDATA[<html><head><link href="http://hiroshima.archiving.jp/data/ios/style.css" rel="stylesheet" type="text/css"></head><body><div class="balloon"><div class="shogen"><p class="subject">My mother who never came back</p>
 <p class="image"><img src="http://mapping.jp/hiroshima/materials/photo/tsukimi_fujita2.png"></p>
 <p class="body_en">
 At that time, I was in the second grade of the girl’s high school. On the 5th of August, I was called for the cleanup of school evacuation in Hiroshima. I was supposed to help the cleanup next day as well, but was so tired that I couldn’t get up from bed that morning. Next moment, I heard an airplane noise. I felt strange because the air raid warning sign was off. All of a sudden, I jumped off my bed because I felt an indescribable flash. Just when I saw my younger brother running straight towards me for help, my house started to collapse. I don’t quite remember how I got out of my house as I was so desperate. Anyway, I made myself out of the rubble and looked around to check whether my family was safe. First, I heard my younger brother crying. Then I heard my younger sister crying as well. Relying on their crying noise, I was able to rescue both of them out of the rubble. But my grandmother was trapped deep inside. I asked for help, but no one offered. So I decided to rescue her on my own. The sky was gray and the city was filled with ashes. I was right in the middle of the hypocenter. I still wonder how a thirteen year old girl was able to rescue her grandmother out from the heavy rubbles. </p><p class="body_en">
@@ -1256,7 +1256,7 @@ From your mother </p><p class="body_en"></p><p class="body_en">
 I am writing this note is to prepare for my death. I may die anytime as the air-raid is getting severe day by day. </p><p class="body_en">
 Firstly, I would like to sincerely thank you for looking after my dearest daughter Nobuko and her younger sister and brother. </p><p class="body_en">
 In case myself and my husband die from the war, my children will need their relative’s support to live. I am leaving this savings deposit to help pay for their expense. Enclosed herewith the account number of my savings account. With this account number and a witness, you will be able to get a reissuance of my savings account.</p>
-</div><div class="reference"><p class="reference">The Hachioji Hibakusha Association</p></div></div></body></html>]]></description>
+</div><div class="reference"><p class="reference">The Hachioji Hibakusha Association</p></div></div><p id="routeButton"><a href="http://maps.apple.com/maps?saddr=&daddr=34.39580249783989,132.4413776711386&z=16"><img src="http://hiroshima.archiving.jp/data/ios/navi.png" class="route"></a></p></body></html>]]></description>
 			<styleUrl>#style_hibaku6019</styleUrl>
 			<Point>
 				<extrude>1</extrude>
@@ -1266,7 +1266,7 @@ In case myself and my husband die from the war, my children will need their rela
 		</Placemark>
 		<Placemark id="hibaku6020">
 			<name>Rumiko Matsueda</name>
-			<description><![CDATA[<html><head><link href="http://hiroshima.archiving.jp/css/android.css" rel="stylesheet" type="text/css"></head><body><div class="balloon"><div class="shogen"><p class="subject">I was just lucky.</p>
+			<description><![CDATA[<html><head><link href="http://hiroshima.archiving.jp/data/ios/style.css" rel="stylesheet" type="text/css"></head><body><div class="balloon"><div class="shogen"><p class="subject">I was just lucky.</p>
 <p class="image"><img
 src="http://mapping.jp/hiroshima/materials/photo/rumiko_matsueda2.png"></p>
 <p class="body_en">
@@ -1281,7 +1281,7 @@ was believed to be missing already. Everybody was so glad about me alive. </p><p
 class="body">
 Sixty years has passed quickly since we got bombed. I wonder at my having been in good health up to now. Currently I have the job of fortunetelling and I’m involved in consultations of many people. A former nurse is now an active fortuneteller. In spite of my age, I’m living a busy, fullfiling everyday life these days.
 </p>
-</div><div class="reference"><p class="reference">The Hachioji Hibakusha Association</p></div></div></body></html>]]></description>
+</div><div class="reference"><p class="reference">The Hachioji Hibakusha Association</p></div></div><p id="routeButton"><a href="http://maps.apple.com/maps?saddr=&daddr=34.38080219072275,132.4540623856001&z=16"><img src="http://hiroshima.archiving.jp/data/ios/navi.png" class="route"></a></p></body></html>]]></description>
 			<styleUrl>#style_hibaku6020</styleUrl>
 			<Point>
 				<extrude>1</extrude>
@@ -1291,7 +1291,7 @@ Sixty years has passed quickly since we got bombed. I wonder at my having been i
 		</Placemark>
 		<Placemark id="hibaku6021">
 			<name>Teruko Miyata</name>
-			<description><![CDATA[<html><head><link href="http://hiroshima.archiving.jp/css/android.css" rel="stylesheet" type="text/css"></head><body><div class="balloon"><div class="shogen">Teruko Miyata"<p class="subject">Peaceful world without Misfortunes for
+			<description><![CDATA[<html><head><link href="http://hiroshima.archiving.jp/data/ios/style.css" rel="stylesheet" type="text/css"></head><body><div class="balloon"><div class="shogen">Teruko Miyata"<p class="subject">Peaceful world without Misfortunes for
 the Young. </p>
 <p class="image"><img src="http://mapping.jp/hiroshima/materials/photo/teruko_miyata2.png"></p>
 <p class="body_en">
@@ -1302,7 +1302,7 @@ on my arms and legs, I became calm gradually after moving to Sato-cho(the suburb
 An atomic bomb is really terrible. It destroys hundreds of thousands of
 people, buildings, and causes after-effects in the future; I am overwhelmed
 with fear of it and I hate even speaking the word “Gen-baku” or A-bomb even today. There are some nations around the world which study producing nuclear weapons. I want them to recognize that they should give huge loss and misery to the world of our time, deeply considering what Hiroshima and Nagasaki had experienced. I cannot help praying that the young people with future will have no misfortune and live in the peaceful world. It is unforgivable that they see as horrible sights as Hiroshima saw or worse.
-</div><div class="reference"><p class="reference">The Hachioji Hibakusha Association</p></div></div></body></html>]]></description>
+</div><div class="reference"><p class="reference">The Hachioji Hibakusha Association</p></div></div><p id="routeButton"><a href="http://maps.apple.com/maps?saddr=&daddr=34.38953595324863,132.4400836151654&z=16"><img src="http://hiroshima.archiving.jp/data/ios/navi.png" class="route"></a></p></body></html>]]></description>
 			<styleUrl>#style_hibaku6021</styleUrl>
 			<Point>
 				<extrude>1</extrude>
@@ -1312,7 +1312,7 @@ with fear of it and I hate even speaking the word “Gen-baku” or A-bomb even 
 		</Placemark>
 		<Placemark id="hibaku6022">
 			<name>Masao Motoi</name>
-			<description><![CDATA[<html><head><link href="http://hiroshima.archiving.jp/css/android.css" rel="stylesheet" type="text/css"></head><body><div class="balloon"><div class="shogen">Masao Motoi<p class="subject">Beyond description</p>
+			<description><![CDATA[<html><head><link href="http://hiroshima.archiving.jp/data/ios/style.css" rel="stylesheet" type="text/css"></head><body><div class="balloon"><div class="shogen">Masao Motoi<p class="subject">Beyond description</p>
 <p class="image"><img src="http://mapping.jp/hiroshima/materials/photo/masao_motoi2.png"></p>
 <p class="body_en">
 After twilight roll call on August 6, we were ordered to go rescue of
@@ -1335,7 +1335,7 @@ I hope no country use an atomic bomb in wars around the world at
 least for 30-40 years from now. In the future, the existence of living things
 on earth might be uncertain, as no one can knows the various relations of cause and effect.
 </p>
-</div><div class="reference"><p class="reference">The Hachioji Hibakusha Association</p></div></div></body></html>]]></description>
+</div><div class="reference"><p class="reference">The Hachioji Hibakusha Association</p></div></div><p id="routeButton"><a href="http://maps.apple.com/maps?saddr=&daddr=34.3954684962639,132.4535026945528&z=16"><img src="http://hiroshima.archiving.jp/data/ios/navi.png" class="route"></a></p></body></html>]]></description>
 			<styleUrl>#style_hibaku6022</styleUrl>
 			<Point>
 				<extrude>1</extrude>
@@ -1345,7 +1345,7 @@ on earth might be uncertain, as no one can knows the various relations of cause 
 		</Placemark>
 		<Placemark id="hibaku6023">
 			<name>Junichi Yoshizawa</name>
-			<description><![CDATA[<html><head><link href="http://hiroshima.archiving.jp/css/android.css" rel="stylesheet" type="text/css"></head><body><div class="balloon"><div class="shogen"><p class="subject">It was a hell on earth!</p>
+			<description><![CDATA[<html><head><link href="http://hiroshima.archiving.jp/data/ios/style.css" rel="stylesheet" type="text/css"></head><body><div class="balloon"><div class="shogen"><p class="subject">It was a hell on earth!</p>
 <p class="image"><img src="http://mapping.jp/hiroshima/materials/photo/masao_motoi2.png"></p><p class="body_en">At 7:00 in the morning on August 6, it was boiling hot in the scorching sunlight yet morning.</p><p class="body_en">
 It’s Monday today, a regular holiday of the factories. Two mobilized students of my family (my younger sister and brother) are still in bed. Since the classes of my College of Engineering started, I leave for the campus in Senda-machi(now in Nakaku) after breakfast served by my mother. Have no idea that five of our family will be separated forever after that. 
 Soon after seating at the desk near the windows of right side of the 2-storied wooden school house, there is roaring of B-29. A blinding flashlight and a deafening roar ”Boom! ” come at the same time. The building is swayed greatly. Got hit directly by big one? It creaks and almost collapsing. The path toward the left side stairs is already blocked with students running down. </p><p class="body_en">
@@ -1416,7 +1416,7 @@ overwhelmed by a flood of emotions. If my guess is right, they could hardly
 cremate the bodies because of too large number of deaths. I pray their souls rest in peace heartily. </p><p class="body_en">
 An A-bombed country could never take the attitude as “Unquestioning follower of the United States”, like that of today’s Japan. Having a feeling of extreme anger in these days. </p>
 
-</div><div class="reference"><p class="reference">The Hachioji Hibakusha Association</p></div></div></body></html>]]></description>
+</div><div class="reference"><p class="reference">The Hachioji Hibakusha Association</p></div></div><p id="routeButton"><a href="http://maps.apple.com/maps?saddr=&daddr=34.37678158337688,132.4561692203846&z=16"><img src="http://hiroshima.archiving.jp/data/ios/navi.png" class="route"></a></p></body></html>]]></description>
 			<styleUrl>#style_hibaku6023</styleUrl>
 			<Point>
 				<extrude>1</extrude>
@@ -1426,7 +1426,7 @@ An A-bombed country could never take the attitude as “Unquestioning follower o
 		</Placemark>
 		<Placemark id="hibaku6024">
 			<name>Kohei Oiwa</name>
-			<description><![CDATA[<html><head><link href="http://hiroshima.archiving.jp/css/android.css" rel="stylesheet" type="text/css"></head><body><div class="balloon"><div class="shogen"><p class="subject">The Atomic Bomb and Me－For Abolition of Nuclear Weapons－
+			<description><![CDATA[<html><head><link href="http://hiroshima.archiving.jp/data/ios/style.css" rel="stylesheet" type="text/css"></head><body><div class="balloon"><div class="shogen"><p class="subject">The Atomic Bomb and Me－For Abolition of Nuclear Weapons－
 </p>
 <p class="image"><img src="http://mapping.jp/hiroshima/materials/photo/kohei_oiwa2.png"></p>
 <p class="body_en">When the high summer comes and the sun glares down, my heart sinks into the depth of depression every year.
@@ -1464,7 +1464,7 @@ direct experience of radiation exposure of A-bombs in among 6 billion people on 
 </p><p class="body_en">Today, the nuclear arsenal that nuclear nations
 keep amounts to 20,000 or even 30,000, and if they were used, the human race would be surely on the way to collapse. Of course the peaceful world with no war is desirable, but even if it happened, no nuclear weapon to lead us to ruin should be forgiven. People on this planet should remember forever that they’re evil tool which cannot coexist with our future.
 </p>
-</div><div class="reference"><p class="reference">The Hachioji Hibakusha Association</p></div></div></body></html>]]></description>
+</div><div class="reference"><p class="reference">The Hachioji Hibakusha Association</p></div></div><p id="routeButton"><a href="http://maps.apple.com/maps?saddr=&daddr=34.39018578469992,132.4750178646821&z=16"><img src="http://hiroshima.archiving.jp/data/ios/navi.png" class="route"></a></p></body></html>]]></description>
 			<styleUrl>#style_hibaku6024</styleUrl>
 			<Point>
 				<extrude>1</extrude>
@@ -1474,7 +1474,7 @@ keep amounts to 20,000 or even 30,000, and if they were used, the human race wou
 		</Placemark>
 		<Placemark id="hibaku6025">
 			<name>Kanzo Iwasa</name>
-			<description><![CDATA[<html><head><link href="http://hiroshima.archiving.jp/css/android.css" rel="stylesheet" type="text/css"></head><body><div class="balloon"><div class="shogen"><p class="subject">Consideration of Harm of Atomic Bomb<br />－－How We the Humans Face With Nuclear Period －－
+			<description><![CDATA[<html><head><link href="http://hiroshima.archiving.jp/data/ios/style.css" rel="stylesheet" type="text/css"></head><body><div class="balloon"><div class="shogen"><p class="subject">Consideration of Harm of Atomic Bomb<br />－－How We the Humans Face With Nuclear Period －－
 </p><p class="image"><img src="http://mapping.jp/hiroshima/materials/photo/kanzo_iwasa2.png"></p>
 <p class="body_en">
 People of Bangladesh, I’m one of Hibakusha or those who got damaged by the atomic bomb which the U.S. Army dropped on Hiroshima on August 6, 1945, 66 years ago. It was an incident that human race had never even imagined before. It changed my life totally. In order to consider what the atomic bombs had done to human beings, I’d like to begin with my own experience of suffering from bombing.
@@ -1518,7 +1518,7 @@ nuclear period” with technological innovations like developing, producing and 
 </p><p class="body_en"> The world-famous politicians and many other
 knowledgeable people like U.S. President Obama and U.N. Secretary-General Ban Ki-moon, made encouraging speeches purposing “nuclear-free world” and that has driven the movement of abolition of nuclear arms lively. Let’s think about President Obama’s slogan, it is “Yes, we can.” It indicates “I will do it, but I can’t make it by myself.” and ” We have to get together.” I agree with that. Without public opinion and support, no nice plans could turn into reality, even influential people appeal. It is us seeking peaceful future who can decide if we will perfectly secure the safety of nuclear energy abandoning nuclear weapons or if we will choose new natural energy as a replacement. The future of mankind depends on us. To fulfill our mission assigned by the time, let’s get together and try our best.
 </p>
-</div><div class="reference"><p class="reference">The Hachioji Hibakusha Association</p></div></div></body></html>]]></description>
+</div><div class="reference"><p class="reference">The Hachioji Hibakusha Association</p></div></div><p id="routeButton"><a href="http://maps.apple.com/maps?saddr=&daddr=34.38653709218536,132.460417546421&z=16"><img src="http://hiroshima.archiving.jp/data/ios/navi.png" class="route"></a></p></body></html>]]></description>
 			<styleUrl>#style_hibaku6025</styleUrl>
 			<Point>
 				<extrude>1</extrude>
@@ -1528,7 +1528,7 @@ knowledgeable people like U.S. President Obama and U.N. Secretary-General Ban Ki
 		</Placemark>
 		<Placemark id="hibaku6026">
 			<name>Reiko Yamada</name>
-			<description><![CDATA[<html><head><link href="http://hiroshima.archiving.jp/css/android.css" rel="stylesheet" type="text/css"></head><body><div class="balloon"><div class="shogen"><p class="subject">My Personal Experience of Getting Bombed and My Message
+			<description><![CDATA[<html><head><link href="http://hiroshima.archiving.jp/data/ios/style.css" rel="stylesheet" type="text/css"></head><body><div class="balloon"><div class="shogen"><p class="subject">My Personal Experience of Getting Bombed and My Message
 </p> <p class="image"><img
 src="http://mapping.jp/hiroshima/materials/photo/reiko_yamada2.png"></p><p class="body_en">Having got an order of school evacuation in spring of
 1945, most of the elementary schoolchildren in Hiroshima were left in the care of their relatives in the country or were taken to schools or temples in the rural villages, living in groups.
@@ -1574,7 +1574,7 @@ must never forget.
 exist.
 </p><p class="body_en">We Hibakusha appeal to people across the world for
 “No more Hiroshima, no more Nagasaki and no more Hibakusha.” </p>
-</div><div class="reference"><p class="reference">The Hachioji Hibakusha Association</p></div></div></body></html>]]></description>
+</div><div class="reference"><p class="reference">The Hachioji Hibakusha Association</p></div></div><p id="routeButton"><a href="http://maps.apple.com/maps?saddr=&daddr=34.39981347278708,132.4223681780743&z=16"><img src="http://hiroshima.archiving.jp/data/ios/navi.png" class="route"></a></p></body></html>]]></description>
 			<styleUrl>#style_hibaku6026</styleUrl>
 			<Point>
 				<extrude>1</extrude>
@@ -1584,7 +1584,7 @@ exist.
 		</Placemark>
 		<Placemark id="hibaku6027">
 			<name>Michiko Kodama</name>
-			<description><![CDATA[<html><head><link href="http://hiroshima.archiving.jp/css/android.css" rel="stylesheet" type="text/css"></head><body><div class="balloon"><div class="shogen"><p class="subject">At that time on that day, and today. </p>
+			<description><![CDATA[<html><head><link href="http://hiroshima.archiving.jp/data/ios/style.css" rel="stylesheet" type="text/css"></head><body><div class="balloon"><div class="shogen"><p class="subject">At that time on that day, and today. </p>
 <p class="image"><img
 src="http://mapping.jp/hiroshima/materials/photo/michiko_kodama2.png"></p>
 <p class="body_en">At 8:15 in the morning on August 6 1945, an atomic bomb dropped on Hiroshima destroyed the city in a moment. As for me, being a second grader at an elementary school, I got bombed in a classroom of the wooden schoolhouse. </p><p class="body_en">
@@ -1621,7 +1621,7 @@ I’d like to make efforts to keep telling the realities of radiation exposure a
 long as I am alive, wishing that we, as soon as possible, will be able to pass on the clear peaceful sky without warfare nor nuclear weapons to our children. </p><p class="body_en">
 No more Hiroshima. No more Nagasaki. No more war.
 </p>
-</div><div class="reference"><p class="reference">The Hachioji Hibakusha Association</p></div></div></body></html>]]></description>
+</div><div class="reference"><p class="reference">The Hachioji Hibakusha Association</p></div></div><p id="routeButton"><a href="http://maps.apple.com/maps?saddr=&daddr=34.39329202215576,132.4194580406504&z=16"><img src="http://hiroshima.archiving.jp/data/ios/navi.png" class="route"></a></p></body></html>]]></description>
 			<styleUrl>#style_hibaku6027</styleUrl>
 			<Point>
 				<extrude>1</extrude>
@@ -1631,7 +1631,7 @@ No more Hiroshima. No more Nagasaki. No more war.
 		</Placemark>
 		<Placemark id="hibaku6028">
 			<name>Hisako Kimura</name>
-			<description><![CDATA[<html><head><link href="http://hiroshima.archiving.jp/css/android.css" rel="stylesheet" type="text/css"></head><body><div class="balloon"><div class="shogen"><p
+			<description><![CDATA[<html><head><link href="http://hiroshima.archiving.jp/data/ios/style.css" rel="stylesheet" type="text/css"></head><body><div class="balloon"><div class="shogen"><p
 class="subject">Dear Young Generations,</p>
 <p　class="image"><img src="http://mapping.jp/hiroshima/materials/photo/hisako_kimura2.png"></p>
 <p class="body_en">On August 6, 1945, it was a　hot day from early morning. </p><p class="body_en">
@@ -1715,7 +1715,7 @@ beliefs and do your best for the sake of the young who support the future.
 “A conflict occurs in human mind, so peace should be created in the
 same place.” </p><p class="body_en">
 Learning about Hiroshima and Nagasaki equals thinking of the future. </p>
-</div><div class="reference"><p class="reference">The Hachioji Hibakusha Association</p></div></div></body></html>]]></description>
+</div><div class="reference"><p class="reference">The Hachioji Hibakusha Association</p></div></div><p id="routeButton"><a href="http://maps.apple.com/maps?saddr=&daddr=34.39831370678154,132.4726903769793&z=16"><img src="http://hiroshima.archiving.jp/data/ios/navi.png" class="route"></a></p></body></html>]]></description>
 			<styleUrl>#style_hibaku6028</styleUrl>
 			<Point>
 				<extrude>1</extrude>
@@ -1725,7 +1725,7 @@ Learning about Hiroshima and Nagasaki equals thinking of the future. </p>
 		</Placemark>
 		<Placemark id="hibaku6029">
 			<name>Yoshie Hataya</name>
-			<description><![CDATA[<html><head><link href="http://hiroshima.archiving.jp/css/android.css" rel="stylesheet" type="text/css"></head><body><div class="balloon"><div class="shogen"><p class="subject">Exposed at the Age of Seven in Hiroshima</p>
+			<description><![CDATA[<html><head><link href="http://hiroshima.archiving.jp/data/ios/style.css" rel="stylesheet" type="text/css"></head><body><div class="balloon"><div class="shogen"><p class="subject">Exposed at the Age of Seven in Hiroshima</p>
 <p class="image"><img　src="http://mapping.jp/hiroshima/materials/photo/yoshie_hataketani2.png"></p> <p class="body_en">On August 6 1945, I got exposed to the A-bomb in Yokogawa-cho in Hiroshima, 1.5 kms from the hypocenter. I used to be a cheerful girl living in good health. On the day, my father and brother also left home with vigor. I was in front of the house of my friend Yukie who I was going along with well like as my own sister to go to school together, when I saw the flash and got blown away by the blast. Yukie and I fell senseless for a while, which we didn’t know how many seconds. We were brushed aside in a dark hole dug beneath the floor. Yukie who had been
 in front of my eyes was stuck under the iron-beam and couldn’t move. We heard a lot of screamings from outside. We also cried and cried to ask for help. </p>
 <p class="body_en">In the meantime, my mother noticed me and called me to come out quick, but I was too little to reach the ground level. My mother brought a ladder from somewhere and put it down to me. Yukie is repeating “Go quick, run” in a thin voice. And my mother is saying from above “It’ll be a sea of flame, so move quick.” I left my dear friend Yukie alive to let her die, and ran. It was so sad, bitter and hard and since then, I’ve been carrying a huge cross- I couldn’t help her. I will never be able to forget it. And my 5-year older brother who gave me lots of love got directly bombed and died at a point of 1 km from the hypocenter. </p>
@@ -1733,7 +1733,7 @@ in front of my eyes was stuck under the iron-beam and couldn’t move. We heard 
 <p class="body_en">Back to me, the sight I saw above the ground on the day after crawling out was like as a picture of inferno. What I’d seen on the way to flee with my mother, being caught in the Black Rain comes back alive in my memory. I had an acute radiation syndrome in the beginning, then the more diseases I suffer from as I get older. Although I got married seeking for happiness as woman, since I had a miscarriage, the relatives of my husband abused me saying ”Can’t A-bombed woman even bear a child?” Those words spiritually distressed me and it came to a miserable end. I’m living a lonely life by myself having no one to depend on. </p>
 <p class="body_en">Thanks to the medication, my physical condition has been calmed down so far, however, I take so many medicines as to think of finishing them sometimes. Sometimes there is a moment that I even don’t want my life. </p>
 <p class="body_en">Sixty-six years have passed since A-bomb attacks, but 220 thousand people who exposed to radiation in Hiroshima and in Nagasaki are leading their lives feeling uneasy - emotional scars, problems of health and welfare etc. which are ready to occur at any moment. Even now there are wars in somewhere in the globe. War results in nothing but tragedy. Thinking over important lives of each victim, my heart aches endlessly. Various countries have lots of nuclear weapons. We don’t want such dreadful bombs as to destroy large number of people in an instance. Never should be used one. I wish the Nuclear Free World, and wish no other person would never experience the bitterness of radiation exposure. And I pray for the everlasting earth with blue sky and for our peaceful lives. </p>
-</div><div class="reference"><p class="reference">The Hachioji Hibakusha Association</p></div></div></body></html>]]></description>
+</div><div class="reference"><p class="reference">The Hachioji Hibakusha Association</p></div></div><p id="routeButton"><a href="http://maps.apple.com/maps?saddr=&daddr=34.40800292061169,132.4521197378343&z=16"><img src="http://hiroshima.archiving.jp/data/ios/navi.png" class="route"></a></p></body></html>]]></description>
 			<styleUrl>#style_hibaku6029</styleUrl>
 			<Point>
 				<extrude>1</extrude>

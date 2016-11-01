@@ -44,7 +44,7 @@
     TR_NAVIGATION_CONTROLLER_SEUP_BACKBUTTON(self, @"Back");
     self.navigationController.navigationBar.tintColor = [UIColor whiteColor];
     self.navigationController.navigationBar.barTintColor = [UIColor blackColor];
-    self.navigationController.navigationBar.titleTextAttributes = @{NSForegroundColorAttributeName: [UIColor colorWithWhite:1.0f alpha:0.5f]};
+    self.navigationController.navigationBar.titleTextAttributes = @{NSForegroundColorAttributeName: [UIColor colorWithWhite:1.0f alpha:0.9f]};
 }
 
 - (void)viewWillDisappear:(BOOL)animated {

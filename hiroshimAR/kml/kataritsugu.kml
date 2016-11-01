@@ -2,32 +2,6 @@
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
 <Document>
 	<name>kataritsugu</name>
-	<Style id="style_kataritsugu6_normal">
-		<IconStyle>
-			<scale>0.7</scale>
-			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/kataritsugu/6.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<Style id="style_kataritsugu2_highlight">
-		<IconStyle>
-			<scale>2</scale>
-			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/kataritsugu/2.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<StyleMap id="style_kataritsugu2">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#style_kataritsugu2_normal</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#style_kataritsugu2_highlight</styleUrl>
-		</Pair>
-	</StyleMap>
 	<StyleMap id="style_kataritsugu6">
 		<Pair>
 			<key>normal</key>
@@ -38,74 +12,6 @@
 			<styleUrl>#style_kataritsugu6_highlight</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="style_kataritsugu3">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#style_kataritsugu3_normal</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#style_kataritsugu3_highlight</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="style_kataritsugu4_highlight">
-		<IconStyle>
-			<scale>2</scale>
-			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/kataritsugu/4.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<Style id="style_kataritsugu1_normal">
-		<IconStyle>
-			<scale>0.7</scale>
-			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/kataritsugu/1.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<Style id="style_kataritsugu4_normal">
-		<IconStyle>
-			<scale>0.7</scale>
-			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/kataritsugu/4.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<StyleMap id="style_kataritsugu4">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#style_kataritsugu4_normal</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#style_kataritsugu4_highlight</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="style_kataritsugu5_highlight">
-		<IconStyle>
-			<scale>2</scale>
-			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/kataritsugu/5.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<Style id="style_kataritsugu5_normal">
-		<IconStyle>
-			<scale>0.7</scale>
-			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/kataritsugu/5.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<Style id="style_kataritsugu1_highlight">
-		<IconStyle>
-			<scale>2</scale>
-			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/kataritsugu/1.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
 	<StyleMap id="style_kataritsugu1">
 		<Pair>
 			<key>normal</key>
@@ -116,11 +22,11 @@
 			<styleUrl>#style_kataritsugu1_highlight</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="style_kataritsugu3_highlight">
+	<Style id="style_kataritsugu5_highlight">
 		<IconStyle>
 			<scale>2</scale>
 			<Icon>
-				<href>http://hiroshima.archiving.jp/web3d/kml/icon/kataritsugu/3.png</href>
+				<href>http://hiroshima.archiving.jp/web3d/kml/icon/kataritsugu/5.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -134,6 +40,14 @@
 			<styleUrl>#style_kataritsugu5_highlight</styleUrl>
 		</Pair>
 	</StyleMap>
+	<Style id="style_kataritsugu6_normal">
+		<IconStyle>
+			<scale>0.7</scale>
+			<Icon>
+				<href>http://hiroshima.archiving.jp/web3d/kml/icon/kataritsugu/6.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
 	<Style id="style_kataritsugu6_highlight">
 		<IconStyle>
 			<scale>2</scale>
@@ -142,9 +56,69 @@
 			</Icon>
 		</IconStyle>
 	</Style>
+	<Style id="style_kataritsugu4_normal">
+		<IconStyle>
+			<scale>0.7</scale>
+			<Icon>
+				<href>http://hiroshima.archiving.jp/web3d/kml/icon/kataritsugu/4.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="style_kataritsugu5_normal">
+		<IconStyle>
+			<scale>0.7</scale>
+			<Icon>
+				<href>http://hiroshima.archiving.jp/web3d/kml/icon/kataritsugu/5.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="style_kataritsugu4_highlight">
+		<IconStyle>
+			<scale>2</scale>
+			<Icon>
+				<href>http://hiroshima.archiving.jp/web3d/kml/icon/kataritsugu/4.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
 	<Style id="style_kataritsugu3_normal">
 		<IconStyle>
 			<scale>0.7</scale>
+			<Icon>
+				<href>http://hiroshima.archiving.jp/web3d/kml/icon/kataritsugu/3.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<StyleMap id="style_kataritsugu3">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style_kataritsugu3_normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style_kataritsugu3_highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="style_kataritsugu1_highlight">
+		<IconStyle>
+			<scale>2</scale>
+			<Icon>
+				<href>http://hiroshima.archiving.jp/web3d/kml/icon/kataritsugu/1.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<StyleMap id="style_kataritsugu4">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style_kataritsugu4_normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style_kataritsugu4_highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="style_kataritsugu3_highlight">
+		<IconStyle>
+			<scale>2</scale>
 			<Icon>
 				<href>http://hiroshima.archiving.jp/web3d/kml/icon/kataritsugu/3.png</href>
 			</Icon>
@@ -158,11 +132,37 @@
 			</Icon>
 		</IconStyle>
 	</Style>
+	<Style id="style_kataritsugu2_highlight">
+		<IconStyle>
+			<scale>2</scale>
+			<Icon>
+				<href>http://hiroshima.archiving.jp/web3d/kml/icon/kataritsugu/2.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="style_kataritsugu1_normal">
+		<IconStyle>
+			<scale>0.7</scale>
+			<Icon>
+				<href>http://hiroshima.archiving.jp/web3d/kml/icon/kataritsugu/1.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<StyleMap id="style_kataritsugu2">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style_kataritsugu2_normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style_kataritsugu2_highlight</styleUrl>
+		</Pair>
+	</StyleMap>
 	<Folder>
 		<name>kataritsugu</name>
 		<Placemark id="kataritsugu1">
 			<name>岡村悦弥</name>
-			<description><![CDATA[<html><head><link href="http://hiroshima.archiving.jp/css/android.css" rel="stylesheet" type="text/css"></head><body><div class="balloon"><div class="shogen"><p class="image"><img src="http://hiroshima.archiving.jp/data/photo/etsuya_okamura2.png"></p><p class="body">
+			<description><![CDATA[<html><head><link href="http://hiroshima.archiving.jp/data/ios/style.css" rel="stylesheet" type="text/css"></head><body><div class="balloon"><div class="shogen"><p class="image"><img src="http://hiroshima.archiving.jp/data/photo/etsuya_okamura2.png"></p><p class="body">
 被爆したのは、旧制中学四年生の時、一六歳でした。爆心地から三キロメートルの所です。当時私は学徒動員で、南観音(かんおん)町の三菱造船所で「罫(け)書(が)き」という作業をしていました。仕事場には中学生三人と熟練工の人がいました。中学生たちはそれぞれ製罐、機械、鋳物工場などに配属されて輸送船の部品を造っていたのです。毎日八時から五時まで勤務、昼ごはんが一時間あったでしょうか。働いてばかりで、ぜんぜん勉強させてもらえなくて、もういっぺん中学校に戻りたいという気持ちが今でもあります。とにかく休みなし、「月月火水木金金」という時代で、しかも一度仕事に入ったら、門衛が監視していて工場の門は勝手に出入りできないという状況でした。</p><p class="body">
 
 八時一五分、作業に入って間もない頃、窓越しにぴかっと閃光が走り、アッと思ったとたんに、ドンと爆風がやってきました。びっくりして慌ててみんな外に飛び出しました。鉄骨でできた建物だったので、倒れることはなかったけれど、薄い壁や屋根のスレートはこなごなに砕けて落ちてきました。破片の大きいのが頭に落ちてショックで倒れたのが一人二人いたように覚えています。しかし、たいていはかすり傷程度で済みました。
@@ -196,7 +196,7 @@
 
 自分が韓国人の立場だったらとか、あれこれ思いながら、自分の気持ちをどのように整理すればいいのか、すっきりしないのですが、でも、なお語っていかなければならない、聖書にある「剣(つるぎ)をさやに納めなさい」というイエスさまの言葉に帰っていかなければどうしようもないと思っています。「剣を取る者は皆、剣で滅びる」との聖書の教えからすれば、被爆者として、広島の人間として、「ノーモア・ヒロシマ」、「核兵器を持つことには反対」をきちんと言っていかなければ、という思いに満たされています。そういうことを、きちんと次の世代に語り継いでいかなければならないという思いでいます。</p><p class="body">
 聞き取り 二〇〇五年五月二四日、市内自宅にて</p><p class="body">
-文章まとめ  塩山要子</p></div><div class="reference"><p class="reference">日本バプテスト広島キリスト教会</p></div></div></body></html>]]></description>
+文章まとめ  塩山要子</p></div><div class="reference"><p class="reference">日本バプテスト広島キリスト教会</p></div></div><p id="routeButton"><a href="http://maps.apple.com/maps?saddr=&daddr=34.3847678554944,132.4251057933864&z=16"><img src="http://hiroshima.archiving.jp/data/ios/navi.png" class="route"></a></p></body></html>]]></description>
 			<styleUrl>#style_kataritsugu1</styleUrl>
 			<Point>
 				<extrude>1</extrude>
@@ -206,7 +206,7 @@
 		</Placemark>
 		<Placemark id="kataritsugu2">
 			<name>濱野富美子</name>
-			<description><![CDATA[<html><head><link href="http://hiroshima.archiving.jp/css/android.css" rel="stylesheet" type="text/css"></head><body><div class="balloon"><div class="shogen"><p class="image"><img src="http://hiroshima.archiving.jp/data/photo/fumiko_hamano2.png"></p><p class="body">
+			<description><![CDATA[<html><head><link href="http://hiroshima.archiving.jp/data/ios/style.css" rel="stylesheet" type="text/css"></head><body><div class="balloon"><div class="shogen"><p class="image"><img src="http://hiroshima.archiving.jp/data/photo/fumiko_hamano2.png"></p><p class="body">
 被爆当時の年齢は八歳です。爆心地から一・六キロメートルの楠木町(くすのきちょう)一丁目で被爆しました。小学校の低学年だったので、妹（当時六歳）と一緒に近くのお寺の学校分室のような所に通っていました。あの日、いったん学校に行ったのですが、飛行機の爆音が聞こえて、何か変だと直感し、妹の手を引いて家に帰ってきたその時です。家に入る手前の、家の前の路地で被爆しました。屋外だったにもかかわらず、「よくやけどしなかったね」と言われますが、今思うと、昔は路地が狭かったので、建物の陰になって熱線を避けることができたのだと思います。けれど私たち二人とも頭に大きな怪我をしました。頭に血がべっとりと固まって、髪の毛がカチカチになったほどでした。妹は頭に傷が残りました。帰り着いた家はぺしゃんこになって、中に入れない状態でした。必死で「おかあさん、おかあさーん」と母を呼んだけれど、返事もなく、家にも入れないので、仕方なく幼い妹の手をとって二人で逃げました。家がつぶれた時に、近所の人が私たちを助け出してあげたんだと後になって言われましたが、私たちは自分で起きあがったとしか記憶にありません。それほど夢中でした。どちらに行ったらいいか、など考えられません。とにかく、本能的に「人が逃げる方について行けば助かる」と思い、手の先から皮膚を垂らした幽霊のような格好の、やけどだらけの人たちの行列に二人でついて行きました。今から思うと安(やす)の方に逃げたのだと思います。</p><p class="body">
 
 自宅から五分くらい先のお寺で近所の人に偶然出会い、一緒に逃げることになりました。やっとたどり着きましたが、怪我のひどい人から優先的に農家に収容されるので、私たちは屋内に入れてもらえませんでした。二晩そこで野宿しました。その時に大豆ごはんむすび（量を増やすため、ご飯に大豆を入れて炊いたもの）をいただきましたが、本当においしく、今でもその味が忘れられません。途中で安小学校の辺りで乾パンも配られて、その味もよく覚えています。とてもおいしかった。何にも食べるものも飲むものもなく命からがら逃げてきたんですから。でも、のどが乾いたなんて思いませんでした。ただみんなについて逃げるのに夢中で、そんなことを考える余裕はありませんでした。途中でしっぽに火がついて暴れている馬の下をくぐり抜けなくてはならない時があり、とても恐ろしかったことだけはよく記憶しています。また、三滝(みたき)を少し過ぎたところで黒い雨も受けました。直後に市内にも入ったので入市被爆もし、私は直接被爆と黒い雨とで、まったくの多重被爆者です。</p><p class="body">
@@ -240,7 +240,7 @@
 最後に、戦争、ことに核戦争はすべきではないということを若い人たちに伝えたい。私は平和は、キリストによる平和しかないと思います。神の王国が誕生しなければ、戦争はずっと続く気がします。武力に頼っていては、いつまでも互いにこれでもか、これでもかとなります。一人でも多くの人に福音を宣(の)べ伝えて、人を殺さないという気持ちを育てないと平和にならないと思います。キリストにある福音と平和を隣り人に伝えること。周りの人に一人でもクリスチャンになってもらうように、自分の受けたキリストによる平安や恵み、慰め、生きる力、それらを言っていくのが務めじゃないかなあと思います。</p><p class="body">
 
 聞き取り  二〇〇五年五月一七日、市内自宅にて</p><p class="body">
-文章まとめ  都所康子</p></div><div class="reference"><p class="reference">日本バプテスト広島キリスト教会</p></div></div></body></html>]]></description>
+文章まとめ  都所康子</p></div><div class="reference"><p class="reference">日本バプテスト広島キリスト教会</p></div></div><p id="routeButton"><a href="http://maps.apple.com/maps?saddr=&daddr=34.40903188553517,132.456415832758&z=16"><img src="http://hiroshima.archiving.jp/data/ios/navi.png" class="route"></a></p></body></html>]]></description>
 			<styleUrl>#style_kataritsugu2</styleUrl>
 			<Point>
 				<extrude>1</extrude>
@@ -250,7 +250,7 @@
 		</Placemark>
 		<Placemark id="kataritsugu3">
 			<name>三上君子</name>
-			<description><![CDATA[<html><head><link href="http://hiroshima.archiving.jp/css/android.css" rel="stylesheet" type="text/css"></head><body><div class="balloon"><div class="shogen"><p class="image"><img src="http://hiroshima.archiving.jp/data/photo/kimiko_mikami2.png"></p><p class="body">
+			<description><![CDATA[<html><head><link href="http://hiroshima.archiving.jp/data/ios/style.css" rel="stylesheet" type="text/css"></head><body><div class="balloon"><div class="shogen"><p class="image"><img src="http://hiroshima.archiving.jp/data/photo/kimiko_mikami2.png"></p><p class="body">
 私が被爆したのは、爆心地から一・七キロメートル離れた三(み)篠(ささ)小学校の運動場で、小学校六年生、一一歳の時でした。朝礼で、校長先生が台の上でこちらを向いておられました。</p><p class="body">
 
 当時、戦争が激しくなり、警戒警報のサイレンが鳴ると「敵の飛行機が来るから注意しなさい」、空襲警報のサイレンが鳴ると「空襲されるから避難しなさい」という合図でした。朝から警報が鳴った時は学校へは行きませんでした。毎日空襲を恐れて暮らしていました。授業中に空襲警報が鳴ると、教壇の下の板を取り除いて床下に入り、先生を中心に子どもたちは、この上に爆弾が落ちませんように、と抱き合い震えあがっていました。</p><p class="body">
@@ -349,7 +349,7 @@
 上の兄二二歳。二キロメートル、千田町電鉄（株）社内で被爆、無傷。</p><p class="body">
 姉二〇歳。広島信用金庫横川支店社屋内で被爆、一・五キロメートル、無傷。</p><p class="body">
 下の兄一七歳。広高一年生、横川駅付近（一・五キロメートル）の屋外で被爆、両腕にやけど。</p><p class="body">
-私三篠小学校六年生、一一歳。運動場（一・七キロメートル）にて朝礼中被爆、屋外。首、両腕にやけど。</p></div><div class="reference"><p class="reference">日本バプテスト広島キリスト教会</p></div></div></body></html>]]></description>
+私三篠小学校六年生、一一歳。運動場（一・七キロメートル）にて朝礼中被爆、屋外。首、両腕にやけど。</p></div><div class="reference"><p class="reference">日本バプテスト広島キリスト教会</p></div></div><p id="routeButton"><a href="http://maps.apple.com/maps?saddr=&daddr=34.4122135091818,132.4509111111111&z=16"><img src="http://hiroshima.archiving.jp/data/ios/navi.png" class="route"></a></p></body></html>]]></description>
 			<styleUrl>#style_kataritsugu3</styleUrl>
 			<Point>
 				<extrude>1</extrude>
@@ -359,7 +359,7 @@
 		</Placemark>
 		<Placemark id="kataritsugu4">
 			<name>目貫美江</name>
-			<description><![CDATA[<html><head><link href="http://hiroshima.archiving.jp/css/android.css" rel="stylesheet" type="text/css"></head><body><div class="balloon"><div class="shogen"><p class="image"><img src="http://hiroshima.archiving.jp/data/photo/mie_menuki2.png"></p><p class="body">
+			<description><![CDATA[<html><head><link href="http://hiroshima.archiving.jp/data/ios/style.css" rel="stylesheet" type="text/css"></head><body><div class="balloon"><div class="shogen"><p class="image"><img src="http://hiroshima.archiving.jp/data/photo/mie_menuki2.png"></p><p class="body">
 私は大阪に生まれ、一九四一（昭和一六）年に父の転勤で（住友銀行本店）北九州の小倉に移り住みました。一九四三（昭和一八）年に父が病死したため、母の里である広島に引越し、西南女学院から広島女学院の四年生へ転校しました。戦争たけなわの一九四四（昭和一九）年、五年生の六月には、呉(くれ)市広町(ひろまち)にあった海軍の軍需工場に学徒動員として銃後の守りのために働きました。家族と離れ、寮生活でしたが、毎日の生活は軍隊と同様厳しいものでした。工場では七尺（二・五メートル）旋盤で人間魚雷の船のネジを切る仕事でした。初めて見る機械で作るので、たびたび「誤作」ができて、工場長に「大切な国の資材を無駄にする」と言われて、よく叱られました。戦争も激しさを増し、工場の屋根には木の枝を並べてカモフラージュしていました。ほかにも山に横穴を掘り工場にして、旋盤を使って兵器を作っていました。時々空襲があり、野(の)呂(ろ)山(さん)の山あいからグラマン機が急降下しダダダダ･･････と機銃掃射を浴びせました。防空壕に避難しても爆風が防空壕を揺らすので、板の間から土がバラバラと落ちてくると同時に体が浮くのです。その時は生きた心地がしませんでした。</p><p class="body">
 
 一九四五（昭和二〇）年三月が卒業でしたが、母校に帰ることは許されず、紺色の作業服姿のまま工場で卒業式を終えました。</p><p class="body">
@@ -392,7 +392,7 @@
 
 聞き取り  二〇〇五年八月二三日、市内自宅にて</p><p class="body">
 文章まとめ  山田洋子
-</p></div><div class="reference"><p class="reference">日本バプテスト広島キリスト教会</p></div></div></body></html>]]></description>
+</p></div><div class="reference"><p class="reference">日本バプテスト広島キリスト教会</p></div></div><p id="routeButton"><a href="http://maps.apple.com/maps?saddr=&daddr=34.40701494937633,132.4521279785132&z=16"><img src="http://hiroshima.archiving.jp/data/ios/navi.png" class="route"></a></p></body></html>]]></description>
 			<styleUrl>#style_kataritsugu4</styleUrl>
 			<Point>
 				<extrude>1</extrude>
@@ -402,7 +402,7 @@
 		</Placemark>
 		<Placemark id="kataritsugu5">
 			<name>安部初子</name>
-			<description><![CDATA[<html><head><link href="http://hiroshima.archiving.jp/css/android.css" rel="stylesheet" type="text/css"></head><body><div class="balloon"><div class="shogen"><p class="body">
+			<description><![CDATA[<html><head><link href="http://hiroshima.archiving.jp/data/ios/style.css" rel="stylesheet" type="text/css"></head><body><div class="balloon"><div class="shogen"><p class="body">
 爆心地から一・七キロメートルの白島(はくしま)九軒町(くけんちょう)に住んでおり、家の中で被爆しました。二四歳でした。六月二八日に生まれたばかりの、ほんの四〇日の赤ちゃんがいました。主人が会社に出て行ったのが八時一三分頃で、「いってらっしゃい」と言って別れました。今のうちに、赤ちゃんが寝ている間に、朝ごはんの後片付けをしようと思って、台所の方にちょっと行きかけた時でした。朝ごはんといっても、大根を農家の人に分けてもらって、小さく切ってご飯の代わりにした大根飯・大根がゆのようなものでした。「ブーン」と、飛行機の音が聞こえてきました。その当時は飛行機の音に神経質になっていましたから、ものすごくハッとしました。聞いている間にピカッと光ったから、台所の方に行きかけたのをすぐ後戻りして、二部屋向うに寝かせていた赤ちゃんを取りに行きかけました。その途中でどーん。一戸建ての家でしたから天井は落ちてくるし、お天気のいい日で明るいのに真っ暗となりました。とにかく赤ん坊の博子のことだけが頭にあって、私は上から何かが落ちてきて顔がめちゃくちゃになり、歯も前歯が三本なくなりましたが、まず一番に博子をと思いました。博子を抱いた瞬間に、天井が落ちて家の下敷きになりました。博子を抱いてうずくまったきりで、とても恐かったです。私は自分の家に爆弾が落ちたのかと思って「安部です。助けにきて下さい」と、近所に聞こえるように言いました。でも誰も来てくれません。誰も来てくれないので、「神さま助けて下さい。お願いします」と祈りました。そしたら神さまの姿が見えました。家の下敷きになっているのに、次の瞬間、気がついたら玄関の前に裸足で、子どもだけを抱えて立っていました。子どもは怪我もやけどもしていませんでした。</p><p class="body">
 
 家はもう煙が出てぼそぼそ燃えていました。裸足だから何か履物をと思い、玄関に行きかけたところ、隣のご主人に「燃えているから危ない。家に入ってはダメ」と言われ、しかたなく裸足のまま子どもを抱えて河原へ向かいました。常々、爆弾が落ちたら神田川の神田橋の河原へ逃げることになっていました。兵隊さんがいっぱいいましたが、爆風で着ているものは皆取られて、皆裸。私も頭を打っているので、頭も顔も着ているものも血まみれでした。分からなかったのですが腕も折れていました。子どもを抱えてぼーとしながら、兵隊さんに連れられて、河原の方へずっと歩いて行きました。主人はもう死んでいると思いました。広島には親戚もいないし、誰もいないし、どうしようと、ただ呆然と河原にしゃがんでいました。</p><p class="body">
@@ -429,7 +429,7 @@
 
 聞き取り二〇〇五年七月五日、市内自宅にて</p><p class="body">
 文章まとめ高橋良子
-</p></div><div class="reference"><p class="reference">日本バプテスト広島キリスト教会</p></div></div></body></html>]]></description>
+</p></div><div class="reference"><p class="reference">日本バプテスト広島キリスト教会</p></div></div><p id="routeButton"><a href="http://maps.apple.com/maps?saddr=&daddr=34.40681494983163,132.4677906554409&z=16"><img src="http://hiroshima.archiving.jp/data/ios/navi.png" class="route"></a></p></body></html>]]></description>
 			<styleUrl>#style_kataritsugu5</styleUrl>
 			<Point>
 				<extrude>1</extrude>
@@ -439,7 +439,7 @@
 		</Placemark>
 		<Placemark id="kataritsugu6">
 			<name>小出来トモ江</name>
-			<description><![CDATA[<html><head><link href="http://hiroshima.archiving.jp/css/android.css" rel="stylesheet" type="text/css"></head><body><div class="balloon"><div class="shogen"><p class="body">
+			<description><![CDATA[<html><head><link href="http://hiroshima.archiving.jp/data/ios/style.css" rel="stylesheet" type="text/css"></head><body><div class="balloon"><div class="shogen"><p class="body">
 当時一五歳、広島女学院の三年生。爆心地から三キロメートルの翠町(みどりまち)の自宅にいました。</p><p class="body">
 
 私は学徒動員で鉄道局に配属されていました。当時は「月月火水木金金。土曜、日曜あるものか」などと歌にもあったように、一般の休日はなく、個人それぞれに月に三日の休日が割り当てられていました。六日、一六日、二六日が私の休日でした。その頃、鉄道局は宇品にありましたが、私たちが動員されて間もなく、国鉄の事務局が一カ所に集まっていては、空襲に遭った時に危ないということからか、私の所属していた「審査課」が疎開ということで、母校（広島女学院）の空き校舎に移っていました。私は三年生でしたが、一、二年生を残してほとんどの生徒が、あちこちの工場や事務所に動員されて出ていました。</p><p class="body">
@@ -497,7 +497,7 @@
 神が良しとされた世界はどんなに美しいでしょう。廃墟のかなたに見える美しい地球を、どのような努力をしても残すことは、創られた者の責任だと思います。</p><p class="body">
 
 聞き取り二〇〇五年六月七日、市内自宅にて</p><p class="body">
-文章まとめ高橋良子</p></div><div class="reference"><p class="reference">日本バプテスト広島キリスト教会</p></div></div></body></html>]]></description>
+文章まとめ高橋良子</p></div><div class="reference"><p class="reference">日本バプテスト広島キリスト教会</p></div></div><p id="routeButton"><a href="http://maps.apple.com/maps?saddr=&daddr=34.37151268573232,132.4712488948152&z=16"><img src="http://hiroshima.archiving.jp/data/ios/navi.png" class="route"></a></p></body></html>]]></description>
 			<styleUrl>#style_kataritsugu6</styleUrl>
 			<Point>
 				<extrude>1</extrude>

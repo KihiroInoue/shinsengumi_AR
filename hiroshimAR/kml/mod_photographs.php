@@ -14,7 +14,7 @@ if(file_exists($directory_path)){
 
 $list;
 
-$files = glob('*.kml');
+$files = glob('photographs_en.kml');
 $list = array();
 foreach ($files as $file) {
     if (is_file($file)) {
@@ -31,12 +31,14 @@ foreach ($list as $value){
 	$xml = simplexml_load_file($filePath);
 	echo 'A KML file "' . $value . '" is loaded' . '<br />';
 
-	foreach ($xml->Document->Folder->Placemark as $placemark) {
-		$coordinates = explode(',',$placemark->Point->coordinates);
-		$lat = $coordinates[1];
-		$lon = $coordinates[0];		
+	foreach ($xml->Document->Folder->Placemark as $placemark) {	
 		$descriptionOriginal = $placemark->description;
-		$descriptionNew = (string)($descriptionOriginal . '<p id="routeButton"><a href="http://maps.apple.com/maps?saddr=&daddr=' . $lat . ',' . $lon . '&z=16"><img src="http://hiroshima.archiving.jp/data/ios/navi.png" class="route"></a></p>');
+		$start = mb_strpos($descriptionOriginal,'<p class="image">');
+		$end = mb_strpos($descriptionOriginal,'<div class="reference">');
+		$photoHtml = mb_substr($descriptionOriginal,$start,$end-$start);
+		$descriptionMod = str_replace($photoHtml,'',$descriptionOriginal);
+		$newPhotoHtml = '<div class="balloon">' . $photoHtml;
+		$descriptionNew = str_replace('<div class="balloon">',$newPhotoHtml,$descriptionMod);
 		$placemark->description = $descriptionNew;
 	}
 		$newfileName = "newKml/" . $filePath;

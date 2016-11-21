@@ -287,8 +287,10 @@ static int mapTypeCount = 0;
         //地理院タイルをオーバレイ
         NSString *template = @"http://cyberjapandata.gsi.go.jp/xyz/ort_USA10/{z}/{x}/{y}.png";
         MKTileOverlay *tile_overlay = [[MKTileOverlay alloc] initWithURLTemplate:template];
+        tile_overlay.minimumZ = 10;
+        tile_overlay.maximumZ = 17;
         tile_overlay.canReplaceMapContent = YES;
-        [self.mapView addOverlay:tile_overlay level:MKOverlayLevelAboveLabels];
+        [self.mapView addOverlay:tile_overlay];
         mapTypeCount++;
     } else {
         self.mapView.mapType = MKMapTypeSatelliteFlyover;

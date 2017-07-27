@@ -263,6 +263,7 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				E7B4D8101F2A79AD00FCCDDD /* icons */,
 				357DDFC7142ED16D0067DDCF /* Vendors */,
 				A0CA49BA141D3CCA009AF2B8 /* AR */,
 				A0CA49B6141D3C8C009AF2B8 /* Data */,
@@ -396,6 +397,13 @@
 				E7B4D80C1F2A646D00FCCDDD /* shinsengumi.kml */,
 			);
 			name = kml;
+			sourceTree = "<group>";
+		};
+		E7B4D8101F2A79AD00FCCDDD /* icons */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = icons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

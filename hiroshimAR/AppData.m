@@ -205,72 +205,18 @@ NSComparisonResult DistanceSortClosestFirst(Article *a1, Article *a2, void *igno
     // 日本語の場合は日本語KMLをロード
     if ([currentLanguage hasPrefix:@"ja"]) {
         [self loadFromInformation:mode
-                          kmlName:@"heiwa_wo_inoru"
+                          kmlName:@"shinsengumi"
                          pinColor:MKPinAnnotationColorGreen
                      imageEnabled:YES];
-        [self loadFromInformation:mode
-                          kmlName:@"hibaku60"
-                         pinColor:MKPinAnnotationColorGreen
-                     imageEnabled:YES];
-        [self loadFromInformation:mode
-                          kmlName:@"himeguri_movie"
-                         pinColor:MKPinAnnotationColorGreen
-                     imageEnabled:YES];
-        [self loadFromInformation:mode
-                          kmlName:@"kioku_wo_uketsugu"
-                         pinColor:MKPinAnnotationColorGreen
-                     imageEnabled:YES];
-        [self loadFromInformation:mode
-                          kmlName:@"photographs"
-                         pinColor:MKPinAnnotationColorGreen
-                     imageEnabled:YES];
-        [self loadFromInformation:mode
-                          kmlName:@"video_shogen"
-                         pinColor:MKPinAnnotationColorGreen
-                     imageEnabled:YES];
-        [self loadFromInformation:mode
-                          kmlName:@"genshiun"
-                         pinColor:MKPinAnnotationColorGreen
-                     imageEnabled:YES];
-        [self loadFromInformation:mode
-                          kmlName:@"fujimoto"
-                         pinColor:MKPinAnnotationColorGreen
-                     imageEnabled:YES];
-        [self loadFromInformation:mode
-                          kmlName:@"keisho"
-                         pinColor:MKPinAnnotationColorGreen
-                     imageEnabled:YES];
+       
     } else {
     
     // 日本語以外の場合は英語KMLをロード
     [self loadFromInformation:mode
-                      kmlName:@"heiwa_wo_inoru_en"
+                      kmlName:@"shinsengumi"
                      pinColor:MKPinAnnotationColorGreen
                  imageEnabled:YES];
-    [self loadFromInformation:mode
-                      kmlName:@"hibaku60_en"
-                     pinColor:MKPinAnnotationColorGreen
-                 imageEnabled:YES];
-    [self loadFromInformation:mode
-                      kmlName:@"himeguri_movie_en"
-                     pinColor:MKPinAnnotationColorGreen
-                 imageEnabled:YES];
-    [self loadFromInformation:mode
-                      kmlName:@"kioku_wo_uketsugu_en"
-                     pinColor:MKPinAnnotationColorGreen
-                 imageEnabled:YES];
-    [self loadFromInformation:mode
-                      kmlName:@"photographs_en"
-                     pinColor:MKPinAnnotationColorGreen
-                 imageEnabled:YES];
-    [self loadFromInformation:mode
-                      kmlName:@"video_shogen_en"
-                     pinColor:MKPinAnnotationColorGreen
-                 imageEnabled:YES];
-        [self loadFromInformation:mode
-                          kmlName:@"fujimoto_en"
-                         pinColor:MKPinAnnotationColorGreen
-                     imageEnabled:YES];
+   
 /*
     [self loadFromInformation:mode
                       kmlName:@"genshiun"

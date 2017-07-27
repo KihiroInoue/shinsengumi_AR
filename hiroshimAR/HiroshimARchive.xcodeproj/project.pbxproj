@@ -43,23 +43,6 @@
 		35B54E73143B427F00112FDD /* detail.html in Resources */ = {isa = PBXBuildFile; fileRef = 35B54E72143B427F00112FDD /* detail.html */; };
 		35B54E76143B429B00112FDD /* KMLPlacemarkAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 35B54E75143B429B00112FDD /* KMLPlacemarkAnnotation.m */; };
 		533ECC0C11F63EA00067A265 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 533ECC0911F63EA00067A265 /* MainWindow.xib */; };
-		5EDB30BA1DC8BC33002BBB4C /* fujimoto_en.kml in Resources */ = {isa = PBXBuildFile; fileRef = 5EDB30B81DC8BC33002BBB4C /* fujimoto_en.kml */; };
-		5EDB30BB1DC8BC33002BBB4C /* fujimoto.kml in Resources */ = {isa = PBXBuildFile; fileRef = 5EDB30B91DC8BC33002BBB4C /* fujimoto.kml */; };
-		5EDB30BD1DC8BFFE002BBB4C /* keisho.kml in Resources */ = {isa = PBXBuildFile; fileRef = 5EDB30BC1DC8BFFE002BBB4C /* keisho.kml */; };
-		5EDF0AAE1DC7773700C405D8 /* genshiun.kml in Resources */ = {isa = PBXBuildFile; fileRef = 5EDF0AA01DC7773700C405D8 /* genshiun.kml */; };
-		5EDF0AAF1DC7773700C405D8 /* hibaku60_en.kml in Resources */ = {isa = PBXBuildFile; fileRef = 5EDF0AA11DC7773700C405D8 /* hibaku60_en.kml */; };
-		5EDF0AB01DC7773700C405D8 /* heiwa_wo_inoru.kml in Resources */ = {isa = PBXBuildFile; fileRef = 5EDF0AA21DC7773700C405D8 /* heiwa_wo_inoru.kml */; };
-		5EDF0AB11DC7773700C405D8 /* himeguri_movie_en.kml in Resources */ = {isa = PBXBuildFile; fileRef = 5EDF0AA31DC7773700C405D8 /* himeguri_movie_en.kml */; };
-		5EDF0AB21DC7773700C405D8 /* heiwa_wo_inoru_en.kml in Resources */ = {isa = PBXBuildFile; fileRef = 5EDF0AA41DC7773700C405D8 /* heiwa_wo_inoru_en.kml */; };
-		5EDF0AB31DC7773700C405D8 /* hibaku60.kml in Resources */ = {isa = PBXBuildFile; fileRef = 5EDF0AA51DC7773700C405D8 /* hibaku60.kml */; };
-		5EDF0AB41DC7773700C405D8 /* kataritsugu.kml in Resources */ = {isa = PBXBuildFile; fileRef = 5EDF0AA61DC7773700C405D8 /* kataritsugu.kml */; };
-		5EDF0AB51DC7773700C405D8 /* kioku_wo_uketsugu_en.kml in Resources */ = {isa = PBXBuildFile; fileRef = 5EDF0AA71DC7773700C405D8 /* kioku_wo_uketsugu_en.kml */; };
-		5EDF0AB61DC7773700C405D8 /* himeguri_movie.kml in Resources */ = {isa = PBXBuildFile; fileRef = 5EDF0AA81DC7773700C405D8 /* himeguri_movie.kml */; };
-		5EDF0AB71DC7773700C405D8 /* kioku_wo_uketsugu.kml in Resources */ = {isa = PBXBuildFile; fileRef = 5EDF0AA91DC7773700C405D8 /* kioku_wo_uketsugu.kml */; };
-		5EDF0AB81DC7773700C405D8 /* video_shogen_en.kml in Resources */ = {isa = PBXBuildFile; fileRef = 5EDF0AAA1DC7773700C405D8 /* video_shogen_en.kml */; };
-		5EDF0AB91DC7773700C405D8 /* photographs_en.kml in Resources */ = {isa = PBXBuildFile; fileRef = 5EDF0AAB1DC7773700C405D8 /* photographs_en.kml */; };
-		5EDF0ABA1DC7773700C405D8 /* photographs.kml in Resources */ = {isa = PBXBuildFile; fileRef = 5EDF0AAC1DC7773700C405D8 /* photographs.kml */; };
-		5EDF0ABB1DC7773700C405D8 /* video_shogen.kml in Resources */ = {isa = PBXBuildFile; fileRef = 5EDF0AAD1DC7773700C405D8 /* video_shogen.kml */; };
 		9E0CC5701A5179E700552777 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E0CC56F1A5179E700552777 /* CoreMotion.framework */; };
 		9E0E47171A7A064E0013E359 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E0E47161A7A064E0013E359 /* Accounts.framework */; };
 		9E0E47191A7A06550013E359 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E0E47181A7A06550013E359 /* Social.framework */; };
@@ -78,6 +61,7 @@
 		A0CA49C0141D3DE4009AF2B8 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0CA49BF141D3DE4009AF2B8 /* DetailViewController.xib */; };
 		CE9D55C7141586310096593A /* information.html in Resources */ = {isa = PBXBuildFile; fileRef = CE9D55C4141586310096593A /* information.html */; };
 		DB79BFCF13C44DC1001101E8 /* KmlAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = DB79BFCE13C44DC1001101E8 /* KmlAnnotation.m */; };
+		E7B4D80D1F2A646D00FCCDDD /* shinsengumi.kml in Resources */ = {isa = PBXBuildFile; fileRef = E7B4D80C1F2A646D00FCCDDD /* shinsengumi.kml */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -146,23 +130,6 @@
 		35B54E74143B429B00112FDD /* KMLPlacemarkAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMLPlacemarkAnnotation.h; sourceTree = "<group>"; };
 		35B54E75143B429B00112FDD /* KMLPlacemarkAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMLPlacemarkAnnotation.m; sourceTree = "<group>"; };
 		533ECC0A11F63EA00067A265 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		5EDB30B81DC8BC33002BBB4C /* fujimoto_en.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = fujimoto_en.kml; path = kml/fujimoto_en.kml; sourceTree = "<group>"; };
-		5EDB30B91DC8BC33002BBB4C /* fujimoto.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = fujimoto.kml; path = kml/fujimoto.kml; sourceTree = "<group>"; };
-		5EDB30BC1DC8BFFE002BBB4C /* keisho.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = keisho.kml; path = kml/keisho.kml; sourceTree = "<group>"; };
-		5EDF0AA01DC7773700C405D8 /* genshiun.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = genshiun.kml; path = kml/genshiun.kml; sourceTree = "<group>"; };
-		5EDF0AA11DC7773700C405D8 /* hibaku60_en.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = hibaku60_en.kml; path = kml/hibaku60_en.kml; sourceTree = "<group>"; };
-		5EDF0AA21DC7773700C405D8 /* heiwa_wo_inoru.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = heiwa_wo_inoru.kml; path = kml/heiwa_wo_inoru.kml; sourceTree = "<group>"; };
-		5EDF0AA31DC7773700C405D8 /* himeguri_movie_en.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = himeguri_movie_en.kml; path = kml/himeguri_movie_en.kml; sourceTree = "<group>"; };
-		5EDF0AA41DC7773700C405D8 /* heiwa_wo_inoru_en.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = heiwa_wo_inoru_en.kml; path = kml/heiwa_wo_inoru_en.kml; sourceTree = "<group>"; };
-		5EDF0AA51DC7773700C405D8 /* hibaku60.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = hibaku60.kml; path = kml/hibaku60.kml; sourceTree = "<group>"; };
-		5EDF0AA61DC7773700C405D8 /* kataritsugu.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = kataritsugu.kml; path = kml/kataritsugu.kml; sourceTree = "<group>"; };
-		5EDF0AA71DC7773700C405D8 /* kioku_wo_uketsugu_en.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = kioku_wo_uketsugu_en.kml; path = kml/kioku_wo_uketsugu_en.kml; sourceTree = "<group>"; };
-		5EDF0AA81DC7773700C405D8 /* himeguri_movie.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = himeguri_movie.kml; path = kml/himeguri_movie.kml; sourceTree = "<group>"; };
-		5EDF0AA91DC7773700C405D8 /* kioku_wo_uketsugu.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = kioku_wo_uketsugu.kml; path = kml/kioku_wo_uketsugu.kml; sourceTree = "<group>"; };
-		5EDF0AAA1DC7773700C405D8 /* video_shogen_en.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = video_shogen_en.kml; path = kml/video_shogen_en.kml; sourceTree = "<group>"; };
-		5EDF0AAB1DC7773700C405D8 /* photographs_en.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = photographs_en.kml; path = kml/photographs_en.kml; sourceTree = "<group>"; };
-		5EDF0AAC1DC7773700C405D8 /* photographs.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = photographs.kml; path = kml/photographs.kml; sourceTree = "<group>"; };
-		5EDF0AAD1DC7773700C405D8 /* video_shogen.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = video_shogen.kml; path = kml/video_shogen.kml; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* hiroshimaKML-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "hiroshimaKML-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 		9E0CC56F1A5179E700552777 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
 		9E0E47161A7A064E0013E359 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
@@ -192,6 +159,7 @@
 		CE9D55C4141586310096593A /* information.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = information.html; sourceTree = "<group>"; };
 		DB79BFCD13C44DC1001101E8 /* KmlAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KmlAnnotation.h; path = ../HiroshimARchive.xcodeproj/KmlAnnotation.h; sourceTree = "<group>"; };
 		DB79BFCE13C44DC1001101E8 /* KmlAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KmlAnnotation.m; path = ../HiroshimARchive.xcodeproj/KmlAnnotation.m; sourceTree = "<group>"; };
+		E7B4D80C1F2A646D00FCCDDD /* shinsengumi.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = shinsengumi.kml; path = kml/shinsengumi.kml; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -322,8 +290,8 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				E7B4D80B1F2A644500FCCDDD /* kml */,
 				5EE373FA1C4216D600D219C7 /* Html */,
-				5EE373FC1C4216F000D219C7 /* Kml */,
 				5EE373FB1C4216E700D219C7 /* Xib */,
 				8D1107310486CEB800E47090 /* hiroshimaKML-Info.plist */,
 				9E410C321A49471300E5F9EF /* Images.xcassets */,
@@ -402,30 +370,6 @@
 			name = Xib;
 			sourceTree = "<group>";
 		};
-		5EE373FC1C4216F000D219C7 /* Kml */ = {
-			isa = PBXGroup;
-			children = (
-				5EDF0AA01DC7773700C405D8 /* genshiun.kml */,
-				5EDF0AA11DC7773700C405D8 /* hibaku60_en.kml */,
-				5EDF0AA21DC7773700C405D8 /* heiwa_wo_inoru.kml */,
-				5EDF0AA31DC7773700C405D8 /* himeguri_movie_en.kml */,
-				5EDF0AA41DC7773700C405D8 /* heiwa_wo_inoru_en.kml */,
-				5EDB30BC1DC8BFFE002BBB4C /* keisho.kml */,
-				5EDF0AA51DC7773700C405D8 /* hibaku60.kml */,
-				5EDF0AA61DC7773700C405D8 /* kataritsugu.kml */,
-				5EDF0AA71DC7773700C405D8 /* kioku_wo_uketsugu_en.kml */,
-				5EDB30B81DC8BC33002BBB4C /* fujimoto_en.kml */,
-				5EDB30B91DC8BC33002BBB4C /* fujimoto.kml */,
-				5EDF0AA81DC7773700C405D8 /* himeguri_movie.kml */,
-				5EDF0AA91DC7773700C405D8 /* kioku_wo_uketsugu.kml */,
-				5EDF0AAA1DC7773700C405D8 /* video_shogen_en.kml */,
-				5EDF0AAB1DC7773700C405D8 /* photographs_en.kml */,
-				5EDF0AAC1DC7773700C405D8 /* photographs.kml */,
-				5EDF0AAD1DC7773700C405D8 /* video_shogen.kml */,
-			);
-			name = Kml;
-			sourceTree = "<group>";
-		};
 		A0CA49B6141D3C8C009AF2B8 /* Data */ = {
 			isa = PBXGroup;
 			children = (
@@ -444,6 +388,14 @@
 				A0CA499E141D3C58009AF2B8 /* CustomImagePicker.m */,
 			);
 			name = AR;
+			sourceTree = "<group>";
+		};
+		E7B4D80B1F2A644500FCCDDD /* kml */ = {
+			isa = PBXGroup;
+			children = (
+				E7B4D80C1F2A646D00FCCDDD /* shinsengumi.kml */,
+			);
+			name = kml;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -508,33 +460,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5EDB30BD1DC8BFFE002BBB4C /* keisho.kml in Resources */,
 				9EE45FEC1A75620600655A95 /* MainWindow-iPad.xib in Resources */,
-				5EDF0AB61DC7773700C405D8 /* himeguri_movie.kml in Resources */,
 				9E2CC53B1A70EB630068E53B /* Launch_Screen.xib in Resources */,
-				5EDF0AB11DC7773700C405D8 /* himeguri_movie_en.kml in Resources */,
 				533ECC0C11F63EA00067A265 /* MainWindow.xib in Resources */,
-				5EDB30BB1DC8BC33002BBB4C /* fujimoto.kml in Resources */,
-				5EDF0AB31DC7773700C405D8 /* hibaku60.kml in Resources */,
-				5EDF0AB41DC7773700C405D8 /* kataritsugu.kml in Resources */,
 				9EE45FF11A75621900655A95 /* DetailViewController-iPad.xib in Resources */,
-				5EDF0AB91DC7773700C405D8 /* photographs_en.kml in Resources */,
+				E7B4D80D1F2A646D00FCCDDD /* shinsengumi.kml in Resources */,
 				CE9D55C7141586310096593A /* information.html in Resources */,
-				5EDF0AB81DC7773700C405D8 /* video_shogen_en.kml in Resources */,
-				5EDF0AB71DC7773700C405D8 /* kioku_wo_uketsugu.kml in Resources */,
 				9E410C331A49471300E5F9EF /* Images.xcassets in Resources */,
 				9EE45FEF1A75621000655A95 /* KMLViewerViewController-iPad.xib in Resources */,
-				5EDB30BA1DC8BC33002BBB4C /* fujimoto_en.kml in Resources */,
-				5EDF0AB21DC7773700C405D8 /* heiwa_wo_inoru_en.kml in Resources */,
 				A0CA49C0141D3DE4009AF2B8 /* DetailViewController.xib in Resources */,
-				5EDF0ABA1DC7773700C405D8 /* photographs.kml in Resources */,
 				9EB84ABA1A70C65E00BF0D14 /* KMLViewerViewController.xib in Resources */,
-				5EDF0AB51DC7773700C405D8 /* kioku_wo_uketsugu_en.kml in Resources */,
 				35B54E73143B427F00112FDD /* detail.html in Resources */,
-				5EDF0AAF1DC7773700C405D8 /* hibaku60_en.kml in Resources */,
-				5EDF0ABB1DC7773700C405D8 /* video_shogen.kml in Resources */,
-				5EDF0AAE1DC7773700C405D8 /* genshiun.kml in Resources */,
-				5EDF0AB01DC7773700C405D8 /* heiwa_wo_inoru.kml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

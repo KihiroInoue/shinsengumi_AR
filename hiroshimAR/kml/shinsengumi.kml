@@ -1,0 +1,2193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>shinsengumi</name>
+	<open>1</open>
+	<Style id="sh_shinpachi">
+		<IconStyle>
+			<color>ff000000</color>
+			<scale>0.3</scale>
+			<Icon>
+				<href>https://raw.githubusercontent.com/KihiroInoue/shinsengumi/cb4aaf9839b5b1b0c8ad859084abc5955d380989/shinpachi.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text>$[description]</text>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_saitou">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_saitou0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_saitou3</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_hijikata">
+		<IconStyle>
+			<color>ff000000</color>
+			<scale>0.3</scale>
+			<Icon>
+				<href>https://raw.githubusercontent.com/KihiroInoue/shinsengumi/cb4aaf9839b5b1b0c8ad859084abc5955d380989/hijikata.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text>$[description]</text>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sh_makoto1">
+		<IconStyle>
+			<color>ff000000</color>
+			<scale>0.1</scale>
+			<Icon>
+				<href>https://raw.githubusercontent.com/KihiroInoue/shinsengumi/cb4aaf9839b5b1b0c8ad859084abc5955d380989/makoto1.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text>$[description]</text>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sh_saitou">
+		<IconStyle>
+			<color>ff000000</color>
+			<scale>0.3</scale>
+			<Icon>
+				<href>https://raw.githubusercontent.com/KihiroInoue/shinsengumi/cb4aaf9839b5b1b0c8ad859084abc5955d380989/saitou.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text>$[description]</text>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sn_hijikata">
+		<IconStyle>
+			<color>ff000000</color>
+			<scale>0.3</scale>
+			<Icon>
+				<href>https://raw.githubusercontent.com/KihiroInoue/shinsengumi/cb4aaf9839b5b1b0c8ad859084abc5955d380989/hijikata.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<BalloonStyle>
+			<text>$[description]</text>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_okita">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_okita1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_okita0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_shinpachi">
+		<IconStyle>
+			<color>ff000000</color>
+			<scale>0.3</scale>
+			<Icon>
+				<href>https://raw.githubusercontent.com/KihiroInoue/shinsengumi/cb4aaf9839b5b1b0c8ad859084abc5955d380989/shinpachi.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<BalloonStyle>
+			<text>$[description]</text>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sn_makoto1">
+		<IconStyle>
+			<color>ff000000</color>
+			<scale>0.1</scale>
+			<Icon>
+				<href>https://raw.githubusercontent.com/KihiroInoue/shinsengumi/cb4aaf9839b5b1b0c8ad859084abc5955d380989/makoto1.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<BalloonStyle>
+			<text>$[description]</text>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_shinpachi">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_shinpachi</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_shinpachi1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_shinpachi0">
+		<IconStyle>
+			<color>ff000000</color>
+			<scale>0.3</scale>
+			<Icon>
+				<href>https://raw.githubusercontent.com/KihiroInoue/shinsengumi/cb4aaf9839b5b1b0c8ad859084abc5955d380989/shinpachi.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text>$[description]</text>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sh_saitou0">
+		<IconStyle>
+			<color>ff000000</color>
+			<scale>0.3</scale>
+			<Icon>
+				<href>https://raw.githubusercontent.com/KihiroInoue/shinsengumi/cb4aaf9839b5b1b0c8ad859084abc5955d380989/saitou.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text>$[description]</text>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sh_shinpachi1">
+		<IconStyle>
+			<color>ff000000</color>
+			<scale>0.3</scale>
+			<Icon>
+				<href>https://raw.githubusercontent.com/KihiroInoue/shinsengumi/cb4aaf9839b5b1b0c8ad859084abc5955d380989/shinpachi.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text>$[description]</text>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_makoto1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_makoto1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_makoto11</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_okita0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_okita</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_okita1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_shinpachi2">
+		<IconStyle>
+			<color>ff000000</color>
+			<scale>0.3</scale>
+			<Icon>
+				<href>https://raw.githubusercontent.com/KihiroInoue/shinsengumi/cb4aaf9839b5b1b0c8ad859084abc5955d380989/shinpachi.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text>$[description]</text>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_okita1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_okita3</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_okita</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_hijikata">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_hijikata0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_hijikata3</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_shinpachi0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_shinpachi1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_shinpachi0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_makoto10">
+		<IconStyle>
+			<color>ff000000</color>
+			<scale>0.1</scale>
+			<Icon>
+				<href>https://raw.githubusercontent.com/KihiroInoue/shinsengumi/cb4aaf9839b5b1b0c8ad859084abc5955d380989/makoto1.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text>$[description]</text>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_hijikata0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_hijikata1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_hijikata</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_kondou">
+		<IconStyle>
+			<color>ff000000</color>
+			<scale>0.3</scale>
+			<Icon>
+				<href>https://raw.githubusercontent.com/KihiroInoue/shinsengumi/cb4aaf9839b5b1b0c8ad859084abc5955d380989/https://raw.githubusercontent.com/KihiroInoue/shinsengumi/cb4aaf9839b5b1b0c8ad859084abc5955d380989/kondou.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text>$[description]</text>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sh_saitou1">
+		<IconStyle>
+			<color>ff000000</color>
+			<scale>0.3</scale>
+			<Icon>
+				<href>https://raw.githubusercontent.com/KihiroInoue/shinsengumi/cb4aaf9839b5b1b0c8ad859084abc5955d380989/saitou.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text>$[description]</text>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sn_okita">
+		<IconStyle>
+			<color>ff000000</color>
+			<scale>0.3</scale>
+			<Icon>
+				<href>https://raw.githubusercontent.com/KihiroInoue/shinsengumi/cb4aaf9839b5b1b0c8ad859084abc5955d380989/okita.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<BalloonStyle>
+			<text>$[description]</text>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sn_saitou">
+		<IconStyle>
+			<color>ff000000</color>
+			<scale>0.3</scale>
+			<Icon>
+				<href>https://raw.githubusercontent.com/KihiroInoue/shinsengumi/cb4aaf9839b5b1b0c8ad859084abc5955d380989/saitou.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<BalloonStyle>
+			<text>$[description]</text>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sn_saitou0">
+		<IconStyle>
+			<color>ff000000</color>
+			<scale>0.3</scale>
+			<Icon>
+				<href>https://raw.githubusercontent.com/KihiroInoue/shinsengumi/cb4aaf9839b5b1b0c8ad859084abc5955d380989/saitou.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<BalloonStyle>
+			<text>$[description]</text>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_saitou0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_saitou2</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_saitou</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_makoto10">
+		<IconStyle>
+			<color>ff000000</color>
+			<scale>0.1</scale>
+			<Icon>
+				<href>https://raw.githubusercontent.com/KihiroInoue/shinsengumi/cb4aaf9839b5b1b0c8ad859084abc5955d380989/makoto1.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<BalloonStyle>
+			<text>$[description]</text>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sh_hijikata0">
+		<IconStyle>
+			<color>ff000000</color>
+			<scale>0.3</scale>
+			<Icon>
+				<href>https://raw.githubusercontent.com/KihiroInoue/shinsengumi/cb4aaf9839b5b1b0c8ad859084abc5955d380989/hijikata.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text>$[description]</text>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sn_okita0">
+		<IconStyle>
+			<color>ff000000</color>
+			<scale>0.3</scale>
+			<Icon>
+				<href>https://raw.githubusercontent.com/KihiroInoue/shinsengumi/cb4aaf9839b5b1b0c8ad859084abc5955d380989/okita.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<BalloonStyle>
+			<text>$[description]</text>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sn_hijikata0">
+		<IconStyle>
+			<color>ff000000</color>
+			<scale>0.3</scale>
+			<Icon>
+				<href>https://raw.githubusercontent.com/KihiroInoue/shinsengumi/cb4aaf9839b5b1b0c8ad859084abc5955d380989/hijikata.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<BalloonStyle>
+			<text>$[description]</text>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sn_hijikata1">
+		<IconStyle>
+			<color>ff000000</color>
+			<scale>0.3</scale>
+			<Icon>
+				<href>https://raw.githubusercontent.com/KihiroInoue/shinsengumi/cb4aaf9839b5b1b0c8ad859084abc5955d380989/hijikata.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<BalloonStyle>
+			<text>$[description]</text>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sh_okita">
+		<IconStyle>
+			<color>ff000000</color>
+			<scale>0.3</scale>
+			<Icon>
+				<href>https://raw.githubusercontent.com/KihiroInoue/shinsengumi/cb4aaf9839b5b1b0c8ad859084abc5955d380989/okita.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text>$[description]</text>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sn_okita1">
+		<IconStyle>
+			<color>ff000000</color>
+			<scale>0.3</scale>
+			<Icon>
+				<href>https://raw.githubusercontent.com/KihiroInoue/shinsengumi/cb4aaf9839b5b1b0c8ad859084abc5955d380989/okita.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<BalloonStyle>
+			<text>$[description]</text>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sn_shinpachi0">
+		<IconStyle>
+			<color>ff000000</color>
+			<scale>0.3</scale>
+			<Icon>
+				<href>https://raw.githubusercontent.com/KihiroInoue/shinsengumi/cb4aaf9839b5b1b0c8ad859084abc5955d380989/shinpachi.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<BalloonStyle>
+			<text>$[description]</text>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_saitou1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_saitou1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_saitou0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_okita2">
+		<IconStyle>
+			<color>ff000000</color>
+			<scale>0.3</scale>
+			<Icon>
+				<href>https://raw.githubusercontent.com/KihiroInoue/shinsengumi/cb4aaf9839b5b1b0c8ad859084abc5955d380989/okita.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<BalloonStyle>
+			<text>$[description]</text>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sh_hijikata1">
+		<IconStyle>
+			<color>ff000000</color>
+			<scale>0.3</scale>
+			<Icon>
+				<href>https://raw.githubusercontent.com/KihiroInoue/shinsengumi/cb4aaf9839b5b1b0c8ad859084abc5955d380989/hijikata.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text>$[description]</text>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sh_hijikata2">
+		<IconStyle>
+			<color>ff000000</color>
+			<scale>0.3</scale>
+			<Icon>
+				<href>https://raw.githubusercontent.com/KihiroInoue/shinsengumi/cb4aaf9839b5b1b0c8ad859084abc5955d380989/hijikata.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text>$[description]</text>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sn_makoto11">
+		<IconStyle>
+			<color>ff000000</color>
+			<scale>0.1</scale>
+			<Icon>
+				<href>https://raw.githubusercontent.com/KihiroInoue/shinsengumi/cb4aaf9839b5b1b0c8ad859084abc5955d380989/makoto1.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<BalloonStyle>
+			<text>$[description]</text>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_okita2">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_okita0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_okita3</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_saitou2">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_saitou3</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_saitou1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_makoto11">
+		<IconStyle>
+			<color>ff000000</color>
+			<scale>0.1</scale>
+			<Icon>
+				<href>https://raw.githubusercontent.com/KihiroInoue/shinsengumi/cb4aaf9839b5b1b0c8ad859084abc5955d380989/makoto1.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text>$[description]</text>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_shinpachi1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_shinpachi3</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_shinpachi2</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_shinpachi3">
+		<IconStyle>
+			<color>ff000000</color>
+			<scale>0.3</scale>
+			<Icon>
+				<href>https://raw.githubusercontent.com/KihiroInoue/shinsengumi/cb4aaf9839b5b1b0c8ad859084abc5955d380989/shinpachi.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text>$[description]</text>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sh_okita0">
+		<IconStyle>
+			<color>ff000000</color>
+			<scale>0.3</scale>
+			<Icon>
+				<href>https://raw.githubusercontent.com/KihiroInoue/shinsengumi/cb4aaf9839b5b1b0c8ad859084abc5955d380989/okita.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text>$[description]</text>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sn_saitou1">
+		<IconStyle>
+			<color>ff000000</color>
+			<scale>0.3</scale>
+			<Icon>
+				<href>https://raw.githubusercontent.com/KihiroInoue/shinsengumi/cb4aaf9839b5b1b0c8ad859084abc5955d380989/saitou.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<BalloonStyle>
+			<text>$[description]</text>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_shinpachi2">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_shinpachi2</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_shinpachi</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_hijikata3">
+		<IconStyle>
+			<color>ff000000</color>
+			<scale>0.3</scale>
+			<Icon>
+				<href>https://raw.githubusercontent.com/KihiroInoue/shinsengumi/cb4aaf9839b5b1b0c8ad859084abc5955d380989/hijikata.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text>$[description]</text>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sh_okita1">
+		<IconStyle>
+			<color>ff000000</color>
+			<scale>0.3</scale>
+			<Icon>
+				<href>https://raw.githubusercontent.com/KihiroInoue/shinsengumi/cb4aaf9839b5b1b0c8ad859084abc5955d380989/okita.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text>$[description]</text>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_hijikata1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_hijikata2</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_hijikata1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_shinpachi1">
+		<IconStyle>
+			<color>ff000000</color>
+			<scale>0.3</scale>
+			<Icon>
+				<href>https://raw.githubusercontent.com/KihiroInoue/shinsengumi/cb4aaf9839b5b1b0c8ad859084abc5955d380989/shinpachi.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<BalloonStyle>
+			<text>$[description]</text>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_shinpachi3">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_shinpachi0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_shinpachi3</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_shinpachi2">
+		<IconStyle>
+			<color>ff000000</color>
+			<scale>0.3</scale>
+			<Icon>
+				<href>https://raw.githubusercontent.com/KihiroInoue/shinsengumi/cb4aaf9839b5b1b0c8ad859084abc5955d380989/shinpachi.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<BalloonStyle>
+			<text>$[description]</text>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sn_hijikata2">
+		<IconStyle>
+			<color>ff000000</color>
+			<scale>0.3</scale>
+			<Icon>
+				<href>https://raw.githubusercontent.com/KihiroInoue/shinsengumi/cb4aaf9839b5b1b0c8ad859084abc5955d380989/hijikata.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<BalloonStyle>
+			<text>$[description]</text>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sh_okita2">
+		<IconStyle>
+			<color>ff000000</color>
+			<scale>0.3</scale>
+			<Icon>
+				<href>https://raw.githubusercontent.com/KihiroInoue/shinsengumi/cb4aaf9839b5b1b0c8ad859084abc5955d380989/okita.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text>$[description]</text>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sn_kondou">
+		<IconStyle>
+			<color>ff000000</color>
+			<scale>0.3</scale>
+			<Icon>
+				<href>https://raw.githubusercontent.com/KihiroInoue/shinsengumi/cb4aaf9839b5b1b0c8ad859084abc5955d380989/https://raw.githubusercontent.com/KihiroInoue/shinsengumi/cb4aaf9839b5b1b0c8ad859084abc5955d380989/kondou.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<BalloonStyle>
+			<text>$[description]</text>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_hijikata2">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_hijikata</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_hijikata0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_okita3">
+		<IconStyle>
+			<color>ff000000</color>
+			<scale>0.3</scale>
+			<Icon>
+				<href>https://raw.githubusercontent.com/KihiroInoue/shinsengumi/cb4aaf9839b5b1b0c8ad859084abc5955d380989/okita.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text>$[description]</text>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_saitou3">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_saitou</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_saitou2</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_saitou2">
+		<IconStyle>
+			<color>ff000000</color>
+			<scale>0.3</scale>
+			<Icon>
+				<href>https://raw.githubusercontent.com/KihiroInoue/shinsengumi/cb4aaf9839b5b1b0c8ad859084abc5955d380989/saitou.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text>$[description]</text>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sh_saitou3">
+		<IconStyle>
+			<color>ff000000</color>
+			<scale>0.3</scale>
+			<Icon>
+				<href>https://raw.githubusercontent.com/KihiroInoue/shinsengumi/cb4aaf9839b5b1b0c8ad859084abc5955d380989/saitou.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text>$[description]</text>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sn_shinpachi3">
+		<IconStyle>
+			<color>ff000000</color>
+			<scale>0.3</scale>
+			<Icon>
+				<href>https://raw.githubusercontent.com/KihiroInoue/shinsengumi/cb4aaf9839b5b1b0c8ad859084abc5955d380989/shinpachi.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<BalloonStyle>
+			<text>$[description]</text>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sn_saitou2">
+		<IconStyle>
+			<color>ff000000</color>
+			<scale>0.3</scale>
+			<Icon>
+				<href>https://raw.githubusercontent.com/KihiroInoue/shinsengumi/cb4aaf9839b5b1b0c8ad859084abc5955d380989/saitou.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<BalloonStyle>
+			<text>$[description]</text>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_makoto10">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_makoto11</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_makoto10</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_makoto11">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_makoto10</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_makoto1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_hijikata3">
+		<IconStyle>
+			<color>ff000000</color>
+			<scale>0.3</scale>
+			<Icon>
+				<href>https://raw.githubusercontent.com/KihiroInoue/shinsengumi/cb4aaf9839b5b1b0c8ad859084abc5955d380989/hijikata.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<BalloonStyle>
+			<text>$[description]</text>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_kondou">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_kondou</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_kondou</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_okita3">
+		<IconStyle>
+			<color>ff000000</color>
+			<scale>0.3</scale>
+			<Icon>
+				<href>https://raw.githubusercontent.com/KihiroInoue/shinsengumi/cb4aaf9839b5b1b0c8ad859084abc5955d380989/okita.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<BalloonStyle>
+			<text>$[description]</text>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_okita3">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_okita2</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_okita2</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_saitou3">
+		<IconStyle>
+			<color>ff000000</color>
+			<scale>0.3</scale>
+			<Icon>
+				<href>https://raw.githubusercontent.com/KihiroInoue/shinsengumi/cb4aaf9839b5b1b0c8ad859084abc5955d380989/saitou.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<BalloonStyle>
+			<text>$[description]</text>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_hijikata3">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_hijikata3</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_hijikata2</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark>
+		<address>東京都新宿区1-1</address>
+		<snippet></snippet>
+		<description><![CDATA[<div class="googft-info-window">
+<b>1.名前:</b> 永倉新八<br>
+<b>2.年:</b> <br>
+<b>3.事象:</b> 近藤勇の道場・天然理心流「試衛館」の食客となる<br>
+<b>4.住所:</b> 東京都新宿区1-1<br>
+<b>5.詳細:</b>
+</div>]]></description>
+		<styleUrl>#msn_shinpachi2</styleUrl>
+		<ExtendedData>
+			<Data name="2.年">
+			</Data>
+			<Data name="3.事象">
+				<value>近藤勇の道場・天然理心流「試衛館」の食客となる</value>
+			</Data>
+			<Data name="5.詳細">
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>139.6993833,35.690371,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<address>京都三条木屋町</address>
+		<snippet></snippet>
+		<description><![CDATA[<div class="googft-info-window">
+<b>1.名前:</b> 永倉,近藤,沖田<br>
+<b>2.年:</b> 1864<br>
+<b>3.事象:</b> 池田屋事件<br>
+<b>4.住所:</b> 京都三条木屋町<br>
+<b>5.詳細:</b>
+</div>]]></description>
+		<styleUrl>#msn_okita0</styleUrl>
+		<ExtendedData>
+			<Data name="2.年">
+				<value>1864</value>
+			</Data>
+			<Data name="3.事象">
+				<value>池田屋事件</value>
+			</Data>
+			<Data name="5.詳細">
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>135.7706831,35.0090775,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<address>京都府京都市中京区三条通河原町東入ル中島町82 申和三条ビル</address>
+		<snippet></snippet>
+		<description><![CDATA[<div class="googft-info-window">
+<b>1.名前:</b> 池田屋<br>
+<b>2.年:</b> <br>
+<b>3.事象:</b> 池田屋事件の跡地(現在ははなの舞)<br>
+<b>4.住所:</b> 京都府京都市中京区三条通河原町東入ル中島町82 申和三条ビル<br>
+<b>5.詳細:</b>
+</div>]]></description>
+		<styleUrl>#msn_makoto10</styleUrl>
+		<ExtendedData>
+			<Data name="2.年">
+			</Data>
+			<Data name="3.事象">
+				<value>池田屋事件の跡地(現在ははなの舞)</value>
+			</Data>
+			<Data name="5.詳細">
+			</Data>
+		</ExtendedData>
+		<MultiGeometry>
+			<Point>
+				<coordinates>135.769873,35.008998,0</coordinates>
+			</Point>
+			<LinearRing>
+				<coordinates>
+					135.766289292911,35.0063102196829,0 135.766289292911,35.0116857803171,0 135.773456707089,35.0116857803171,0 135.773456707089,35.0063102196829,0 135.766289292911,35.0063102196829,0
+				</coordinates>
+			</LinearRing>
+		</MultiGeometry>
+	</Placemark>
+	<Placemark>
+		<address>北海道松前郡</address>
+		<snippet></snippet>
+		<description><![CDATA[<div class="googft-info-window">
+<b>1.名前:</b> 永倉新八<br>
+<b>2.年:</b> 1871<br>
+<b>3.事象:</b> 杉村介庵娘きねと結婚し松前に渡る<br>
+<b>4.住所:</b> 北海道松前郡<br>
+<b>5.詳細:</b>
+</div>]]></description>
+		<styleUrl>#msn_shinpachi1</styleUrl>
+		<ExtendedData>
+			<Data name="2.年">
+				<value>1871</value>
+			</Data>
+			<Data name="3.事象">
+				<value>杉村介庵娘きねと結婚し松前に渡る</value>
+			</Data>
+			<Data name="5.詳細">
+			</Data>
+		</ExtendedData>
+		<MultiGeometry>
+			<Point>
+				<coordinates>140.1606222,41.5159065,0</coordinates>
+			</Point>
+			<LinearRing>
+				<coordinates>
+					139.950944492387,41.3586482192905,0 139.950944492387,41.6731647807095,0 140.370299907613,41.6731647807095,0 140.370299907613,41.3586482192905,0 139.950944492387,41.3586482192905,0
+				</coordinates>
+			</LinearRing>
+		</MultiGeometry>
+	</Placemark>
+	<Placemark>
+		<address>北海道樺戸郡月形町</address>
+		<snippet></snippet>
+		<description><![CDATA[<div class="googft-info-window">
+<b>1.名前:</b> 永倉新八<br>
+<b>2.年:</b> 1882-1886<br>
+<b>3.事象:</b> 樺戸集治監（刑務所）の剣術師範を務める<br>
+<b>4.住所:</b> 北海道樺戸郡月形町<br>
+<b>5.詳細:</b>
+</div>]]></description>
+		<styleUrl>#msn_shinpachi</styleUrl>
+		<ExtendedData>
+			<Data name="2.年">
+				<value>1882-1886</value>
+			</Data>
+			<Data name="3.事象">
+				<value>樺戸集治監（刑務所）の剣術師範を務める</value>
+			</Data>
+			<Data name="5.詳細">
+			</Data>
+		</ExtendedData>
+		<MultiGeometry>
+			<Point>
+				<coordinates>141.6694511,43.3384362,0</coordinates>
+			</Point>
+			<LinearRing>
+				<coordinates>
+					141.567674239769,43.2621035548266,0 141.567674239769,43.4147688451734,0 140.371227960231,43.4147688451734,0 140.371227960231,43.2621035548266,0 141.567674239769,43.2621035548266,0
+				</coordinates>
+			</LinearRing>
+		</MultiGeometry>
+	</Placemark>
+	<Placemark>
+		<address>小樽市緑1丁目</address>
+		<snippet></snippet>
+		<description><![CDATA[<div class="googft-info-window">
+<b>1.名前:</b> 永倉新八<br>
+<b>2.年:</b> 1905<br>
+<b>3.事象:</b> 北海道小樽市に転居<br>
+<b>4.住所:</b> 小樽市緑1丁目<br>
+<b>5.詳細:</b>
+</div>]]></description>
+		<styleUrl>#msn_shinpachi</styleUrl>
+		<ExtendedData>
+			<Data name="2.年">
+				<value>1905</value>
+			</Data>
+			<Data name="3.事象">
+				<value>北海道小樽市に転居</value>
+			</Data>
+			<Data name="5.詳細">
+			</Data>
+		</ExtendedData>
+		<MultiGeometry>
+			<Point>
+				<coordinates>140.9915067,43.1920616,0</coordinates>
+			</Point>
+			<LinearRing>
+				<coordinates>
+					140.988316685162,43.1896690888714,0 140.988316685162,43.1944541111285,0 140.994696714838,43.1944541111285,0 140.994696714838,43.1896690888714,0 140.988316685162,43.1896690888714,0
+				</coordinates>
+			</LinearRing>
+		</MultiGeometry>
+	</Placemark>
+	<Placemark>
+		<address>北海道札幌市北区北8条西5丁目</address>
+		<snippet></snippet>
+		<description><![CDATA[<div class="googft-info-window">
+<b>1.名前:</b> 永倉新八<br>
+<b>2.年:</b> 1909<br>
+<b>3.事象:</b> 東北帝国大学農科大学（現・北海道大学）の剣道部を指導する<br>
+<b>4.住所:</b> 北海道札幌市北区北8条西5丁目<br>
+<b>5.詳細:</b>
+</div>]]></description>
+		<styleUrl>#msn_shinpachi</styleUrl>
+		<ExtendedData>
+			<Data name="2.年">
+				<value>1909</value>
+			</Data>
+			<Data name="3.事象">
+				<value>東北帝国大学農科大学（現・北海道大学）の剣道部を指導する</value>
+			</Data>
+			<Data name="5.詳細">
+			</Data>
+		</ExtendedData>
+		<MultiGeometry>
+			<Point>
+				<coordinates>141.347107,43.0705335,0</coordinates>
+			</Point>
+			<LinearRing>
+				<coordinates>
+					141.343910723372,43.0681362925286,0 141.343910723372,43.0729307074714,0 141.350303276628,43.0729307074714,0 141.350303276628,43.0681362925286,0 141.343910723372,43.0681362925286,0
+				</coordinates>
+			</LinearRing>
+		</MultiGeometry>
+	</Placemark>
+	<Placemark>
+		<address>京都市中京区壬生賀陽御所町49</address>
+		<snippet></snippet>
+		<description><![CDATA[<div class="googft-info-window">
+<b>1.名前:</b> 新撰組屯所<br>
+<b>2.年:</b> <br>
+<b>3.事象:</b> 前川邸<br>
+<b>4.住所:</b> 京都市中京区壬生賀陽御所町49<br>
+<b>5.詳細:</b>
+</div>]]></description>
+		<styleUrl>#msn_makoto11</styleUrl>
+		<ExtendedData>
+			<Data name="2.年">
+			</Data>
+			<Data name="3.事象">
+				<value>前川邸</value>
+			</Data>
+			<Data name="5.詳細">
+			</Data>
+		</ExtendedData>
+		<MultiGeometry>
+			<Point>
+				<coordinates>135.7448261,35.002173,0</coordinates>
+			</Point>
+			<LinearRing>
+				<coordinates>
+					135.741242096819,34.9994849976142,0 135.741242096819,35.0048610023858,0 135.748410103181,35.0048610023858,0 135.748410103181,34.9994849976142,0 135.741242096819,34.9994849976142,0
+				</coordinates>
+			</LinearRing>
+		</MultiGeometry>
+	</Placemark>
+	<Placemark>
+		<address>京都市東山区川端町</address>
+		<snippet></snippet>
+		<description><![CDATA[<div class="googft-info-window">
+<b>1.名前:</b> 沖田総司<br>
+<b>2.年:</b> <br>
+<b>3.事象:</b> 初めて人を斬った<br>
+<b>4.住所:</b> 京都市東山区川端町<br>
+<b>5.詳細:</b>
+</div>]]></description>
+		<styleUrl>#msn_okita</styleUrl>
+		<ExtendedData>
+			<Data name="2.年">
+			</Data>
+			<Data name="3.事象">
+				<value>初めて人を斬った</value>
+			</Data>
+			<Data name="5.詳細">
+			</Data>
+		</ExtendedData>
+		<MultiGeometry>
+			<Point>
+				<coordinates>135.7722791,35.00402589999999,0</coordinates>
+			</Point>
+			<LinearRing>
+				<coordinates>
+					135.768695173583,35.0013379551876,0 135.768695173583,35.0067138448124,0 135.775863026417,35.0067138448124,0 135.775863026417,35.0013379551876,0 135.768695173583,35.0013379551876,0
+				</coordinates>
+			</LinearRing>
+		</MultiGeometry>
+	</Placemark>
+	<Placemark>
+		<address>東京都千代田区千代田1−1</address>
+		<snippet></snippet>
+		<description><![CDATA[<div class="googft-info-window">
+<b>1.名前:</b> 江戸城<br>
+<b>2.年:</b> <br>
+<b>3.事象:</b> <br>
+<b>4.住所:</b> 東京都千代田区千代田1−1<br>
+<b>5.詳細:</b>
+</div>]]></description>
+		<styleUrl>#msn_makoto11</styleUrl>
+		<ExtendedData>
+			<Data name="2.年">
+			</Data>
+			<Data name="3.事象">
+			</Data>
+			<Data name="5.詳細">
+			</Data>
+		</ExtendedData>
+		<MultiGeometry>
+			<Point>
+				<coordinates>139.7538149,35.6838234,0</coordinates>
+			</Point>
+			<LinearRing>
+				<coordinates>
+					139.750261010438,35.6811579828284,0 139.750261010438,35.6864888171716,0 139.757368789562,35.6864888171716,0 139.757368789562,35.6811579828284,0 139.750261010438,35.6811579828284,0
+				</coordinates>
+			</LinearRing>
+		</MultiGeometry>
+	</Placemark>
+	<Placemark>
+		<address>港区西麻布3-2-17櫻田神社</address>
+		<snippet></snippet>
+		<description><![CDATA[<div class="googft-info-window">
+<b>1.名前:</b> 沖田総司<br>
+<b>2.年:</b> <br>
+<b>3.事象:</b> 沖田がよくお宮参りをした<br>
+<b>4.住所:</b> 港区西麻布3-2-17櫻田神社<br>
+<b>5.詳細:</b>
+</div>]]></description>
+		<styleUrl>#msn_okita3</styleUrl>
+		<ExtendedData>
+			<Data name="2.年">
+			</Data>
+			<Data name="3.事象">
+				<value>沖田がよくお宮参りをした</value>
+			</Data>
+			<Data name="5.詳細">
+			</Data>
+		</ExtendedData>
+		<MultiGeometry>
+			<Point>
+				<coordinates>139.727129,35.659256,0</coordinates>
+			</Point>
+			<LinearRing>
+				<coordinates>
+					139.723574013802,35.6565897603516,0 139.723574013802,35.6619222396484,0 139.730683986198,35.6619222396484,0 139.730683986198,35.6565897603516,0 139.723574013802,35.6565897603516,0
+				</coordinates>
+			</LinearRing>
+		</MultiGeometry>
+	</Placemark>
+	<Placemark>
+		<address>大阪府大阪市北区</address>
+		<snippet></snippet>
+		<description><![CDATA[<div class="googft-info-window">
+<b>1.名前:</b> 沖田総司<br>
+<b>2.年:</b> 1864<br>
+<b>3.事象:</b> 大阪西町奉行所与力、内山彦次郎暗殺<br>
+<b>4.住所:</b> 大阪府大阪市北区<br>
+<b>5.詳細:</b>
+</div>]]></description>
+		<styleUrl>#msn_okita</styleUrl>
+		<ExtendedData>
+			<Data name="2.年">
+				<value>1864</value>
+			</Data>
+			<Data name="3.事象">
+				<value>大阪西町奉行所与力、内山彦次郎暗殺</value>
+			</Data>
+			<Data name="5.詳細">
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>135.5100252,34.7053617,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<address>東京都世田谷区若林4-35-1　松陰神社</address>
+		<snippet></snippet>
+		<description><![CDATA[<div class="googft-info-window">
+<b>1.名前:</b> 長州江戸藩邸没収事件<br>
+<b>2.年:</b> <br>
+<b>3.事象:</b>長州江戸藩邸没収事件  他の藩士の墓(吉田松陰等の烈士の墓碑もある)<br>
+<b>4.住所:</b> 東京都世田谷区若林4-35-1　松陰神社<br>
+<b>5.詳細:</b>
+</div>]]></description>
+		<styleUrl>#msn_makoto11</styleUrl>
+		<ExtendedData>
+			<Data name="2.年">
+			</Data>
+			<Data name="3.事象">
+				<value>他の藩士の墓(吉田松陰等の烈士の墓碑もある)</value>
+			</Data>
+			<Data name="5.詳細">
+			</Data>
+		</ExtendedData>
+		<MultiGeometry>
+			<Point>
+				<coordinates>139.656078,35.646825,0</coordinates>
+			</Point>
+			<LinearRing>
+				<coordinates>
+					139.652522454518,35.6441583408884,0 139.652522454518,35.6494916591116,0 139.659633545482,35.6494916591116,0 139.659633545482,35.6441583408884,0 139.652522454518,35.6441583408884,0
+				</coordinates>
+			</LinearRing>
+		</MultiGeometry>
+	</Placemark>
+	<Placemark>
+		<address>千代田区日比谷公園１</address>
+		<snippet></snippet>
+		<description><![CDATA[<div class="googft-info-window">
+<b>1.名前:</b> 長州藩(桜田藩邸)上屋敷跡地<br>
+<b>2.年:</b> <br>
+<b>3.事象:</b> 長州藩(桜田藩邸)上屋敷跡地 現在は日比谷公園の一部(長州征伐で召し上げられ、解体された)<br>
+<b>4.住所:</b> 千代田区日比谷公園１<br>
+<b>5.詳細:</b>
+</div>]]></description>
+		<styleUrl>#msn_makoto11</styleUrl>
+		<ExtendedData>
+			<Data name="2.年">
+			</Data>
+			<Data name="3.事象">
+				<value>現在は日比谷公園の一部(長州征伐で召し上げられ、解体された)</value>
+			</Data>
+			<Data name="5.詳細">
+			</Data>
+		</ExtendedData>
+		<MultiGeometry>
+			<Point>
+				<coordinates>139.7567789,35.674619,0</coordinates>
+			</Point>
+			<LinearRing>
+				<coordinates>
+					139.753224560817,35.6719532456129,0 139.753224560817,35.6772847543871,0 139.760333239183,35.6772847543871,0 139.760333239183,35.6719532456129,0 139.753224560817,35.6719532456129,0
+				</coordinates>
+			</LinearRing>
+		</MultiGeometry>
+	</Placemark>
+	<Placemark>
+		<address>日野市石田2-1-3</address>
+		<snippet></snippet>
+		<description><![CDATA[<div class="googft-info-window">
+<b>1.名前:</b> 土方歳三<br>
+<b>2.年:</b> 1835<br>
+<b>3.事象:</b> 誕生<br>
+<b>4.住所:</b> 日野市石田2-1-3<br>
+<b>5.詳細:</b>
+</div>]]></description>
+		<styleUrl>#msn_hijikata</styleUrl>
+				<MultiGeometry>
+			<Point>
+				<coordinates>139.4195156,35.6697688,0</coordinates>
+			</Point>
+			<LinearRing>
+				<coordinates>
+					139.415961085355,35.6671029140166,0 139.415961085355,35.6724346859834,0 139.423070114644,35.6724346859834,0 139.423070114644,35.6671029140166,0 139.415961085355,35.6671029140166,0
+				</coordinates>
+			</LinearRing>
+		</MultiGeometry>
+	</Placemark>
+	<Placemark>
+		<address>文京区小石川3-14-6</address>
+		<snippet></snippet>
+		<description><![CDATA[<div class="googft-info-window">
+<b>1.名前:</b> 近藤,土方,沖田<br>
+<b>2.年:</b> 1863<br>
+<b>3.事象:</b> 新撰組の前身、浪士組結成<br>
+<b>4.住所:</b> 文京区小石川3-14-6<br>
+<b>5.詳細:</b>
+</div>]]></description>
+		<styleUrl>#msn_hijikata1</styleUrl>
+		<ExtendedData>
+			<Data name="2.年">
+				<value>1863</value>
+			</Data>
+			<Data name="3.事象">
+				<value>新撰組の前身、浪士組結成</value>
+			</Data>
+			<Data name="5.詳細">
+			</Data>
+		</ExtendedData>
+		<MultiGeometry>
+			<Point>
+				<coordinates>139.7466978,35.7125115,0</coordinates>
+			</Point>
+			<LinearRing>
+				<coordinates>
+					139.743145182535,35.7098470369016,0 139.743145182535,35.7151759630984,0 139.750250417465,35.7151759630984,0 139.750250417465,35.7098470369016,0 139.743145182535,35.7098470369016,0
+				</coordinates>
+			</LinearRing>
+		</MultiGeometry>
+	</Placemark>
+	<Placemark>
+		<address>北区滝野川7-8-10</address>
+		<snippet></snippet>
+		<description><![CDATA[<div class="googft-info-window">
+<b>1.名前:</b> 永倉,近藤<br>
+<b>2.年:</b> 1868<br>
+<b>3.事象:</b> 新八が近藤の墓を建立<br>
+<b>4.住所:</b> 北区滝野川7-8-10<br>
+<b>5.詳細:</b>
+</div>]]></description>
+		<styleUrl>#msn_kondou</styleUrl>
+		<ExtendedData>
+			<Data name="2.年">
+				<value>1868</value>
+			</Data>
+			<Data name="3.事象">
+				<value>新八が近藤の墓を建立</value>
+			</Data>
+			<Data name="5.詳細">
+			</Data>
+		</ExtendedData>
+		<MultiGeometry>
+			<Point>
+				<coordinates>139.7207206,35.745441,0</coordinates>
+			</Point>
+			<LinearRing>
+				<coordinates>
+					139.717169452027,35.7427776390206,0 139.717169452027,35.7481043609794,0 139.724271747973,35.7481043609794,0 139.724271747973,35.7427776390206,0 139.717169452027,35.7427776390206,0
+				</coordinates>
+			</LinearRing>
+		</MultiGeometry>
+	</Placemark>
+	<Placemark>
+		<address>東京都日野市高幡733</address>
+		<snippet></snippet>
+		<description><![CDATA[<div class="googft-info-window">
+<b>1.名前:</b> 土方歳三<br>
+<b>2.年:</b> <br>
+<b>3.事象:</b> 像<br>
+<b>4.住所:</b> 東京都日野市高幡733<br>
+<b>5.詳細:</b>
+</div>]]></description>
+		<styleUrl>#msn_hijikata</styleUrl>
+		<ExtendedData>
+			<Data name="2.年">
+			</Data>
+			<Data name="3.事象">
+				<value>像</value>
+			</Data>
+			<Data name="5.詳細">
+			</Data>
+		</ExtendedData>
+		<MultiGeometry>
+			<Point>
+				<coordinates>139.4097364,35.6622694,0</coordinates>
+			</Point>
+			<LinearRing>
+				<coordinates>
+					139.406181545398,35.6596032590488,0 139.406181545398,35.6649355409512,0 139.413291254602,35.6649355409512,0 139.413291254602,35.6596032590488,0 139.406181545398,35.6596032590488,0
+				</coordinates>
+			</LinearRing>
+		</MultiGeometry>
+	</Placemark>
+	<Placemark>
+		<address>府中市宮町</address>
+		<snippet></snippet>
+		<description><![CDATA[<div class="googft-info-window">
+<b>1.名前:</b> 近藤,土方,沖田<br>
+<b>2.年:</b> <br>
+<b>3.事象:</b> 大國魂神社　神前での奉納試合<br>
+<b>4.住所:</b> 府中市宮町<br>
+<b>5.詳細:</b>
+</div>]]></description>
+		<styleUrl>#msn_okita1</styleUrl>
+		<ExtendedData>
+			<Data name="2.年">
+			</Data>
+			<Data name="3.事象">
+				<value>大國魂神社　神前での奉納試合</value>
+			</Data>
+			<Data name="5.詳細">
+			</Data>
+		</ExtendedData>
+		<MultiGeometry>
+			<Point>
+				<coordinates>139.4814083,35.6702623,0</coordinates>
+			</Point>
+			<LinearRing>
+				<coordinates>
+					139.477853763423,35.6675963975671,0 139.477853763423,35.6729282024329,0 139.484962836577,35.6729282024329,0 139.484962836577,35.6675963975671,0 139.477853763423,35.6675963975671,0
+				</coordinates>
+			</LinearRing>
+		</MultiGeometry>
+	</Placemark>
+	<Placemark>
+		<address>日野市石田1-1-10</address>
+		<snippet></snippet>
+		<description><![CDATA[<div class="googft-info-window">
+<b>1.名前:</b> 土方歳三<br>
+<b>2.年:</b> <br>
+<b>3.事象:</b> 土方家の菩薩寺,土方歳三義豊之墓(諸説)<br>
+<b>4.住所:</b> 日野市石田1-1-10<br>
+<b>5.詳細:</b>
+</div>]]></description>
+		<styleUrl>#msn_hijikata</styleUrl>
+		<ExtendedData>
+			<Data name="2.年">
+			</Data>
+			<Data name="3.事象">
+				<value>土方家の菩薩寺,土方歳三義豊之墓(諸説)</value>
+			</Data>
+			<Data name="5.詳細">
+			</Data>
+		</ExtendedData>
+		<MultiGeometry>
+			<Point>
+				<coordinates>139.4243848,35.6681886,0</coordinates>
+			</Point>
+			<LinearRing>
+				<coordinates>
+					139.420830208591,35.6655226564433,0 139.420830208591,35.6708545435567,0 139.427939391409,35.6708545435567,0 139.427939391409,35.6655226564433,0 139.420830208591,35.6655226564433,0
+				</coordinates>
+			</LinearRing>
+		</MultiGeometry>
+	</Placemark>
+	<Placemark>
+		<address>東京都日野市日野本町2-15-9</address>
+		<snippet></snippet>
+		<description><![CDATA[<div class="googft-info-window">
+<b>1.名前:</b> 土方歳三<br>
+<b>2.年:</b> <br>
+<b>3.事象:</b> 佐藤道場跡・日野宿本陣<br>
+<b>4.住所:</b> 東京都日野市日野本町2-15-9<br>
+<b>5.詳細:</b>
+</div>]]></description>
+		<styleUrl>#msn_hijikata2</styleUrl>
+		<ExtendedData>
+			<Data name="2.年">
+			</Data>
+			<Data name="3.事象">
+				<value>佐藤道場跡・日野宿本陣</value>
+			</Data>
+			<Data name="5.詳細">
+			</Data>
+		</ExtendedData>
+		<MultiGeometry>
+			<Point>
+				<coordinates>139.3996283,35.6780814,0</coordinates>
+			</Point>
+			<LinearRing>
+				<coordinates>
+					139.396074147245,35.675415785434,0 139.396074147245,35.680747014566,0 139.403182452755,35.680747014566,0 139.403182452755,35.675415785434,0 139.396074147245,35.675415785434,0
+				</coordinates>
+			</LinearRing>
+		</MultiGeometry>
+	</Placemark>
+	<Placemark>
+		<address>日野市新井49</address>
+		<snippet></snippet>
+		<description><![CDATA[<div class="googft-info-window">
+<b>1.名前:</b> 土方歳三<br>
+<b>2.年:</b> <br>
+<b>3.事象:</b> 幼少期に遊んだとうかん森<br>
+<b>4.住所:</b> 日野市新井49<br>
+<b>5.詳細:</b>
+</div>]]></description>
+		<styleUrl>#msn_hijikata</styleUrl>
+		<ExtendedData>
+			<Data name="2.年">
+			</Data>
+			<Data name="3.事象">
+				<value>幼少期に遊んだとうかん森</value>
+			</Data>
+			<Data name="5.詳細">
+			</Data>
+		</ExtendedData>
+		<MultiGeometry>
+			<Point>
+				<coordinates>139.4162828,35.665597,0</coordinates>
+			</Point>
+			<LinearRing>
+				<coordinates>
+					139.402063907979,35.6549328309841,0 139.402063907979,35.6762611690159,0 139.430501692021,35.6762611690159,0 139.430501692021,35.6549328309841,0 139.402063907979,35.6549328309841,0
+				</coordinates>
+			</LinearRing>
+		</MultiGeometry>
+	</Placemark>
+	<Placemark>
+		<address>品川区南品川3-6-5</address>
+		<snippet></snippet>
+		<description><![CDATA[<div class="googft-info-window">
+<b>1.名前:</b> 土方ら<br>
+<b>2.年:</b> <br>
+<b>3.事象:</b> 土方ら幕府関係者が宿泊に利用した宿、釜屋<br>
+<b>4.住所:</b> 品川区南品川3-6-5<br>
+<b>5.詳細:</b>
+</div>]]></description>
+		<styleUrl>#msn_hijikata0</styleUrl>
+		<ExtendedData>
+			<Data name="2.年">
+			</Data>
+			<Data name="3.事象">
+				<value>幕府関係者が宿泊に利用した宿、釜屋</value>
+			</Data>
+			<Data name="5.詳細">
+			</Data>
+		</ExtendedData>
+		<MultiGeometry>
+			<Point>
+				<coordinates>139.7447351,35.61061249999999,0</coordinates>
+			</Point>
+			<LinearRing>
+				<coordinates>
+					139.74117795343,35.6079446400722,0 139.74117795343,35.6132803599278,0 139.74829224657,35.6132803599278,0 139.74829224657,35.6079446400722,0 139.74117795343,35.6079446400722,0
+				</coordinates>
+			</LinearRing>
+		</MultiGeometry>
+	</Placemark>
+	<Placemark>
+		<address>北海道函館市若松町33</address>
+		<snippet></snippet>
+		<description><![CDATA[<div class="googft-info-window">
+<b>1.名前:</b> 土方歳三<br>
+<b>2.年:</b> 1896<br>
+<b>3.事象:</b> 銃弾を受け戦死(最期の地)<br>
+<b>4.住所:</b> 北海道函館市若松町33<br>
+<b>5.詳細:</b>
+</div>]]></description>
+		<styleUrl>#msn_hijikata3</styleUrl>
+		<ExtendedData>
+			<Data name="2.年">
+				<value>1896</value>
+			</Data>
+			<Data name="3.事象">
+				<value>銃弾を受け戦死(最期の地)</value>
+			</Data>
+			<Data name="5.詳細">
+			</Data>
+		</ExtendedData>
+		<MultiGeometry>
+			<Point>
+				<coordinates>140.3310265,40.37726759999999,0</coordinates>
+			</Point>
+			<LinearRing>
+				<coordinates>
+					140.327763602747,40.3748204270601,0 140.327763602747,40.3797147729399,0 140.334289397253,40.3797147729399,0 140.334289397253,40.3748204270601,0 140.327763602747,40.3748204270601,0
+				</coordinates>
+			</LinearRing>
+		</MultiGeometry>
+	</Placemark>
+	<Placemark>
+		<address>北区滝野川7-8-1</address>
+		<snippet></snippet>
+		<description><![CDATA[<div class="googft-info-window">
+<b>1.名前:</b> 新撰組<br>
+<b>2.年:</b> <br>
+<b>3.事象:</b> 慰霊碑<br>
+<b>4.住所:</b> 北区滝野川7-8-1<br>
+<b>5.詳細:</b>
+</div>]]></description>
+		<styleUrl>#msn_makoto11</styleUrl>
+		<ExtendedData>
+			<Data name="2.年">
+			</Data>
+			<Data name="3.事象">
+				<value>慰霊碑</value>
+			</Data>
+			<Data name="5.詳細">
+			</Data>
+		</ExtendedData>
+		<MultiGeometry>
+			<Point>
+				<coordinates>139.7208734,35.7452188,0</coordinates>
+			</Point>
+			<LinearRing>
+				<coordinates>
+					139.717322241061,35.7425554307958,0 139.717322241061,35.7478821692042,0 139.724424558939,35.7478821692042,0 139.724424558939,35.7425554307958,0 139.717322241061,35.7425554307958,0
+				</coordinates>
+			</LinearRing>
+		</MultiGeometry>
+	</Placemark>
+	<Placemark>
+		<address>東京都小石川関口1-1</address>
+		<snippet></snippet>
+		<description><![CDATA[<div class="googft-info-window">
+<b>1.名前:</b> 斎藤一<br>
+<b>2.年:</b> 1863<br>
+<b>3.事象:</b> 旗本と口論になり斬り殺す<br>
+<b>4.住所:</b> 東京都小石川関口1-1<br>
+<b>5.詳細:</b>
+</div>]]></description>
+		<styleUrl>#msn_saitou1</styleUrl>
+		<ExtendedData>
+			<Data name="2.年">
+				<value>1863</value>
+			</Data>
+			<Data name="3.事象">
+				<value>旗本と口論になり斬り殺す</value>
+			</Data>
+			<Data name="5.詳細">
+			</Data>
+		</ExtendedData>
+		<MultiGeometry>
+			<Point>
+				<coordinates>139.75273,35.7095867,0</coordinates>
+			</Point>
+			<LinearRing>
+				<coordinates>
+					139.749177250939,35.7069221382044,0 139.749177250939,35.7122512617956,0 139.756282749061,35.7122512617956,0 139.756282749061,35.7069221382044,0 139.749177250939,35.7069221382044,0
+				</coordinates>
+			</LinearRing>
+		</MultiGeometry>
+	</Placemark>
+	<Placemark>
+		<address>東京都文京区本郷4-14</address>
+		<snippet></snippet>
+		<description><![CDATA[<div class="googft-info-window">
+<b>1.名前:</b> 斎藤一<br>
+<b>2.年:</b> 1874<br>
+<b>3.事象:</b> 東京都に移住する<br>
+<b>4.住所:</b> 東京都文京区本郷4-14<br>
+<b>5.詳細:</b>
+</div>]]></description>
+		<styleUrl>#msn_saitou1</styleUrl>
+		<ExtendedData>
+			<Data name="2.年">
+				<value>1874</value>
+			</Data>
+			<Data name="3.事象">
+				<value>東京都に移住する</value>
+			</Data>
+			<Data name="5.詳細">
+			</Data>
+		</ExtendedData>
+		<MultiGeometry>
+			<Point>
+				<coordinates>139.7558668,35.7076456,0</coordinates>
+			</Point>
+			<LinearRing>
+				<coordinates>
+					139.752313963208,35.7049809724062,0 139.752313963208,35.7103102275938,0 139.759419636792,35.7103102275938,0 139.759419636792,35.7049809724062,0 139.752313963208,35.7049809724062,0
+				</coordinates>
+			</LinearRing>
+		</MultiGeometry>
+	</Placemark>
+	<Placemark>
+		<address>東京都港区六本木6-2-37</address>
+		<snippet></snippet>
+		<description><![CDATA[<div class="googft-info-window">
+<b>1.名前:</b> 斎藤一<br>
+<b>2.年:</b> 1888<br>
+<b>3.事象:</b> 麻布警察署詰外勤警部として勤務<br>
+<b>4.住所:</b> 東京都港区六本木6-2-37<br>
+<b>5.詳細:</b>
+</div>]]></description>
+		<styleUrl>#msn_saitou0</styleUrl>
+		<ExtendedData>
+			<Data name="2.年">
+				<value>1888</value>
+			</Data>
+			<Data name="3.事象">
+				<value>麻布警察署詰外勤警部として勤務</value>
+			</Data>
+			<Data name="5.詳細">
+			</Data>
+		</ExtendedData>
+		<MultiGeometry>
+			<Point>
+				<coordinates>139.7308954,35.6623058,0</coordinates>
+			</Point>
+			<LinearRing>
+				<coordinates>
+					139.727340545398,35.6596396590488,0 139.727340545398,35.6649719409512,0 139.734450254602,35.6649719409512,0 139.734450254602,35.6596396590488,0 139.727340545398,35.6596396590488,0
+				</coordinates>
+			</LinearRing>
+		</MultiGeometry>
+	</Placemark>
+	<Placemark>
+		<address>東京都港区六本木6-2-37</address>
+		<snippet></snippet>
+		<description><![CDATA[<div class="googft-info-window">
+<b>1.名前:</b> 斎藤一<br>
+<b>2.年:</b> 1892<br>
+<b>3.事象:</b> 警視庁退職<br>
+<b>4.住所:</b> 東京都港区六本木6-2-37<br>
+<b>5.詳細:</b>
+</div>]]></description>
+		<styleUrl>#msn_saitou0</styleUrl>
+		<ExtendedData>
+			<Data name="2.年">
+				<value>1892</value>
+			</Data>
+			<Data name="3.事象">
+				<value>警視庁退職</value>
+			</Data>
+			<Data name="5.詳細">
+			</Data>
+		</ExtendedData>
+		<MultiGeometry>
+			<Point>
+				<coordinates>139.7308954,35.6623058,0</coordinates>
+			</Point>
+			<LinearRing>
+				<coordinates>
+					139.727340545398,35.6596396590488,0 139.727340545398,35.6649719409512,0 139.734450254602,35.6649719409512,0 139.734450254602,35.6596396590488,0 139.727340545398,35.6596396590488,0
+				</coordinates>
+			</LinearRing>
+		</MultiGeometry>
+	</Placemark>
+	<Placemark>
+		<address>東京都台東区上野公園7-20</address>
+		<snippet></snippet>
+		<description><![CDATA[<div class="googft-info-window">
+<b>1.名前:</b> 斎藤一<br>
+<b>2.年:</b> 1894<br>
+<b>3.事象:</b> 東京高等師範学校附属東京教育博物館（現・国立科学博物館）の看守（守衛長）に奉職<br>
+<b>4.住所:</b> 東京都台東区上野公園7-20<br>
+<b>5.詳細:</b>
+</div>]]></description>
+		<styleUrl>#msn_saitou</styleUrl>
+		<ExtendedData>
+			<Data name="2.年">
+				<value>1894</value>
+			</Data>
+			<Data name="3.事象">
+				<value>東京高等師範学校附属東京教育博物館（現・国立科学博物館）の看守（守衛長）に奉職</value>
+			</Data>
+			<Data name="5.詳細">
+			</Data>
+		</ExtendedData>
+		<MultiGeometry>
+			<Point>
+				<coordinates>139.7768012,35.7155955,0</coordinates>
+			</Point>
+			<LinearRing>
+				<coordinates>
+					139.773248725098,35.7129311438236,0 139.773248725098,35.7182598561764,0 139.780353674902,35.7182598561764,0 139.780353674902,35.7129311438236,0 139.773248725098,35.7129311438236,0
+				</coordinates>
+			</LinearRing>
+		</MultiGeometry>
+	</Placemark>
+	<Placemark>
+		<address>東京都文京区大塚2-1-1</address>
+		<snippet></snippet>
+		<description><![CDATA[<div class="googft-info-window">
+<b>1.名前:</b> 斎藤一<br>
+<b>2.年:</b> 1899<br>
+<b>3.事象:</b> 東京女子高等師範学校に庶務掛兼会計掛として勤務<br>
+<b>4.住所:</b> 東京都文京区大塚2-1-1<br>
+<b>5.詳細:</b>
+</div>]]></description>
+		<styleUrl>#msn_saitou</styleUrl>
+		<ExtendedData>
+			<Data name="2.年">
+				<value>1899</value>
+			</Data>
+			<Data name="3.事象">
+				<value>東京女子高等師範学校に庶務掛兼会計掛として勤務</value>
+			</Data>
+			<Data name="5.詳細">
+			</Data>
+		</ExtendedData>
+		<MultiGeometry>
+			<Point>
+				<coordinates>139.7325956,35.7188022,0</coordinates>
+			</Point>
+			<LinearRing>
+				<coordinates>
+					139.729043267661,35.7161379507456,0 139.729043267661,35.7214664492544,0 139.736147932339,35.7214664492544,0 139.736147932339,35.7161379507456,0 139.729043267661,35.7161379507456,0
+				</coordinates>
+			</LinearRing>
+		</MultiGeometry>
+	</Placemark>
+	<Placemark>
+		<address>福島県会津若松市七日町4-20</address>
+		<snippet></snippet>
+		<description><![CDATA[<div class="googft-info-window">
+<b>1.名前:</b> 斎藤一<br>
+<b>2.年:</b> 1915<br>
+<b>3.事象:</b> 阿弥陀寺に祀られる<br>
+<b>4.住所:</b> 福島県会津若松市七日町4-20<br>
+<b>5.詳細:</b>
+</div>]]></description>
+		<styleUrl>#msn_saitou3</styleUrl>
+		<ExtendedData>
+			<Data name="2.年">
+				<value>1915</value>
+			</Data>
+			<Data name="3.事象">
+				<value>阿弥陀寺に祀られる</value>
+			</Data>
+			<Data name="5.詳細">
+			</Data>
+		</ExtendedData>
+		<MultiGeometry>
+			<Point>
+				<coordinates>139.9190104,37.5006382,0</coordinates>
+			</Point>
+			<LinearRing>
+				<coordinates>
+					139.915539207743,37.4980348058076,0 139.915539207743,37.5032415941924,0 139.922481592257,37.5032415941924,0 139.922481592257,37.4980348058076,0 139.915539207743,37.4980348058076,0
+				</coordinates>
+			</LinearRing>
+		</MultiGeometry>
+	</Placemark>
+	<Placemark>
+		<address>東京都台東区小島2丁目</address>
+		<snippet></snippet>
+		<description><![CDATA[<div class="googft-info-window">
+<b>1.名前:</b> 永倉新八<br>
+<b>2.年:</b> 1839<br>
+<b>3.事象:</b> 誕生<br>
+<b>4.住所:</b> 東京都台東区小島2丁目<br>
+<b>5.詳細:</b>
+</div>]]></description>
+		<styleUrl>#msn_shinpachi0</styleUrl>
+		<ExtendedData>
+			<Data name="2.年">
+				<value>1839</value>
+			</Data>
+			<Data name="3.事象">
+				<value>誕生</value>
+			</Data>
+			<Data name="5.詳細">
+			</Data>
+		</ExtendedData>
+		<MultiGeometry>
+			<Point>
+				<coordinates>139.7828513,35.7063383,0</coordinates>
+			</Point>
+			<LinearRing>
+				<coordinates>
+					139.781074848705,35.7050059615288,0 139.781074848705,35.7076706384712,0 139.784627751295,35.7076706384712,0 139.784627751295,35.7050059615288,0 139.781074848705,35.7050059615288,0
+				</coordinates>
+			</LinearRing>
+		</MultiGeometry>
+	</Placemark>
+	<Placemark>
+		<address>東京都牛込1-1</address>
+		<snippet></snippet>
+		<description><![CDATA[<div class="googft-info-window">
+<b>1.名前:</b> 永倉新八<br>
+<b>2.年:</b> 1886<br>
+<b>3.事象:</b> 剣道道場を開く<br>
+<b>4.住所:</b> 東京都牛込1-1<br>
+<b>5.詳細:</b>
+</div>]]></description>
+		<styleUrl>#msn_shinpachi3</styleUrl>
+		<ExtendedData>
+			<Data name="2.年">
+				<value>1886</value>
+			</Data>
+			<Data name="3.事象">
+				<value>剣道道場を開く</value>
+			</Data>
+			<Data name="5.詳細">
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>139.7913103,35.7811229,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<address>東京都墨田区亀沢1-1</address>
+		<snippet></snippet>
+		<description><![CDATA[<div class="googft-info-window">
+<b>1.名前:</b> 永倉新八<br>
+<b>2.年:</b> 1856<br>
+<b>3.事象:</b> 百合元昇三の道場で剣を学ぶ<br>
+<b>4.住所:</b> 東京都墨田区亀沢1-1<br>
+<b>5.詳細:</b>
+</div>]]></description>
+		<styleUrl>#msn_shinpachi0</styleUrl>
+		<ExtendedData>
+			<Data name="2.年">
+				<value>1856</value>
+			</Data>
+			<Data name="3.事象">
+				<value>百合元昇三の道場で剣を学ぶ</value>
+			</Data>
+			<Data name="5.詳細">
+			</Data>
+		</ExtendedData>
+		<MultiGeometry>
+			<Point>
+				<coordinates>139.7982198,35.6958285,0</coordinates>
+			</Point>
+			<LinearRing>
+				<coordinates>
+					139.794666447789,35.6931634858421,0 139.794666447789,35.6984935141579,0 139.801773152211,35.6984935141579,0 139.801773152211,35.6931634858421,0 139.794666447789,35.6931634858421,0
+				</coordinates>
+			</LinearRing>
+		</MultiGeometry>
+	</Placemark>
+	<Placemark>
+		<description><![CDATA[<div class="googft-info-window">
+<b>1.名前:</b> 斎藤一<br>
+<b>2.年:</b> 1915<br>
+<b>3.事象:</b> 死去<br>
+<b>4.住所:</b> 東京府東京市本郷区<br>
+<b>5.詳細:</b>
+</div>]]></description>
+		<LookAt>
+			<longitude>139.7596920844606</longitude>
+			<latitude>35.70470019340569</latitude>
+			<altitude>0</altitude>
+			<heading>1.577397345820118e-05</heading>
+			<tilt>31.47813021515146</tilt>
+			<range>3111.374541797572</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_saitou2</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>139.7596920844606,35.7047,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<description><![CDATA[<div class="googft-info-window">
+<b>1.名前:</b> 斎藤一<br>
+<b>2.年:</b> 1844<br>
+<b>3.事象:</b> 誕生<br>
+<b>4.住所:</b> 文京区九段下1-1<br>
+<b>5.詳細:</b>
+</div>]]></description>
+		<LookAt>
+			<longitude>139.7511543999999</longitude>
+			<latitude>35.69548159999999</latitude>
+			<altitude>0</altitude>
+			<heading>-1.272221872585407e-14</heading>
+			<tilt>0</tilt>
+			<range>1000.000000000416</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_saitou2</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>139.7511543999999,35.69548159999999,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<description><![CDATA[<div class="googft-info-window">
+<b>1.名前:</b> 新撰組屯所<br>
+<b>2.年:</b> <br>
+<b>3.事象:</b> 旧八木邸　芹川鴨が暗殺された場所<br>
+<b>4.住所:</b> 京都市中東区壬生椰ノ宮町24<br>
+<b>5.詳細:</b>
+</div>]]></description>
+		<LookAt>
+			<longitude>135.743325</longitude>
+			<latitude>35.00163899999994</latitude>
+			<altitude>0</altitude>
+			<heading>-0</heading>
+			<tilt>0</tilt>
+			<range>1000.000000000568</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_makoto1</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>135.743325,35.00163899999993,0</coordinates>
+		</Point>
+	</Placemark>
+
+	<Placemark>
+		<description><![CDATA[<div class="googft-info-window">
+<b>1.名前:</b> 沖田総司<br>
+<b>2.年:</b> <br>
+<b>3.事象:</b> 生誕(6/1との噂)<br>
+<b>4.住所:</b> 港区西麻布1丁目11-4　白河藩江戸屋敷<br>
+<b>5.詳細:</b>
+</div>]]></description>
+		<LookAt>
+			<longitude>139.7248876</longitude>
+			<latitude>35.66146130000001</latitude>
+			<altitude>0</altitude>
+			<heading>3.180554681463517e-15</heading>
+			<tilt>0</tilt>
+			<range>1638.633900901238</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_okita2</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>139.7248876,35.66146130000001,0</coordinates>
+		</Point>
+	</Placemark>
+
+
+    <name>genshiun</name>
+    <Style id="style_genshiun1_highlight">
+        <IconStyle>
+            <scale>2</scale>
+            <Icon>
+                <href>http://hiroshima.archiving.jp/data/icon/genshiun/1.png</href>
+            </Icon>
+        </IconStyle>
+    </Style>
+    <StyleMap id="style_genshiun1">
+        <Pair>
+            <key>normal</key>
+            <styleUrl>#style_genshiun1_normal</styleUrl>
+        </Pair>
+        <Pair>
+            <key>highlight</key>
+            <styleUrl>#style_genshiun1_highlight</styleUrl>
+        </Pair>
+    </StyleMap>
+    <Style id="style_genshiun1_normal">
+        <IconStyle>
+            <scale>0.7</scale>
+            <Icon>
+                <href>http://hiroshima.archiving.jp/data/icon/genshiun/1.png</href>
+            </Icon>
+        </IconStyle>
+    </Style>
+    <Folder>
+        <open>1</open>
+        <Placemark id="genshiun1">
+            <name>木元武允</name>
+            <description><![CDATA[<html><head><link href="http://hiroshima.archiving.jp/data/ios/style.css" rel="stylesheet" type="text/css"></head><body><div class="balloon"><div class="shogen"><p class="subject">いっしょに死ねばよかったのにね・・・</p><p class="image"><img src="http://hiroshima.archiving.jp/data/photo/takemitsu_kimoto.jpg"></p><p class="body">原爆が落とされた当時、私は六歳でした。だからそれ以前のことはあまり憶えていないんです。父親は市内の天満町で広島でも指おりの大きな菓子屋をやっていて、両親と十七歳の兄、三歳の妹の五人家族でした。天満町は原爆で全滅しましたが、私はその一ヶ月前に賀茂郡のお寺に疎開していたので一人だけ助かりました。父方のおば・文子は学校の教員と結婚して呉市にいましたが、学校の子供達を引率してそのお寺に学童疎開をしていました。その疎開先に私を連れていってくれていたのです。</p><p class="body">兄は東京の大学に入っていましたが、この兄が夏休みで家に帰ってくるというので、私の両親が私を迎えに疎開先にやってきました。ところが私がそのときちょうど下痢をしたもので、「落ち着いたらまた迎えにくるよ」と行って両親は帰っていった。そのときおふくろがトラックの後ろでハンカチで涙をふいていたのを憶えている。それを見送ったのが両親との最後の別れになったのです。</p><p class="body">八月六日の朝、お寺の中を歩いていたところ、どーんと衝撃が伝わり、お寺の本堂のかわらがばらばらっと落ちたこと、それからきのこ雲が上がったことが頭の中に残っています。そして三日ぐらい後に、おじ（おばの夫）といっしょに広島へ帰っていったのです。折悪しくおばがそのとき盲腸炎で入院し、おじにしてみれば、大勢の子供たちのめんどうもみなければならず、広島の家族のもとに返すつもりだったようですが、おじの手紙（資料一）にあるように広島市は壊滅状態、家の焼跡とおぼしきところには四名分の遺体が転がっていたのでした。天満町の家のとなりが郵便局で、丸いポストの下のうすのような石が残っていてそれで場所の見当をつけたのです。かまどの上に二つ釜がかかっていて、そのかまどのそばにまっ黒になった四人分の遺体があったそうです。多分朝ごはんでも食べていたところだったのでしょうか。でもたしかにそれが私の家族の遺体だったのか、はっきりしたことはわかりません。</p><p class="body">おじは仕方なく、今度は私の母方の妹である森田フジ子に私を預けようと安佐郡温井の家まで行ったが、この森田フジ子は広島の建物疎開の勤労奉仕に出て原爆に会い夫婦で爆死していた。私はそのときはその森田のおばあさんにいったん預けられたのですが、次いで母方の弟の家に預けられるなど、二〜三ヶ月の間は親類の家をあっちこっちたらい回しのような状態で過ごしました。そしてその年の暮れか翌年のはじめに、父方の長男である東京のおじさんに引き取られて上京し、小学校には東京で入学しました。</p><p class="body"><strong>親戚の家でのこと</strong></p><p class="body">六歳までの私は家も裕福で、何不自由なく暮らしていたと思います。でもそのころのことは何も憶えていません。しかし、その後の苦労ははっきりとおぼえています。おば文子の手紙（資料二）にあるように、親戚に預けられてるところに一ヶ月後に様子を見にきてくれたおばが、あまりのことに私をだきしめて、「武允もお父さんやお母さんといっしょに死んでしまったほうが良かったね」と言ったとき、「ぼくもそう思うよ」と答えたことをはっきりおぼえています。六歳の子供がそのような返事をするほど、厳しかったということです。</p><p class="body">東京のおじさんの家も、私にとっては少しも安らげるところではありませんでした。おばさんも変な人で、ことあるごとにいじめられ、ご飯を食べさせてくれなかったり、学校の遠足などにも行ったことはありませんね。とにかくその家を早く出て自立したい一心で、中学も満足に卒業せず、家具屋さんに住み込みで働きだしたのです。それ以来、苦労のしどおしで、若い頃、その反動でぶらぶらしていた一時期もありますが、現在は運送業を営み、妻や子供たちとともに幸せに暮らしています。</p><p class="body"><strong>父母のこと、兄のこと</strong></p><p class="body">さきほども言ったように、原爆で死んだ家族のことについて憶えていることはほんのわずかです。六歳のときに親兄妹をいっぺんになくしてしまった。知りあいの人などが親が死んで悲しんでいるのを見ると気の毒だな、私は四十年以上も前にその悲しみをいっぺんにすませてしまったんだな、と思います。両親だって幼い私を残して死ぬのは辛かっただろうと思いますよ。今考えることは、両親たちが苦しまずに死んでくれたかどうかということです。家の下敷きになったりしてひどく苦しんだりしたのだとかわいそうですから。</p><p class="body">年が十歳以上離れていた兄については、よくなぐられてこわかったという印象しか残っていません。ところが戦後三十年以上経ってから、思いがけなく、兄の遺品が手に入りました。遺書と遺髪とツメです。兄は、夏休みで広島の家に帰る途中、各地で空襲にあったりして十日間ほどかけて八月五日に広島に帰り、次の日、天満町の家で両親、妹とともに爆死したのですが、その兄がこのような遺書を残していたのですね（資料三）。おそらく、学徒出陣で戦地に送られることになっていて、書かされたものでしょうか。達筆で私には何が書いてあるのかよくわかりませんが、肉親の形見として大切にお守りしています。</p><p class="body"><strong>被爆者として</strong></p><p class="body">私は被爆者健康手帳をとったのは十年ぐらい前なんですよ。その前にこんなことがありました。差別っていうんですかね。昭和四十年ぐらいのことです。結婚して、生命保険に入ろうとして本籍地を書いたら、それが広島だったもので、被爆者は保険に入れないというようなことを言われたんですよ。そのときはびっくりしたのと、「冗談じゃない！」と思いましたね。結局、保険には入れましたが、このときは本当にショックでした。それから手帳を取るときにも、親が手帳を持っていると子供になにかとさしさわりがあるんじゃないかということも言われた。私は家族四人を原爆で亡くしていますが、父親の十一人の兄弟姉妹のうち八人までが原爆で死んでいます。その連れ合い、子供など、父方だけで二十数名が死んでいる。母の方の妹夫婦、母のおじさん、おばさんなどを合わせると、数え切れないほどです。被爆者援護法ができると、死者に対していくらかのお金がもらえるかもしれない、そうしたら、広島にあるお墓を東京にもってこようと思っています。（一九九三年八月・談）</p><p class="body"><strong>資料一</strong></p><p class="body">昭和二十年八月六日原子爆弾投下当時のことを武允に頼まれる。約四十八年前なので、七十七才の私にとって、忘れていることが多々あると思います。当時を思い出して書いてみることにした。文章に出てくる人物について説明</p><p class="body">○木元佐市　木元武允の父（二男）住所　広島市天満町59番地<br />○木元カズヨ　佐市の妻　武允の母<br />○木元武允　父佐市、母カズヨの二男　兄1妹1三人兄弟<br />○木村登　木元佐市の妹フミコと昭和17・10・28結婚　住所呉市寺本町6-4<br />○木村フミコ　登の妻<br />○森田フジコ　木元カズヨの妹　安佐郡温井<br />○藤森正明　木元カズヨの兄　安佐郡玖村</p><p class="body">私は、昭和二十年四月十二日、呉市立両城国民学校教員として、女教員と二人で、児童四十四名を引率して、（旧広島県豊田郡豊田村和木）現広島県賀茂郡天和町和木専徳寺へ学童疎開しました。その後昭和二十年七月一日、呉大空襲により自宅が焼失しました。そのため私の家族母兄弟は田舎へ、妻と子供は、私の疎開地に住所を移すことになった。妻は結婚前出身地広島市天満町五九番地に兄義姉と同居していた。兄木元佐市夫婦が呉空襲の大被害に驚き、次は広島空襲もあることと思い、当時六才の木元武允の疎開を頼まれ、専徳寺につれて来ました。約一ヶ月たって昭和二十年八月六日原子爆弾投下、広島市は全滅状態になった。当時妻が盲腸のため竹原市大井病院に入院、そのため武允を疎開地におくことが出来ず八月九日午前二時過ぎ武允をつれ専徳寺を出発、午前四時三十分頃、河内駅到着、列にならび切符を求めました。午前五時過ぎの一番列車で広島へ行く。午前六時過ぎ広島駅に到着、駅の玄関を出ると、一望千里焼野原、のこっている家は、鉄筋の建物のみであった。駅前の電車線路には、窓ガラスの電車の側面に、チョークで広島二中の生徒は・・・と書いてあるのを見た。市内のあちらこちらから煙が上がっていたのは、死体を焼いていたものであろう。電車線路に沿って歩く。福屋百貨店は鉄筋であったのでのこっていたが、窓ガラスはこわれていた。武允の手をひいて歩かせとうとう相生橋まで到着した。後日思えば産業奨励館が原爆の中心地であった。相生橋・天満橋を渡り、天満町五九番地木元佐市の焼跡に行く。木元佐市の家族四名は生死不明、そこにはかまどの上に釜がかかっているのを見た。四辻の大道路では、焼落ちた木々を集め、その上で死体を焼いていた。兵隊さんにたずねると、岡山から応援に来ていると話してくれた。少し行くと馬が倒れ火ぶくれになって大変肥大しているのを見た。</p><p class="body">可部街道に行くため、来た道を引き返し十日市町に出る。十日市町を過ぎ寺町に出る。寺町の歩道では、天幕をはり、中に患者がねていた。患者の中には水を求めている者がいた。この状態は生地獄の感がした。横川をすぎたころから行きかう人の中にはリヤカーの上に戸板をのせその上に患者をのせ、可部方面にむかっているのを見た。武允の母カズヨの妹のいる安佐郡温井の森田フジコさんに武允をあづけようと思って行ったが森田フジコ夫妻は広島の建物疎開の勤労奉仕に行って原爆に出会い死亡した。私は時間がたつし仕方なく森田さんおばあさんに武允をあづけ、明日母方の藤森正秋の家へ連れていってもらう様頼んだ。その以後木元武允は小さいながらも感じたことは多々あると思うが、何分子供で四十八年以前のことを思い出してもほんの一部であろうと思う。（木村登さんのメモ・原文）</p><p class="body"><strong>資料二</strong></p><p class="body">八月六日に盲腸で入院し重症だったため退院が九月二日頃だったと思います。<br />一ヶ月後、呉から玖村の藤森宅へ武允に会いに行った時、そこの宅のたくさんの子供の中で、さんたんたる生活をして何んとあわれな様で涙がとめどなく出て思はず武允をだいて「武允、あんたもお父さんお母さんと一緒に死んだ方が良かったのに・・・」と思はず口に出した事を今五十年たっても頭から離れず胸が一っぱいになります。（叔母　文子）</p><p class="body"><strong>資料三</strong></p><p class="body">御両親様<br />第二国民兵役として大君の赤子となり祖国の為、東亜十億の共存共栄の為、東亜新日本の正義に存立せる一員として戦ひにのぞむ様に御教育下さいました父母様に一筆御礼申し上げます。<br />本日まで父母様のそばに居ながら我儘ばかり言って何一つとして孝養らしき事は致しませず許して下さい。抑々忠孝一本と古から言ってゐる我が国体なのです。<br />御国の為滅死奉公致して今までの御恩返しと致します。何卒悪しからず今日までの不孝を御放念下さい。<br />日本は今、危機に直面してゐます。僕が死んでも後に続く者は澤山居ます。それは父母様達です。この戦期を打開して萬国に卓越せる我が国体の大磐石を大東亜に確立して下さい。<br />正義なる者が必ず勝者たる事を必ずお忘れ下さいますな。<br />靖国神社にて父母様又は友人と親しく手柄話しが出来ます日を楽しみにしてゐます。<br />では皆様方に宜敷ゝゝ御伝言下さい。<br />幼い弟妹を宜敷く御願ひ致します。御健康一家の安康草葉の彼方より祈ってゐます。<br />悪乱筆にて　　　　頓首　克己</p></div><div class="reference"><p class="reference">足立区在住被爆者の会「原子雲」より</p></div></div></ id="routeButton"><a href="http://maps.apple.com/maps?saddr=&daddr=34.50846477565428,132.9289100661548&z=16"><img src="http://hiroshima.archiving.jp/data/ios/navi.png" class="route"></a></p></body></html>]]></description>
+            <styleUrl>#style_genshiun1</styleUrl>
+            <Point>
+                <extrude>1</extrude>
+                <altitudeMode>relativeToGround</altitudeMode>
+                <coordinates>132.9289100661548,34.50846477565428,150</coordinates>
+            </Point>
+        </Placemark>
+    </Folder>
+</Document>
+
+</kml>
